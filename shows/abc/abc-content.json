@@ -4,6 +4,9 @@
         "event-map": "<iframe src='https://www.rhodeplanning.com/content-unavailable' width='600' height='400'></iframe>"
     },
     "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1MTjn56tYSQ_NK-4MGMDNiPWBbuHtvVs&ehbc=2E312F",
+    "flight-info": {
+        "arrivals-widget": 
+    }
     "routes" : {
         "Route1": {
             "flyer": "Route 1 Flyer Link",
