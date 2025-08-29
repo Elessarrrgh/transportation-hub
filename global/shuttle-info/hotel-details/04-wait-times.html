@@ -1,0 +1,34 @@
+<!-- TEMPLATE WAIT TIMES -->
+
+<!-- Accordion Style -->
+<style>
+  .accordion-container.open .chevron-icon {
+    transform: rotate(90deg);
+  }
+</style>
+
+<!-- Accordion Content -->
+<div class="accordion-container" id="waittimes-accordion">
+  <div class="accordion-header">
+    <span class="accordion-title">
+      <img
+        src="https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/4199cdef-9934-4630-bcf7-1a18233d1aae/clock-no-background.png?content-type=image%2Fpng" 
+        alt="Clock Icon"
+        class="accordion-icon">
+      Live Shuttle Wait Times
+    </span>
+    <svg class="chevron-icon" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+      <path d="M6 4L14 10L6 16"></path>
+    </svg>
+  </div>
+  <div class="accordion-body">
+    <!-- TODO Replace Wait Time Script Link -->
+    <!-- Replace the src with the script for the specific route information. -->
+    <iframe 
+      class="wait_time"
+      src="" 
+      style="width:100%; height: 300px; border: none; overflow: hidden;"
+      loading="auto">
+    </iframe>
+  </div>
+</div>

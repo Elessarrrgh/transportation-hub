@@ -9,42 +9,27 @@
         "departures-widget": "https://elessarrrgh.github.io/transport-hub/shows/abc/departures-widget.html",
         "travel-time": "https://www.google.com/maps/embed/v1/directions?key=AIzaSyD-Zq8VSdnzvEUH_8llwLRE-R9i-FIdPFY&origin=Morial+Convention+Center+New+Orleans&destination=New+Orleans+International+Airport"
     },
-    "routes" : {
-        "Route1": {
-            "flyer": "Route 1 Flyer Link",
-            "signage": "Route 1 Flyer Signage",
-            "stops": {
-                "Stop1": {
-                    "hotel": "Hotel A",
-                    "location": "Front Entrance",
-                    "panorama": "https://example.com/panorama1.jpg",
-                    "directions": "https://example.com/directions1"
-                },
-                "Stop2": {
-                    "hotel": "Hotel B",
-                    "location": "Side Entrance",
-                    "panorama": "https://example.com/panorama2.jpg",
-                    "directions": "https://example.com/directions2"
-                }
-            }
+    "routes": {
+        "1": {
+            "wait-time": "https://script.google.com/macros/s/AKfycbyE0qkvW3r3TJeuFLj3SM8eoXwnlZP7LfW69-xcuBl4m3egI3x7OrqgnY4a0PEfluMJpw/exec"
         },
-        "Route2": {
-            "flyer": "https://example.com/flyer2.pdf",
-            "signage": "https://example.com/signage2.pdf",
-            "stops": {
-                "Stop1": {
-                    "hotel": "Hotel C",
-                    "location": "Main Lobby",
-                    "panorama": "https://example.com/panorama3.jpg",
-                    "directions": "https://example.com/directions3"
-                },
-            "Stop2": {
-                "hotel": "Hotel D",
-                "location": "Rear Entrance",
-                "panorama": "https://example.com/panorama4.jpg",
-                "directions": "https://example.com/directions4"
-                }
-            }
+        "2": {
+            "wait-time": "https://script.google.com/macros/s/AKfycbyJadM-R-DvUCMLwp-B6LfKlwpsaLh5eSAntzobN-I-EPChCUFbkhwCJQpaWSSfqryr/exec"
+        },
+        "3": {
+            "wait-time": "https://script.google.com/macros/s/AKfycbxM_toEmpT7kwcnKBrxeF8zzDUkd7LS_kS0bi44bTavk8tvmiEpafbABuAMzdnZkXYM/exec"
+        },
+        "4": {
+            "wait-time": "https://script.google.com/macros/s/AKfycbwf1rMksCxU-_Ajpuz89dpaIpDewFjWktMVMiBzckrK7-Ax52G13nXvMakPG2ZpFQ_K0w/exec"
+        },
+        "5": {
+            "wait-time": "https://script.google.com/macros/s/AKfycbxUP_36yUGU4khwddWZQt9m2ahm2y8WcyxG8TVFCPTwW2V-y1XUENF7Y728aly9Q4F3/exec"
+        },
+        "6": {
+            "wait-time": "https://script.google.com/macros/s/AKfycbwNa8TTl2tY-n1l7PpGVDhIc1OC3oi8S__O6MbTCjgs6nHDS2ZOaLOCrhSGd4jf8Zjz8g/exec"
+        },
+        "w": { 
+            "wait-time": ""
         }
     }
 }
