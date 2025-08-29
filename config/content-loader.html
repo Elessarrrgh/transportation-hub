@@ -72,12 +72,6 @@ async function loadEventContent() {
 
       const arrivalsIframe = document.querySelector("#flight-arrivals-accordion iframe");
       if (arrivalsIframe && flightInfo["arrivals-widget"]) arrivalsIframe.src = flightInfo["arrivals-widget"];
-
-      const departuresIframe = document.querySelector("#flight-departures-accordion iframe");
-      if (departuresIframe && flightInfo["departures-widget"]) departuresIframe.src = flightInfo["departures-widget"];
-
-      const travelTimeIframe = document.querySelector("#flight-travel-time-accordion iframe");
-      if (travelTimeIframe && flightInfo["travel-time"]) travelTimeIframe.src = flightInfo["travel-time"];
     }
 
   } catch (err) {
