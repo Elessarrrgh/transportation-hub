@@ -1,1 +1,5 @@
-
+{
+  "map": "<iframe src='https://example.com/map' width='600' height='400'></iframe>",
+  "video": "<iframe src='https://example.com/video' width='600' height='400'></iframe>",
+  "schedule": "<iframe src='https://example.com/schedule' width='600' height='400'></iframe>"
+}
