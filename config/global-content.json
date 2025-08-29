@@ -2,6 +2,6 @@
   "flight-info": {
     "arrivals-accordion": "https://elessarrrgh.github.io/transport-hub/global/flight-info/arrivals-accordion.html",
     "departures-accordion": "https://elessarrrgh.github.io/transport-hub/global/flight-info/departures-accorion.html",
-    "travel-time": "https://elessarrrgh.github.io/transport-hub/global/flight-info/travel-time-iframe.html"
+    "airport-travel-time": "https://elessarrrgh.github.io/transport-hub/global/flight-info/travel-time-iframe.html"
   }
 }
