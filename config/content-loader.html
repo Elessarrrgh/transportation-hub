@@ -70,8 +70,13 @@ async function loadEventContent() {
       const flightInfo = showData["flight-info"];
       if (!flightInfo) return;
 
+      // Arrivals Widget
       const arrivalsIframe = document.querySelector("#flight-arrivals-accordion iframe");
       if (arrivalsIframe && flightInfo["arrivals-widget"]) arrivalsIframe.src = flightInfo["arrivals-widget"];
+
+      // Departures Widget
+      const departuresIframe = document.querySelector("#flight-departures-accordion iframe");
+      if (departuresIframe && flightInfo["departures-widget"]) departuresIframe.src = flightInfo["departures-widget"];
     }
 
   } catch (err) {

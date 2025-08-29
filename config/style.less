@@ -1,0 +1,431 @@
+/* --- HOTEL INFO PAGES --- */
+
+  /* Map Directions Widget */
+  .directions-widget-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: transparent;
+    padding: 1rem 0;
+
+    .directions-widget-text {
+      font-size: 1.0rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+    }
+
+    .directions-widget-subtext {
+      font-size: 0.75rem;
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+    }
+
+    .directions-icon-link {
+      transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1);
+      display: block;
+    }
+
+    .directions-icon-link:hover {
+      transform: scale(1.1);
+    }
+
+    .directions-icon-img {
+      height: 3rem;
+      width: 3rem;
+      display: block;
+    }
+  }
+
+  /* Schedule Table */
+
+    /* General Table Styling */
+    .shuttle-schedule-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      border: 5px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      background: rgba(255,255,255,0.9);
+      text-align: center;
+      font-family: Poppins, sans-serif;
+
+      /* Round the four corners of the table */
+      tr:first-child td:first-child {
+          border-radius: 5px 5px 0 0;
+      }
+      tr:first-child td:last-child {
+          border-radius: 5px 5px 0 0;
+      }
+      .schedule-bottom-left {
+          border-radius: 0 0 0 5px;
+      }
+      .schedule-bottom-right {
+          border-radius: 0 0 5px 0;
+      }
+    }
+
+    /* Table cells styling */
+    .shuttle-schedule-table td,
+    .shuttle-schedule-table th {
+      padding: 0.2em;
+      border: 1px solid #ccc;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+	/* Schedule Times */
+	.schedule-start {
+  	  border-right: none !important;
+	}
+	.schedule-hyphen {
+  	  border-right: none !important;
+      border-left: none !important;
+	}
+    .schedule-end {
+      border-left: none !important;
+    }
+
+    /* Header row styling */
+    .schedule-day {
+      color: #FFF;
+      background-color: rgba(49, 49, 61, 0.8);
+      font-weight: bold;
+      white-space: nowrap;
+      overflow: visible;
+      text-overflow: unset;
+      max-width: fit-content;
+      padding: 0.4em;
+    }
+
+    /* Service type styling */
+    .schedule-service-type {
+        font-weight: bold;
+        border-bottom: none !important;
+    }
+
+    /* Service subtitle styling */
+    .schedule-service-subtitle {
+        font-size: .5em;
+        font-style: italic;
+        font-weight: normal;
+        border-top: none !important;
+    }
+
+    /* Intermission row styling */
+    .schedule-intermission {
+        font-size: 0.8em;
+        background-color: #f0f0f0;
+        color: #888;
+        font-style: italic;
+        white-space: normal;
+        word-break: break-word;
+        line-height: 1;
+        font-weight: bold;
+    }
+    tr.intermission-row {
+    height: 1em; /* adjust as needed */
+    }
+    .intermission-right {
+        border-left: none !important;
+    }
+    .intermission-left {
+        border-right: none !important;
+    }
+
+  /* Accordion Styles */
+
+    /* iFrames */
+      .rounded-iframe {
+        border-radius: 10px;
+        overflow: hidden;
+        display: inline-block;
+      }
+      .rounded-iframe iframe {
+        border-radius: 10px;
+        display: block;
+      }
+
+    /* Accordion Container */
+      .accordion-container {
+        margin-bottom: 1em;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        overflow: hidden;
+        max-width: 100%;
+      }
+
+    /* Accordion Header */
+    .accordion-header {
+      background: #f5f5f5;
+      padding: 1em;
+      cursor: pointer;
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Accordion Title with Icon */
+      .accordion-title {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        gap: 0.5em; /* space between icon and text */
+      }
+    
+    /* Accordion Icon */
+      .accordion-title img.accordion-icon {
+        width: 40px;
+        height: 40px;
+        object-fit: fill;
+      }
+    
+    /* Chevron Icon */
+    .chevron-icon {
+      transition: transform 0.3s ease;
+      width: 20px;
+      height: 20px;
+      fill: none;
+      stroke: #333;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* Rotate Chevron When Active */
+    .accordion-header.active .chevron-icon {
+      transform: rotate(90deg);
+    }
+
+    /* Accordion Content */
+    .accordion-body {
+      display: none;
+      padding: 1em;
+      text-align: center;
+      background: white;
+    }
+    .accordion-container.open .accordion-body {
+      display: block;
+    }
+
+    /* Wait Time iFrame Content */
+    .accordion-body iframe.wait-time {
+      width: 100%;
+      height: 60px; /* Reduced height to match actual content */
+      border: none;
+      overflow: hidden;
+    }
+
+    /*Style for embedded block used to display wait times*/
+    .wait-time {
+      color:transparent;
+      background-color:transparent;
+      text-align:center;
+      display: block;
+      margin:auto;
+      padding: 0;
+      overflow-x: hidden;
+      width: 100%;
+    }
+
+    html.squarespace-damask .sqs-blockStatus {
+      display: none !important;
+    }
+
+    /* Flyer iFrame Content */
+    .flyer-preview img {
+      max-width: 100%;
+      max-height: 400px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .view-flyer-button {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.75em 1.5em;
+      background-color: #0078D4;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .view-flyer-button:hover {
+      background-color: #005ea8;
+    }
+
+    /* Bus Signage iFrame Content */
+    .sign-preview img {
+      max-width: 100%;
+      max-height: 400px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .view-sign-button {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.75em 1.5em;
+      background-color: #0078D4;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .view-sign-button:hover {
+      background-color: #005ea8;
+    }
+
+    
+/* --- HOTEL LIST STYLES --- */
+
+  /* Such as RSNA List */
+
+  .markdown-block ol {
+    ol {
+      list-style-position: outside; /* default, but ensures the number stays outside */
+      padding-left: 1em; /* increase indentation */
+    }
+    
+    li {
+      text-decoration: underline;
+    }
+
+    ol li {
+      text-indent: 0em; /* pull text back to increase space after number */
+      padding-left: 1em;  /* creates the visual gap between number and text */
+      margin-bottom: 0.5em;
+      font-size: 0.9em;
+    }
+
+    li span.no-link {
+      text-decoration: none;
+    }
+  }
+
+  .rsna-list {
+    list-style-position: outside;
+    padding-left: 1em;
+    text-indent: 0em;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+
+    li {
+      text-decoration: underline;
+      padding-left: 0.5em;
+      padding-right: 1em;
+      margin-bottom: 0.8em;
+    }
+
+    li.no-service {
+      text-decoration: none;
+    }
+
+    .no-service .service-note {
+      font-style: italic;
+      font-size: 0.5em;
+      margin-top: -0.5em;
+    }
+  }
+
+
+/* HOTEL SEARCH BAR */
+
+  .hotel-search-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .search-wrapper {
+    position: relative;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: #888;
+    pointer-events: none;
+  }
+
+  #hotelSearch {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px 6px 0 0;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  #hotelList {
+    height: 400px;
+    max-height: 450px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    background: #fff;
+    border-radius: 6px;
+
+    .hotel-item {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .hotel-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  .hotel-thumb {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-right: 1rem;
+      flex-shrink: 0;
+      background: #eee;
+  }
+
+  .hotel-info {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .hotel-name {
+      font-weight: bold;
+      font-size: 1.1rem;
+  }
+
+  .hotel-meta {
+      font-size: 0.85rem;
+      color: #555;
+      margin-top: 0.25rem;
+  }
+
+
+/* FLIGHT INFO PAGES */
+
+  /* Travel Time Map Widget */
+  .airport-travel-preview {
+    box-sizing: border-box;
+    display: block;
+    border: solid white 5px;
+    border-radius: 10px;
+  }

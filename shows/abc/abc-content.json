@@ -5,7 +5,9 @@
     },
     "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1MTjn56tYSQ_NK-4MGMDNiPWBbuHtvVs&ehbc=2E312F",
     "flight-info": {
-        "arrivals-widget": "https://elessarrrgh.github.io/transport-hub/shows/abc/arrivals-widget.html"
+        "arrivals-widget": "https://elessarrrgh.github.io/transport-hub/shows/abc/arrivals-widget.html",
+        "departures-widget": "https://elessarrrgh.github.io/transport-hub/shows/abc/departures-widget.html",
+        "travel-time": "https://www.google.com/maps/embed/v1/directions?key=AIzaSyD-Zq8VSdnzvEUH_8llwLRE-R9i-FIdPFY&origin=Morial+Convention+Center+New+Orleans&destination=New+Orleans+International+Airport"
     },
     "routes" : {
         "Route1": {
