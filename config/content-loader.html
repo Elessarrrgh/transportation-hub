@@ -33,6 +33,25 @@ async function loadEventContent() {
     }
 
     // -------------------------------
+    // Hotel Pages
+    // -------------------------------
+
+    // Wait Times
+    if (window.location.pathname.includes("/hotels")) {
+      const route = parts[3]; // 1–6 or 'w'
+      if (showData.routes && route && showData.routes[route]) {
+        const routeData = showData.routes[route];
+        if (routeData["wait-time"]) {
+          const waitIframe = document.querySelector("#wait-time-accordion iframe.wait-time");
+          if (waitIframe) {
+            waitIframe.src = routeData["wait-time"];
+            console.log("Loaded wait-time for route " + route + ": " + waitIframe.src);
+          }
+        }
+      }
+    }
+
+    // -------------------------------
     // Interactive Map Page
     // -------------------------------
     if (window.location.pathname.includes("/interactive-map")) {
