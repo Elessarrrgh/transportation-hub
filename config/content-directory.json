@@ -1,4 +1,4 @@
 {
-  "ABC" : "https://elessarrrgh.github.io/transport-hub/shows/_template/abc-content.json",
-  "PSTM" : "https://elessarrrgh.github.io/transport-hub/shows/pstm/pstm-content.json"
+  "abc" : "https://elessarrrgh.github.io/transport-hub/shows/_template/abc-content.json",
+  "pstm" : "https://elessarrrgh.github.io/transport-hub/shows/pstm/pstm-content.json"
 }
