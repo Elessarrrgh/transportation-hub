@@ -1,0 +1,16 @@
+<div id="snippet-container"></div>
+
+<script>
+  // Pick which snippet you want by its key ("map", "video", etc.)
+  const snippetKey = "map";
+
+  fetch("https://elessarrrgh.github.io/transport-hub/snippets.json")
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById("snippet-container").innerHTML = data[snippetKey];
+    })
+    .catch(err => {
+      console.error("Snippet load failed", err);
+      document.getElementById("snippet-container").innerHTML = "<p>Content unavailable.</p>";
+    });
+</script>
