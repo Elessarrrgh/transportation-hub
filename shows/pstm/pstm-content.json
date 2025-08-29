@@ -1,0 +1,43 @@
+{
+    "base" : {
+        "title": "Plastic Surgery The Meeting",
+    },
+    "routes" : {
+        "Route1": {
+            "flyer": "https://example.com/flyer1.pdf",
+            "signage": "https://example.com/signage1.pdf",
+            "stops": {
+                "Stop1": {
+                    "hotel": "Hotel A",
+                    "location": "Front Entrance",
+                    "panorama": "https://example.com/panorama1.jpg",
+                    "directions": "https://example.com/directions1"
+                },
+                "Stop2": {
+                    "hotel": "Hotel B",
+                    "location": "Side Entrance",
+                    "panorama": "https://example.com/panorama2.jpg",
+                    "directions": "https://example.com/directions2"
+                }
+            }
+        },
+        "Route2": {
+            "flyer": "https://example.com/flyer2.pdf",
+            "signage": "https://example.com/signage2.pdf",
+            "stops": {
+                "Stop1": {
+                    "hotel": "Hotel C",
+                    "location": "Main Lobby",
+                    "panorama": "https://example.com/panorama3.jpg",
+                    "directions": "https://example.com/directions3"
+                },
+            "Stop2": {
+                "hotel": "Hotel D",
+                "location": "Rear Entrance",
+                "panorama": "https://example.com/panorama4.jpg",
+                "directions": "https://example.com/directions4"
+                }
+            }
+        }
+    }
+}
