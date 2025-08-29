@@ -1,20 +1,4 @@
 <script>
-function waitForElement(selector, timeout = 2000) {
-  return new Promise((resolve, reject) => {
-    const start = Date.now();
-    const interval = setInterval(() => {
-      const el = document.querySelector(selector);
-      if (el) {
-        clearInterval(interval);
-        resolve(el);
-      } else if (Date.now() - start > timeout) {
-        clearInterval(interval);
-        reject("Element not found: " + selector);
-      }
-    }, 50);
-  });
-}
-
 async function loadEventContent() {
   try {
     // --- Parse URL ---
@@ -31,22 +15,18 @@ async function loadEventContent() {
     // --- Fetch show JSON ---
     const showData = await fetch(showJsonUrl + "?nocache=" + Date.now()).then(r => r.json());
 
-    
     // -------------------------------
     // Landing Page
     // -------------------------------
-
-    // Update Title
     if (window.location.pathname.includes("/transport-hub")) {
-      const titleEl = await waitForElement("[data-event-base='title']");
-      if (titleEl && showData.base && showData.base.title) {
+      const titleEl = document.querySelector("[data-event-base='title']");
+      if (titleEl && showData.base?.title) {
         titleEl.innerText = showData.base.title;
         console.log("Landing page title loaded:", showData.base.title);
       }
 
-      // Update Event Map
-      const mapEl = await waitForElement("[data-event-base='event-map']");
-      if (mapEl && showData.base && showData.base["event-map"]) {
+      const mapEl = document.querySelector("[data-event-base='event-map']");
+      if (mapEl && showData.base?.["event-map"]) {
         mapEl.innerHTML = showData.base["event-map"];
         console.log("Landing page event-map loaded");
       }
@@ -56,7 +36,7 @@ async function loadEventContent() {
     // Interactive Map Page
     // -------------------------------
     if (window.location.pathname.includes("/interactive-map")) {
-      const mapIframe = await waitForElement("iframe.rounded-iframe");
+      const mapIframe = document.querySelector("iframe.rounded-iframe");
       if (mapIframe && showData["interactive-map"]) {
         mapIframe.src = showData["interactive-map"];
         console.log("Interactive map src updated from JSON");
@@ -70,13 +50,23 @@ async function loadEventContent() {
       const flightInfo = showData["flight-info"];
       if (!flightInfo) return;
 
-      // Arrivals Widget
       const arrivalsIframe = document.querySelector("#flight-arrivals-accordion iframe");
-      if (arrivalsIframe && flightInfo["arrivals-widget"]) arrivalsIframe.src = flightInfo["arrivals-widget"];
+      if (arrivalsIframe && flightInfo["arrivals-widget"]) {
+        arrivalsIframe.src = flightInfo["arrivals-widget"];
+        console.log("Arrivals iframe loaded:", arrivalsIframe.src);
+      }
 
-      // Departures Widget
       const departuresIframe = document.querySelector("#flight-departures-accordion iframe");
-      if (departuresIframe && flightInfo["departures-widget"]) departuresIframe.src = flightInfo["departures-widget"];
+      if (departuresIframe && flightInfo["departures-widget"]) {
+        departuresIframe.src = flightInfo["departures-widget"];
+        console.log("Departures iframe loaded:", departuresIframe.src);
+      }
+
+      const travelIframe = document.querySelector("iframe.airport-travel-preview");
+      if (travelIframe && flightInfo["travel-time"]) {
+        travelIframe.src = flightInfo["travel-time"];
+        console.log("Travel time iframe loaded:", travelIframe.src);
+      }
     }
 
   } catch (err) {
