@@ -20,3 +20,5 @@ function createTimestamp(e) {
     }
   }
 }
+
+// --- This function requires an onEdit trigger to be created in order to run properly.

@@ -1,11 +1,10 @@
-function doGet() {
-  // Spreadsheet and sheet reference (original single-line version)
-  const ss = SpreadsheetApp.openById("1QIku4qVIJIm2vC4Pg9bfbSwDSFCJp0Wj2Tx4T4FngHQ");
+function doGet(e) {
+  // Spreadsheet and sheet reference
+  const ss = SpreadsheetApp.openById("1Vs8eMK_t88TaZGYx6wsQgRmdCr-fzFxMyn6xnWJjUwE");
   const sheet = ss.getSheetByName("Display Tab");
 
-  // --- Route settings ---
-  // Change this number when deploying for a specific route
-  const routeNumber = "1";
+  // Get the route number from the URL parameters
+  const routeNumber = e.parameter.route;
 
   // Map each route number to the row where its data starts
   const routeMappings = {
@@ -23,7 +22,7 @@ function doGet() {
 
   const row = routeMappings[routeNumber].row;
 
-  // --- Retrieve single route data ---
+  // Retrieve single route data
   const serviceStatus = sheet.getRange(`C${row}`).getValue();
   const waitTime = sheet.getRange(`C${row + 1}`).getValue();
   const lastUpdate = sheet.getRange(`C${row + 2}`).getDisplayValue();

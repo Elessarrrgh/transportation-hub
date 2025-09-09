@@ -11,7 +11,7 @@
     },
     "routes": {
         "1": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec?route=1"
+            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=1"
         },
         "2": {
             "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=2"
