@@ -12,6 +12,10 @@
     "routes": {
         "1": {
             "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=1",
+            "flyer": {
+                "preview": "https://www.rhodeplanning.com/content-unavailable",
+                "pdf": "https://www.rhodeplanning.com/content-unavailable"
+            },
             "stops": {
                 "1": {
                     "panorama": "https://momento360.com/e/u/b24b6309dc8a49abbf1930ea5cc6c1d0?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
