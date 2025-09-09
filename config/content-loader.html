@@ -7,7 +7,7 @@ async function loadEventContent() {
     const showKey = parts[0].toLowerCase();
 
     // --- Fetch content-directory.json ---
-    const dirUrl = "https://elessarrrgh.github.io/transportation-hub/config/content-directory.json";
+    const dirUrl = "https://elessarrrgh.github.io/transport-hub/config/content-directory.json";
     const directory = await fetch(dirUrl + "?nocache=" + Date.now()).then(r => r.json());
     const showJsonUrl = directory[showKey];
     if (!showJsonUrl) return;
@@ -15,86 +15,81 @@ async function loadEventContent() {
     // --- Fetch show JSON ---
     const showData = await fetch(showJsonUrl + "?nocache=" + Date.now()).then(r => r.json());
 
-    // --- Page Handlers Map ---
-    const pageHandlers = {
-      "/transport-hub": loadLandingPage,
-      "/hotels": loadHotelPage,
-      "/interactive-map": loadInteractiveMap,
-      "/flight-info": loadFlightInfo,
-    };
+    // -------------------------------
+    // Landing Page
+    // -------------------------------
+    if (window.location.pathname.includes("/transport-hub")) {
+      const titleEl = document.querySelector("[data-event-base='title']");
+      if (titleEl && showData.base?.title) {
+        titleEl.innerText = showData.base.title;
+        console.log("Landing page title loaded:", showData.base.title);
+      }
 
-    // --- Dispatch to correct handler(s) ---
-    for (const [path, handler] of Object.entries(pageHandlers)) {
-      if (window.location.pathname.includes(path)) {
-        handler(showData, parts);
+      const mapEl = document.querySelector("[data-event-base='event-map']");
+      if (mapEl && showData.base?.["event-map"]) {
+        mapEl.innerHTML = showData.base["event-map"];
+        console.log("Landing page event-map loaded");
+      }
+    }
+
+    // -------------------------------
+    // Hotel Pages
+    // -------------------------------
+
+    // Wait Times
+    if (window.location.pathname.includes("/hotels")) {
+      const route = parts[3]; // 1–6 or 'w'
+      if (showData.routes && route && showData.routes[route]) {
+        const routeData = showData.routes[route];
+        if (routeData["wait-time"]) {
+          const waitIframe = document.querySelector("#wait-time-accordion iframe.wait-time");
+          if (waitIframe) {
+            waitIframe.src = routeData["wait-time"];
+            console.log("Loaded wait-time for route " + route + ": " + waitIframe.src);
+          }
+        }
+      }
+    }
+
+    // -------------------------------
+    // Interactive Map Page
+    // -------------------------------
+    if (window.location.pathname.includes("/interactive-map")) {
+      const mapIframe = document.querySelector("iframe.rounded-iframe");
+      if (mapIframe && showData["interactive-map"]) {
+        mapIframe.src = showData["interactive-map"];
+        console.log("Interactive map src updated from JSON");
+      }
+    }
+
+    // -------------------------------
+    // Flight Info Page
+    // -------------------------------
+    if (window.location.pathname.includes("/flight-info")) {
+      const flightInfo = showData["flight-info"];
+      if (!flightInfo) return;
+
+      const arrivalsIframe = document.querySelector("#arrivals-accordion iframe");
+      if (arrivalsIframe && flightInfo["arrivals-widget"]) {
+        arrivalsIframe.src = flightInfo["arrivals-widget"];
+        console.log("Arrivals iframe loaded:", arrivalsIframe.src);
+      }
+
+      const departuresIframe = document.querySelector("#departures-accordion iframe");
+      if (departuresIframe && flightInfo["departures-widget"]) {
+        departuresIframe.src = flightInfo["departures-widget"];
+        console.log("Departures iframe loaded:", departuresIframe.src);
+      }
+
+      const travelIframe = document.querySelector("iframe.airport-travel-preview");
+      if (travelIframe && flightInfo["travel-time"]) {
+        travelIframe.src = flightInfo["travel-time"];
+        console.log("Travel time iframe loaded:", travelIframe.src);
       }
     }
 
   } catch (err) {
     console.error("Error loading event content:", err);
-  }
-}
-
-// -------------------------------
-// Page Handlers
-// -------------------------------
-
-function loadLandingPage(showData) {
-  const titleEl = document.querySelector("[data-event-base='title']");
-  if (titleEl && showData.base?.title) {
-    titleEl.innerText = showData.base.title;
-    console.log("Landing page title loaded:", showData.base.title);
-  }
-
-  const mapEl = document.querySelector("[data-event-base='event-map']");
-  if (mapEl && showData.base?.["event-map"]) {
-    mapEl.innerHTML = showData.base["event-map"];
-    console.log("Landing page event-map loaded");
-  }
-}
-
-function loadHotelPage(showData, parts) {
-  const route = parts.at(-1); // safer than parts[3]
-  if (showData.routes && route && showData.routes[route]) {
-    const routeData = showData.routes[route];
-    if (routeData["wait-time"]) {
-      const waitIframe = document.querySelector("#wait-time-accordion iframe.wait-time");
-      if (waitIframe) {
-        waitIframe.src = routeData["wait-time"];
-        console.log("Loaded wait-time for route " + route + ": " + waitIframe.src);
-      }
-    }
-  }
-}
-
-function loadInteractiveMap(showData) {
-  const mapIframe = document.querySelector("iframe.rounded-iframe");
-  if (mapIframe && showData["interactive-map"]) {
-    mapIframe.src = showData["interactive-map"];
-    console.log("Interactive map src updated from JSON");
-  }
-}
-
-function loadFlightInfo(showData) {
-  const flightInfo = showData["flight-info"];
-  if (!flightInfo) return;
-
-  const arrivalsIframe = document.querySelector("#arrivals-accordion iframe");
-  if (arrivalsIframe && flightInfo["arrivals-widget"]) {
-    arrivalsIframe.src = flightInfo["arrivals-widget"];
-    console.log("Arrivals iframe loaded:", arrivalsIframe.src);
-  }
-
-  const departuresIframe = document.querySelector("#departures-accordion iframe");
-  if (departuresIframe && flightInfo["departures-widget"]) {
-    departuresIframe.src = flightInfo["departures-widget"];
-    console.log("Departures iframe loaded:", departuresIframe.src);
-  }
-
-  const travelIframe = document.querySelector("iframe.airport-travel-preview");
-  if (travelIframe && flightInfo["travel-time"]) {
-    travelIframe.src = flightInfo["travel-time"];
-    console.log("Travel time iframe loaded:", travelIframe.src);
   }
 }
 

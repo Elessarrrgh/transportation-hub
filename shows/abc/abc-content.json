@@ -13,6 +13,10 @@
         "1": {
             "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=1",
             "flyer": {
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7f880897-bb7c-4aca-9c7e-bf6f76632763/placeholder-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc338a2c7c089f79ffff/1756232755657/Placeholder+Flyer.pdf"
+            },
+            "sign" : {
                 "preview": "https://www.rhodeplanning.com/content-unavailable",
                 "pdf": "https://www.rhodeplanning.com/content-unavailable"
             },
