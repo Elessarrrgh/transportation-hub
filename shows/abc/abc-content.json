@@ -13,9 +13,6 @@
         "wait-time": "https://script.google.com/macros/s/AKfycbwqN4XX59q3g90VfN86RNnQJwF1X0JDrf5YdSV7UpaiKDJNk2BGVCO3ZOOJXFeLc9Dx/exec"
     },
     "routes": {
-        "1": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbyE0qkvW3r3TJeuFLj3SM8eoXwnlZP7LfW69-xcuBl4m3egI3x7OrqgnY4a0PEfluMJpw/exec"
-        },
         "2": {
             "wait-time": "https://script.google.com/macros/s/AKfycbyJadM-R-DvUCMLwp-B6LfKlwpsaLh5eSAntzobN-I-EPChCUFbkhwCJQpaWSSfqryr/exec"
         },
