@@ -11,22 +11,22 @@
     },
     "routes": {
         "1": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbwgsDKMsRgmSrVzNDFRI3agh9IU3-yhR9yL0VMybJRQ4l0ECJE_EhIJe7LkGCD_jZg/exec?route=1"
+            "wait-time": "https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec?route=1"
         },
         "2": {
             "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=2"
         },
         "3": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbxM_toEmpT7kwcnKBrxeF8zzDUkd7LS_kS0bi44bTavk8tvmiEpafbABuAMzdnZkXYM/exec"
+            "wait-time": "hhttps://script.google.com/macros/s/AKfycbwgsDKMsRgmSrVzNDFRI3agh9IU3-yhR9yL0VMybJRQ4l0ECJE_EhIJe7LkGCD_jZg/exec?route=3"
         },
         "4": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbwf1rMksCxU-_Ajpuz89dpaIpDewFjWktMVMiBzckrK7-Ax52G13nXvMakPG2ZpFQ_K0w/exec"
+            "wait-time": "https://script.google.com/macros/s/AKfycbwgsDKMsRgmSrVzNDFRI3agh9IU3-yhR9yL0VMybJRQ4l0ECJE_EhIJe7LkGCD_jZg/exec?route=4"
         },
         "5": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbxUP_36yUGU4khwddWZQt9m2ahm2y8WcyxG8TVFCPTwW2V-y1XUENF7Y728aly9Q4F3/exec"
+            "wait-time": "https://script.google.com/macros/s/AKfycbwgsDKMsRgmSrVzNDFRI3agh9IU3-yhR9yL0VMybJRQ4l0ECJE_EhIJe7LkGCD_jZg/exec?route=5"
         },
         "6": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbwNa8TTl2tY-n1l7PpGVDhIc1OC3oi8S__O6MbTCjgs6nHDS2ZOaLOCrhSGd4jf8Zjz8g/exec"
+            "wait-time": "https://script.google.com/macros/s/AKfycbwgsDKMsRgmSrVzNDFRI3agh9IU3-yhR9yL0VMybJRQ4l0ECJE_EhIJe7LkGCD_jZg/exec?route=6"
         },
         "w": { 
             "wait-time": ""

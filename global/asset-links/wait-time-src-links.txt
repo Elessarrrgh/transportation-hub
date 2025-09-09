@@ -1,0 +1,14 @@
+All script URLs require route query attached at the end in order to function.
+'?route=1'
+
+
+Standard:
+https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec
+
+Alternate:
+https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec
+
+RSNA:
+
+
+CES:
