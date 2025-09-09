@@ -7,7 +7,7 @@ async function loadEventContent() {
     const showKey = parts[0].toLowerCase();
 
     // --- Fetch content-directory.json ---
-    const dirUrl = "https://elessarrrgh.github.io/transport-hub/config/content-directory.json";
+    const dirUrl = "https://elessarrrgh.github.io/transportation-hub/config/content-directory.json";
     const directory = await fetch(dirUrl + "?nocache=" + Date.now()).then(r => r.json());
     const showJsonUrl = directory[showKey];
     if (!showJsonUrl) return;
