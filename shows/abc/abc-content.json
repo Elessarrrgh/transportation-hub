@@ -47,5 +47,6 @@
         "w": { 
             "wait-time": ""
         }
-    }
+    },
+    "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/shows/abc/abc-hotels.json"
 }

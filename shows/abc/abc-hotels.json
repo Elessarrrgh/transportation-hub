@@ -1,0 +1,10 @@
+{
+  "shuttle-hotel-template": {
+    "name": "Shuttle Hotel Template",
+    "map": "www.rhodeplanning.com/content-unavailable"
+  },
+  "walking-hotel-template": {
+    "name": "Another Hotel",
+    "map": "..."
+  }
+}
