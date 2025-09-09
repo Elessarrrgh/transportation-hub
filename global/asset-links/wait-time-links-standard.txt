@@ -15,3 +15,6 @@ https://script.google.com/macros/s/AKfycbxUP_36yUGU4khwddWZQt9m2ahm2y8WcyxG8TVFC
 
 Route 6:
 https://script.google.com/macros/s/AKfycbwNa8TTl2tY-n1l7PpGVDhIc1OC3oi8S__O6MbTCjgs6nHDS2ZOaLOCrhSGd4jf8Zjz8g/exec
+
+Single Standard:
+https://script.google.com/macros/s/AKfycbwqN4XX59q3g90VfN86RNnQJwF1X0JDrf5YdSV7UpaiKDJNk2BGVCO3ZOOJXFeLc9Dx/exec
