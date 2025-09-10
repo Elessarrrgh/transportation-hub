@@ -3,8 +3,8 @@
     "name": "Shuttle Hotel Template",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11721.286241544072!2d-83.02539509999998!3d42.73924844999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824e6890fc75779%3A0x1ca25bd2242ed682!2sEagles%20Landing%20of%20Washington!5e0!3m2!1sen!2sus!4v1757462104662!5m2!1sen!2sus",
     "directions": {
-      "apple": "https://www.google.com/",
-      "google": "https://www.google.com/",
+      "apple": "https://maps.apple.com/?daddr=640%20Ten%20Rod%20Rd.%2C%20North%20Kingstown%2C%20RI%2002852",
+      "google": "https://www.google.com/maps/dir/Current+Location/640%20Ten%20Rod%20Rd.%2C%20North%20Kingstown%2C%20RI%2002852",
       "travelTime": "placeholder text"
     }
   },
