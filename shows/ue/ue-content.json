@@ -38,10 +38,10 @@
             "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=2"
         },
         "3": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbwgsDKMsRgmSrVzNDFRI3agh9IU3-yhR9yL0VMybJRQ4l0ECJE_EhIJe7LkGCD_jZg/exec?route=3"
+            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=3"
         },
         "4": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbwgsDKMsRgmSrVzNDFRI3agh9IU3-yhR9yL0VMybJRQ4l0ECJE_EhIJe7LkGCD_jZg/exec?route=4"
+            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=4"
         }
     },
     "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/shows/ue/ue-hotels.json"
