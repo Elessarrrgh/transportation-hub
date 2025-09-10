@@ -59,16 +59,7 @@ async function loadEventContent() {
             panoDiv.setAttribute("data-iframe-src", stopData.panorama);
           }
 
-          // Directions widget
-          if (stopData.directions) {
-            const dirText = document.querySelector(".directions-widget-subtext");
-            const appleLink = document.querySelector(".directions-icon-link[aria-label*='Apple']");
-            const googleLink = document.querySelector(".directions-icon-link[aria-label*='Google']");
-
-            if (dirText) dirText.textContent = stopData.directions.text;
-            if (appleLink) appleLink.href = stopData.directions.apple;
-            if (googleLink) googleLink.href = stopData.directions.google;
-          }
+          // Directions widget REMOVED from stop level
         }
       }
 
@@ -95,6 +86,17 @@ async function loadEventContent() {
                 console.error("Failed to load schedule HTML:", e);
               }
             }
+          }
+
+          // Directions widget (now hotel-specific)
+          if (hotelData.directions) {
+            const dirText = document.querySelector(".directions-widget-subtext");
+            const appleLink = document.querySelector(".directions-icon-link[aria-label*='Apple']");
+            const googleLink = document.querySelector(".directions-icon-link[aria-label*='Google']");
+
+            if (dirText) dirText.textContent = hotelData.directions.text;
+            if (appleLink) appleLink.href = hotelData.directions.apple;
+            if (googleLink) googleLink.href = hotelData.directions.google;
           }
         }
       }
