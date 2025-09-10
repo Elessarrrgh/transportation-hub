@@ -5,6 +5,10 @@ async function loadEventContent() {
     const parts = window.location.pathname.split("/").filter(Boolean);
     if (parts.length < 2) return;
     const showKey = parts[0].toLowerCase();
+    const isHotelPage = parts.includes("hotels");
+    const route = isHotelPage ? parts[3] : null;
+    const stop = isHotelPage ? parts[4] : null;
+    const hotelSlug = isHotelPage ? parts[5] : null;
 
     console.log("URL parts:", parts);
 
@@ -18,108 +22,133 @@ async function loadEventContent() {
     const showData = await fetch(showJsonUrl + "?nocache=" + Date.now()).then(r => r.json());
 
     // -------------------------------
-    // Hotel Pages
+    // HOTEL PAGES
     // -------------------------------
-    if (window.location.pathname.includes("/hotels")) {
-      const route = parts[3]; // corrected index
-      const stop = parts[4];  // corrected index
+    if (isHotelPage && route && stop) {
+      const routeData = showData.routes?.[route];
+      if (!routeData) return;
 
-      if (showData.routes && route && showData.routes[route]) {
-        const routeData = showData.routes[route];
+      // --- Wait-time iframe ---
+      if (routeData["wait-time"]) {
+        const waitIframe = document.querySelector("#wait-time-accordion iframe.wait-time");
+        if (waitIframe) waitIframe.src = routeData["wait-time"];
+      }
 
-        // Wait-time iframe
-        if (routeData["wait-time"]) {
-          const waitIframe = document.querySelector("#wait-time-accordion iframe.wait-time");
-          if (waitIframe) waitIframe.src = routeData["wait-time"];
+      // --- Shuttle flyer ---
+      if (routeData.flyer) {
+        const flyerPreview = document.querySelector("#flyer-accordion .flyer-preview img");
+        const flyerLink = document.querySelector("#flyer-accordion .view-flyer-button");
+        if (flyerPreview) flyerPreview.src = routeData.flyer.preview;
+        if (flyerLink) flyerLink.href = routeData.flyer.pdf;
+      }
+
+      // --- Shuttle signage ---
+      if (routeData.sign) {
+        const signPreview = document.querySelector("#sign-accordion .sign-preview img");
+        const signLink = document.querySelector("#sign-accordion .view-sign-button");
+        if (signPreview) signPreview.src = routeData.sign.preview;
+        if (signLink) signLink.href = routeData.sign.pdf;
+      }
+
+      // --- Stop-specific panorama ---
+      const stopData = routeData.stops?.[stop];
+      if (stopData?.panorama) {
+        const panoBody = document.querySelector("#panorama-accordion .accordion-body");
+        if (panoBody) {
+          panoBody.setAttribute("data-iframe-src", stopData.panorama);
         }
+      }
 
-        // Shuttle flyer
-        if (routeData.flyer) {
-          const flyerPreview = document.querySelector("#flyer-accordion .flyer-preview img");
-          const flyerLink = document.querySelector("#flyer-accordion .view-flyer-button");
-          if (flyerPreview) flyerPreview.src = routeData.flyer.preview;
-          if (flyerLink) flyerLink.href = routeData.flyer.pdf;
-        }
-
-        // Shuttle signage
-        if (routeData.sign) {
-          const signPreview = document.querySelector("#sign-accordion .sign-preview img");
-          const signLink = document.querySelector("#sign-accordion .view-sign-button");
-          if (signPreview) signPreview.src = routeData.sign.preview;
-          if (signLink) signLink.href = routeData.sign.pdf;
-        }
-
-        // Panorama (stop-specific) — OPTION 1: lazy-load
-        if (routeData.stops && stop && routeData.stops[stop]) {
-          const stopData = routeData.stops[stop];
-          const panoDiv = document.querySelector("#panorama-accordion .accordion-body");
-
-          if (panoDiv && stopData.panorama) {
-            // Update the data-iframe-src so accordion creates the iframe on click
-            panoDiv.setAttribute("data-iframe-src", stopData.panorama);
-            console.log(`Panorama data-iframe-src set for route ${route}, stop ${stop}: ${stopData.panorama}`);
+      // --- Hotel-specific map ---
+      if (showData.hotelsJson && hotelSlug) {
+        try {
+          const hotelsData = await fetch(showData.hotelsJson + "?nocache=" + Date.now()).then(r => r.json());
+          const hotelData = hotelsData?.[hotelSlug];
+          if (hotelData?.map) {
+            const mapBody = document.querySelector("#hotel-map-accordion .accordion-body");
+            if (mapBody) {
+              mapBody.setAttribute("data-iframe-src", hotelData.map);
+              console.log(`Map set for hotel "${hotelSlug}":`, hotelData.map);
+            }
           }
+        } catch (err) {
+          console.warn("Error fetching hotels JSON:", err);
         }
       }
     }
-
+      
     // -------------------------------
-    // Landing Page
+    // Directions Widget (Apple + Google Maps + Travel Time)
+    // -------------------------------
+    if (showData.hotelsJson) {
+        const hotelsData = await fetch(showData.hotelsJson + "?nocache=" + Date.now()).then(r => r.json());
+        const hotelData = hotelsData?.[hotelSlug];
+
+        if (hotelData?.directions) {
+            // Update Apple Maps href
+            const appleLink = document.querySelector(".directions-widget-container a[href*='apple.com']");
+            if (appleLink && hotelData.directions.apple) {
+                appleLink.href = hotelData.directions.apple;
+            }
+
+            // Update Google Maps href
+            const googleLink = document.querySelector(".directions-widget-container a[href*='google.com']");
+            if (googleLink && hotelData.directions.google) {
+                googleLink.href = hotelData.directions.google;
+            }
+
+            // Update travel time / subtext
+            const subtext = document.querySelector(".directions-widget-subtext");
+            if (subtext && hotelData.directions.travelTime) {
+                subtext.innerText = hotelData.directions.travelTime;
+            }
+        }
+    }
+      
+      
+    // -------------------------------
+    // LANDING PAGE
     // -------------------------------
     if (window.location.pathname.includes("/transport-hub")) {
       const titleEl = document.querySelector("[data-event-base='title']");
-      if (titleEl && showData.base?.title) {
-        titleEl.innerText = showData.base.title;
-        console.log("Landing page title loaded:", showData.base.title);
-      }
+      if (titleEl && showData.base?.title) titleEl.innerText = showData.base.title;
 
       const mapEl = document.querySelector("[data-event-base='event-map']");
-      if (mapEl && showData.base?.["event-map"]) {
-        mapEl.innerHTML = showData.base["event-map"];
-        console.log("Landing page event-map loaded");
-      }
+      if (mapEl && showData.base?.["event-map"]) mapEl.innerHTML = showData.base["event-map"];
     }
 
     // -------------------------------
-    // Interactive Map Page
+    // INTERACTIVE MAP PAGE
     // -------------------------------
     if (window.location.pathname.includes("/interactive-map")) {
       const mapIframe = document.querySelector("iframe.rounded-iframe");
-      if (mapIframe && showData["interactive-map"]) {
-        mapIframe.src = showData["interactive-map"];
-        console.log("Interactive map src updated from JSON");
-      }
+      if (mapIframe && showData["interactive-map"]) mapIframe.src = showData["interactive-map"];
     }
 
     // -------------------------------
-    // Flight Info Page
+    // FLIGHT INFO PAGE
     // -------------------------------
     if (window.location.pathname.includes("/flight-info")) {
       const flightInfo = showData["flight-info"];
       if (!flightInfo) return;
 
       const arrivalsIframe = document.querySelector("#arrivals-accordion iframe");
-      if (arrivalsIframe && flightInfo["arrivals-widget"]) {
-        arrivalsIframe.src = flightInfo["arrivals-widget"];
-        console.log("Arrivals iframe loaded:", arrivalsIframe.src);
-      }
+      if (arrivalsIframe && flightInfo["arrivals-widget"]) arrivalsIframe.src = flightInfo["arrivals-widget"];
 
       const departuresIframe = document.querySelector("#departures-accordion iframe");
-      if (departuresIframe && flightInfo["departures-widget"]) {
-        departuresIframe.src = flightInfo["departures-widget"];
-        console.log("Departures iframe loaded:", departuresIframe.src);
-      }
+      if (departuresIframe && flightInfo["departures-widget"]) departuresIframe.src = flightInfo["departures-widget"];
 
       const travelIframe = document.querySelector("iframe.airport-travel-preview");
-      if (travelIframe && flightInfo["travel-time"]) {
-        travelIframe.src = flightInfo["travel-time"];
-        console.log("Travel time iframe loaded:", travelIframe.src);
-      }
+      if (travelIframe && flightInfo["travel-time"]) travelIframe.src = flightInfo["travel-time"];
     }
+
   } catch (err) {
     console.error("Error loading event content:", err);
   }
 }
 
+// -------------------------------
+// INIT
+// -------------------------------
 document.addEventListener("DOMContentLoaded", loadEventContent);
 </script>
