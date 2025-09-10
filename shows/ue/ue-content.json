@@ -42,16 +42,7 @@
         },
         "4": {
             "wait-time": "https://script.google.com/macros/s/AKfycbwgsDKMsRgmSrVzNDFRI3agh9IU3-yhR9yL0VMybJRQ4l0ECJE_EhIJe7LkGCD_jZg/exec?route=4"
-        },
-        "5": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbwgsDKMsRgmSrVzNDFRI3agh9IU3-yhR9yL0VMybJRQ4l0ECJE_EhIJe7LkGCD_jZg/exec?route=5"
-        },
-        "6": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbwgsDKMsRgmSrVzNDFRI3agh9IU3-yhR9yL0VMybJRQ4l0ECJE_EhIJe7LkGCD_jZg/exec?route=6"
-        },
-        "w": { 
-            "wait-time": ""
         }
     },
-    "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/shows/abc/abc-hotels.json"
+    "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/shows/ue/ue-hotels.json"
 }
