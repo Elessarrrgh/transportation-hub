@@ -1,6 +1,6 @@
 {
-  "abc" : "https://elessarrrgh.github.io/transportation-hub/shows/abc/abc-content.json",
+  "abc" : "https://elessarrrgh.github.io/transportation-hub/config/show-content/abc/abc-content.json",
   "ue" : "https://elessarrrgh.github.io/transportation-hub/config/show-content/ue/ue-content.json",
-  "pstm" : "https://elessarrrgh.github.io/transportation-hub/shows/pstm/pstm-content.json",
-  "rsna" : "https://elessarrrgh.github.io/transportation-hub/shows/rsna/rsna-content.json"
+  "pstm" : "https://elessarrrgh.github.io/transportation-hub/config/show-content/pstm/pstm-content.json",
+  "rsna" : "https://elessarrrgh.github.io/transportation-hub/config/show-content/rsna/rsna-content.json"
 }
