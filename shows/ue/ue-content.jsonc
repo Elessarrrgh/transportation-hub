@@ -43,6 +43,7 @@
                 },
                 "3": {
                     "name": "Omni Louisville",
+                    //TODO Route 1-3 Panorama Link
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=400%20S%202nd%20St.%2C%20Louisville%2C%20KY%2C%2040202",
