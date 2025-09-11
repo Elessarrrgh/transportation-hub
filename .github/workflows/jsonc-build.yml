@@ -3,7 +3,7 @@ name: Build JSON from JSONC
 on:
   push:
     branches:
-      - main  # Runs every time you push to main
+      - main  # Runs on every push to main
 
 jobs:
   build:
@@ -13,31 +13,36 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # Step 2: Setup Node.js (needed for strip-json-comments-cli)
+      # Step 2: Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      # Step 3: Install the strip-json-comments tool
+      # Step 3: Install strip-json-comments
       - name: Install strip-json-comments-cli
         run: npm install -g strip-json-comments-cli
 
-      # Step 4: Convert every .jsonc file in config/ into .json
+      # Step 4: Convert all .jsonc files
       - name: Convert JSONC to JSON
         run: |
+          # Create output folder
           mkdir -p dist
-          for file in $(find config -name '*.jsonc'); do
-            base=$(basename "$file" .jsonc)
-            strip-json-comments "$file" > "dist/$base.json"
+          # Find all .jsonc files in config/ and shows/
+          for file in $(find config shows -name '*.jsonc'); do
+            # Preserve relative folder structure
+            relative_path="${file%.*}"       # remove .jsonc
+            output_file="dist/$relative_path.json"
+            mkdir -p "$(dirname "$output_file")"
+            strip-json-comments "$file" > "$output_file"
           done
 
-      # Step 5: Commit the cleaned .json files back to main
+      # Step 5: Commit cleaned JSON back to main
       - name: Commit cleaned JSON
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          cp -r dist/* config/
-          git add config/*.json
+          cp -r dist/* .
+          git add *.json shows/*/*.json config/*.json
           git diff --cached --quiet || git commit -m "Build: strip comments from JSONC"
           git push
