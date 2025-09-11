@@ -13,19 +13,19 @@
         "1": {
             "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=1",
             "flyer": {
-                                    
+
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7f880897-bb7c-4aca-9c7e-bf6f76632763/placeholder-flyer-preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc338a2c7c089f79ffff/1756232755657/Placeholder+Flyer.pdf"
             },
             "sign" : {
-                                      
+
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
             },
             "stops": {
                 "1": {
                     "name": "AC Hotel Downtown",
-                                                  
+
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=727%20E%20Market%20St.%2C%20Louisville%2C%20KY%2C%2040202",
@@ -34,7 +34,7 @@
                 },
                 "2": {
                     "name": "Cambria Hotel Downtown",
-                                                  
+
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=120%20S.%20Floyd%20St.%2C%20Louisville%2C%20KY%2C%2040202",
@@ -43,7 +43,7 @@
                 },
                 "3": {
                     "name": "Omni Louisville",
-                                                  
+
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=400%20S%202nd%20St.%2C%20Louisville%2C%20KY%2C%2040202",
@@ -65,7 +65,6 @@
             "stops": {
                 "1": {
                     "name": "The Brown Hotel",
-                                                  
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=335%20W%20Broadway%2C%20Louisville%2C%20KY%2C%2040202",
@@ -74,7 +73,6 @@
                 },
                 "2": {
                     "name": "Embassy Suites Downtown",
-                                                  
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions": {
                         "apple": "https://maps.apple.com/?daddr=501%20S.%204th%20St.%2C%20Louisville%2C%20KY%2C%2040202",
@@ -164,7 +162,7 @@
                 }
             }
         }
-    }
+        }
     },
-    "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/ue/ue-hotels.json"
+    "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/ue/ue-hotels.json"                     
 }
