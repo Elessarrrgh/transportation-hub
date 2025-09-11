@@ -5,6 +5,9 @@ on:
     branches:
       - test   # workflow triggers only on your working branch
 
+permissions:
+  contents: write  # to allow pushing to repo
+
 jobs:
   build:
     runs-on: ubuntu-latest
