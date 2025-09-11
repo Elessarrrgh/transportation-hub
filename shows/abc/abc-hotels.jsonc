@@ -5,7 +5,7 @@
     "directions": {
       "apple": "https://maps.apple.com/?daddr=640%20Ten%20Rod%20Rd.%2C%20North%20Kingstown%2C%20RI%2002852",
       "google": "https://www.google.com/maps/dir/Current+Location/640%20Ten%20Rod%20Rd.%2C%20North%20Kingstown%2C%20RI%2002852",
-      "travelTime": "placeholder text"
+      "travelTime": "repo placeholder" // TODO remove placeholder
     },
     "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/abc/shuttle-info/schedules/standard-schedule.html"
   },
