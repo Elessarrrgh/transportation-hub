@@ -1,0 +1,43 @@
+name: Build JSON from JSONC
+
+on:
+  push:
+    branches:
+      - main  # Runs every time you push to main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout the repo
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # Step 2: Setup Node.js (needed for strip-json-comments-cli)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # Step 3: Install the strip-json-comments tool
+      - name: Install strip-json-comments-cli
+        run: npm install -g strip-json-comments-cli
+
+      # Step 4: Convert every .jsonc file in config/ into .json
+      - name: Convert JSONC to JSON
+        run: |
+          mkdir -p dist
+          for file in $(find config -name '*.jsonc'); do
+            base=$(basename "$file" .jsonc)
+            strip-json-comments "$file" > "dist/$base.json"
+          done
+
+      # Step 5: Commit the cleaned .json files back to main
+      - name: Commit cleaned JSON
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          cp -r dist/* config/
+          git add config/*.json
+          git diff --cached --quiet || git commit -m "Build: strip comments from JSONC"
+          git push
