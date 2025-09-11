@@ -1,0 +1,55 @@
+------ ROUTE 1 ------
+
+    Stop 1: AC Hotel Downtown
+        Apple: "https://maps.apple.com/?daddr=727%20E%20Market%20St.%2C%20Louisville%2C%20KY%2C%2040202",
+        Google: "https://www.google.com/maps/dir/Current+Location/727%20E%20Market%20St.%2C%20Louisville%2C%20KY%2C%2040202"
+
+    Stop 2: Cambria Hotel
+        Apple: "https://maps.apple.com/?daddr=120%20S.%20Floyd%20St.%2C%20Louisville%2C%20KY%2C%2040202",
+        Google: "https://www.google.com/maps/dir/Current+Location/120%20S.%20Floyd%20St.%2C%20Louisville%2C%20KY%2C%2040202"
+
+    Stop 3: Omni Louisville
+        Apple: "https://maps.apple.com/?daddr=400%20S%202nd%20St.%2C%20Louisville%2C%20KY%2C%2040202",
+        Google: "https://www.google.com/maps/dir/Current+Location/400%20S%202nd%20St.%2C%20Louisville%2C%20KY%2C%2040202"
+
+------ ROUTE 2 ------
+
+    Stop 1: The Brown Hotel
+        Apple: "https://maps.apple.com/?daddr=335%20W%20Broadway%2C%20Louisville%2C%20KY%2C%2040202",
+        Google: "https://www.google.com/maps/dir/Current+Location/335%20W%20Broadway%2C%20Louisville%2C%20KY%2C%2040202"
+
+    Stop 2: Embassy Suites Downtown
+        Apple: "https://maps.apple.com/?daddr=501%20S%204th%20St.%2C%20Louisville%2C%20KY%2C%2040202",
+        Google: "https://www.google.com/maps/dir/Current+Location/501%20S%204th%20St.%2C%20Louisville%2C%20KY%2C%2040202"
+
+    Stop 3: Hyatt Regency
+        Apple: "https://maps.apple.com/?daddr=320%20W%20Jefferson%20St.%2C%20Louisville%2C%20KY%2C%2040202",
+        Google: "https://www.google.com/maps/dir/Current+Location/320%20W%20Jefferson%20St.%2C%20Louisville%2C%20KY%2C%2040202"
+
+------ ROUTE 3 ------
+
+    Stop 1: Hotel Distil
+        Apple: "https://maps.apple.com/?daddr=101%20W.%20Main%20St%2C%20Louisville%2C%20KY%2C%2040202",
+        Google: "https://www.google.com/maps/dir/Current+Location/101%20W.%20Main%20St%2C%20Louisville%2C%20KY%2C%2040202"
+
+    Stop 2: The Galt House
+        Apple: "https://maps.apple.com/?daddr=140%20N%20Fourth%20St.%2C%20Louisville%2C%20KY%2C%2040202",
+        Google: "https://www.google.com/maps/dir/Current+Location/140%20N%20Fourth%20St.%2C%20Louisville%2C%20KY%2C%2040202"
+
+    Stop 3: Holiday Inn Express Downtown
+        Apple: "https://maps.apple.com/?daddr=800%20W%20Market%20St.%2C%20Louisville%2C%20KY%2C%2040202",
+        Google: "https://www.google.com/maps/dir/Current+Location/800%20W%20Market%20St.%2C%20Louisville%2C%20KY%2C%2040202"
+
+------ ROUTE 4 ------
+
+    Stop 1: Hilton Garden Inn
+        Apple: "https://maps.apple.com/?daddr=2735%20Crittenden%20Dr.%2C%20Louisville%2C%20KY%2C%2040209",
+        Google: "https://www.google.com/maps/dir/Current+Location/2735%20Crittenden%20Dr.%2C%20Louisville%2C%20KY%2C%2040209"
+
+    Stop 2: Four Points by Sheraton
+        Apple: "https://maps.apple.com/?daddr=2850%20Crittenden%20Dr.%2C%20Louisville%2C%20KY%2C%2040209",
+        Google: "https://www.google.com/maps/dir/Current+Location/2850%20Crittenden%20Dr.%2C%20Louisville%2C%20KY%2C%2040209"
+
+    Stop 3: Crowne Plaza
+        Apple: "https://maps.apple.com/?daddr=830%20Phillips%20Ln.%2C%20Louisville%2C%20KY%2C%2040209",
+        Google: "https://www.google.com/maps/dir/Current+Location/830%20Phillips%20Ln.%2C%20Louisville%2C%20KY%2C%2040209"
