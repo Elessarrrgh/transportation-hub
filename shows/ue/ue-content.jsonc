@@ -74,6 +74,7 @@
                 },
                 "2": {
                     "name": "Embassy Suites Downtown",
+                    //TODO Route 2-2 Panorama Link
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions": {
                         "apple": "https://maps.apple.com/?daddr=501%20S.%204th%20St.%2C%20Louisville%2C%20KY%2C%2040202",
