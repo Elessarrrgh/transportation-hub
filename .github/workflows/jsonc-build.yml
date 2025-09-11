@@ -3,7 +3,7 @@ name: Build JSON from JSONC
 on:
   push:
     branches:
-      - main  # Runs on every push to main
+      - main
 
 jobs:
   build:
@@ -27,12 +27,13 @@ jobs:
       - name: Convert JSONC to JSON
         run: |
           # Create output folder
-          mkdir -p dist
+          mkdir -p config/show-content
           # Find all .jsonc files in config/ and shows/
           for file in $(find config shows -name '*.jsonc'); do
-            # Preserve relative folder structure
-            relative_path="${file%.*}"       # remove .jsonc
-            output_file="dist/$relative_path.json"
+            # preserve folder structure inside config/show-content
+            relative_path="${file#*/}"       # remove first folder (config/ or shows/)
+            output_file="config/show-content/$relative_path"
+            output_file="${output_file%.*}.json"  # replace .jsonc with .json
             mkdir -p "$(dirname "$output_file")"
             strip-json-comments "$file" > "$output_file"
           done
@@ -42,7 +43,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          cp -r dist/* .
-          git add *.json shows/*/*.json config/*.json
+          git add config/show-content/*.json config/show-content/*/*.json
           git diff --cached --quiet || git commit -m "Build: strip comments from JSONC"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Elessarrrgh/transportation-hub.git
