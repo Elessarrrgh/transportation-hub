@@ -65,6 +65,7 @@
             "stops": {
                 "1": {
                     "name": "The Brown Hotel",
+                    //TODO Route 2-1 Panorama Link
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=335%20W%20Broadway%2C%20Louisville%2C%20KY%2C%2040202",
