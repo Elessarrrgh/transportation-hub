@@ -7,9 +7,9 @@
   },
   "ac-hotel-downtown": {
     "name": "AC Hotel Downtown",
-    "map": "",
+    "map": "", //TODO AC Hotel Map
     "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
-    "directionsText": ""
+    "directionsText": "" //TODO AC Hotel Directions ETA
   },
   "hotel-name": {
     "name": "",
