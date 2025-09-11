@@ -11,7 +11,7 @@
     "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
     "directionsText": "" //TODO AC Hotel Directions ETA
   },
-  "hotel-name": {
+  "hotel-name": { // TODO New Hotel Entry
     "name": "",
     "map": "",
     "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
