@@ -1,22 +1,23 @@
 name: Build JSON from JSONC
 
+# Trigger workflow on pushes to test and main
 on:
   push:
     branches:
-      - test   # workflow triggers only on your working branch
+      - test
+      - main
 
 permissions:
-  contents: write  # to allow pushing to repo
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Checkout the repo with credentials persisted
+
+      # Step 1: Checkout the repo
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true  # ensures workflow can push back
 
       # Step 2: Setup Node.js
       - name: Setup Node.js
@@ -24,7 +25,7 @@ jobs:
         with:
           node-version: 18
 
-      # Step 3: Install strip-json-comments
+      # Step 3: Install strip-json-comments CLI
       - name: Install strip-json-comments-cli
         run: npm install -g strip-json-comments-cli
 
@@ -33,7 +34,8 @@ jobs:
         run: |
           # Create output folder
           mkdir -p config/show-content
-          # Find all .jsonc files in config/ and shows/
+          
+          # Find all .jsonc files in source folders
           for file in $(find config shows -name '*.jsonc'); do
             # preserve folder structure inside config/show-content
             relative_path="${file#*/}"       # remove first folder (config/ or shows/)
@@ -43,14 +45,11 @@ jobs:
             strip-json-comments "$file" > "$output_file"
           done
 
-      # Step 5: Commit cleaned JSON to build-json branch
+      # Step 5: Commit and push cleaned JSON back to the same branch
       - name: Commit cleaned JSON
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Make sure we are in a new branch for output
-          git checkout -B build-json
           
           # Stage generated JSON files
           git add config/show-content/*.json config/show-content/*/*.json
@@ -58,5 +57,5 @@ jobs:
           # Commit if there are changes
           git diff --cached --quiet || git commit -m "Build: strip comments from JSONC"
           
-          # Push to build-json (create branch if it doesn't exist)
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Elessarrrgh/transportation-hub.git build-json --force
+          # Push to the branch that triggered the workflow
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Elessarrrgh/transportation-hub.git $GITHUB_REF_NAME --force
