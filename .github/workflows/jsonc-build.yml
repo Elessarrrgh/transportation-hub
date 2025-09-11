@@ -3,7 +3,7 @@ name: Build JSON from JSONC
 on:
   push:
     branches:
-      - main
+      - test   # workflow triggers only on your working branch
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          persist-credentials: true
+          persist-credentials: true  # ensures workflow can push back
 
       # Step 2: Setup Node.js
       - name: Setup Node.js
@@ -40,11 +40,20 @@ jobs:
             strip-json-comments "$file" > "$output_file"
           done
 
-      # Step 5: Commit cleaned JSON back to main
+      # Step 5: Commit cleaned JSON to build-json branch
       - name: Commit cleaned JSON
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Make sure we are in a new branch for output
+          git checkout -B build-json
+          
+          # Stage generated JSON files
           git add config/show-content/*.json config/show-content/*/*.json
+          
+          # Commit if there are changes
           git diff --cached --quiet || git commit -m "Build: strip comments from JSONC"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Elessarrrgh/transportation-hub.git
+          
+          # Push to build-json (create branch if it doesn't exist)
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Elessarrrgh/transportation-hub.git build-json --force
