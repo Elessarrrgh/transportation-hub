@@ -9,7 +9,8 @@
         "departures-widget": "https://elessarrrgh.github.io/transportation-hub/shows/abc/flight-info/departures-widget.html",
         "travel-time": "https://www.google.com/maps/embed/v1/directions?key=AIzaSyD-Zq8VSdnzvEUH_8llwLRE-R9i-FIdPFY&origin=Rhode+Planning+Management+Solutions&destination=Rhode+Island+T.F.+Green+International+Airport"
     },
-    "scheduleJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/abc/abc-schedule.json",
+    "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/abc/abc-hotels.json",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/config/show-content/abc/abc-schedule.json",
     "routes": {
         "1": {
             "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=1",
@@ -53,6 +54,5 @@
         "w": { 
             "wait-time": ""
         }
-    },
-    "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/abc/abc-hotels.json"
+    }
 }

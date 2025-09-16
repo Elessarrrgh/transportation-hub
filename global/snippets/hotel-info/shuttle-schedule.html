@@ -1,0 +1,144 @@
+<div id="shuttle-schedule-container">
+
+  <!-- Placeholder Table -->
+  <!-- Replaced with schedule from content loader -->
+  <table class="shuttle-schedule-table">
+    <tbody>
+      <tr>
+        <td class="schedule-day" colspan="4">No Schedule Available Yet</td>
+      </tr>
+      <tr>
+        <td class="schedule-service-type">Inbound</td>
+        <td class="schedule-start" rowspan="2">—</td>
+        <td class="schedule-hyphen" rowspan="2">-</td>
+        <td class="schedule-end" rowspan="2">—</td>
+      </tr>
+      <tr>
+        <td class="schedule-service-subtitle">Hotels to Convention Center</td>
+      </tr>
+      <tr>
+        <td class="schedule-service-type">Outbound</td>
+        <td class="schedule-start" rowspan="2">—</td>
+        <td class="schedule-hyphen" rowspan="2">-</td>
+        <td class="schedule-end schedule-bottom-right" rowspan="2">—</td>
+      </tr>
+      <tr>
+        <td class="schedule-service-subtitle schedule-bottom-left">Convention Center to Hotels</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Table Builder -->
+<!-- Allows multiple tables to be dynamically created for different days -->
+<script>
+function renderSchedule(data) {
+  if (!data?.days) return "<p>No schedule available</p>";
+
+  let html = "";
+
+  data.days.forEach(day => {
+    html += 
+      '<table class="shuttle-schedule-table">' +
+        '<tbody>' +
+          '<tr><td class="schedule-day" colspan="4">' + day.label + '</td></tr>' +
+          '<tr>' +
+            '<td class="schedule-service-type">Inbound</td>' +
+            '<td class="schedule-start" rowspan="2">' + day.inboundStart + '</td>' +
+            '<td class="schedule-hyphen" rowspan="2">-</td>' +
+            '<td class="schedule-end" rowspan="2">' + day.inboundEnd + '</td>' +
+          '</tr>' +
+          '<tr><td class="schedule-service-subtitle">Hotels to Convention Center</td></tr>';
+
+    if (day.intermission) {
+      html += 
+        '<tr class="intermission-row">' +
+          '<td class="schedule-intermission intermission-left"></td>' +
+          '<td class="schedule-intermission intermission-right" colspan="3">' + day.intermission + '</td>' +
+        '</tr>';
+    }
+
+    html += 
+          '<tr>' +
+            '<td class="schedule-service-type">Outbound</td>' +
+            '<td class="schedule-start" rowspan="2">' + day.outboundStart + '</td>' +
+            '<td class="schedule-hyphen" rowspan="2">-</td>' +
+            '<td class="schedule-end schedule-bottom-right" rowspan="2">' + day.outboundEnd + '</td>' +
+          '</tr>' +
+          '<tr><td class="schedule-service-subtitle schedule-bottom-left">Convention Center to Hotels</td></tr>' +
+        '</tbody>' +
+      '</table><br>';
+  });
+
+  return html;
+}
+
+function injectSchedule() {
+  const container = document.querySelector("#shuttle-schedule-container");
+  if (!container) return console.warn("Schedule container not found");
+  if (!window.eventScheduleData) return console.warn("Event schedule data not loaded yet");
+
+  const parts = window.location.pathname.split("/").filter(Boolean);
+  console.log("URL parts:", parts);
+
+  const hotelsIndex = parts.indexOf("hotels");
+  const routeKey = hotelsIndex >= 0 ? parts[hotelsIndex + 1] : null;
+  const stopKey = hotelsIndex >= 0 ? parts[hotelsIndex + 2] : null;
+  const hotelKey = hotelsIndex >= 0 ? parts[hotelsIndex + 3] : null;
+  console.log("Parsed routeKey:", routeKey, "hotelKey:", hotelKey);
+
+  // Hotel-specific
+  const hotelData = window.eventScheduleData.hotelsJson?.[hotelKey];
+  if (hotelData?.scheduleJson) {
+    console.log("Loading hotel-specific schedule:", hotelData.scheduleJson);
+    fetch(hotelData.scheduleJson + "?nocache=" + Date.now())
+      .then(r => r.json())
+      .then(data => container.innerHTML = renderSchedule(data))
+      .catch(err => {
+        console.error("Failed to load hotel schedule:", err);
+        container.innerHTML = "<p>Failed to load hotel schedule</p>";
+      });
+    return;
+  }
+
+  // Route-specific
+  const routeData = window.eventScheduleData.routes?.[routeKey];
+  if (routeData?.scheduleJson) {
+    console.log("Loading route-specific schedule:", routeData.scheduleJson);
+    fetch(routeData.scheduleJson + "?nocache=" + Date.now())
+      .then(r => r.json())
+      .then(data => container.innerHTML = renderSchedule(data))
+      .catch(err => {
+        console.error("Failed to load route schedule:", err);
+        container.innerHTML = "<p>Failed to load route schedule</p>";
+      });
+    return;
+  }
+
+  // Event-wide
+  if (window.eventScheduleData.scheduleJson) {
+    console.log("Loading event-wide schedule:", window.eventScheduleData.scheduleJson);
+    fetch(window.eventScheduleData.scheduleJson + "?nocache=" + Date.now())
+      .then(r => r.json())
+      .then(data => container.innerHTML = renderSchedule(data))
+      .catch(err => {
+        console.error("Failed to load event schedule:", err);
+        container.innerHTML = "<p>Failed to load event schedule</p>";
+      });
+    return;
+  }
+
+  console.warn("No schedule JSON found for this page");
+}
+
+function waitForEventData() {
+  if (!window.eventScheduleData || Object.keys(window.eventScheduleData).length === 0) {
+    console.log("Waiting for event schedule data...");
+    setTimeout(waitForEventData, 50);
+    return;
+  }
+  injectSchedule();
+}
+
+document.addEventListener("DOMContentLoaded", waitForEventData);
+</script>
