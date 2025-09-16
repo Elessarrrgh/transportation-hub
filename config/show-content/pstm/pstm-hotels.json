@@ -1,0 +1,46 @@
+{
+                   
+
+  "caesars-new-orleans": {
+    "name": "AC Hotel Downtown",
+    "map": "",
+    "scheduleJson": "",
+    "directionsText": "u already at Caesars lol"
+  },
+  "home2-suites-downtown": { 
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsText": ""
+  },
+  "tempo-louisville-downtown": { 
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsText": ""
+  },
+  "cambria-louisville-downtown": { 
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsText": ""
+  },
+  "omni-louisville": { 
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsText": ""
+  },
+  "hampton-inn-downtown": { 
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsText": ""
+  },
+  "louisville-marriott-downtown": { 
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsText": ""
+  }
+}
