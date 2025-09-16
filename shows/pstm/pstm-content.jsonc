@@ -1,41 +1,68 @@
 {
     "base" : {
-        "title": "Plastic Surgery The Meeting"
+        "title": "Plastic Surgery The Meeting",
+        "event-map": ""
     },
-    "routes" : {
-        "Route1": {
-            "flyer": "https://example.com/flyer1.pdf",
-            "signage": "https://example.com/signage1.pdf",
+    "interactive-map": "",
+    "flight-info": {
+        "arrivals-widget": "https://elessarrrgh.github.io/transportation-hub/shows/abc/flight-info/arrivals-widget.html",
+        "departures-widget": "https://elessarrrgh.github.io/transportation-hub/shows/abc/flight-info/departures-widget.html",
+        "travel-time": "https://www.google.com/maps/embed/v1/directions?key=AIzaSyD-Zq8VSdnzvEUH_8llwLRE-R9i-FIdPFY&origin=Rhode+Planning+Management+Solutions&destination=Rhode+Island+T.F.+Green+International+Airport"
+    },
+    "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/pstm/pstm-hotels.json",
+    "scheduleJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/pstm/pstm-schedule.json",
+    "routes": {
+        "1": {
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign": {
+                "preview": "",
+                "pdf": ""
+            },
             "stops": {
-                "Stop1": {
-                    "hotel": "Hotel A",
-                    "location": "Front Entrance",
+                "1": {
                     "panorama": "https://example.com/panorama1.jpg",
-                    "directions": "https://example.com/directions1"
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
                 },
-                "Stop2": {
-                    "hotel": "Hotel B",
-                    "location": "Side Entrance",
-                    "panorama": "https://example.com/panorama2.jpg",
-                    "directions": "https://example.com/directions2"
+                "2": {
+                    "panorama": "https://example.com/panorama1.jpg",
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
                 }
             }
         },
-        "Route2": {
-            "flyer": "https://example.com/flyer2.pdf",
-            "signage": "https://example.com/signage2.pdf",
+        "2": {
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign": {
+                "preview": "",
+                "pdf": ""
+            },
             "stops": {
-                "Stop1": {
-                    "hotel": "Hotel C",
-                    "location": "Main Lobby",
-                    "panorama": "https://example.com/panorama3.jpg",
-                    "directions": "https://example.com/directions3"
+                "1": {
+                    "panorama": "https://example.com/panorama1.jpg",
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
                 },
-            "Stop2": {
-                "hotel": "Hotel D",
-                "location": "Rear Entrance",
-                "panorama": "https://example.com/panorama4.jpg",
-                "directions": "https://example.com/directions4"
+                "2": {
+                    "panorama": "https://example.com/panorama1.jpg",
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
                 }
             }
         }
