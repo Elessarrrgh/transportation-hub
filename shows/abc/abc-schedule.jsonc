@@ -1,0 +1,11 @@
+{
+  "Day": {
+    "inbound": ["7:00 AM", "10:30 AM"],
+    "outbound": ["2:30 PM", "6:30 PM"],
+    "intermission": true
+  },
+  "Final Day": {
+    "inbound": ["7:00 AM", "10:30 AM"],
+    "outbound": ["10:30 AM", "2:30 PM"]
+  }
+}
