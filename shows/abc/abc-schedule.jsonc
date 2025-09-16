@@ -13,6 +13,13 @@
       "inboundEnd": "10:30 AM",
       "outboundStart": "10:30 AM",
       "outboundEnd": "2:30 PM"
+    },
+    {
+      "label": "Bonus Day",
+      "inboundStart": "7:00 AM",
+      "inboundEnd": "10:30 AM",
+      "outboundStart": "10:30 AM",
+      "outboundEnd": "2:30 PM"
     }
   ]
 }
