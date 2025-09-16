@@ -2,10 +2,10 @@
   // ROUTE 1 HOTELS
 
   "caesars-new-orleans": {
-    "name": "AC Hotel Downtown",
-    "map": "",
+    "name": "Caesars New Orleans",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.070294338456!2d-90.0679553880332!3d29.94865662299684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a7f8b84a0eb5%3A0x861893a4287dc7d7!2sCaesars%20New%20Orleans!5e0!3m2!1sen!2sus!4v1756221223923!5m2!1sen!2sus",
     "scheduleJson": "",
-    "directionsText": "u already at Caesars lol"
+    "directionsText": "Caesars New Orleans (<1 min.)"
   },
   "home2-suites-downtown": { 
     "name": "",

@@ -24,14 +24,14 @@
             },
             "stops": {
                 "1": {
-                    "panorama": "https://example.com/panorama1.jpg",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions": {
                         "apple": "",
                         "google": ""
                     }
                 },
                 "2": {
-                    "panorama": "https://example.com/panorama1.jpg",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions": {
                         "apple": "",
                         "google": ""
@@ -50,15 +50,15 @@
                 "pdf": ""
             },
             "stops": {
-                "1": {
-                    "panorama": "https://example.com/panorama1.jpg",
+                "1": { // Caesars New Orleans
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions": {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=8%20Canal%20St.%2C%20New%20Orleans%2C%20LA%2070130$0",
+                        "google": "https://www.google.com/maps/dir/Current+Location/8%20Canal%20St.%2C%20New%20Orleans%2C%20LA%2070130$0"
                     }
                 },
-                "2": {
-                    "panorama": "https://example.com/panorama1.jpg",
+                "2": { // JW Marriott
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions": {
                         "apple": "",
                         "google": ""
