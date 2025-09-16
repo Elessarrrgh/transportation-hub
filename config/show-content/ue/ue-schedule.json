@@ -1,0 +1,20 @@
+{
+  "days": [
+    {
+      "label": "Tuesday & Wednesday",
+      "services": [
+        {"type": "Inbound","subtitle":"Hotels to Convention Center","start":"7:00 AM","end":"10:00 AM"},
+        {"intermission":"SERVICE INTERMISSION"},
+        {"type": "Outbound","subtitle":"Convention Center to Hotels","start":"3:30 PM","end":"6:00 PM"}
+      ]
+    },
+    {
+      "label": "Thursday",
+      "services": [
+        {"type": "Inbound","subtitle":"Hotels to Convention Center","start":"7:00 AM","end":"10:00 AM"},
+        {"intermission":"SERVICE INTERMISSION"},
+        {"type": "Outbound","subtitle":"Convention Center to Hotels","start":"1:00 PM","end":"4:00 PM"}
+      ]
+    }
+  ]
+}

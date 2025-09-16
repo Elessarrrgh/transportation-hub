@@ -1,17 +1,243 @@
 {
-  "21c-museum-hotel": {
-    "name": "21c Museum Hotel",
-    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6265.95705796123!2d-85.76679177364193!3d38.256804011498765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a3e1c2e355%3A0xdb28b049bfda50f0!2s21c%20Museum%20Hotel%20Louisville!5e0!3m2!1sen!2sus!4v1757541369915!5m2!1sen!2sus",
-    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
-    "directionsText": "" // TODO 21c Directions ETA
-  },
+  // ROUTE 1 HOTELS
+
   "ac-hotel-downtown": {
     "name": "AC Hotel Downtown",
     "map": "", //TODO AC Hotel Map
     "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
     "directionsText": "" // TODO AC Hotel ETA
   },
-  "hotel-name": { 
+  "home2-suites-downtown": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "tempo-louisville-downtown": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "cambria-louisville-downtown": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "omni-louisville": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "hampton-inn-downtown": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "louisville-marriott-downtown": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+
+  // ROUTE 2 HOTELS
+  "brown-hotel": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "embassy-suites-downtown": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "hilton-garden-inn-downtown": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "seelbach-hilton": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "hyatt-regency-louisville": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+
+
+  // ROUTE 3 HOTELS
+
+  "hotel-distil": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "courtyard-marriott-downtown": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "hotel-bourre-bonne": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "moxy-louisville-downtown": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "galt-house": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "holiday-inn-express-downtown": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "21c-museum-hotel": {
+    "name": "21c Museum Hotel",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6265.95705796123!2d-85.76679177364193!3d38.256804011498765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a3e1c2e355%3A0xdb28b049bfda50f0!2s21c%20Museum%20Hotel%20Louisville!5e0!3m2!1sen!2sus!4v1757541369915!5m2!1sen!2sus",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": "" // TODO 21c Directions ETA
+  },
+  "homewood-suites-downtown": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "towneplace-suites-downtown": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+
+
+  // ROUTE 4 HOTELS
+
+  "hilton-garden-inn-airport": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "four-points-airport": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "holiday-inn-aiprort": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "home2-suites-airport": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "homewood-suites-airport": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "crowne-plaza-airport": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "courtyard-marriott-airport": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+
+
+  // NO SERVICE HOTELS
+  
+  "best-western-premier-airport": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "clarion-pointe-louisville-east": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "courtyard-marriott-louisville-northeast": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "embassy-suites-louisville-east": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "hampton-louisville-i65": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "hilton-garden-inn-st-matthews": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "holiday-inn-express-louisville-northeast": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "hyatt-place-louisville-east": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "louisville-marriott-east": { 
+    "name": "",
+    "map": "",
+    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "sheraton-riverside": { 
     "name": "",
     "map": "",
     "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
