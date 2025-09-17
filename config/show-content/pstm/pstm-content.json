@@ -24,6 +24,7 @@
             },
             "stops": {
                 "1": {                      
+                    "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions": {
                         "apple": "https://maps.apple.com/?daddr=100%20Iberville%20St.%2C%20New%20Orleans%2C%20LA%2070147",
@@ -31,6 +32,7 @@
                     }
                 },
                 "2": {                                
+                    "scheduleJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/pstm/hilton-new-orleans-riverside-schedule.json",                        
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions": {
                         "apple": "https://maps.apple.com/?daddr=2%20Poydras%20St.%2C%20New%20Orleans%2C%20LA%2070137",
@@ -51,6 +53,7 @@
             },
             "stops": {
                 "1": {                       
+                    "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions": {
                         "apple": "https://maps.apple.com/?daddr=8%20Canal%20St.%2C%20New%20Orleans%2C%20LA%2070130$0",
@@ -58,6 +61,7 @@
                     }
                 },
                 "2": {               
+                    "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions": {
                         "apple": "https://maps.apple.com/?daddr=614%20Canal%20St.%2C%20New%20Orleans%2C%20LA%2070139",
