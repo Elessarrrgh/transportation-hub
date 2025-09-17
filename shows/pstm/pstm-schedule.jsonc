@@ -2,7 +2,7 @@
   "days": [
     {
       "label": "Thursday - Saturday",
-      "inboundStart": "7:00 AM <br><span style='font-size:0.8em; color:#666;'>6:00 AM on Friday</span>",
+      "inboundStart": "7:00 AM <br><span style='font-size:0.7em; color:#666;'>6:00 AM on Friday</span>",
       "inboundEnd": "10:30 AM",
       "outboundStart": "2:30 PM",
       "outboundEnd": "6:30 PM",

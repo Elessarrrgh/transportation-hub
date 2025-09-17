@@ -14,7 +14,7 @@
     "hilton-new-orleans-riverside": {
       "name": "Hilton New Orleans Riverside",
       "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6914.220251728315!2d-90.06602892359722!3d29.947510823155397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a66d0a9aa7bd%3A0x327a2e1b2d5ecde0!2sHilton%20New%20Orleans%20Riverside!5e0!3m2!1sen!2sus!4v1758115689279!5m2!1sen!2sus",
-      "scheduleJson": "", // TODO Custom Schedule
+      "scheduleJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/pstm/hilton-riverside-schedule.json", // TODO Custom Schedule
       "directionsDestination": "",
       "directionsText": "Hilton Riverside (<1 min.)"
     },
