@@ -1,0 +1,291 @@
+<script>
+/* Combined loader — robust + verbose debugging
+   - priority: stop -> route -> event
+   - supports both `schedule` and legacy `scheduleJson`
+   - safe guards and clearer logging
+*/
+
+window.eventScheduleData = window.eventScheduleData || {};
+
+async function loadEventContent() {
+  try {
+    const parts = window.location.pathname.split("/").filter(Boolean);
+    console.log("[loader] URL parts:", parts);
+    if (parts.length < 1) {
+      console.warn("[loader] not enough path parts, aborting");
+      return;
+    }
+
+    // derive show key
+    const showKey = parts[0].toLowerCase();
+
+    // NOTE: we compute hotelsIndex and fall back to numeric indices if needed
+    const hotelsIndex = parts.indexOf("hotels");
+    // fallback indices if URL doesn't include "hotels"
+    const fallbackRoute = parts[3] || null;
+    const fallbackStop = parts[4] || null;
+
+    const routeFromPath = hotelsIndex >= 0 ? parts[hotelsIndex + 1] : fallbackRoute;
+    const stopFromPath  = hotelsIndex >= 0 ? parts[hotelsIndex + 2] : fallbackStop;
+
+    console.log("[loader] parsed showKey:", showKey, "route:", routeFromPath, "stop:", stopFromPath);
+
+    // --- Fetch content-directory.json ---
+    const dirUrl = "https://elessarrrgh.github.io/transportation-hub/config/content-directory.json";
+    const directoryRes = await fetch(dirUrl + "?nocache=" + Date.now());
+    if (!directoryRes.ok) throw new Error("[loader] failed to fetch content-directory.json: " + directoryRes.status);
+    const directory = await directoryRes.json();
+    const showJsonUrl = directory[showKey];
+    if (!showJsonUrl) {
+      console.warn("[loader] showJsonUrl not found for", showKey);
+      return;
+    }
+
+    // --- Fetch show JSON (single source of truth) ---
+    const showRes = await fetch(showJsonUrl + "?nocache=" + Date.now());
+    if (!showRes.ok) throw new Error("[loader] failed to fetch show JSON: " + showRes.status);
+    const showData = await showRes.json();
+    window.eventScheduleData = showData; // publish globally for page scripts if any
+    console.log("[loader] show data loaded for", showKey);
+
+    // -------------------------------
+    // Hotel/Route/Stop content (populate UI pieces)
+    // -------------------------------
+    if (window.location.pathname.includes("/hotels")) {
+      const routeKey = routeFromPath;
+      const stopKey  = stopFromPath;
+
+      if (showData.routes && routeKey && showData.routes[routeKey]) {
+        const routeData = showData.routes[routeKey];
+
+        // wait-time iframe
+        try {
+          if (routeData["wait-time"]) {
+            const waitIframe = document.querySelector("#wait-time-accordion iframe.wait-time");
+            if (waitIframe) waitIframe.src = routeData["wait-time"];
+          }
+        } catch(e){ console.warn("[loader] wait-time iframe error", e); }
+
+        // flyer
+        try {
+          if (routeData.flyer) {
+            const flyerPreview = document.querySelector("#flyer-accordion .flyer-preview img");
+            const flyerLink = document.querySelector("#flyer-accordion .view-flyer-button");
+            if (flyerPreview) flyerPreview.src = routeData.flyer.preview;
+            if (flyerLink) flyerLink.href = routeData.flyer.pdf;
+          }
+        } catch(e){ console.warn("[loader] flyer error", e); }
+
+        // sign
+        try {
+          if (routeData.sign) {
+            const signPreview = document.querySelector("#sign-accordion .sign-preview img");
+            const signLink = document.querySelector("#sign-accordion .view-sign-button");
+            if (signPreview) signPreview.src = routeData.sign.preview;
+            if (signLink) signLink.href = routeData.sign.pdf;
+          }
+        } catch(e){ console.warn("[loader] sign error", e); }
+
+        // stop-specific content (panorama, directions)
+        try {
+          if (routeData.stops && stopKey && routeData.stops[stopKey]) {
+            const stopData = routeData.stops[stopKey];
+            const panoDiv = document.querySelector("#panorama-accordion .accordion-body");
+            if (panoDiv && stopData.panorama) panoDiv.setAttribute("data-iframe-src", stopData.panorama);
+
+            if (stopData.directions) {
+              const appleLink = document.querySelector(".directions-icon-link[aria-label*='Apple']");
+              const googleLink = document.querySelector(".directions-icon-link[aria-label*='Google']");
+              if (appleLink) appleLink.href = stopData.directions.apple;
+              if (googleLink) googleLink.href = stopData.directions.google;
+            }
+          }
+        } catch(e){ console.warn("[loader] stop-specific content error", e); }
+      }
+
+      // hotel-specific UI pieces (map / directions text) — keep these as they were
+      try {
+        if (showData.hotelsJson && parts) {
+          // fetch only if needed; this doesn't relate to schedule logic anymore
+          const hotelsData = await fetch(showData.hotelsJson + "?nocache=" + Date.now()).then(r => r.json());
+          const hotelsIndex = hotelsIndex; // no-op, just ensuring scope
+          const hotelSlug = hotelsIndex >= 0 ? parts[hotelsIndex + 3] : parts[5];
+          const hotelData = hotelsData?.[hotelSlug];
+          if (hotelData) {
+            const mapBody = document.querySelector("#hotel-map-accordion .accordion-body");
+            if (mapBody && hotelData.map) mapBody.setAttribute("data-iframe-src", hotelData.map);
+
+            if (hotelData.directionsDestination) {
+              const destText = document.querySelector(".directions-widget-text");
+              if (destText) destText.textContent = hotelData.directionsDestination;
+            }
+            if (hotelData.directionsText) {
+              const dirText = document.querySelector(".directions-widget-subtext");
+              if (dirText) dirText.textContent = hotelData.directionsText;
+            }
+          }
+        }
+      } catch(e){ console.warn("[loader] hotelsJson UI load error", e); }
+    }
+
+    // -------------------------------
+    // Landing, interactive map, flight info (unchanged)
+    // -------------------------------
+    try {
+      if (window.location.pathname.includes("/transport-hub")) {
+        const titleEl = document.querySelector("[data-event-base='title']");
+        if (titleEl && showData.base?.title) titleEl.innerText = showData.base.title;
+
+        const mapEl = document.querySelector("[data-event-base='event-map']");
+        if (mapEl && showData.base?.["event-map"]) mapEl.innerHTML = showData.base["event-map"];
+      }
+
+      if (window.location.pathname.includes("/interactive-map")) {
+        const mapIframe = document.querySelector("iframe.rounded-iframe");
+        if (mapIframe && showData["interactive-map"]) mapIframe.src = showData["interactive-map"];
+      }
+
+      if (window.location.pathname.includes("/flight-info")) {
+        const flightInfo = showData["flight-info"];
+        if (flightInfo) {
+          const arrivalsIframe = document.querySelector("#arrivals-accordion iframe");
+          if (arrivalsIframe && flightInfo["arrivals-widget"]) arrivalsIframe.src = flightInfo["arrivals-widget"];
+
+          const departuresIframe = document.querySelector("#departures-accordion iframe");
+          if (departuresIframe && flightInfo["departures-widget"]) departuresIframe.src = flightInfo["departures-widget"];
+
+          const travelIframe = document.querySelector("iframe.airport-travel-preview");
+          if (travelIframe && flightInfo["travel-time"]) travelIframe.src = flightInfo["travel-time"];
+        }
+      }
+    } catch(e){ console.warn("[loader] landing/interactive/flight UI error", e); }
+
+    // schedule injection: call the wait loop which will call injectSchedule once data exists
+    waitForEventData(); 
+
+  } catch (err) {
+    console.error("[loader] Error in loadEventContent:", err);
+  }
+}
+
+/* ---------- schedule helper/render ---------- */
+
+function renderSchedule(data) {
+  try {
+    if (!data?.days) return "<p>No schedule available</p>";
+    let html = "";
+    data.days.forEach(day => {
+      html +=
+        '<table class="shuttle-schedule-table">' +
+            '<colgroup>' +
+    			'<col style="width: 35%">' +
+    			'<col style="width: 30%">' +
+    			'<col style="width: 5%">' +
+    			'<col style="width: 30%">' +
+  			'</colgroup>' +
+        '<tbody>' +
+        '<tr><td class="schedule-day" colspan="4">' + (day.label || "") + '</td></tr>' +
+        '<tr>' +
+          '<td class="schedule-service-type">Inbound</td>' +
+          '<td class="schedule-start" rowspan="2">' + (day.inboundStart || "—") + '</td>' +
+          '<td class="schedule-hyphen" rowspan="2">-</td>' +
+          '<td class="schedule-end" rowspan="2">' + (day.inboundEnd || "—") + '</td>' +
+        '</tr>' +
+        '<tr><td class="schedule-service-subtitle">Hotels to Convention Center</td></tr>';
+
+      if (day.intermission) {
+        html +=
+          '<tr class="intermission-row">' +
+          '<td class="schedule-intermission intermission-left"></td>' +
+          '<td class="schedule-intermission intermission-right" colspan="3">' + day.intermission + '</td>' +
+          '</tr>';
+      }
+
+      html +=
+        '<tr>' +
+          '<td class="schedule-service-type">Outbound</td>' +
+          '<td class="schedule-start" rowspan="2">' + (day.outboundStart || "—") + '</td>' +
+          '<td class="schedule-hyphen" rowspan="2">-</td>' +
+          '<td class="schedule-end schedule-bottom-right" rowspan="2">' + (day.outboundEnd || "—") + '</td>' +
+        '</tr>' +
+        '<tr><td class="schedule-service-subtitle schedule-bottom-left">Convention Center to Hotels</td></tr>' +
+        '</tbody></table><br>';
+    });
+    return html;
+  } catch (e) {
+    console.error("[loader] renderSchedule error:", e);
+    return "<p>Schedule render error</p>";
+  }
+}
+
+/* choose and fetch schedule: stop -> route -> event (supports both schedule and legacy scheduleJson keys) */
+async function injectSchedule() {
+  try {
+    const container = document.querySelector("#shuttle-schedule-container");
+    if (!container) return console.warn("[loader] Schedule container not found");
+    if (!window.eventScheduleData) return console.warn("[loader] Event schedule data not loaded yet");
+
+    const parts = window.location.pathname.split("/").filter(Boolean);
+    const hotelsIndex = parts.indexOf("hotels");
+    const routeKey = hotelsIndex >= 0 ? parts[hotelsIndex + 1] : (parts[3] || null);
+    const stopKey  = hotelsIndex >= 0 ? parts[hotelsIndex + 2] : (parts[4] || null);
+
+    console.log("[loader] injectSchedule parsing route/stop:", routeKey, stopKey);
+
+    // candidate URLs (check stop -> route -> event)
+    const stopData = window.eventScheduleData.routes?.[routeKey]?.stops?.[stopKey];
+    const routeData = window.eventScheduleData.routes?.[routeKey];
+    const eventData = window.eventScheduleData;
+
+    const scheduleUrl =
+      // stop-level (first prefer `schedule`, then legacy `scheduleJson`)
+      (stopData?.schedule || stopData?.scheduleJson) ||
+      // route-level
+      (routeData?.schedule || routeData?.scheduleJson) ||
+      // event-level
+      (eventData?.schedule || eventData?.scheduleJson) ||
+      null;
+
+    if (!scheduleUrl) {
+      console.warn("[loader] No schedule URL found (stop, route, event). Keeping placeholder if present.");
+      return;
+    }
+
+    console.log("[loader] fetching schedule:", scheduleUrl);
+
+    const res = await fetch(scheduleUrl + "?nocache=" + Date.now());
+    if (!res.ok) {
+      console.error("[loader] schedule fetch failed:", res.status, scheduleUrl);
+      return;
+    }
+
+    // try to parse JSON; if JSON parse fails, log text for easier debugging
+    let json;
+    try {
+      json = await res.json();
+    } catch (parseErr) {
+      const text = await res.text();
+      console.error("[loader] schedule JSON parse error. Raw text:", text.slice(0,200));
+      throw parseErr;
+    }
+
+    // render
+    container.innerHTML = renderSchedule(json);
+    console.log("[loader] Schedule rendered from", scheduleUrl);
+  } catch (err) {
+    console.error("[loader] injectSchedule error:", err);
+  }
+}
+
+/* poll until window.eventScheduleData is present, then call injectSchedule */
+function waitForEventData() {
+  if (!window.eventScheduleData || Object.keys(window.eventScheduleData).length === 0) {
+    setTimeout(waitForEventData, 50);
+    return;
+  }
+  injectSchedule();
+}
+
+/* entry */
+document.addEventListener("DOMContentLoaded", loadEventContent);
+</script>
