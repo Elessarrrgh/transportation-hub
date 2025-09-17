@@ -1,7 +1,19 @@
 {
   // ROUTE 1 HOTELS
-
-
+  "hilton-new-orleans-riverside": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  },
+  "westin-new-orleans": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  },
 
   // ROUTE 2 HOTELS
   "caesars-new-orleans": {
@@ -16,13 +28,117 @@
     "scheduleJson": "",
     "directionsText": "Caesars New Orleans (~5 mins.)"
   },
+  "harrahs-new-orleans": {
+    "name": "Harrah's New Orleans",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.070294338456!2d-90.0679553880332!3d29.94865662299684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a7f8b84a0eb5%3A0x861893a4287dc7d7!2sCaesars%20New%20Orleans!5e0!3m2!1sen!2sus!4v1756221223923!5m2!1sen!2sus",
+    "scheduleJson": "",
+    "directionsText": "Caesars New Orleans (<1 mins.)"
+  },
+  "jw-marriott-new-orleans": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  },
+  "kimpton-hotel-fontenot": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  },
+    "loews-hotel-new-orleans": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  },
+    "nobu-new-orleans": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  },
+  "windsor-court": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  },
 
   // WALKING DISTANCE HOTELS
-    "courtyard-warehouse-arts": {
+  "courtyard-warehouse-arts": {
     "name": "Courtyard Warehouse Arts District",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.221099686379!2d-90.06877718825875!3d29.944318323202186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a671f0694f31%3A0x2e7b565257e81d98!2sCourtyard%20New%20Orleans%20Warehouse%20Arts%20District!5e0!3m2!1sen!2sus!4v1755285372481!5m2!1sen!2sus",
     "scheduleJson": "",
     "directionsDestination": "Directions to MCC",
     "directionsText": "Morial Convention Ctr. (~3 mins.)"
+  },
+  "embassy-suites-new-orleans": {
+    "name": "Embassy Suites New Orleans",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.195287282505!2d-90.06875898803322!3d29.945060923166864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a671f79863ad%3A0x533b1191bb0f7d43!2sEmbassy%20Suites%20by%20Hilton%20New%20Orleans!5e0!3m2!1sen!2sus!4v1756237593147!5m2!1sen!2sus",
+    "scheduleJson": "",
+    "directionsDestination": "Directions to MCC",
+    "directionsText": "Morial Convention Ctr. (~3 mins.)"
+  },
+  "hampton-inn-suites-convention-center": {
+    "name": "Hampton Inn & Suites Convention Center",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6914.746912235237!2d-90.06764528803338!3d29.93993482340903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a66ff3d63175%3A0x77a4ee087282bbaf!2sHampton%20Inn%20%26%20Suites%20New%20Orleans-Convention%20Center!5e0!3m2!1sen!2sus!4v1756237716124!5m2!1sen!2sus",
+    "scheduleJson": "",
+    "directionsDestination": "Directions to MCC",
+    "directionsText": "Morial Convention Ctr. (~6 mins.)"
+  },
+    "higgins-hotel-new-orleans": {
+    "name": "Higgins Hotel New Orleans",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  },
+  "hilton-garden-inn-convention-center": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  },
+  "hyatt-place-convention-center": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  },
+  "marriott-warehouse-arts": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  },
+    "renaissance-warehouse-arts": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  },
+  "riverfront-hotel": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  },
+  "springhill-suites-warehouse-arts": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
   }
 }
