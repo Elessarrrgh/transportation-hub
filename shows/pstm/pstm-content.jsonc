@@ -65,6 +65,16 @@
                     }
                 }
             }
+        },
+        "w": {
+            "stops": {
+                "0": {
+                    "directions": {
+                        "apple": "https://maps.apple.com/?daddr=900%20Convention%20Center%20Blvd.%2C%20New%20Orleans%2C%20LA%2070145",
+                        "google": "https://www.google.com/maps/dir/Current+Location/900%20Convention%20Center%20Blvd.%2C%20New%20Orleans%2C%20LA%2070145"
+                    }
+                }
+            }
         }
     }
 }

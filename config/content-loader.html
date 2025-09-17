@@ -1,9 +1,11 @@
 <script>
+window.eventScheduleData = {}; // global container for schedule data
+
 async function loadEventContent() {
   try {
     // --- Parse URL ---
     const parts = window.location.pathname.split("/").filter(Boolean);
-    if (parts.length < 2) return;
+    if (parts.length < 1) return;
     const showKey = parts[0].toLowerCase();
     const route = parts[3];
     const stop = parts[4];
@@ -19,6 +21,7 @@ async function loadEventContent() {
 
     // --- Fetch show JSON ---
     const showData = await fetch(showJsonUrl + "?nocache=" + Date.now()).then(r => r.json());
+    window.eventScheduleData = showData;
 
     // -------------------------------
     // Hotel Pages
@@ -59,11 +62,10 @@ async function loadEventContent() {
             panoDiv.setAttribute("data-iframe-src", stopData.panorama);
           }
 
-          // Directions links (from stopData)
+          // Directions links
           if (stopData.directions) {
             const appleLink = document.querySelector(".directions-icon-link[aria-label*='Apple']");
             const googleLink = document.querySelector(".directions-icon-link[aria-label*='Google']");
-
             if (appleLink) appleLink.href = stopData.directions.apple;
             if (googleLink) googleLink.href = stopData.directions.google;
           }
@@ -76,26 +78,19 @@ async function loadEventContent() {
         const hotelData = hotelsData?.[hotelSlug];
 
         if (hotelData) {
-          // Hotel Map
+          // Hotel Map Location
           const mapBody = document.querySelector("#hotel-map-accordion .accordion-body");
           if (mapBody && hotelData.map) {
             mapBody.setAttribute("data-iframe-src", hotelData.map);
           }
 
-          // Shuttle Schedule (HTML injection)
-          if (hotelData.scheduleHtml) {
-            const scheduleContainer = document.querySelector("#shuttle-schedule-container");
-            if (scheduleContainer) {
-              try {
-                const scheduleHtml = await fetch(hotelData.scheduleHtml + "?nocache=" + Date.now()).then(r => r.text());
-                scheduleContainer.innerHTML = scheduleHtml;
-              } catch (e) {
-                console.error("Failed to load schedule HTML:", e);
-              }
-            }
+          // Directions text (main destination label)
+          if (hotelData.directionsDestination) {
+            const destText = document.querySelector(".directions-widget-text");
+            if (destText) destText.textContent = hotelData.directionsDestination;
           }
 
-          // Directions text (from hotelData)
+          // Directions subtext (e.g. estimated time)
           if (hotelData.directionsText) {
             const dirText = document.querySelector(".directions-widget-subtext");
             if (dirText) dirText.textContent = hotelData.directionsText;
@@ -109,14 +104,10 @@ async function loadEventContent() {
     // -------------------------------
     if (window.location.pathname.includes("/transport-hub")) {
       const titleEl = document.querySelector("[data-event-base='title']");
-      if (titleEl && showData.base?.title) {
-        titleEl.innerText = showData.base.title;
-      }
+      if (titleEl && showData.base?.title) titleEl.innerText = showData.base.title;
 
       const mapEl = document.querySelector("[data-event-base='event-map']");
-      if (mapEl && showData.base?.["event-map"]) {
-        mapEl.innerHTML = showData.base["event-map"];
-      }
+      if (mapEl && showData.base?.["event-map"]) mapEl.innerHTML = showData.base["event-map"];
     }
 
     // -------------------------------
@@ -124,9 +115,7 @@ async function loadEventContent() {
     // -------------------------------
     if (window.location.pathname.includes("/interactive-map")) {
       const mapIframe = document.querySelector("iframe.rounded-iframe");
-      if (mapIframe && showData["interactive-map"]) {
-        mapIframe.src = showData["interactive-map"];
-      }
+      if (mapIframe && showData["interactive-map"]) mapIframe.src = showData["interactive-map"];
     }
 
     // -------------------------------
@@ -134,27 +123,126 @@ async function loadEventContent() {
     // -------------------------------
     if (window.location.pathname.includes("/flight-info")) {
       const flightInfo = showData["flight-info"];
-      if (!flightInfo) return;
+      if (flightInfo) {
+        const arrivalsIframe = document.querySelector("#arrivals-accordion iframe");
+        if (arrivalsIframe && flightInfo["arrivals-widget"]) arrivalsIframe.src = flightInfo["arrivals-widget"];
 
-      const arrivalsIframe = document.querySelector("#arrivals-accordion iframe");
-      if (arrivalsIframe && flightInfo["arrivals-widget"]) {
-        arrivalsIframe.src = flightInfo["arrivals-widget"];
-      }
+        const departuresIframe = document.querySelector("#departures-accordion iframe");
+        if (departuresIframe && flightInfo["departures-widget"]) departuresIframe.src = flightInfo["departures-widget"];
 
-      const departuresIframe = document.querySelector("#departures-accordion iframe");
-      if (departuresIframe && flightInfo["departures-widget"]) {
-        departuresIframe.src = flightInfo["departures-widget"];
-      }
-
-      const travelIframe = document.querySelector("iframe.airport-travel-preview");
-      if (travelIframe && flightInfo["travel-time"]) {
-        travelIframe.src = flightInfo["travel-time"];
+        const travelIframe = document.querySelector("iframe.airport-travel-preview");
+        if (travelIframe && flightInfo["travel-time"]) travelIframe.src = flightInfo["travel-time"];
       }
     }
+
+    // -------------------------------
+    // Inject Schedule
+    // -------------------------------
+    waitForEventData();
+
   } catch (err) {
     console.error("Error loading event content:", err);
   }
 }
 
+// -------------------------------
+// Schedule Script
+// -------------------------------
+function renderSchedule(data) {
+  if (!data?.days) return "<p>No schedule available</p>";
+
+  let html = "";
+  data.days.forEach(day => {
+    html +=
+      '<table class="shuttle-schedule-table">' +
+      '<tbody>' +
+      '<tr><td class="schedule-day" colspan="4">' + day.label + '</td></tr>' +
+      '<tr>' +
+      '<td class="schedule-service-type">Inbound</td>' +
+      '<td class="schedule-start" rowspan="2">' + day.inboundStart + '</td>' +
+      '<td class="schedule-hyphen" rowspan="2">-</td>' +
+      '<td class="schedule-end" rowspan="2">' + day.inboundEnd + '</td>' +
+      '</tr>' +
+      '<tr><td class="schedule-service-subtitle">Hotels to Convention Center</td></tr>';
+
+    if (day.intermission) {
+      html +=
+        '<tr class="intermission-row">' +
+        '<td class="schedule-intermission intermission-left"></td>' +
+        '<td class="schedule-intermission intermission-right" colspan="3">' + day.intermission + '</td>' +
+        '</tr>';
+    }
+
+    html +=
+      '<tr>' +
+      '<td class="schedule-service-type">Outbound</td>' +
+      '<td class="schedule-start" rowspan="2">' + day.outboundStart + '</td>' +
+      '<td class="schedule-hyphen" rowspan="2">-</td>' +
+      '<td class="schedule-end schedule-bottom-right" rowspan="2">' + day.outboundEnd + '</td>' +
+      '</tr>' +
+      '<tr><td class="schedule-service-subtitle schedule-bottom-left">Convention Center to Hotels</td></tr>' +
+      '</tbody>' +
+      '</table><br>';
+  });
+  return html;
+}
+
+function injectSchedule() {
+  const container = document.querySelector("#shuttle-schedule-container");
+  if (!container) return console.warn("Schedule container not found");
+  if (!window.eventScheduleData) return console.warn("Event schedule data not loaded yet");
+
+  const parts = window.location.pathname.split("/").filter(Boolean);
+  const hotelsIndex = parts.indexOf("hotels");
+  const routeKey = hotelsIndex >= 0 ? parts[hotelsIndex + 1] : null;
+  const hotelKey = hotelsIndex >= 0 ? parts[hotelsIndex + 3] : null;
+
+  // Hotel-specific
+  const hotelData = window.eventScheduleData.hotelsJson?.[hotelKey];
+  if (hotelData?.scheduleJson) {
+    fetch(hotelData.scheduleJson + "?nocache=" + Date.now())
+      .then(r => r.json())
+      .then(data => container.innerHTML = renderSchedule(data))
+      .catch(err => {
+        console.error("Failed to load hotel schedule:", err);
+      });
+    return;
+  }
+
+  // Route-specific
+  const routeData = window.eventScheduleData.routes?.[routeKey];
+  if (routeData?.scheduleJson) {
+    fetch(routeData.scheduleJson + "?nocache=" + Date.now())
+      .then(r => r.json())
+      .then(data => container.innerHTML = renderSchedule(data))
+      .catch(err => {
+        console.error("Failed to load route schedule:", err);
+      });
+    return;
+  }
+
+  // Event-wide
+  if (window.eventScheduleData.scheduleJson) {
+    fetch(window.eventScheduleData.scheduleJson + "?nocache=" + Date.now())
+      .then(r => r.json())
+      .then(data => container.innerHTML = renderSchedule(data))
+      .catch(err => {
+        console.error("Failed to load event schedule:", err);
+      });
+    return;
+  }
+
+  console.warn("No schedule JSON found for this page");
+}
+
+function waitForEventData() {
+  if (!window.eventScheduleData || Object.keys(window.eventScheduleData).length === 0) {
+    setTimeout(waitForEventData, 50);
+    return;
+  }
+  injectSchedule();
+}
+
+// -------------------------------
 document.addEventListener("DOMContentLoaded", loadEventContent);
 </script>

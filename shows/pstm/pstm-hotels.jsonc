@@ -9,7 +9,20 @@
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.070294338456!2d-90.0679553880332!3d29.94865662299684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a7f8b84a0eb5%3A0x861893a4287dc7d7!2sCaesars%20New%20Orleans!5e0!3m2!1sen!2sus!4v1756221223923!5m2!1sen!2sus",
     "scheduleJson": "",
     "directionsText": "Caesars New Orleans (<1 min.)"
-  }
+  },
+  "doubletree-new-orleans": {
+    "name": "DoubleTree by Hilton New Orleans",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.011083317079!2d-90.06881278825857!3d29.95035982291691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a672b1a5b81b%3A0x2dee1f8db61d37a8!2sDoubleTree%20by%20Hilton%20Hotel%20New%20Orleans!5e0!3m2!1sen!2sus!4v1755285423123!5m2!1sen!2sus",
+    "scheduleJson": "",
+    "directionsText": "Caesars New Orleans (~5 mins.)"
+  },
 
   // WALKING DISTANCE HOTELS
+    "courtyard-warehouse-arts": {
+    "name": "Courtyard Warehouse Arts District",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.221099686379!2d-90.06877718825875!3d29.944318323202186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a671f0694f31%3A0x2e7b565257e81d98!2sCourtyard%20New%20Orleans%20Warehouse%20Arts%20District!5e0!3m2!1sen!2sus!4v1755285372481!5m2!1sen!2sus",
+    "scheduleJson": "",
+    "directionsDestination": "Directions to MCC",
+    "directionsText": "Morial Convention Ctr. (~3 mins.)"
+  }
 }
