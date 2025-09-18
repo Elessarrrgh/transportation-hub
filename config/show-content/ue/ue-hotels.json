@@ -7,19 +7,19 @@
       "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.128086237038!2d-85.74071702409394!3d38.25333527186864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972c4f6ff6d55%3A0xd557b5bbbddac1ff!2sAC%20Hotel%20Louisville%20Downtown!5e0!3m2!1sen!2sus!4v1758158940200!5m2!1sen!2sus",
       "directionsText": "AC Hotel Downtown (<1 min.)"
     },
-    "home2-suites-downtown": { 
+    "home2-suites-downtown-nulu": { 
       "name": "",
       "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100261.02004941516!2d-85.8272229148064!3d38.25266749650168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972c68b0ef5e5%3A0xafed3c96acc06e23!2sHome2%20Suites%20by%20Hilton%20Louisville%20Downtown%20NuLu!5e0!3m2!1sen!2sus!4v1758147528565!5m2!1sen!2sus",
       "directionsText": ""
     },
-    "tempo-louisville-downtown": { 
+    "tempo-downtown-nulu": { 
       "name": "",
       "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.196613129135!2d-85.74420170916753!3d38.251745812018015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972c5bf358599%3A0xf77af1356f5b97f2!2sTempo%20by%20Hilton%20Louisville%20Downtown%20NuLu!5e0!3m2!1sen!2sus!4v1758147640949!5m2!1sen!2sus",
       "directionsText": ""
     },
 
               
-    "cambria-louisville-downtown": { 
+    "cambria-downtown": { 
       "name": "",
       "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.196613129135!2d-85.74420170916753!3d38.251745812018015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886973ff2e3eeef5%3A0x510add1107c9b2d8!2sCambria%20Hotel%20Louisville%20Downtown-Whiskey%20Row!5e0!3m2!1sen!2sus!4v1758147656661!5m2!1sen!2sus",
       "directionsText": ""
@@ -63,7 +63,7 @@
       "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.233676643875!2d-85.76219210916773!3d38.25088611206855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972afdb2cb8b7%3A0x9064b36e99918d64!2sHilton%20Garden%20Inn%20Louisville%20Downtown!5e0!3m2!1sen!2sus!4v1758147850884!5m2!1sen!2sus",
       "directionsText": ""
     },
-    "seelbach-hilton": { 
+    "the-seelbach": { 
       "name": "",
       "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.3227144675093!2d-85.76000432336147!3d38.24882078471091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a5618717d7%3A0x71eb9d6ddc46aef8!2sThe%20Seelbach%20Hilton%20Louisville!5e0!3m2!1sen!2sus!4v1758147865937!5m2!1sen!2sus",
       "directionsText": ""
@@ -95,7 +95,7 @@
       "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.051992174506!2d-85.75573392336118!3d38.25510018434533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972bb907148ff%3A0xdfd4c3f80c098c66!2sHotel%20Bourre%20Bonne%20Louisville%2C%20Curio%20Collection%20by%20Hilton!5e0!3m2!1sen!2sus!4v1758147943768!5m2!1sen!2sus",
       "directionsText": ""
     },
-    "moxy-louisville-downtown": { 
+    "moxy-downtown": { 
       "name": "",
       "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6265.963838358696!2d-85.75424012336119!3d38.256725384250785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972bc1b6de623%3A0x10d89311060e70ff!2sMoxy%20Louisville%20Downtown!5e0!3m2!1sen!2sus!4v1758147961445!5m2!1sen!2sus",
       "directionsText": ""
@@ -117,7 +117,7 @@
     "21c-museum-hotel": {
       "name": "21c Museum Hotel",
       "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6266.052926330236!2d-85.76629802336117!3d38.25569228431103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a3e1c2e355%3A0xdb28b049bfda50f0!2s21c%20Museum%20Hotel%20Louisville!5e0!3m2!1sen!2sus!4v1758148002738!5m2!1sen!2sus",
-      "directionsText": ""                           
+      "directionsText": "" 
     },
     "homewood-suites-downtown": { 
       "name": "",
