@@ -194,41 +194,39 @@ function injectSchedule() {
 
   const parts = window.location.pathname.split("/").filter(Boolean);
   const hotelsIndex = parts.indexOf("hotels");
-  const routeKey = hotelsIndex >= 0 ? parts[hotelsIndex + 1] : null;
-  const hotelKey = hotelsIndex >= 0 ? parts[hotelsIndex + 3] : null;
+  const routeKey = hotelsIndex >= 0 ? parts[hotelsIndex + 1] : parts[3];
+  const stopKey = hotelsIndex >= 0 ? parts[hotelsIndex + 2] : parts[4];
 
-  // Hotel-specific
-  const hotelData = window.eventScheduleData.hotelsJson?.[hotelKey];
-  if (hotelData?.scheduleJson) {
-    fetch(hotelData.scheduleJson + "?nocache=" + Date.now())
-      .then(r => r.json())
-      .then(data => container.innerHTML = renderSchedule(data))
-      .catch(err => {
-        console.error("Failed to load hotel schedule:", err);
-      });
-    return;
+  // --- Stop-specific schedule ---
+  if (stopKey) {
+    const stopData = window.eventScheduleData.stops?.[stopKey];
+    if (stopData?.scheduleJson) {
+      fetch(stopData.scheduleJson + "?nocache=" + Date.now())
+        .then(r => r.json())
+        .then(data => container.innerHTML = renderSchedule(data))
+        .catch(err => console.error("Failed to load stop schedule:", err));
+      return;
+    }
   }
 
-  // Route-specific
-  const routeData = window.eventScheduleData.routes?.[routeKey];
-  if (routeData?.scheduleJson) {
-    fetch(routeData.scheduleJson + "?nocache=" + Date.now())
-      .then(r => r.json())
-      .then(data => container.innerHTML = renderSchedule(data))
-      .catch(err => {
-        console.error("Failed to load route schedule:", err);
-      });
-    return;
+  // --- Route-specific schedule ---
+  if (routeKey) {
+    const routeData = window.eventScheduleData.routes?.[routeKey];
+    if (routeData?.scheduleJson) {
+      fetch(routeData.scheduleJson + "?nocache=" + Date.now())
+        .then(r => r.json())
+        .then(data => container.innerHTML = renderSchedule(data))
+        .catch(err => console.error("Failed to load route schedule:", err));
+      return;
+    }
   }
 
-  // Event-wide
+  // --- Event-wide schedule ---
   if (window.eventScheduleData.scheduleJson) {
     fetch(window.eventScheduleData.scheduleJson + "?nocache=" + Date.now())
       .then(r => r.json())
       .then(data => container.innerHTML = renderSchedule(data))
-      .catch(err => {
-        console.error("Failed to load event schedule:", err);
-      });
+      .catch(err => console.error("Failed to load event schedule:", err));
     return;
   }
 
