@@ -14,7 +14,7 @@
     "routes": {
         "1": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=1",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
             "flyer": { 
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/939d9794-312c-4b3a-bdd2-56ee6a804db5/ue2025_route1_flyer_preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5bfc9ac11f3627ae03d5/1758157820687/UE2025_HotelLobby_Route1.pdf"
@@ -52,7 +52,7 @@
         },
         "2": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=2",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
             "flyer": { 
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/78d24c13-b230-4ead-99d1-67a9ceacc751/ue2025_route2_flyer_preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5c2e084d9460a24af8f5/1758157870722/UE2025_HotelLobby_Route2.pdf"
@@ -90,7 +90,7 @@
         },
         "3": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=3",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
             "flyer": { 
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/33eeee34-a3e6-49e3-95d3-62adab2fa2cc/ue2025_route3_flyer_preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5c5e36b46247f0edbccf/1758157918440/1.pdf"
@@ -127,7 +127,7 @@
         },
         "4": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=4",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
             "flyer": { 
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/50f3fa89-44fa-43fd-b43f-32043d0c9107/ue2025_route4_flyer_preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5c6d131e9f0caf3706d4/1758157933977/UE2025_HotelLobby_Route4.pdf"
