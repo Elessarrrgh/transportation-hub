@@ -14,14 +14,14 @@
     "routes": {
         "1": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbyq5XfRNc2_CFPkZodyrJp9Al3jHPafVhdilyx3LZq9uGL_ZZX2xCsjPFdpsQ7KGBdh/exec?route=1",                                       
-            "flyer": {                      
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7f880897-bb7c-4aca-9c7e-bf6f76632763/placeholder-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc338a2c7c089f79ffff/1756232755657/Placeholder+Flyer.pdf"
+            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=1",
+            "flyer": { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/939d9794-312c-4b3a-bdd2-56ee6a804db5/ue2025_route1_flyer_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5bfc9ac11f3627ae03d5/1758157820687/UE2025_HotelLobby_Route1.pdf"
             },
-            "sign" : {                        
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+            "sign" : {
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/9d62c08b-3d0d-483d-87af-ab0257c8ab34/ue2025_route1_signage_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5c96f6f39476e820517b/1758157974837/UE2025_Route1_Signage.pdf"
             },
             "stops": {
                 "1": {                     
@@ -52,14 +52,14 @@
         },
         "2": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec?route=2",                                       
-            "flyer": {                      
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7f880897-bb7c-4aca-9c7e-bf6f76632763/placeholder-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc338a2c7c089f79ffff/1756232755657/Placeholder+Flyer.pdf"
+            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=2",
+            "flyer": { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/78d24c13-b230-4ead-99d1-67a9ceacc751/ue2025_route2_flyer_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5c2e084d9460a24af8f5/1758157870722/UE2025_HotelLobby_Route2.pdf"
             },
-            "sign" : {                        
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+            "sign" : { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/5abcee87-942e-4605-aa82-48a2dfebad4c/ue2025_route2_signage_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5ca3c7b21932efdc6b02/1758157987735/UE2025_Route2_Signage.pdf"
             },
             "stops": {
                 "1": {                   
@@ -90,14 +90,14 @@
         },
         "3": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec?route=3",                                       
-            "flyer": {                      
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7f880897-bb7c-4aca-9c7e-bf6f76632763/placeholder-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc338a2c7c089f79ffff/1756232755657/Placeholder+Flyer.pdf"
+            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=3",
+            "flyer": { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/33eeee34-a3e6-49e3-95d3-62adab2fa2cc/ue2025_route3_flyer_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5c5e36b46247f0edbccf/1758157918440/1.pdf"
             },
-            "sign" : {                        
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+            "sign" : { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/f7a7a636-7003-4631-8929-f0af7564fdcd/ue2025_route3_signage_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5cb7f6f39476e82051f7/1758158007585/UE2025_Route3_Signage.pdf"
             },
             "stops": {
                 "1": {                
@@ -127,14 +127,14 @@
         },
         "4": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec?route=4",                                       
-            "flyer": {                      
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7f880897-bb7c-4aca-9c7e-bf6f76632763/placeholder-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc338a2c7c089f79ffff/1756232755657/Placeholder+Flyer.pdf"
+            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=4",
+            "flyer": { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/50f3fa89-44fa-43fd-b43f-32043d0c9107/ue2025_route4_flyer_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5c6d131e9f0caf3706d4/1758157933977/UE2025_HotelLobby_Route4.pdf"
             },
-            "sign" : {                        
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+            "sign" : { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/521295c4-fc0e-4d3e-b387-77d97f10022a/ue2025_route4_signage_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5cc54110675b53988783/1758158021084/UE2025_Route4_Signage.pdf"
             },
             "stops": {
                 "1": {                             
