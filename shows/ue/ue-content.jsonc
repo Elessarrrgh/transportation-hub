@@ -14,7 +14,7 @@
     "routes": {
         "1": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec?route=1", // TODO Replace with primary RouteSync
+            "wait-time": "https://script.google.com/macros/s/AKfycbyq5XfRNc2_CFPkZodyrJp9Al3jHPafVhdilyx3LZq9uGL_ZZX2xCsjPFdpsQ7KGBdh/exec?route=1", // TODO Replace with primary RouteSync
             "flyer": { // TODO Route 1 Flyer
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7f880897-bb7c-4aca-9c7e-bf6f76632763/placeholder-flyer-preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc338a2c7c089f79ffff/1756232755657/Placeholder+Flyer.pdf"
