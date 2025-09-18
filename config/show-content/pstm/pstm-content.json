@@ -13,6 +13,7 @@
     "scheduleJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/pstm/pstm-schedule.json",
     "routes": {
         "1": {
+            "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec?route=1",
             "flyer": {
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7d7db5bc-0784-49b9-8047-996a4c985cb3/pstm2025-route1-flyer-preview.png?content-type=image%2Fpng",
@@ -42,6 +43,7 @@
             }
         },
         "2": {
+            "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec?route=2",
             "flyer": {
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/5d09346b-704a-4a03-b059-ec095d6606f2/pstm2025-route2-flyer-preview.png?content-type=image%2Fpng",
