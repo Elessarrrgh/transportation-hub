@@ -10,7 +10,7 @@
         "travel-time": "https://www.google.com/maps/embed/v1/directions?key=AIzaSyD-Zq8VSdnzvEUH_8llwLRE-R9i-FIdPFY&origin=Kentucky+Exposition+Center+Louisville&destination=Louisville+International+Airport"
     },
     "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/ue/ue-hotels.json",
-    "scheduleJson" : "https://elessarrrgh.github.io/transportation-hub/config/show-content/ue/ue-schedule.json",
+    "scheduleJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/ue/ue-schedule.json",
     "routes": {
         "1": {
             "scheduleJson": "",
