@@ -123,6 +123,7 @@
                         "apple": "https://maps.apple.com/?daddr=800%20W%20Market%20St.%2C%20Louisville%2C%20KY%2C%2040202",
                         "google": "https://www.google.com/maps/dir/Current+Location/800%20W%20Market%20St.%2C%20Louisville%2C%20KY%2C%2040202"
                     }
+                }
             }
         },
         "4": {
@@ -162,7 +163,6 @@
                     }
                 }
             }
-        }
         }
     }
 }
