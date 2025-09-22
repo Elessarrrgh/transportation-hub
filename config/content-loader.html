@@ -35,6 +35,9 @@ async function loadEventContent() {
         // Route Label
         const hotelRouteEls = document.querySelectorAll(".hotel-route");
           hotelRouteEls.forEach(el => { el.textContent = routeData?.label || ""; });
+          if (routeData?.color) {
+            el.style.color = routeData.color;
+          }
 
         // Wait-time iframe
         if (routeData["wait-time"]) {
@@ -93,7 +96,7 @@ async function loadEventContent() {
 
         if (hotelData) {
           // Hotel Name
-          const hotelNameEls = document.querySelectorAll(".hotel-name");
+          const hotelNameEls = document.querySelectorAll(".hotel-title");
             hotelNameEls.forEach(el => { el.textContent = hotelData.name || ""; });
 
           // Hotel Address
