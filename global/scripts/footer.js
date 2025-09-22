@@ -24,8 +24,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 imageUrl: item.assetUrl || ""
             }));
 
+            // Removes leading articles for sorting purposes
+            function normalizeTitle(title) {
+                return title.replace(/^(the |a |an )/i, "").trim();
+            }
+
             // Sort hotels alphabetically by name
-            hotels.sort((a, b) => a.name.localeCompare(b.name));
+            hotels.sort((a, b) => normalizeTitle(a.name).localeCompare(normalizeTitle(b.name)));
 
             hotels.forEach(hotel => {
                 const div = document.createElement("div");
