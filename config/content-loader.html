@@ -163,7 +163,7 @@ function renderSchedule(data) {
       '<td class="schedule-hyphen" rowspan="2">-</td>' +
       '<td class="schedule-end" rowspan="2">' + day.inboundEnd + '</td>' +
       '</tr>' +
-      '<tr><td class="schedule-service-subtitle">Hotels to Convention Center</td></tr>';
+      '<tr><td class="schedule-service-subtitle inbound-subtitle">' + day.inboundSubtitle + '</td></tr>';
 
     if (day.intermission) {
       html +=
@@ -180,7 +180,7 @@ function renderSchedule(data) {
       '<td class="schedule-hyphen" rowspan="2">-</td>' +
       '<td class="schedule-end schedule-bottom-right" rowspan="2">' + day.outboundEnd + '</td>' +
       '</tr>' +
-      '<tr><td class="schedule-service-subtitle schedule-bottom-left">Convention Center to Hotels</td></tr>' +
+      '<tr><td class="schedule-service-subtitle outbound-subtitle schedule-bottom-left">' + day.outboundSubtitle + '</td></tr>' +
       '</tbody>' +
       '</table><br>';
   });
