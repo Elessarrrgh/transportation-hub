@@ -31,13 +31,17 @@ async function loadEventContent() {
       // Route-Specific Content
       if (showData.routes && route && showData.routes[route]) {
         const routeData = showData.routes[route];
+        
+        console.log("Loaded routeData:", routeData);
 
         // Route Label
         const hotelRouteEls = document.querySelectorAll(".hotel-route");
-          hotelRouteEls.forEach(el => { el.textContent = routeData?.label || ""; });
-          if (routeData?.color) {
-            el.style.color = routeData.color;
+        hotelRouteEls.forEach(el => { 
+          el.textContent = routeData?.label || ""; 
+          if (routeData && routeData.color) {
+            el.style.setProperty("color", routeData.color, "important");
           }
+        });
 
         // Wait-time iframe
         if (routeData["wait-time"]) {
@@ -67,11 +71,11 @@ async function loadEventContent() {
 
           // Nearby Stop Name
           const nearestStopEls = document.querySelectorAll(".hotel-stop");
-            nearestStopEls.forEach(el => { el.textContent = stopData.stopName || ""; });
+          nearestStopEls.forEach(el => { el.textContent = stopData.stopName || ""; });
 
           // Nearby Stop Boarding Area
           const boardingAreaEls = document.querySelectorAll(".hotel-boarding-area");
-            boardingAreaEls.forEach(el => { el.textContent = stopData.boardingArea || ""; });
+          boardingAreaEls.forEach(el => { el.textContent = stopData.boardingArea || ""; });
 
           // Panorama
           const panoDiv = document.querySelector("#panorama-accordion .accordion-body");
@@ -97,11 +101,11 @@ async function loadEventContent() {
         if (hotelData) {
           // Hotel Name
           const hotelNameEls = document.querySelectorAll(".hotel-title");
-            hotelNameEls.forEach(el => { el.textContent = hotelData.name || ""; });
+          hotelNameEls.forEach(el => { el.textContent = hotelData.name || ""; });
 
           // Hotel Address
           const hotelAddressEls = document.querySelectorAll(".hotel-address");
-            hotelAddressEls.forEach(el => { el.textContent = hotelData.address || ""; });
+          hotelAddressEls.forEach(el => { el.textContent = hotelData.address || ""; });
           
           // Hotel Map Location
           const mapBody = document.querySelector("#hotel-map-accordion .accordion-body");
