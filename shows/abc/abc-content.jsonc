@@ -14,7 +14,7 @@
     "routes": {
         "1": {
             "label": "Route 1",
-            "color": "#ee1c26",
+            "color": "#f58420",
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
             "flyer": {
