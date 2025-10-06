@@ -118,7 +118,7 @@
                 },
                 "3": { // Holiday Inn Express Downtown
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", // TODO Route 3-3 Panorama
+                    "panorama": "https://momento360.com/e/u/17181ba39d794ddd96c9a70a23243cdf?utm_campaign=embed&utm_source=other&heading=143.06&pitch=-4.79&field-of-view=100&size=large&display-plan=true",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=800%20W%20Market%20St.%2C%20Louisville%2C%20KY%2C%2040202",
                         "google": "https://www.google.com/maps/dir/Current+Location/800%20W%20Market%20St.%2C%20Louisville%2C%20KY%2C%2040202"
