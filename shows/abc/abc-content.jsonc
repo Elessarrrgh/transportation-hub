@@ -1,0 +1,86 @@
+{
+    "base" : {
+        "title": "Template Event",
+        "event-map": "<iframe src='https://www.rhodeplanning.com/content-unavailable' width='600' height='400'></iframe>"
+    },
+    "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1MTjn56tYSQ_NK-4MGMDNiPWBbuHtvVs&ehbc=2E312F",
+    "flight-info": {
+        "arrivals-widget": "https://elessarrrgh.github.io/transportation-hub/shows/abc/flight-info/arrivals-widget.html",
+        "departures-widget": "https://elessarrrgh.github.io/transportation-hub/shows/abc/flight-info/departures-widget.html",
+        "travel-time": "https://www.google.com/maps/embed/v1/directions?key=AIzaSyD-Zq8VSdnzvEUH_8llwLRE-R9i-FIdPFY&origin=Rhode+Planning+Management+Solutions&destination=Rhode+Island+T.F.+Green+International+Airport"
+    },
+    "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/abc/abc-hotels.json",
+    "scheduleJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/abc/abc-schedule.json",
+    "routes": {
+        "1": {
+            "label": "Route 1",
+            "color": "#f58420",
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
+            "flyer": {
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7f880897-bb7c-4aca-9c7e-bf6f76632763/placeholder-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc338a2c7c089f79ffff/1756232755657/Placeholder+Flyer.pdf"
+            },
+            "sign" : {
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+            },
+            "stops": {
+                "1": {
+                    "stopName": "Hotel A",
+                    "boardingArea": "Front Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/b24b6309dc8a49abbf1930ea5cc6c1d0?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true",
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=640%20Ten%20Rod%20Rd.%2C%20North%20Kingstown%2C%20RI%2002852",
+                        "google": "https://www.google.com/maps/dir/Current+Location/640%20Ten%20Rod%20Rd.%2C%20North%20Kingstown%2C%20RI%2002852"
+                    }
+                },
+                "2": {
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/7e3f3a4f0b1c4f8c8e2f0e3c5e4b5a6d?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+                }
+            }
+        },
+        "2": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2"
+        },
+        "3": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3"
+        },
+        "4": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4"
+        },
+        "5": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5"
+        },
+        "6": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=6"
+        },
+        "w": { // Necessary for walking distance hotels to have proper directions.
+            "stops": {
+                "0": {
+                    "directions": {
+                        "apple": "https://maps.apple.com/?daddr=640%20Ten%20Rod%20Rd.%2C%20North%20Kingstown%2C%20RI%2002852",
+                        "google": "https://www.google.com/maps/dir/Current+Location/640%20Ten%20Rod%20Rd.%2C%20North%20Kingstown%2C%20RI%2002852"
+                    }
+                }
+            }
+        },
+        "x": { // placeholder for non-service hotels so that any relevant content can be loaded.
+            "stops": {
+                "0": {
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "days": [
+    {
+      "label": "Tuesday & Wednesday",
+      "inboundSubtitle": "Hotels to KEC, Lot H",
+      "inboundStart": "7:00 AM",
+      "inboundEnd": "10:00 AM",
+      "outboundSubtitle": "KEC, Lot H to Hotels",
+      "outboundStart": "3:30 PM",
+      "outboundEnd": "6:00 PM",
+      "intermission": "SERVICE INTERMISSION"
+    },
+    {
+      "label": "Thursday",
+      "inboundSubtitle": "Hotels to KEC, Lot H",
+      "inboundStart": "7:00 AM",
+      "inboundEnd": "10:00 AM",
+      "outboundSubtitle": "KEC, Lot H to Hotels",
+      "outboundStart": "1:00 PM",
+      "outboundEnd": "4:00 PM",
+      "intermission": "SERVICE INTERMISSION"
+    }
+  ]
+}

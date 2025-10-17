@@ -1,0 +1,61 @@
+name: Build JSON from JSONC
+
+# Trigger workflow on pushes to test and main
+on:
+  push:
+    branches:
+      - test
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      # Step 1: Checkout the repo
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # Step 2: Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # Step 3: Install strip-json-comments CLI
+      - name: Install strip-json-comments-cli
+        run: npm install -g strip-json-comments-cli
+
+      # Step 4: Convert all .jsonc files to .json
+      - name: Convert JSONC to JSON
+        run: |
+          # Create output folder
+          mkdir -p config/show-content
+          
+          # Find all .jsonc files in source folders
+          for file in $(find config shows -name '*.jsonc'); do
+            # preserve folder structure inside config/show-content
+            relative_path="${file#*/}"       # remove first folder (config/ or shows/)
+            output_file="config/show-content/$relative_path"
+            output_file="${output_file%.*}.json"  # replace .jsonc with .json
+            mkdir -p "$(dirname "$output_file")"
+            strip-json-comments "$file" > "$output_file"
+          done
+
+      # Step 5: Commit and push cleaned JSON back to the same branch
+      - name: Commit cleaned JSON
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Stage generated JSON files
+          git add config/show-content/*.json config/show-content/*/*.json
+          
+          # Commit if there are changes
+          git diff --cached --quiet || git commit -m "Build: strip comments from JSONC"
+          
+          # Push to the branch that triggered the workflow
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Elessarrrgh/transportation-hub.git $GITHUB_REF_NAME --force

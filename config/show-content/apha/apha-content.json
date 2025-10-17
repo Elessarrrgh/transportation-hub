@@ -1,0 +1,64 @@
+{
+    "base" : {
+        "title": "American Public Health Association",
+        "event-map": "<iframe src='https://www.rhodeplanning.com/content-unavailable' width='600' height='400'></iframe>"
+    },
+    "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1tDPPwcyzc2BGxzZUQHGkrKNBXBbnMWs&ehbc=2E312F",
+    "flight-info": {
+        "arrivals-widget": "",
+        "departures-widget": "",
+        "travel-time": ""
+    },
+    "hotelsJson": "",
+    "scheduleJson": "",
+    "routes": {
+        "1": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
+            "flyer": { 
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {                     
+                    "scheduleJson": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                           
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {                          
+                    "scheduleJson": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                           
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {                   
+                    "scheduleJson": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                           
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "w": {
+          "stops": {
+            "0": {
+              "directions": {
+                "apple": "",
+                "google": ""
+              }
+            }
+          }
+        }
+    }
+}
