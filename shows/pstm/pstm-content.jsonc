@@ -1,41 +1,84 @@
 {
     "base" : {
-        "title": "Plastic Surgery The Meeting"
+        "title": "Plastic Surgery The Meeting",
+        "event-map": ""
     },
-    "routes" : {
-        "Route1": {
-            "flyer": "https://example.com/flyer1.pdf",
-            "signage": "https://example.com/signage1.pdf",
+    "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1MTjn56tYSQ_NK-4MGMDNiPWBbuHtvVs&ehbc=2E312F",
+    "flight-info": {
+        "arrivals-widget": "https://elessarrrgh.github.io/transportation-hub/shows/pstm/flight-info/arrivals-widget.html",
+        "departures-widget": "https://elessarrrgh.github.io/transportation-hub/shows/pstm/flight-info/departures-widget.html",
+        "travel-time": "https://www.google.com/maps/embed/v1/directions?key=AIzaSyD-Zq8VSdnzvEUH_8llwLRE-R9i-FIdPFY&origin=Morial+Convention+Center+New+Orleans&destination=New+Orleans+International+Airport"
+    },
+    "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/pstm/pstm-hotels.json",
+    "scheduleJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/pstm/pstm-schedule.json",
+    "routes": {
+        "1": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec?route=1",
+            "flyer": {
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7d7db5bc-0784-49b9-8047-996a4c985cb3/pstm2025-route1-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb1c07f31bcf6412c0310b/1758141621996/PSTM25_Route1_Flyer.pdf"
+            },
+            "sign" : {
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/53c393de-c2b0-462b-ab4c-5b066cfc1e0b/pstm2025-route1-signage-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb1c4ff42d224b93e32fc1/1758141640266/PSTM25_Route1_Signage.pdf"
+            },
             "stops": {
-                "Stop1": {
-                    "hotel": "Hotel A",
-                    "location": "Front Entrance",
-                    "panorama": "https://example.com/panorama1.jpg",
-                    "directions": "https://example.com/directions1"
+                "1": { // Westin New Orleans
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/7fcc7e0d668d42a58700f62abf4e4af8?utm_campaign=embed&utm_source=other&heading=271.84&pitch=0.85&field-of-view=100&size=large&display-plan=true",
+                    "directions": {
+                        "apple": "https://maps.apple.com/?daddr=100%20Iberville%20St.%2C%20New%20Orleans%2C%20LA%2070147",
+                        "google": "https://www.google.com/maps/dir/Current+Location/100%20Iberville%20St.%2C%20New%20Orleans%2C%20LA%2070147us"
+                    }
                 },
-                "Stop2": {
-                    "hotel": "Hotel B",
-                    "location": "Side Entrance",
-                    "panorama": "https://example.com/panorama2.jpg",
-                    "directions": "https://example.com/directions2"
+                "2": { // Hilton New Orleans Riverside
+                    "scheduleJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/pstm/hilton-new-orleans-riverside-schedule.json",
+                    "panorama": "https://momento360.com/e/u/50f5d819b8024caebdda621f6e7b4af6?utm_campaign=embed&utm_source=other&heading=0.3&pitch=4.7&field-of-view=75&size=large&display-plan=true",
+                    "directions": {
+                        "apple": "https://maps.apple.com/?daddr=2%20Poydras%20St.%2C%20New%20Orleans%2C%20LA%2070137",
+                        "google": "https://www.google.com/maps/dir/Current+Location/2%20Poydras%20St.%2C%20New%20Orleans%2C%20LA%2070137"
+                    }
                 }
             }
         },
-        "Route2": {
-            "flyer": "https://example.com/flyer2.pdf",
-            "signage": "https://example.com/signage2.pdf",
+        "2": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec?route=2",
+            "flyer": {
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/5d09346b-704a-4a03-b059-ec095d6606f2/pstm2025-route2-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb1c3b39535e6380a95c41/1758141629485/PSTM25_Route2_Flyer.pdf"
+            },
+            "sign" : {
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/77a85f47-ce24-410e-a044-39578b737095/pstm2025-route2-signage-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb1c8995621d639b15d0ae/1758141659174/PSTM25_Route2_Signage.pdf"
+            },
             "stops": {
-                "Stop1": {
-                    "hotel": "Hotel C",
-                    "location": "Main Lobby",
-                    "panorama": "https://example.com/panorama3.jpg",
-                    "directions": "https://example.com/directions3"
+                "1": { // Caesars New Orleans
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/32203833bf504b658403903757f4f975?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true",
+                    "directions": {
+                        "apple": "https://maps.apple.com/?daddr=8%20Canal%20St.%2C%20New%20Orleans%2C%20LA%2070130$0",
+                        "google": "https://www.google.com/maps/dir/Current+Location/8%20Canal%20St.%2C%20New%20Orleans%2C%20LA%2070130$0"
+                    }
                 },
-            "Stop2": {
-                "hotel": "Hotel D",
-                "location": "Rear Entrance",
-                "panorama": "https://example.com/panorama4.jpg",
-                "directions": "https://example.com/directions4"
+                "2": { // JW Marriott
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/f568b7e6a7fe42abb0e07ae7461f3ba5?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true",
+                    "directions": {
+                        "apple": "https://maps.apple.com/?daddr=614%20Canal%20St.%2C%20New%20Orleans%2C%20LA%2070139",
+                        "google": "https://www.google.com/maps/dir/Current+Location/614%20Canal%20St.%2C%20New%20Orleans%2C%20LA%2070139"
+                    }
+                }
+            }
+        },
+        "w": {
+            "stops": {
+                "0": {
+                    "directions": {
+                        "apple": "https://maps.apple.com/?daddr=900%20Convention%20Center%20Blvd.%2C%20New%20Orleans%2C%20LA%2070145",
+                        "google": "https://www.google.com/maps/dir/Current+Location/900%20Convention%20Center%20Blvd.%2C%20New%20Orleans%2C%20LA%2070145"
+                    }
                 }
             }
         }

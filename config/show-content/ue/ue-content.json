@@ -9,42 +9,40 @@
         "departures-widget": "https://elessarrrgh.github.io/transportation-hub/shows/ue/flight-info/departures-widget.html",
         "travel-time": "https://www.google.com/maps/embed/v1/directions?key=AIzaSyD-Zq8VSdnzvEUH_8llwLRE-R9i-FIdPFY&origin=Kentucky+Exposition+Center+Louisville&destination=Louisville+International+Airport"
     },
+    "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/ue/ue-hotels.json",
+    "scheduleJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/ue/ue-schedule.json",
     "routes": {
         "1": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=1",
-            "flyer": {
-                                    
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7f880897-bb7c-4aca-9c7e-bf6f76632763/placeholder-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc338a2c7c089f79ffff/1756232755657/Placeholder+Flyer.pdf"
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
+            "flyer": { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/939d9794-312c-4b3a-bdd2-56ee6a804db5/ue2025_route1_flyer_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5bfc9ac11f3627ae03d5/1758157820687/UE2025_HotelLobby_Route1.pdf"
             },
             "sign" : {
-                                      
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/9d62c08b-3d0d-483d-87af-ab0257c8ab34/ue2025_route1_signage_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5c96f6f39476e820517b/1758157974837/UE2025_Route1_Signage.pdf"
             },
             "stops": {
-                "1": {
-                    "name": "AC Hotel Downtown",
-                                                  
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                "1": {                     
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/80c84155a8284b339fb0add9791dc5ab?utm_campaign=embed&utm_source=other&heading=14.4&pitch=4.4&field-of-view=81.4&size=large&display-plan=true",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=727%20E%20Market%20St.%2C%20Louisville%2C%20KY%2C%2040202",
                         "google": "https://www.google.com/maps/dir/Current+Location/727%20E%20Market%20St.%2C%20Louisville%2C%20KY%2C%2040202"
                     }
                 },
-                "2": {
-                    "name": "Cambria Hotel Downtown",
-                                                  
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                "2": {                          
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/4bf6a8f525c04d939e52a37d6d2b2fbe?utm_campaign=embed&utm_source=other&heading=280.8&pitch=0.49&field-of-view=100&size=large&display-plan=true",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=120%20S.%20Floyd%20St.%2C%20Louisville%2C%20KY%2C%2040202",
                         "google": "https://www.google.com/maps/dir/Current+Location/120%20S.%20Floyd%20St.%2C%20Louisville%2C%20KY%2C%2040202"
                     }
                 },
-                "3": {
-                    "name": "Omni Louisville",
-                                                  
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                "3": {                   
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/a24ea3d2ab044c2cb2d2d164c51e6255?utm_campaign=embed&utm_source=other&heading=56.44&pitch=4.75&field-of-view=100&size=large&display-plan=true",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=400%20S%202nd%20St.%2C%20Louisville%2C%20KY%2C%2040202",
                         "google": "https://www.google.com/maps/dir/Current+Location/400%20S%202nd%20St.%2C%20Louisville%2C%20KY%2C%2040202"
@@ -53,37 +51,36 @@
             }
         },
         "2": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=2",
-            "flyer": {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7f880897-bb7c-4aca-9c7e-bf6f76632763/placeholder-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc338a2c7c089f79ffff/1756232755657/Placeholder+Flyer.pdf"
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
+            "flyer": { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/78d24c13-b230-4ead-99d1-67a9ceacc751/ue2025_route2_flyer_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5c2e084d9460a24af8f5/1758157870722/UE2025_HotelLobby_Route2.pdf"
             },
-            "sign" : {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+            "sign" : { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/5abcee87-942e-4605-aa82-48a2dfebad4c/ue2025_route2_signage_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5ca3c7b21932efdc6b02/1758157987735/UE2025_Route2_Signage.pdf"
             },
             "stops": {
-                "1": {
-                    "name": "The Brown Hotel",
-                                                  
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                "1": {                   
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/f84324e7a2cc49138351c6695db7949a?utm_campaign=embed&utm_source=other&heading=132.87&pitch=-7.97&field-of-view=98.85&size=large&display-plan=true",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=335%20W%20Broadway%2C%20Louisville%2C%20KY%2C%2040202",
                         "google": "https://www.google.com/maps/dir/Current+Location/335%20W%20Broadway%2C%20Louisville%2C%20KY%2C%2040202"
                     }
                 },
-                "2": {
-                    "name": "Embassy Suites Downtown",
-                                                  
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                "2": {                           
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/142869ca9fcd414181fab22b8943b79f?utm_campaign=embed&utm_source=other&heading=11&pitch=0.3&field-of-view=75&size=large&display-plan=true",
                     "directions": {
                         "apple": "https://maps.apple.com/?daddr=501%20S.%204th%20St.%2C%20Louisville%2C%20KY%2C%2040202",
                         "google": "https://www.google.com/maps/dir/Current+Location/501%20S.%204th%20St.%2C%20Louisville%2C%20KY%2C%2040202"
                     }
                 },
-                "3": {
-                    "name": "Hyatt Regency",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                "3": {                 
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/3132cc5947ee47fc8ee6513369efed12?utm_campaign=embed&utm_source=other&heading=59.48&pitch=-5.52&field-of-view=70.8&size=large&display-plan=true",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=320%20W%20Jefferson%20St.%2C%20Louisville%2C%20KY%2C%2040202",
                         "google": "https://www.google.com/maps/dir/Current+Location/320%20W%20Jefferson%20St.%2C%20Louisville%2C%20KY%2C%2040202"
@@ -92,71 +89,74 @@
             }
         },
         "3": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=3",
-            "flyer": {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7f880897-bb7c-4aca-9c7e-bf6f76632763/placeholder-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc338a2c7c089f79ffff/1756232755657/Placeholder+Flyer.pdf"
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
+            "flyer": { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/33eeee34-a3e6-49e3-95d3-62adab2fa2cc/ue2025_route3_flyer_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5c5e36b46247f0edbccf/1758157918440/1.pdf"
             },
-            "sign" : {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+            "sign" : { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/f7a7a636-7003-4631-8929-f0af7564fdcd/ue2025_route3_signage_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5cb7f6f39476e82051f7/1758158007585/UE2025_Route3_Signage.pdf"
             },
             "stops": {
-                "1": {
-                    "name": "Hotel Distil",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                "1": {                
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/c7886c80cd1a49f4b16fa95875cdb9a5?utm_campaign=embed&utm_source=other&heading=26.32&pitch=6.86&field-of-view=100&size=large&display-plan=true",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=101%20W.%20Main%20St%2C%20Louisville%2C%20KY%2C%2040202",
                         "google": "https://www.google.com/maps/dir/Current+Location/101%20W.%20Main%20St%2C%20Louisville%2C%20KY%2C%2040202"
                     }
                 },
-                "2": {
-                    "name": "The Galt House",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                "2": {                  
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/cf10e7cb49a946679b33cfe1847856a4?utm_campaign=embed&utm_source=other&heading=92.89&pitch=3.94&field-of-view=80.45&size=large&display-plan=true",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=140%20N%20Fourth%20St.%2C%20Louisville%2C%20KY%2C%2040202",
                         "google": "https://www.google.com/maps/dir/Current+Location/140%20N%20Fourth%20St.%2C%20Louisville%2C%20KY%2C%2040202"
                     }
                 },
-                "3": {
-                    "name": "Holiday Inn Express Downtown",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                "3": {                                
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/17181ba39d794ddd96c9a70a23243cdf?utm_campaign=embed&utm_source=other&heading=143.06&pitch=-4.79&field-of-view=100&size=large&display-plan=true",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=800%20W%20Market%20St.%2C%20Louisville%2C%20KY%2C%2040202",
                         "google": "https://www.google.com/maps/dir/Current+Location/800%20W%20Market%20St.%2C%20Louisville%2C%20KY%2C%2040202"
                     }
+                }
             }
         },
         "4": {
-            "wait-time": "https://script.google.com/macros/s/AKfycbwL00JteaQGRHs0NsAi36xu5YvF4RKStUQovI7Zi-XtgvQf_8PBdvzp5q_o4llW9fh1/exec?route=4",
-            "flyer": {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7f880897-bb7c-4aca-9c7e-bf6f76632763/placeholder-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc338a2c7c089f79ffff/1756232755657/Placeholder+Flyer.pdf"
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
+            "flyer": { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/50f3fa89-44fa-43fd-b43f-32043d0c9107/ue2025_route4_flyer_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5c6d131e9f0caf3706d4/1758157933977/UE2025_HotelLobby_Route4.pdf"
             },
-            "sign" : {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+            "sign" : { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/521295c4-fc0e-4d3e-b387-77d97f10022a/ue2025_route4_signage_preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb5cc54110675b53988783/1758158021084/UE2025_Route4_Signage.pdf"
             },
             "stops": {
-                "1": {
-                    "name": "Hilton Garden Inn Airport",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                "1": {                             
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/568970d03f2d47bb9b2b69e90013a98b?utm_campaign=embed&utm_source=other&heading=-31.06&pitch=6.81&field-of-view=91.5&size=large&display-plan=true",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=2735%20Crittenden%20Dr.%2C%20Louisville%2C%20KY%2C%2040209",
                         "google": "https://www.google.com/maps/dir/Current+Location/2735%20Crittenden%20Dr.%2C%20Louisville%2C%20KY%2C%2040209"
                     }
                 },
-                "2": {
-                    "name": "Four Points by Sheraton",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                "2": {                           
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/40b521ea631a447e92b63999c28b8be4?utm_campaign=embed&utm_source=other&heading=-16.39&pitch=2.66&field-of-view=100&size=large&display-plan=true",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=2850%20Crittenden%20Dr.%2C%20Louisville%2C%20KY%2C%2040209",
                         "google": "https://www.google.com/maps/dir/Current+Location/2850%20Crittenden%20Dr.%2C%20Louisville%2C%20KY%2C%2040209"
                     }
                 },
-                "3": {
-                    "name": "Crowne Plaza",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                "3": {                
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/6e4bbb57f4994728ba60a6c9cd776242?utm_campaign=embed&utm_source=other&heading=-23&pitch=0.3&field-of-view=75&size=large&display-plan=true",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=830%20Phillips%20Ln.%2C%20Louisville%2C%20KY%2C%2040209",
                         "google": "https://www.google.com/maps/dir/Current+Location/830%20Phillips%20Ln.%2C%20Louisville%2C%20KY%2C%2040209"
@@ -164,7 +164,5 @@
                 }
             }
         }
-    },
-    "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/ue/ue-hotels.json"
-}
+    }
 }

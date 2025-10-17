@@ -1,0 +1,31 @@
+{
+  // ROUTE 1 HOTELS
+
+    // STOP #1
+    "ac-hotel-downtown": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #2
+    "cambria-downtown": { 
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #3
+    "omni-louisville": { 
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+  // WALKING DISTANCE
+    "hotel-name": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    }
+}

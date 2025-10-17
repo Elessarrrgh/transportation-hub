@@ -1,20 +1,240 @@
 {
-  "21c-museum-hotel": {
-    "name": "21c Museum Hotel",
-    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6265.95705796123!2d-85.76679177364193!3d38.256804011498765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a3e1c2e355%3A0xdb28b049bfda50f0!2s21c%20Museum%20Hotel%20Louisville!5e0!3m2!1sen!2sus!4v1757541369915!5m2!1sen!2sus",
-    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
-    "directionsText": "ue new text confirmed" // TODO 21c Directions ETA
-  },
-  "ac-hotel-downtown": {
-    "name": "AC Hotel Downtown",
-    "map": "", //TODO AC Hotel Map
-    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
-    "directionsText": "" //TODO AC Hotel Directions ETA
-  },
-  "hotel-name": { // TODO New Hotel Entry
+  // ROUTE 1 HOTELS
+
+    // STOP #1
+    "ac-hotel-downtown": {
+      "name": "AC Hotel Downtown",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.128086237038!2d-85.74071702409394!3d38.25333527186864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972c4f6ff6d55%3A0xd557b5bbbddac1ff!2sAC%20Hotel%20Louisville%20Downtown!5e0!3m2!1sen!2sus!4v1758158940200!5m2!1sen!2sus",
+      "directionsText": "AC Hotel Downtown (<1 min.)"
+    },
+    "home2-suites-downtown-nulu": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100261.02004941516!2d-85.8272229148064!3d38.25266749650168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972c68b0ef5e5%3A0xafed3c96acc06e23!2sHome2%20Suites%20by%20Hilton%20Louisville%20Downtown%20NuLu!5e0!3m2!1sen!2sus!4v1758147528565!5m2!1sen!2sus",
+      "directionsText": "AC Hotel Downtown (~7 mins.)"
+    },
+    "tempo-downtown-nulu": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.196613129135!2d-85.74420170916753!3d38.251745812018015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972c5bf358599%3A0xf77af1356f5b97f2!2sTempo%20by%20Hilton%20Louisville%20Downtown%20NuLu!5e0!3m2!1sen!2sus!4v1758147640949!5m2!1sen!2sus",
+      "directionsText": "AC Hotel Downtown (~4 mins.)"
+    },
+
+    // STOP #2
+    "cambria-downtown": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.196613129135!2d-85.74420170916753!3d38.251745812018015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886973ff2e3eeef5%3A0x510add1107c9b2d8!2sCambria%20Hotel%20Louisville%20Downtown-Whiskey%20Row!5e0!3m2!1sen!2sus!4v1758147656661!5m2!1sen!2sus",
+      "directionsText": "Cambria Downtown (<1 min.)"
+    },
+
+    // STOP #3
+    "omni-louisville": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.067988056147!2d-85.7510029233612!3d38.2547291843671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972baf29f02d7%3A0x6fb521c39b8d0e05!2sOmni%20Louisville%20Hotel!5e0!3m2!1sen!2sus!4v1758147746724!5m2!1sen!2sus",
+      "directionsText": "Omni Louisville (<1 min.)"
+    },
+    "hampton-inn-downtown": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.118410871871!2d-85.7535803233613!3d38.253559684435025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972b97e949699%3A0x6f787024303c5480!2sHampton%20Inn%20Louisville%20Downtown!5e0!3m2!1sen!2sus!4v1758147766608!5m2!1sen!2sus",
+      "directionsText": "Omni Louisville (~6 mins.)"
+    },
+    "louisville-marriott-downtown": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.1452019078783!2d-85.7573063233614!3d38.252938284471256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972bb1ee8ea9d%3A0x5f99985dfadb8526!2sLouisville%20Marriott%20Downtown!5e0!3m2!1sen!2sus!4v1758147790266!5m2!1sen!2sus",
+      "directionsText": "Omni Louisville (~2 mins.)"
+    },
+
+
+  // ROUTE 2 HOTELS
+    
+    // STOP #1
+    "the-brown-hotel": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.1452019078783!2d-85.7573063233614!3d38.252938284471256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972ae6bc0031f%3A0x1954cdb22140b0ac!2sThe%20Brown%20Hotel!5e0!3m2!1sen!2sus!4v1758147820416!5m2!1sen!2sus",
+      "directionsText": "The Brown Hotel (<1 min.)"
+    },
+
+    // STOP #2
+    "embassy-suites-downtown": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.422105811235!2d-85.76046772336147!3d38.24651518484508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a55c4728cb%3A0x773be7810ce545a6!2sEmbassy%20Suites%20by%20Hilton%20Louisville%20Downtown!5e0!3m2!1sen!2sus!4v1758147837468!5m2!1sen!2sus",
+      "directionsText": "Embassy Suites Downtown (<1 min.)"
+    },
+    "hilton-garden-inn-downtown": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.233676643875!2d-85.76219210916773!3d38.25088611206855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972afdb2cb8b7%3A0x9064b36e99918d64!2sHilton%20Garden%20Inn%20Louisville%20Downtown!5e0!3m2!1sen!2sus!4v1758147850884!5m2!1sen!2sus",
+      "directionsText": "Embassy Suites Downtown (~4 mins.)"
+    },
+    "the-seelbach": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.3227144675093!2d-85.76000432336147!3d38.24882078471091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a5618717d7%3A0x71eb9d6ddc46aef8!2sThe%20Seelbach%20Hilton%20Louisville!5e0!3m2!1sen!2sus!4v1758147865937!5m2!1sen!2sus",
+      "directionsText": "Embassy Suites Downtown (<1 min.)"
+    },
+
+    // STOP #3
+    "hyatt-regency-louisville": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.1196094487836!2d-85.75878722336134!3d38.25353188443669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972bb2f373e95%3A0xd673a79fcd118815!2sHyatt%20Regency%20Louisville!5e0!3m2!1sen!2sus!4v1758147879597!5m2!1sen!2sus",
+      "directionsText": "Hyatt Regency Louisville (<1 min.)"
+    },
+
+
+  // ROUTE 3 HOTELS
+
+    // STOP #1
+    "hotel-distil": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.1196094487836!2d-85.75878722336134!3d38.25353188443669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972bc053767a9%3A0x444747517c3104d6!2sHotel%20Distil%2C%20Autograph%20Collection!5e0!3m2!1sen!2sus!4v1758147892902!5m2!1sen!2sus",
+      "directionsText": "Hotel Distil (<1 min.)"
+    },
+    "courtyard-marriott-downtown": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.9909338038015!2d-85.75672170916638!3d38.25651631173767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972bb8695386b%3A0x539c90e27a1d365a!2sCourtyard%20by%20Marriott%20Louisville%20Downtown!5e0!3m2!1sen!2sus!4v1758147929082!5m2!1sen!2sus",
+      "directionsText": "Hotel Distil (~3 mins.)"
+    },
+    "hotel-bourre-bonne": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.051992174506!2d-85.75573392336118!3d38.25510018434533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972bb907148ff%3A0xdfd4c3f80c098c66!2sHotel%20Bourre%20Bonne%20Louisville%2C%20Curio%20Collection%20by%20Hilton!5e0!3m2!1sen!2sus!4v1758147943768!5m2!1sen!2sus",
+      "directionsText": "Hotel Distil (~4 mins.)"
+    },
+    "moxy-downtown": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6265.963838358696!2d-85.75424012336119!3d38.256725384250785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972bc1b6de623%3A0x10d89311060e70ff!2sMoxy%20Louisville%20Downtown!5e0!3m2!1sen!2sus!4v1758147961445!5m2!1sen!2sus",
+      "directionsText": "Hotel Distil (~2 mins.)"
+    },
+
+    // STOP #2
+    "the-galt-house": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6265.858070156604!2d-85.75863292336113!3d38.257951884179576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a355b38283%3A0x2a7bf7e9638dfbf6!2sThe%20Galt%20House%20Hotel!5e0!3m2!1sen!2sus!4v1758147973652!5m2!1sen!2sus",
+      "directionsText": "The Galt House (<1 min.)"
+    },
+
+    // STOP #3
+    "holiday-inn-express-downtown": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6266.052926330236!2d-85.76629802336117!3d38.25569228431103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a6d15c9385%3A0xf1ea4311c693dcd8!2sHoliday%20Inn%20Express%20%26%20Suites%20Louisville%20Downtown%20by%20IHG!5e0!3m2!1sen!2sus!4v1758147988010!5m2!1sen!2sus",
+      "directionsText": "Holiday Inn Express Downtown (<1 min.)"
+    },
+    "21c-museum-hotel": {
+      "name": "21c Museum Hotel",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6266.052926330236!2d-85.76629802336117!3d38.25569228431103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a3e1c2e355%3A0xdb28b049bfda50f0!2s21c%20Museum%20Hotel%20Louisville!5e0!3m2!1sen!2sus!4v1758148002738!5m2!1sen!2sus",
+      "directionsText": "Holiday Inn Express Downtown (~4 mins.)" 
+    },
+    "homewood-suites-downtown": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6265.957051687867!2d-85.76449042336117!3d38.25680408424625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886972a401c631d7%3A0x9eb8a567862d56da!2sHomewood%20Suites%20by%20Hilton%20Louisville%20Downtown!5e0!3m2!1sen!2sus!4v1758148013716!5m2!1sen!2sus",
+      "directionsText": "Holiday Inn Express Downtown (~3 mins.)"
+    },
+    "towneplace-suites-downtown": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.0544023440557!2d-85.76650462336124!3d38.255044284348564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886973b32b0a81d7%3A0x68b12447dba897bf!2sTownePlace%20Suites%20by%20Marriott%20Louisville%20Downtown!5e0!3m2!1sen!2sus!4v1758148031510!5m2!1sen!2sus",
+      "directionsText": "Holiday Inn Express Downtown (~2 mins.)"
+    },
+
+
+  // ROUTE 4 HOTELS
+
+    // STOP #1
+    "hilton-garden-inn-airport": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6270.528921847165!2d-85.75151752336289!3d38.20375638733219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690d73e6111a4b%3A0xb67db768370e1257!2sHilton%20Garden%20Inn%20Louisville%20Airport!5e0!3m2!1sen!2sus!4v1758148050285!5m2!1sen!2sus",
+      "directionsText": "Hilton Garden Inn Airport (<1 min.)"
+    },
+
+    // STOP #2
+    "four-points-airport": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6270.528921847165!2d-85.75151752336289!3d38.20375638733219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690d741a2abee9%3A0x41ce88e1881d4291!2sFour%20Points%20by%20Sheraton%20Louisville%20Airport!5e0!3m2!1sen!2sus!4v1758148062547!5m2!1sen!2sus",
+      "directionsText": "Four Points Airport (<1 min.)"
+    },
+    "holiday-inn-airport": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6270.528921847165!2d-85.75151752336289!3d38.20375638733219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690d7697f6b3f7%3A0x10a81b91b79af664!2sHoliday%20Inn%20Louisville%20Airport%20-%20Fair%2FExpo%20by%20IHG!5e0!3m2!1sen!2sus!4v1758148085863!5m2!1sen!2sus",
+      "directionsText": "Four Points Airport (~3 mins.)"
+    },
+    "home2-suites-airport": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6270.528921847165!2d-85.75151752336289!3d38.20375638733219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690d767d3f4137%3A0x4704d42fc3491170!2sHome2%20Suites%20by%20Hilton%20Louisville%20Airport%20Expo%20Center!5e0!3m2!1sen!2sus!4v1758148076509!5m2!1sen!2sus",
+      "directionsText": "Four Points Airport (~3 mins.)"
+    },
+    "homewood-suites-airport": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6270.528921847165!2d-85.75151752336289!3d38.20375638733219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690d77372c31e3%3A0xf13be69430bc3aa6!2sHomewood%20Suites%20by%20Hilton%20Louisville%20Airport!5e0!3m2!1sen!2sus!4v1758148100976!5m2!1sen!2sus",
+      "directionsText": "Four Points Airport (~4 mins.)"
+    },
+
+    // STOP #3
+    "crowne-plaza-airport": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3135.3620089510205!2d-85.75656312336297!3d38.20149128746399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690da653821ef9%3A0xd4c0fa0a99420a02!2sCrowne%20Plaza%20Louisville%20Airport%20Expo%20Ctr%20by%20IHG!5e0!3m2!1sen!2sus!4v1758148111875!5m2!1sen!2sus",
+      "directionsText": "Crowne Plaza Airport (<1 min.)"
+    },
+    "courtyard-marriott-airport": { 
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6271.547936742704!2d-85.74319932336329!3d38.19192418802003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88690da3dc0bc8d1%3A0xab8831d34b8a91f6!2sCourtyard%20by%20Marriott%20Louisville%20Airport!5e0!3m2!1sen!2sus!4v1758148122211!5m2!1sen!2sus",
+      "directionsText": "Crowne Plaza Airport (~3 mins.)"
+    },
+
+
+  // NO SERVICE HOTELS
+  
+  "best-western-premier-airport": { 
     "name": "",
     "map": "",
-    "schedule": "https://elessarrrgh.github.io/transportation-hub/shows/ue/shuttle-info/schedules/standard-schedule.html",
+    "directionsText": ""
+  },
+  "clarion-pointe-louisville-east": { 
+    "name": "",
+    "map": "",
+    "directionsText": ""
+  },
+  "courtyard-marriott-louisville-northeast": { 
+    "name": "",
+    "map": "",
+    "directionsText": ""
+  },
+  "embassy-suites-louisville-east": { 
+    "name": "",
+    "map": "",
+    "directionsText": ""
+  },
+  "hampton-louisville-i65": { 
+    "name": "",
+    "map": "",
+    "directionsText": ""
+  },
+  "hilton-garden-inn-st-matthews": { 
+    "name": "",
+    "map": "",
+    "directionsText": ""
+  },
+  "holiday-inn-express-louisville-northeast": { 
+    "name": "",
+    "map": "",
+    "directionsText": ""
+  },
+  "hyatt-place-louisville-east": { 
+    "name": "",
+    "map": "",
+    "directionsText": ""
+  },
+  "louisville-marriott-east": { 
+    "name": "",
+    "map": "",
+    "directionsText": ""
+  },
+  "sheraton-riverside": { 
+    "name": "",
+    "map": "",
     "directionsText": ""
   }
 }
+
+/*
+  "hotel-name": {
+    "name": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsDestination": "",
+    "directionsText": ""
+  }
+*/

@@ -1,0 +1,138 @@
+{
+  // ROUTE 1 HOTELS
+
+    // STOP #1
+    "westin-new-orleans": {
+      "name": "Westin New Orleans",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6914.520864837159!2d-90.06875488803334!3d29.94318672325536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a612b1956f51%3A0x10a0c5e3d5458ce2!2sThe%20Westin%20New%20Orleans!5e0!3m2!1sen!2sus!4v1756239048718!5m2!1sen!2sus",
+      "directionsDestination": "",
+      "directionsText": "Westin New Orleans (<1 min.)"
+    },
+
+    // STOP #2
+    "hilton-new-orleans-riverside": {
+      "name": "Hilton New Orleans Riverside",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6914.220251728315!2d-90.06602892359722!3d29.947510823155397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a66d0a9aa7bd%3A0x327a2e1b2d5ecde0!2sHilton%20New%20Orleans%20Riverside!5e0!3m2!1sen!2sus!4v1758115689279!5m2!1sen!2sus",
+      "directionsDestination": "",
+      "directionsText": "Hilton Riverside (<1 min.)"
+    },
+
+
+  // ROUTE 2 HOTELS
+
+    // STOP #1
+    "caesars-new-orleans": {
+      "name": "Caesars New Orleans",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.070294338456!2d-90.0679553880332!3d29.94865662299684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a7f8b84a0eb5%3A0x861893a4287dc7d7!2sCaesars%20New%20Orleans!5e0!3m2!1sen!2sus!4v1756221223923!5m2!1sen!2sus",
+      "directionsDestination": "",
+      "directionsText": "Caesars New Orleans (<1 min.)"
+    },
+    // Serviced at STOP #1
+    "doubletree-new-orleans": {
+      "name": "DoubleTree by Hilton New Orleans",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.011083317079!2d-90.06881278825857!3d29.95035982291691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a672b1a5b81b%3A0x2dee1f8db61d37a8!2sDoubleTree%20by%20Hilton%20Hotel%20New%20Orleans!5e0!3m2!1sen!2sus!4v1755285423123!5m2!1sen!2sus",
+      "directionsDestination": "",
+      "directionsText": "Caesars New Orleans (~5 mins.)"
+    },
+    "harrahs-new-orleans": {
+      "name": "Harrah's New Orleans",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.070294338456!2d-90.0679553880332!3d29.94865662299684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a7f8b84a0eb5%3A0x861893a4287dc7d7!2sCaesars%20New%20Orleans!5e0!3m2!1sen!2sus!4v1756221223923!5m2!1sen!2sus",
+      "directionsDestination": "",
+      "directionsText": "Caesars New Orleans (<1 mins.)"
+    },
+    "kimpton-hotel-fontenot": {
+      "name": "Kimpton Hotel Fontenot",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.9460422327184!2d-90.07158378803305!3d29.95223062282806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a7942e92fbc3%3A0x2a33b7978eb856d4!2sKimpton%20Hotel%20Fontenot!5e0!3m2!1sen!2sus!4v1756238424697!5m2!1sen!2sus",
+      "directionsDestination": "",
+      "directionsText": "Caesars New Orleans (~3 mins.)"
+    },
+    "loews-hotel-new-orleans": {
+      "name": "Loews Hotel New Orleans",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.074158822578!2d-90.07221607538642!3d29.948545458389752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f504430249f75b%3A0x4cb9ce9997498bd1!2sLoews%20New%20Orleans%20Hotel!5e0!3m2!1sen!2sus!4v1756238564565!5m2!1sen!2sus",
+      "directionsDestination": "",
+      "directionsText": "Caesars New Orleans (~2 mins.)"
+    },
+    "nobu-new-orleans": {
+      "name": "Nobu Hotel - Caesars New Orleans",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.0472423130013!2d-90.06760928803318!3d29.9493197229656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a66d5be2f47b%3A0x64b06475e06536c!2sNobu%20Hotel%20-%20Caesars%20New%20Orleans!5e0!3m2!1sen!2sus!4v1756238769830!5m2!1sen!2sus",
+      "directionsDestination": "",
+      "directionsText": "Caesars New Orleans (<1 mins.)"
+    },
+    "windsor-court": {
+      "name": "Windsor Court New Orleans",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.0291612192077!2d-90.0690232880331!3d29.949839822940934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a672bbf70b3f%3A0x8fe2a81ac04b622e!2sThe%20Windsor%20Court!5e0!3m2!1sen!2sus!4v1756239137815!5m2!1sen!2sus",
+      "directionsDestination": "",
+      "directionsText": "Caesars New Orleans (~4 mins.)"
+    },
+
+    // STOP #2
+    "jw-marriott-new-orleans": {
+      "name": "",
+      "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.9460422327184!2d-90.07158378803305!3d29.95223062282806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a60ceb7b4c05%3A0x73168bdc0e68fbe0!2sJW%20Marriott%20New%20Orleans!5e0!3m2!1sen!2sus!4v1756238281964!5m2!1sen!2sus",
+      "directionsDestination": "",
+      "directionsText": "JW Marriott (<1 min.)"
+    },
+
+
+  // WALKING DISTANCE HOTELS
+  "courtyard-warehouse-arts": {
+    "name": "Courtyard Warehouse Arts District",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.221099686379!2d-90.06877718825875!3d29.944318323202186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a671f0694f31%3A0x2e7b565257e81d98!2sCourtyard%20New%20Orleans%20Warehouse%20Arts%20District!5e0!3m2!1sen!2sus!4v1755285372481!5m2!1sen!2sus",
+    "directionsDestination": "Directions to MCC",
+    "directionsText": "Morial Convention Ctr. (~3 mins.)"
+  },
+  "embassy-suites-new-orleans": {
+    "name": "Embassy Suites New Orleans",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.195287282505!2d-90.06875898803322!3d29.945060923166864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a671f79863ad%3A0x533b1191bb0f7d43!2sEmbassy%20Suites%20by%20Hilton%20New%20Orleans!5e0!3m2!1sen!2sus!4v1756237593147!5m2!1sen!2sus",
+    "directionsDestination": "Directions to MCC",
+    "directionsText": "Morial Convention Ctr. (~3 mins.)"
+  },
+  "hampton-inn-suites-convention-center": {
+    "name": "Hampton Inn & Suites Convention Center",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6914.746912235237!2d-90.06764528803338!3d29.93993482340903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a66ff3d63175%3A0x77a4ee087282bbaf!2sHampton%20Inn%20%26%20Suites%20New%20Orleans-Convention%20Center!5e0!3m2!1sen!2sus!4v1756237716124!5m2!1sen!2sus",
+    "directionsDestination": "Directions to MCC",
+    "directionsText": "Morial Convention Ctr. (~6 mins.)"
+  },
+    "higgins-hotel-new-orleans": {
+    "name": "Higgins Hotel New Orleans",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.070294338456!2d-90.06795538803317!3d29.948656622996847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a70719065671%3A0xbfefbbf257b40e30!2sThe%20Higgins%20Hotel%20New%20Orleans%2C%20Curio%20Collection%20by%20Hilton!5e0!3m2!1sen!2sus!4v1756237891132!5m2!1sen!2sus",
+    "directionsDestination": "Directions to MCC",
+    "directionsText": "Morial Convention Ctr. (~11 mins.)"
+  },
+  "hilton-garden-inn-convention-center": {
+    "name": "Hilton Garden Inn New Orleans Convention Center",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.221099686388!2d-90.06877718803328!3d29.944318323201934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a67031d88275%3A0x4434eee6dfa64370!2sHilton%20Garden%20Inn%20New%20Orleans%20Convention%20Center!5e0!3m2!1sen!2sus!4v1756238023997!5m2!1sen!2sus",
+    "directionsDestination": "Directions to MCC",
+    "directionsText": "Morial Convention Ctr. (~7 mins.)"
+  },
+  "hyatt-place-convention-center": {
+    "name": "Hyatt Place New Orleans Convention Center",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.284884351983!2d-90.06732008803337!3d29.94248322328852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a66e32791d15%3A0x585273ff6dee2e6a!2sHyatt%20Place%20New%20Orleans%2FConvention%20Center!5e0!3m2!1sen!2sus!4v1756238178353!5m2!1sen!2sus",
+    "directionsDestination": "Directions to MCC",
+    "directionsText": "Morial Convention Ctr. (~4 mins.)"
+  },
+  "marriott-warehouse-arts": {
+    "name": "Marriott Warehouse Arts District",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.2574536613006!2d-90.06735028803327!3d29.943272423251255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a66e3a76ea19%3A0x6bb659ee1a865f71!2sNew%20Orleans%20Marriott%20Warehouse%20Arts%20District!5e0!3m2!1sen!2sus!4v1756238684241!5m2!1sen!2sus",
+    "directionsDestination": "Directions to MCC",
+    "directionsText": "Morial Convention Ctr. (~2 mins.)"
+  },
+    "renaissance-warehouse-arts": {
+    "name": "Renaissance New Orleans Warehouse Arts District",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.0472423130013!2d-90.06760928803318!3d29.9493197229656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a6723af21bc5%3A0x65c95e3879655e53!2sRenaissance%20New%20Orleans%20Arts%20Warehouse%20District%20Hotel!5e0!3m2!1sen!2sus!4v1756238875925!5m2!1sen!2sus",
+    "directionsDestination": "Directions to MCC",
+    "directionsText": "Morial Convention Ctr. (~6 mins.)"
+  },
+  "riverfront-hotel": {
+    "name": "New Orleans Riverfront Hotel",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3457.1791412000252!2d-90.0674673880333!3d29.9455254231449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a66dfa4e7c9f%3A0x6dd86ed7296b9b8a!2sThe%20Riverfront%20Hotel%20New%20Orleans!5e0!3m2!1sen!2sus!4v1756238932488!5m2!1sen!2sus",
+    "directionsDestination": "Directions to MCC",
+    "directionsText": "Morial Convention Ctr. (~3 mins.)"
+  },
+  "springhill-suites-warehouse-arts": {
+    "name": "SpringHill Suites Warehouse Arts District",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6914.520864837159!2d-90.06875488803334!3d29.94318672325536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8620a671c4d64ce5%3A0xd612375ded4a847c!2sSpringHill%20Suites%20New%20Orleans%20Warehouse%20Arts%20District!5e0!3m2!1sen!2sus!4v1756238984814!5m2!1sen!2sus",
+    "directionsDestination": "Directions to MCC",
+    "directionsText": "Morial Convention Ctr. (~5 mins.)"
+  }
+}
