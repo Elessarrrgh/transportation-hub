@@ -1,4 +1,11 @@
 <script>
+// Fallbacks if bootstrap hasn't loaded for some reason
+const __TH_FALLBACK__ = {
+  json: (p) => p,
+  resolve: (p) => p
+};
+const { json, resolve } = (window.__TH_ENDPOINTS__ || __TH_FALLBACK__);
+
 window.eventScheduleData = {}; // global container for schedule data
 
 async function loadEventContent() {
@@ -13,14 +20,16 @@ async function loadEventContent() {
 
     console.log("URL parts:", parts);
 
-    // --- Fetch content-directory.json ---
-    const dirUrl = "https://elessarrrgh.github.io/transportation-hub/config/content-directory.json";
-    const directory = await fetch(dirUrl + "?nocache=" + Date.now()).then(r => r.json());
-    const showJsonUrl = directory[showKey];
+    // --- Fetch content-directory.json (env-aware) ---
+    const dirUrl = json("config/content-directory.json");
+    const directory = await fetch(dirUrl).then(r => r.json());
+
+    // Allow content-directory entries to be relative or absolute
+    const showJsonUrl = resolve(directory[showKey]);
     if (!showJsonUrl) return;
 
-    // --- Fetch show JSON ---
-    const showData = await fetch(showJsonUrl + "?nocache=" + Date.now()).then(r => r.json());
+    // --- Fetch show JSON (env-aware) ---
+    const showData = await fetch(showJsonUrl).then(r => r.json());
     window.eventScheduleData = showData;
 
     // -------------------------------
@@ -31,7 +40,7 @@ async function loadEventContent() {
       // Route-Specific Content
       if (showData.routes && route && showData.routes[route]) {
         const routeData = showData.routes[route];
-        
+
         console.log("Loaded routeData:", routeData);
 
         // Route Label
@@ -46,23 +55,23 @@ async function loadEventContent() {
         // Wait-time iframe
         if (routeData["wait-time"]) {
           const waitIframe = document.querySelector("#wait-time-accordion iframe.wait-time");
-          if (waitIframe) waitIframe.src = routeData["wait-time"];
+          if (waitIframe) waitIframe.src = resolve(routeData["wait-time"]);
         }
 
         // Shuttle flyer
         if (routeData.flyer) {
           const flyerPreview = document.querySelector("#flyer-accordion .flyer-preview img");
           const flyerLink = document.querySelector("#flyer-accordion .view-flyer-button");
-          if (flyerPreview) flyerPreview.src = routeData.flyer.preview;
-          if (flyerLink) flyerLink.href = routeData.flyer.pdf;
+          if (flyerPreview) flyerPreview.src = resolve(routeData.flyer.preview);
+          if (flyerLink) flyerLink.href = resolve(routeData.flyer.pdf);
         }
 
         // Shuttle signage
         if (routeData.sign) {
           const signPreview = document.querySelector("#sign-accordion .sign-preview img");
           const signLink = document.querySelector("#sign-accordion .view-sign-button");
-          if (signPreview) signPreview.src = routeData.sign.preview;
-          if (signLink) signLink.href = routeData.sign.pdf;
+          if (signPreview) signPreview.src = resolve(routeData.sign.preview);
+          if (signLink) signLink.href = resolve(routeData.sign.pdf);
         }
 
         // Stop-Specific Content
@@ -80,22 +89,23 @@ async function loadEventContent() {
           // Panorama
           const panoDiv = document.querySelector("#panorama-accordion .accordion-body");
           if (panoDiv && stopData.panorama) {
-            panoDiv.setAttribute("data-iframe-src", stopData.panorama);
+            panoDiv.setAttribute("data-iframe-src", resolve(stopData.panorama));
           }
 
           // Directions links
           if (stopData.directions) {
             const appleLink = document.querySelector(".directions-icon-link[aria-label*='Apple']");
             const googleLink = document.querySelector(".directions-icon-link[aria-label*='Google']");
-            if (appleLink) appleLink.href = stopData.directions.apple;
-            if (googleLink) googleLink.href = stopData.directions.google;
+            if (appleLink) appleLink.href = resolve(stopData.directions.apple);
+            if (googleLink) googleLink.href = resolve(stopData.directions.google);
           }
         }
       }
 
       // Hotel-specific content
       if (showData.hotelsJson && hotelSlug) {
-        const hotelsData = await fetch(showData.hotelsJson + "?nocache=" + Date.now()).then(r => r.json());
+        const hotelsDataUrl = resolve(showData.hotelsJson);
+        const hotelsData = await fetch(hotelsDataUrl).then(r => r.json());
         const hotelData = hotelsData?.[hotelSlug];
 
         if (hotelData) {
@@ -110,7 +120,7 @@ async function loadEventContent() {
           // Hotel Map Location
           const mapBody = document.querySelector("#hotel-map-accordion .accordion-body");
           if (mapBody && hotelData.map) {
-            mapBody.setAttribute("data-iframe-src", hotelData.map);
+            mapBody.setAttribute("data-iframe-src", resolve(hotelData.map));
           }
 
           // Directions text (main destination label)
@@ -144,7 +154,9 @@ async function loadEventContent() {
     // -------------------------------
     if (window.location.pathname.includes("/interactive-map")) {
       const mapIframe = document.querySelector("iframe.rounded-iframe");
-      if (mapIframe && showData["interactive-map"]) mapIframe.src = showData["interactive-map"];
+      if (mapIframe && showData["interactive-map"]) {
+        mapIframe.src = resolve(showData["interactive-map"]);
+      }
     }
 
     // -------------------------------
@@ -154,13 +166,19 @@ async function loadEventContent() {
       const flightInfo = showData["flight-info"];
       if (flightInfo) {
         const arrivalsIframe = document.querySelector("#arrivals-accordion iframe");
-        if (arrivalsIframe && flightInfo["arrivals-widget"]) arrivalsIframe.src = flightInfo["arrivals-widget"];
+        if (arrivalsIframe && flightInfo["arrivals-widget"]) {
+          arrivalsIframe.src = resolve(flightInfo["arrivals-widget"]);
+        }
 
         const departuresIframe = document.querySelector("#departures-accordion iframe");
-        if (departuresIframe && flightInfo["departures-widget"]) departuresIframe.src = flightInfo["departures-widget"];
+        if (departuresIframe && flightInfo["departures-widget"]) {
+          departuresIframe.src = resolve(flightInfo["departures-widget"]);
+        }
 
         const travelIframe = document.querySelector("iframe.airport-travel-preview");
-        if (travelIframe && flightInfo["travel-time"]) travelIframe.src = flightInfo["travel-time"];
+        if (travelIframe && flightInfo["travel-time"]) {
+          travelIframe.src = resolve(flightInfo["travel-time"]);
+        }
       }
     }
 
@@ -230,7 +248,7 @@ function injectSchedule() {
   if (stopKey) {
     const stopData = window.eventScheduleData.stops?.[stopKey];
     if (stopData?.scheduleJson) {
-      fetch(stopData.scheduleJson + "?nocache=" + Date.now())
+      fetch(resolve(stopData.scheduleJson))
         .then(r => r.json())
         .then(data => container.innerHTML = renderSchedule(data))
         .catch(err => console.error("Failed to load stop schedule:", err));
@@ -242,7 +260,7 @@ function injectSchedule() {
   if (routeKey) {
     const routeData = window.eventScheduleData.routes?.[routeKey];
     if (routeData?.scheduleJson) {
-      fetch(routeData.scheduleJson + "?nocache=" + Date.now())
+      fetch(resolve(routeData.scheduleJson))
         .then(r => r.json())
         .then(data => container.innerHTML = renderSchedule(data))
         .catch(err => console.error("Failed to load route schedule:", err));
@@ -252,7 +270,7 @@ function injectSchedule() {
 
   // --- Event-wide schedule ---
   if (window.eventScheduleData.scheduleJson) {
-    fetch(window.eventScheduleData.scheduleJson + "?nocache=" + Date.now())
+    fetch(resolve(window.eventScheduleData.scheduleJson))
       .then(r => r.json())
       .then(data => container.innerHTML = renderSchedule(data))
       .catch(err => console.error("Failed to load event schedule:", err));

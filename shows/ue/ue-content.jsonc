@@ -5,12 +5,12 @@
     },
     "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1T9-2FDoFlaVuc9tVckpKXGs9LWmFzeI&ehbc=2E312F",
     "flight-info": {
-        "arrivals-widget": "https://elessarrrgh.github.io/transportation-hub/shows/ue/flight-info/arrivals-widget.html",
-        "departures-widget": "https://elessarrrgh.github.io/transportation-hub/shows/ue/flight-info/departures-widget.html",
+        "arrivals-widget": "shows/ue/flight-info/arrivals-widget.html",
+        "departures-widget": "shows/ue/flight-info/departures-widget.html",
         "travel-time": "https://www.google.com/maps/embed/v1/directions?key=AIzaSyD-Zq8VSdnzvEUH_8llwLRE-R9i-FIdPFY&origin=Kentucky+Exposition+Center+Louisville&destination=Louisville+International+Airport"
     },
-    "hotelsJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/ue/ue-hotels.json",
-    "scheduleJson": "https://elessarrrgh.github.io/transportation-hub/config/show-content/ue/ue-schedule.json",
+    "hotelsJson": "config/show-content/ue/ue-hotels.json",
+    "scheduleJson": "config/show-content/ue/ue-schedule.json",
     "routes": {
         "1": {
             "scheduleJson": "",
