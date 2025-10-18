@@ -2,27 +2,32 @@
                    
 
               
-    "ac-hotel-downtown": {
-      "name": "",
+    "capital-hilton": {
+      "name": "Capital Hilton",
       "map": "",
       "directionsText": ""
     },
 
               
-    "cambria-downtown": { 
-      "name": "",
+    "mayflower-hotel": { 
+      "name": "The Mayflower Hotel",
       "map": "",
       "directionsText": ""
     },
 
               
-    "omni-louisville": { 
-      "name": "",
+    "le-meridien-washington": { 
+      "name": "Le Méridien Washington",
       "map": "",
       "directionsText": ""
     },
 
                      
+    "ac-hotel-washington": {
+      "name": "AC Hotel Washington",
+      "map": "",
+      "directionsText": ""
+    },
     "hotel-name": {
       "name": "",
       "map": "",

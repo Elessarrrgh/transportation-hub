@@ -24,7 +24,7 @@
                 "pdf": ""
             },
             "stops": {
-                "1": {                     
+                "1": {                  
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                           
                     "directions" : {
@@ -32,7 +32,7 @@
                         "google": ""
                     }
                 },
-                "2": {                          
+                "2": {                       
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                           
                     "directions" : {
@@ -40,7 +40,7 @@
                         "google": ""
                     }
                 },
-                "3": {                   
+                "3": {                          
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                           
                     "directions" : {
