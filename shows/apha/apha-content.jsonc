@@ -24,7 +24,7 @@
                 "pdf": ""
             },
             "stops": {
-                "1": { // AC Hotel Downtown
+                "1": { // Capital Hilton
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable", // TODO Route 1-1 Panorama
                     "directions" : {
@@ -32,7 +32,7 @@
                         "google": ""
                     }
                 },
-                "2": { // Cambria Hotel Downtown
+                "2": { // The Mayflower Hotel
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable", // TODO Route 1-2 Panorama
                     "directions" : {
@@ -40,7 +40,7 @@
                         "google": ""
                     }
                 },
-                "3": { // Omni Louisville
+                "3": { // Le Méridien Washington
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable", // TODO Route 1-3 Panorama
                     "directions" : {

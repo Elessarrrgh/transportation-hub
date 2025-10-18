@@ -2,27 +2,32 @@
   // ROUTE 1 HOTELS
 
     // STOP #1
-    "ac-hotel-downtown": {
-      "name": "",
+    "capital-hilton": {
+      "name": "Capital Hilton",
       "map": "",
       "directionsText": ""
     },
 
     // STOP #2
-    "cambria-downtown": { 
-      "name": "",
+    "mayflower-hotel": { 
+      "name": "The Mayflower Hotel",
       "map": "",
       "directionsText": ""
     },
 
     // STOP #3
-    "omni-louisville": { 
-      "name": "",
+    "le-meridien-washington": { 
+      "name": "Le Méridien Washington",
       "map": "",
       "directionsText": ""
     },
 
   // WALKING DISTANCE
+    "ac-hotel-washington": {
+      "name": "AC Hotel Washington",
+      "map": "",
+      "directionsText": ""
+    },
     "hotel-name": {
       "name": "",
       "map": "",

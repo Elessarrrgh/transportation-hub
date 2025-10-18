@@ -34,7 +34,7 @@
     // Optional badge on test/staging pages so nobody confuses them for prod
     if (!isProd) {
       const badge = document.createElement("div");
-      badge.textContent = `TEST • ${branch}`;
+      badge.textContent = `Dev Branch • ${branch}`;
       Object.assign(badge.style, {
         position: "fixed",
         zIndex: 99999,
