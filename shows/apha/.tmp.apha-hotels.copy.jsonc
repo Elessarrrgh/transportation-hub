@@ -1,0 +1,121 @@
+﻿{
+  // ===== ROUTE 1 HOTELS =====
+
+    // STOP #1
+    "capital-hilton": {
+      "name": "Capital Hilton",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #2
+    "mayflower-hotel": { 
+      "name": "The Mayflower Hotel",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #3
+    "le-meridien-washington": { 
+      "name": "Le MÃ©ridien Washington",
+      "map": "",
+      "directionsText": ""
+    },
+
+  // ===== WALKING DISTANCE =====
+    "ac-hotel-washington": {
+      "name": "AC Hotel Washington",
+      "map": "",
+      "directionsText": ""
+    },
+    "courtyard-convention-center": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "embassy-suites-convention-center": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "fairfield-inn-suites-downtown": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "grand-hyatt-washington": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "hamilton-hotel": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "hampton-inn-convention-center": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "henley-park-hotel": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "holiday-inn-express-downtown": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "homewood-suites-convention-center": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "hyatt-house-convention-center": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "marriott-marquis": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "morrison-clark-historic-inn": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "motto-city-center": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "moxy-downtown": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "residence-inn-convention-center": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "marriott-metro-center": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "washington-plaza": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    },
+    "westin-downtown": {
+      "name": "",
+      "map": "",
+      "directionsText": ""
+    }
+}

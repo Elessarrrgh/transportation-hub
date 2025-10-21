@@ -10,7 +10,7 @@
         "travel-time": ""
     },
     "hotelsJson": "",
-    "scheduleJson": "",
+    "scheduleJson": "config/show-content/apha/apha-schedule.json",
     "routes": {
         "1": {
             "scheduleJson": "",
