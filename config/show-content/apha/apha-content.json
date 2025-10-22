@@ -1,7 +1,7 @@
 {
     "base" : {
         "title": "American Public Health Association",
-        "event-map": "<iframe src='https://www.rhodeplanning.com/content-unavailable' width='600' height='400'></iframe>"
+        "event-map": ""
     },
     "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1tDPPwcyzc2BGxzZUQHGkrKNBXBbnMWs&ehbc=2E312F",
     "flight-info": {
@@ -17,7 +17,7 @@
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
             "flyer": { 
                 "preview": "",
-                "pdf": ""
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
             },
             "sign" : {
                 "preview": "",
@@ -28,24 +28,24 @@
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                           
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=1001%2016th%20St.%20NW%2C%20Washington%2C%20DC%2C%2020036",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1001%2016th%20St.%20NW%2C%20Washington%2C%20DC%2C%2020036"
                     }
                 },
-                "2": {                       
+                "2": {                          
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                           
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=1177%2015th%20St.%20NW%2C%20Washington%2C%20DC%2C%2020005",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1177%2015th%20St.%20NW%2C%20Washington%2C%20DC%2C%2020005"
                     }
                 },
-                "3": {                          
+                "3": {                       
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                           
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=1127%20Connecticut%20Ave.%20NW%2C%20Washington%2C%20DC%2C%2020036",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1127%20Connecticut%20Ave.%20NW%2C%20Washington%2C%20DC%2C%2020036"
                     }
                 }
             }
@@ -54,8 +54,8 @@
           "stops": {
             "0": {
               "directions": {
-                "apple": "",
-                "google": ""
+                "apple": "https://maps.apple.com/?daddr=801%20Allen%20Y.%20Lew%20Place%20NW%2C%20Washington%2C%20DC%2C%2020001",
+                "google": "https://www.google.com/maps/dir/Current+Location/801%20Allen%20Y.%20Lew%20Place%20NW%2C%20Washington%2C%20DC%2C%2020001"
               }
             }
           }
