@@ -5,117 +5,117 @@
     "capital-hilton": {
       "name": "Capital Hilton",
       "map": "https://www.google.com/maps?q=Capital%20Hilton%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Capital Hilton (<1 min.)"
     },
 
     // STOP #2
     "mayflower-hotel": { 
       "name": "The Mayflower Hotel",
       "map": "https://www.google.com/maps?q=The%20Mayflower%20Hotel%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "The Mayflower Hotel (<1 min.)"
     },
 
     // STOP #3
     "le-meridien-washington": { 
-      "name": "Le MAcridien Washington",
+      "name": "Le Meridien Washington",
       "map": "https://www.google.com/maps?q=Le%20Meridien%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Le Méridien Washington (<1 min.)"
     },
 
   // ===== WALKING DISTANCE =====
     "ac-hotel-washington": {
       "name": "AC Hotel Washington",
       "map": "https://www.google.com/maps?q=AC%20Hotel%20Washington%20DC%20Convention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~8 mins.)"
     },
     "courtyard-convention-center": {
       "name": "",
       "map": "https://www.google.com/maps?q=Courtyard%20by%20Marriott%20Washington%20Downtown%2FConvention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~5 mins.)"
     },
     "embassy-suites-convention-center": {
       "name": "",
       "map": "https://www.google.com/maps?q=Embassy%20Suites%20by%20Hilton%20Washington%20DC%20Convention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~14 mins.)"
     },
     "fairfield-inn-suites-downtown": {
       "name": "",
       "map": "https://www.google.com/maps?q=Fairfield%20Inn%20%26%20Suites%20by%20Marriott%20Washington%2C%20DC%2FDowntown%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~12 mins.)"
     },
     "grand-hyatt-washington": {
       "name": "",
       "map": "https://www.google.com/maps?q=Grand%20Hyatt%20Washington%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~13 mins.)"
     },
     "hamilton-hotel": {
       "name": "",
       "map": "https://www.google.com/maps?q=Hamilton%20Hotel%20Washington%20DC%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~15 mins.)"
     },
     "hampton-inn-convention-center": {
       "name": "",
       "map": "https://www.google.com/maps?q=Hampton%20Inn%20Washington%2DDowntown%2DConvention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~12 mins.)"
     },
     "henley-park-hotel": {
       "name": "",
       "map": "https://www.google.com/maps?q=The%20Henley%20Park%20Hotel%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~5 mins.)"
     },
     "holiday-inn-express-downtown": {
       "name": "",
       "map": "https://www.google.com/maps?q=Holiday%20Inn%20Express%20Washington%20DC%20Downtown%2C%20an%20IHG%20Hotel%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~14 mins.)"
     },
     "homewood-suites-convention-center": {
       "name": "",
       "map": "https://www.google.com/maps?q=Homewood%20Suites%20by%20Hilton%20Washington%20DC%20Convention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~12 mins.)"
     },
     "hyatt-house-convention-center": {
       "name": "",
       "map": "https://www.google.com/maps?q=Hyatt%20Place%20Washington%20DC%2FConvention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~15 mins.)"
     },
     "marriott-marquis": {
       "name": "",
       "map": "https://www.google.com/maps?q=Marriott%20Marquis%20Washington%2C%20DC%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~2 mins.)"
     },
     "morrison-clark-historic-inn": {
       "name": "",
       "map": "https://www.google.com/maps?q=Morrison%2DClark%20Historic%20Inn%20%26%20Restaurant%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~5 mins.)"
     },
     "motto-city-center": {
       "name": "",
       "map": "https://www.google.com/maps?q=Motto%20by%20Hilton%20Washington%20DC%20City%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~12 mins.)"
     },
     "moxy-downtown": {
       "name": "",
       "map": "https://www.google.com/maps?q=Moxy%20Washington%2C%20DC%20Downtown%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~8 mins.)"
     },
     "residence-inn-convention-center": {
       "name": "",
       "map": "https://www.google.com/maps?q=Residence%20Inn%20Washington%20Downtown%2FConvention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~4 mins.)"
     },
     "marriott-metro-center": {
       "name": "",
       "map": "https://www.google.com/maps?q=Washington%20Marriott%20at%20Metro%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~14 mins.)"
     },
     "washington-plaza": {
       "name": "",
       "map": "https://www.google.com/maps?q=Washington%20Plaza%20Hotel%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~15 mins.)"
     },
     "westin-downtown": {
       "name": "",
       "map": "https://www.google.com/maps?q=The%20Westin%20Washington%2C%20DC%20Downtown%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": ""
+      "directionsText": "Walter E. Washington Conv. Ctr. (~4 mins.)"
     }
 }
