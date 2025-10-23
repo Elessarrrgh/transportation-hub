@@ -25,6 +25,8 @@
             },
             "stops": {
                 "1": { // Capital Hilton
+                    "stopName": "Capital Hilton",
+                    "boardingArea": "Front Entrance<br>Curbside on 16th St.",
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable", // TODO Route 1-1 Panorama
                     "directions" : {
@@ -33,6 +35,8 @@
                     }
                 },
                 "2": { // Le Méridien Washington
+                    "stopName": "Le Méridien<br>The Madison",
+                    "boardingArea": "Front Entrance<br>Curbside on 15th St.",
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable", // TODO Route 1-2 Panorama
                     "directions" : {
@@ -41,6 +45,8 @@
                     }
                 },
                 "3": { // The Mayflower Hotel
+                    "stopName": "The Mayflower Hotel",
+                    "boardingArea": "Desales St. Entrance",
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable", // TODO Route 1-3 Panorama
                     "directions" : {

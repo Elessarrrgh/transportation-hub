@@ -1,0 +1,6 @@
+// Main branch config for content loader
+window.__TH_CONFIG__ = {
+  repoOwner: "Elessarrrgh",
+  branch:    "main",
+  baseRaw:   "https://raw.githubusercontent.com"
+};
