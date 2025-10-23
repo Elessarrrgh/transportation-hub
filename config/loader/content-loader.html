@@ -117,6 +117,10 @@
             // Hotel Address
             const hotelAddressEls = document.querySelectorAll(".hotel-address");
             hotelAddressEls.forEach(el => { el.textContent = hotelData.address || ""; });
+
+            // Hotel Phone
+            const hotelPhoneEls = document.querySelectorAll(".hotel-phone");
+            hotelPhoneEls.forEach(el => { el.textContent = hotelData.phone || ""; });
             
             // Hotel Map Location
             const mapBody = document.querySelector("#hotel-map-accordion .accordion-body");

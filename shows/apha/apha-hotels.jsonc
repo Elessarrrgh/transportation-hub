@@ -4,6 +4,8 @@
     // STOP #1
     "capital-hilton": {
       "name": "Capital Hilton",
+      "address": "1001 16th St NW, Washington, DC 20036",
+      "phone": "(202) 393-1000",
       "map": "https://www.google.com/maps?q=Capital%20Hilton%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Capital Hilton (<1 min.)"
     },
@@ -11,6 +13,8 @@
     // STOP #2
     "mayflower-hotel": { 
       "name": "The Mayflower Hotel",
+      "address": "1127 Connecticut Ave NW, Washington, DC 20036",
+      "phone": "(202) 347-3000",
       "map": "https://www.google.com/maps?q=The%20Mayflower%20Hotel%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "The Mayflower Hotel (<1 min.)"
     },
@@ -18,6 +22,8 @@
     // STOP #3
     "le-meridien-washington": { 
       "name": "Le Meridien Washington",
+      "address": "1120 19th St NW, Washington, DC 20036",
+      "phone": "(202) 429-1700",
       "map": "https://www.google.com/maps?q=Le%20Meridien%20Washington%2C%20DC&output=embed",
       "directionsText": "Le Méridien Washington (<1 min.)"
     },
@@ -25,96 +31,134 @@
   // ===== WALKING DISTANCE =====
     "ac-hotel-washington": {
       "name": "AC Hotel Washington",
+      "address": "801 2nd St NW, Washington, DC 20001",
+      "phone": "(202) 639-4300",
       "map": "https://www.google.com/maps?q=AC%20Hotel%20Washington%20DC%20Convention%20Center%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~8 mins.)"
     },
     "courtyard-convention-center": {
-      "name": "",
+      "name": "Courtyard by Marriott Washington Downtown/Convention Center",
+      "address": "901 6th St NW, Washington, DC 20001",
+      "phone": "(202) 639-1300",
       "map": "https://www.google.com/maps?q=Courtyard%20by%20Marriott%20Washington%20Downtown%2FConvention%20Center%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~5 mins.)"
     },
     "embassy-suites-convention-center": {
-      "name": "",
+      "name": "Embassy Suites by Hilton Washington DC Convention Center",
+      "address": "900 10th St NW, Washington, DC 20001",
+      "phone": "(202) 739-2001",
       "map": "https://www.google.com/maps?q=Embassy%20Suites%20by%20Hilton%20Washington%20DC%20Convention%20Center%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~14 mins.)"
     },
     "fairfield-inn-suites-downtown": {
-      "name": "",
+      "name": "Fairfield Inn & Suites by Marriott Washington, DC/Downtown",
+      "address": "810 7th St NW, Washington, DC 20001",
+      "phone": "(202) 289-1700",
       "map": "https://www.google.com/maps?q=Fairfield%20Inn%20%26%20Suites%20by%20Marriott%20Washington%2C%20DC%2FDowntown%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~12 mins.)"
     },
     "grand-hyatt-washington": {
-      "name": "",
+      "name": "Grand Hyatt Washington",
+      "address": "1000 H St NW, Washington, DC 20001",
+      "phone": "(202) 582-1234",
       "map": "https://www.google.com/maps?q=Grand%20Hyatt%20Washington%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~13 mins.)"
     },
     "hamilton-hotel": {
-      "name": "",
+      "name": "Hamilton Hotel",
+      "address": "1001 14th St NW, Washington, DC 20005",
+      "phone": "(202) 628-2100",
       "map": "https://www.google.com/maps?q=Hamilton%20Hotel%20Washington%20DC%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~15 mins.)"
     },
     "hampton-inn-convention-center": {
-      "name": "",
+      "name": "Hampton Inn Washington-Downtown-Convention Center",
+      "address": "901 6th St NW, Washington, DC 20001",
+      "phone": "(202) 639-1600",
       "map": "https://www.google.com/maps?q=Hampton%20Inn%20Washington%2DDowntown%2DConvention%20Center%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~12 mins.)"
     },
     "henley-park-hotel": {
-      "name": "",
+      "name": "The Henley Park Hotel",
+      "address": "926 Massachusetts Ave NW, Washington, DC 20001",
+      "phone": "(202) 638-4400",
       "map": "https://www.google.com/maps?q=The%20Henley%20Park%20Hotel%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~5 mins.)"
     },
     "holiday-inn-express-downtown": {
-      "name": "",
+      "name": "Holiday Inn Express Washington DC Downtown, an IHG Hotel",
+      "address": "1001 K St NW, Washington, DC 20001",
+      "phone": "(202) 589-1300",
       "map": "https://www.google.com/maps?q=Holiday%20Inn%20Express%20Washington%20DC%20Downtown%2C%20an%20IHG%20Hotel%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~14 mins.)"
     },
     "homewood-suites-convention-center": {
-      "name": "",
+      "name": "Homewood Suites by Hilton Washington DC Convention Center",
+      "address": "921 6th St NW, Washington, DC 20001",
+      "phone": "(202) 639-2400",
       "map": "https://www.google.com/maps?q=Homewood%20Suites%20by%20Hilton%20Washington%20DC%20Convention%20Center%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~12 mins.)"
     },
     "hyatt-house-convention-center": {
-      "name": "",
+      "name": "Hyatt House Washington DC/Convention Center",
+      "address": "909 6th St NW, Washington, DC 20001",
+      "phone": "(202) 639-1234",
       "map": "https://www.google.com/maps?q=Hyatt%20Place%20Washington%20DC%2FConvention%20Center%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~15 mins.)"
     },
     "marriott-marquis": {
-      "name": "",
+      "name": "Marriott Marquis Washington, DC",
+      "address": "901 Massachusetts Ave NW, Washington, DC 20001",
+      "phone": "(202) 824-9200",
       "map": "https://www.google.com/maps?q=Marriott%20Marquis%20Washington%2C%20DC%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~2 mins.)"
     },
     "morrison-clark-historic-inn": {
-      "name": "",
+      "name": "Morrison-Clark Historic Inn & Restaurant",
+      "address": "1015 L St NW, Washington, DC 20001",
+      "phone": "(202) 347-4800",
       "map": "https://www.google.com/maps?q=Morrison%2DClark%20Historic%20Inn%20%26%20Restaurant%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~5 mins.)"
     },
     "motto-city-center": {
-      "name": "",
+      "name": "Motto by Hilton Washington DC City Center",
+      "address": "627 H St NW, Washington, DC 20001",
+      "phone": "(202) 621-6200",
       "map": "https://www.google.com/maps?q=Motto%20by%20Hilton%20Washington%20DC%20City%20Center%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~12 mins.)"
     },
     "moxy-downtown": {
-      "name": "",
+      "name": "Moxy Washington, DC Downtown",
+      "address": "733 10th St NW, Washington, DC 20001",
+      "phone": "(202) 639-7000",
       "map": "https://www.google.com/maps?q=Moxy%20Washington%2C%20DC%20Downtown%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~8 mins.)"
     },
     "residence-inn-convention-center": {
-      "name": "",
+      "name": "Residence Inn by Marriott Washington Downtown/Convention Center",
+      "address": "901 6th St NW, Washington, DC 20001",
+      "phone": "(202) 639-1300",
       "map": "https://www.google.com/maps?q=Residence%20Inn%20Washington%20Downtown%2FConvention%20Center%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~4 mins.)"
     },
     "marriott-metro-center": {
-      "name": "",
+      "name": "Washington Marriott at Metro Center",
+      "address": "775 12th St NW, Washington, DC 20005",
+      "phone": "(202) 737-2200",
       "map": "https://www.google.com/maps?q=Washington%20Marriott%20at%20Metro%20Center%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~14 mins.)"
     },
     "washington-plaza": {
-      "name": "",
+      "name": "Washington Plaza Hotel",
+      "address": "10 Thomas Circle NW, Washington, DC 20005",
+      "phone": "(202) 842-1300",
       "map": "https://www.google.com/maps?q=Washington%20Plaza%20Hotel%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~15 mins.)"
     },
     "westin-downtown": {
-      "name": "",
+      "name": "The Westin Washington, DC Downtown",
+      "address": "1400 M St NW, Washington, DC 20005",
+      "phone": "(202) 429-1700",
       "map": "https://www.google.com/maps?q=The%20Westin%20Washington%2C%20DC%20Downtown%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Walter E. Washington Conv. Ctr. (~4 mins.)"
     }
