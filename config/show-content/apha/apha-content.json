@@ -9,7 +9,7 @@
         "departures-widget": "",
         "travel-time": ""
     },
-    "hotelsJson": "",
+    "hotelsJson": "config/show-content/apha/apha-hotels.json",
     "scheduleJson": "config/show-content/apha/apha-schedule.json",
     "routes": {
         "1": {
