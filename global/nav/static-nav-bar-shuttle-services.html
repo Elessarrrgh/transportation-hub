@@ -1,0 +1,101 @@
+<nav id="hotel-nav" aria-label="Section navigation">
+  <ul>
+    <li><a href="#convention">
+      <img class="nav-icon-wide" src="https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/3171657b-8383-40a7-a1d8-0351c05abdb5/convention-icon.png?content-type=image%2Fpng" alt="" aria-hidden="true">
+      <span>Convention</span>
+    </a></li>
+    <li><a href="#hotels">
+      <img class="nav-icon" src="https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/48812ef1-55ab-47ab-8810-278cdb3a7b56/hotel-icon.png?content-type=image%2Fpng" alt="" aria-hidden="true">
+      <span>Hotels</span>
+    </a></li>
+    <li><a href="#map">
+      <img class="nav-icon" src="https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/5bce6dc1-2a8e-4e79-b2d7-09008f4b4ed4/map-icon.png?content-type=image%2Fpng" alt="" aria-hidden="true">
+      <span>Map</span>
+    </a></li>
+    <li><a href="#flyer">
+      <img class="nav-icon" src="https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/edb26452-d5a0-4539-ade3-f09abe816484/flyer-icon.png?content-type=image%2Fpng" alt="" aria-hidden="true">
+      <span>Flyer</span>
+    </a></li>
+  </ul>
+</nav>
+
+<style>
+/* Smooth anchor landings */
+html { scroll-behavior: smooth; }
+[id] { scroll-margin-top: 64px; }
+
+/* Wrapper (can be sticky or static) */
+#hotel-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  /* Full-bleed layout */
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding-left: env(safe-area-inset-left, 0px);
+  padding-right: env(safe-area-inset-right, 0px);
+
+  /* Visual cleanup */
+  background: var(--bg, #fff);
+  box-shadow: none;          /* ensures no drop shadow */
+  border: none;              /* removes default nav borders */
+  border-bottom: none;       /* kills subtle bottom line from templates */
+  outline: none;             /* prevents rendering edge */
+}
+
+
+/* Five equal columns that always fit the screen */
+#hotel-nav ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* <- change 5 if you change item count */
+  gap: 0;                  /* zero gaps = maximum real estate */
+  margin: 0;
+  padding: 6px 8px;        /* tiny edge breathing room */
+  list-style: none;
+}
+
+/* Ensure equal-width cells with centered content */
+#hotel-nav li{ min-width: 0; } /* allows text to shrink properly */
+#hotel-nav a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(2px, 0.9vw, 6px);
+  padding: clamp(6px, 1.8vw, 10px) clamp(2px, 1.2vw, 8px);
+  text-decoration: none;
+  color: var(--text, #111827);
+  font-weight: 600;
+  font-size: clamp(8px, 3.1vw, 10px);
+  line-height: 1.1;
+  border-radius: 10px;
+  white-space: nowrap;         /* keep labels on one line */
+  overflow: hidden;            /* prevent spillover */
+  text-overflow: ellipsis;     /* gracefully shorten very long labels */
+}
+
+#hotel-nav a:hover{ background: rgba(0,0,0,.045); }
+#hotel-nav a:focus-visible{ outline: 2px solid var(--brand, #1e3a8a); outline-offset: 2px; }
+#hotel-nav a.active{ background: var(--brand, #1e3a8a); color: #fff; }
+
+/* Icons scale with viewport but stay reasonable */
+#hotel-nav .nav-icon{
+  width: clamp(14px, 4vw, 18px);
+  height: clamp(14px, 4vw, 18px);
+  flex: 0 0 auto;
+}
+
+#hotel-nav .nav-icon-wide{
+  width: clamp(28px, 4vw, 36px);
+  height: clamp(14px, 4vw, 18px);
+  flex: 0 0 auto;
+}
+
+/* Safety: images can’t blow layout */
+#hotel-nav img{ max-width: 100%; height: auto; }
+
+/* If parent section has overflow hidden, let nav breathe */
+.sqs-section, .sqs-block-html, .sqs-block-content { overflow: visible !important; }
+</style>
