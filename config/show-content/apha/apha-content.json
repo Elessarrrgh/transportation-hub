@@ -16,15 +16,17 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
             "flyer": { 
-                "preview": "",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ea891bf-73ab-42cd-b069-6418ebbb18d2/apha-flyer-preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1be90d7-a016-40b8-8f3e-7c1aaa0c1fc1/apha2025-signage.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
             },
             "stops": {
                 "1": {                  
+                    "stopName": "Capital Hilton",
+                    "boardingArea": "Front Entrance<br>Curbside on 16th St.",
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                           
                     "directions" : {
@@ -33,6 +35,8 @@
                     }
                 },
                 "2": {                          
+                    "stopName": "Le Méridien<br>The Madison",
+                    "boardingArea": "Front Entrance<br>Curbside on 15th St.",
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                           
                     "directions" : {
@@ -41,6 +45,8 @@
                     }
                 },
                 "3": {                       
+                    "stopName": "The Mayflower Hotel",
+                    "boardingArea": "Desales St. Entrance",
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                           
                     "directions" : {
