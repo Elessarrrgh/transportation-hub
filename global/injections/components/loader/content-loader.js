@@ -156,7 +156,7 @@ async function loadEventContent() {
     // -------------------------------
     // Interactive Map Page
     // -------------------------------
-    if (window.location.pathname.includes("/interactive-map")) {
+    if (window.location.pathname.includes("/shuttles")) {
       const mapIframe = document.querySelector("iframe.rounded-iframe");
       if (mapIframe && showData["interactive-map"]) {
         mapIframe.src = resolve(showData["interactive-map"]);

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            /* Primary Styling */
+            html,body{
+                margin:0;padding:0
+            }
+            .wrap{
+                max-width:100%;
+                overflow-x:auto
+            }
+            /* Table Header Background */
+            .fids-widget .table thead th {
+                background-color: #343a40;
+                color: #ffffff !important;
+            }
+            /* Table Text Color */
+            .fids-widget .table, 
+            .fids-widget .table td, 
+            .fids-widget .table th {
+                color: #212529 !important;
+            }
+            /* Info Button Styles */
+            .fids-widget .btn-info {
+                background-color: #17a2b8 !important;
+                border-color: #117a8b !important;
+                color: #fff !important;
+            }
+            .fids-widget .btn-info:hover {
+                background-color: #138496 !important;
+            }
+            /* Removes Image and Header from Widget */
+            .fids-widget > div:first-child {
+                display: none !important;
+            }
+            /* Removes Powered By Text */
+            .fids-widget .powered-by {
+                display: none;
+            }
+            /* Badge Styles */
+            .fids-widget .badge.bg-primary { /* Scheduled */
+                background-color: #ffc107 !important;
+                color: #212529 !important;
+            }
+            .fids-widget .badge.bg-success { /* Active */
+                background-color: #28a745 !important;
+            }
+            .fids-widget .badge.bg-secondary { /* Landed */
+                background-color: #6c757d !important;
+            }
+            .fids-widget .badge.bg-danger { /* Cancelled */
+                background-color: #dc3545 !important;
+            }
+            .fids-widget .badge.bg-warning { /* Delayed */
+                background-color: #fd7e14 !important;
+            }
+            .fids-widget .badge.bg-light { /* Default */
+                background-color: #f8f9fa !important;
+                color: #212529 !important;
+            }
+            /* Font Style */
+            .fids-widget {
+                font-family: Poppins, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <script async src="https://fids.flightradar.live/widgets/airport/IAD/arrivals"></script>
+        </div>
+    </body>
+</html>

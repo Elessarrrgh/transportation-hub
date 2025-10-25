@@ -1,0 +1,95 @@
+<nav id="hotel-nav" aria-label="Section navigation">
+  <ul>
+    <li><a href="#arrivals">
+      <img class="nav-icon" src="https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/eb9dbb0e-43e5-427c-857d-978611301c54/arrivals-icon.png?content-type=image%2Fpng" alt="" aria-hidden="true">
+      <span>Arrivals</span>
+    </a></li>
+    <li><a href="#departures">
+      <img class="nav-icon" src="https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/56f3315a-dcc3-4a1a-9064-bb5c79bd6c42/departures-icon.png?content-type=image%2Fpng" alt="" aria-hidden="true">
+      <span>Departures</span>
+    </a></li>
+    <li><a href="#travel-time">
+      <img class="nav-icon" src="https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/4188913a-e16f-4041-a83e-2b6e613903a0/drive-time-icon.png?content-type=image%2Fpng" alt="" aria-hidden="true">
+      <span>Travel Time</span>
+    </a></li>
+    <li><a href="#search">
+      <img class="nav-icon" src="https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/03225aa5-db16-488a-83e2-387863e57580/search-icon.png?content-type=image%2Fpng" alt="" aria-hidden="true">
+      <span>Search</span>
+    </a></li>
+  </ul>
+</nav>
+
+<style>
+/* Smooth anchor landings */
+html { scroll-behavior: smooth; }
+[id] { scroll-margin-top: 64px; }
+
+/* Wrapper (can be sticky or static) */
+#hotel-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  /* Full-bleed layout */
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding-left: env(safe-area-inset-left, 0px);
+  padding-right: env(safe-area-inset-right, 0px);
+
+  /* Visual cleanup */
+  background: var(--bg, #fff);
+  box-shadow: none;          /* ensures no drop shadow */
+  border: none;              /* removes default nav borders */
+  border-bottom: none;       /* kills subtle bottom line from templates */
+  outline: none;             /* prevents rendering edge */
+}
+
+
+/* Five equal columns that always fit the screen */
+#hotel-nav ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* <- change 5 if you change item count */
+  gap: 0;                  /* zero gaps = maximum real estate */
+  margin: 0;
+  padding: 6px 8px;        /* tiny edge breathing room */
+  list-style: none;
+}
+
+/* Ensure equal-width cells with centered content */
+#hotel-nav li{ min-width: 0; } /* allows text to shrink properly */
+#hotel-nav a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(2px, 0.9vw, 6px);
+  padding: clamp(6px, 1.8vw, 10px) clamp(2px, 1.2vw, 8px);
+  text-decoration: none;
+  color: var(--text, #111827);
+  font-weight: 600;
+  font-size: clamp(8px, 3.1vw, 10px);
+  line-height: 1.1;
+  border-radius: 10px;
+  white-space: nowrap;         /* keep labels on one line */
+  overflow: hidden;            /* prevent spillover */
+  text-overflow: ellipsis;     /* gracefully shorten very long labels */
+}
+
+#hotel-nav a:hover{ background: rgba(0,0,0,.045); }
+#hotel-nav a:focus-visible{ outline: 2px solid var(--brand, #1e3a8a); outline-offset: 2px; }
+#hotel-nav a.active{ background: var(--brand, #1e3a8a); color: #fff; }
+
+/* Icons scale with viewport but stay reasonable */
+#hotel-nav .nav-icon{
+  width: clamp(14px, 4vw, 18px);
+  height: clamp(14px, 4vw, 18px);
+  flex: 0 0 auto;
+}
+
+/* Safety: images can’t blow layout */
+#hotel-nav img{ max-width: 100%; height: auto; }
+
+/* If parent section has overflow hidden, let nav breathe */
+.sqs-section, .sqs-block-html, .sqs-block-content { overflow: visible !important; }
+</style>
