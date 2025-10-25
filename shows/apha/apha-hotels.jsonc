@@ -30,21 +30,21 @@
 
   // ===== WALKING DISTANCE =====
     "ac-hotel-convention-center": {
-      "name": "AC Hotel Convention Center",
+      "name": "AC Hotel Conv. Center",
       "address": "801 2nd St NW<br>Washington, DC 20001",
       "phone": "(202) 639-4300",
       "map": "https://www.google.com/maps?q=AC%20Hotel%20Washington%20DC%20Convention%20Center%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Washington Conv. Ctr. (~8 mins.)"
     },
     "courtyard-marriott-convention-center": {
-      "name": "Courtyard by Marriott Convention Ctr",
+      "name": "Courtyard by Marriott Conv. Center",
       "address": "901 6th St NW, Washington<br>DC 20001",
       "phone": "(202) 639-1300",
       "map": "https://www.google.com/maps?q=Courtyard%20by%20Marriott%20Washington%20Downtown%2FConvention%20Center%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Washington Conv. Ctr. (~5 mins.)"
     },
     "embassy-suites-convention-center": {
-      "name": "Embassy Suites Convention Ctr",
+      "name": "Embassy Suites Conv. Center",
       "address": "900 10th St NW<br>Washington, DC 20001",
       "phone": "(202) 739-2001",
       "map": "https://www.google.com/maps?q=Embassy%20Suites%20by%20Hilton%20Washington%20DC%20Convention%20Center%2C%20Washington%2C%20DC&output=embed",
@@ -72,7 +72,7 @@
       "directionsText": "Washington Conv. Ctr. (~15 mins.)"
     },
     "hampton-inn-convention-center": {
-      "name": "Hampton Inn Convention Ctr",
+      "name": "Hampton Inn Conv. Center",
       "address": "901 6th St NW<br>Washington, DC 20001",
       "phone": "(202) 639-1600",
       "map": "https://www.google.com/maps?q=Hampton%20Inn%20Washington%2DDowntown%2DConvention%20Center%2C%20Washington%2C%20DC&output=embed",
@@ -93,14 +93,14 @@
       "directionsText": "Washington Conv. Ctr. (~14 mins.)"
     },
     "homewood-suites-convention-center": {
-      "name": "Homewood Suites Convention Ctr",
+      "name": "Homewood Suites Conv. Center",
       "address": "921 6th St NW<br>Washington, DC 20001",
       "phone": "(202) 639-2400",
       "map": "https://www.google.com/maps?q=Homewood%20Suites%20by%20Hilton%20Washington%20DC%20Convention%20Center%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "Washington Conv. Ctr. (~12 mins.)"
     },
     "hyatt-house-convention-center": {
-      "name": "Hyatt House Convention Ctr",
+      "name": "Hyatt House Conv. Center",
       "address": "909 6th St NW<br>Washington, DC 20001",
       "phone": "(202) 639-1234",
       "map": "https://www.google.com/maps?q=Hyatt%20Place%20Washington%20DC%2FConvention%20Center%2C%20Washington%2C%20DC&output=embed",
@@ -135,7 +135,7 @@
       "directionsText": "Washington Conv. Ctr. (~8 mins.)"
     },
     "residence-inn-convention-center": {
-      "name": "Residence Inn Convention Ctr",
+      "name": "Residence Inn Conv. Center",
       "address": "901 6th St NW<br>Washington, DC 20001",
       "phone": "(202) 639-1300",
       "map": "https://www.google.com/maps?q=Residence%20Inn%20Washington%20Downtown%2FConvention%20Center%2C%20Washington%2C%20DC&output=embed",
