@@ -5,7 +5,7 @@
     },
     "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1tDPPwcyzc2BGxzZUQHGkrKNBXBbnMWs&ehbc=2E312F",
     "flight-info": {
-        "arrivals-widget": "",
+        "arrivals-widget": "",                         
         "departures-widget": "",
         "travel-time": ""
     },
