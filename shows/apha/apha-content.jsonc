@@ -5,7 +5,7 @@
     },
     "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1tDPPwcyzc2BGxzZUQHGkrKNBXBbnMWs&ehbc=2E312F",
     "flight-info": {
-        "arrivals-widget": "",
+        "arrivals-widget": "", // Update for 3 airports
         "departures-widget": "",
         "travel-time": ""
     },
@@ -28,30 +28,30 @@
                     "stopName": "Capital Hilton",
                     "boardingArea": "Front Entrance<br>Curbside on 16th St.",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", // TODO Route 1-1 Panorama
+                    "panorama": "https://momento360.com/e/u/8cc5cb91250f424f841caf2890d68663?utm_campaign=embed&utm_source=other&heading=-5.5&pitch=-0.2&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=1001%2016th%20St.%20NW%2C%20Washington%2C%20DC%2C%2020036",
                         "google": "https://www.google.com/maps/dir/Current+Location/1001%2016th%20St.%20NW%2C%20Washington%2C%20DC%2C%2020036"
                     }
                 },
-                "2": { // Le Méridien Washington
-                    "stopName": "Le Méridien<br>The Madison",
-                    "boardingArea": "Front Entrance<br>Curbside on 15th St.",
-                    "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", // TODO Route 1-2 Panorama
-                    "directions" : {
-                        "apple": "https://maps.apple.com/?daddr=1177%2015th%20St.%20NW%2C%20Washington%2C%20DC%2C%2020005",
-                        "google": "https://www.google.com/maps/dir/Current+Location/1177%2015th%20St.%20NW%2C%20Washington%2C%20DC%2C%2020005"
-                    }
-                },
-                "3": { // The Mayflower Hotel
+                "2": { // The Mayflower Hotel
                     "stopName": "The Mayflower Hotel",
                     "boardingArea": "Desales St. Entrance",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", // TODO Route 1-3 Panorama
+                    "panorama": "https://momento360.com/e/u/d33b38a466b04b04b33ba7094d1ef6ea?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=1127%20Connecticut%20Ave.%20NW%2C%20Washington%2C%20DC%2C%2020036",
                         "google": "https://www.google.com/maps/dir/Current+Location/1127%20Connecticut%20Ave.%20NW%2C%20Washington%2C%20DC%2C%2020036"
+                    }
+                },
+                "3": { // Le Méridien Washington
+                    "stopName": "Le Méridien<br>The Madison",
+                    "boardingArea": "Front Entrance<br>Curbside on 15th St.",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/1a677eb479784099abf9a16bf11b54b8?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=1177%2015th%20St.%20NW%2C%20Washington%2C%20DC%2C%2020005",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1177%2015th%20St.%20NW%2C%20Washington%2C%20DC%2C%2020005"
                     }
                 }
             }
