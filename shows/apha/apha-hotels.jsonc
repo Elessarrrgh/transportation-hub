@@ -11,21 +11,21 @@
     },
 
     // STOP #2
-    "le-meridien-madison": { 
-      "name": "Le Méridien<br>The Madison",
-      "address": "1120 19th St NW<br>Washington, DC 20036",
-      "phone": "(202) 429-1700",
-      "map": "https://www.google.com/maps?q=Le%20Meridien%20Washington%2C%20DC&output=embed",
-      "directionsText": "Le Méridien - The Madison (<1 min.)"
-    },
-
-    // STOP #3
     "mayflower-hotel": { 
       "name": "The Mayflower Hotel",
       "address": "1127 Connecticut Ave NW<br>Washington, DC 20036",
       "phone": "(202) 347-3000",
       "map": "https://www.google.com/maps?q=The%20Mayflower%20Hotel%2C%20Washington%2C%20DC&output=embed",
       "directionsText": "The Mayflower Hotel (<1 min.)"
+    },
+
+    // STOP #3
+    "le-meridien-madison": { 
+      "name": "Le Méridien<br>The Madison",
+      "address": "1120 19th St NW<br>Washington, DC 20036",
+      "phone": "(202) 429-1700",
+      "map": "https://www.google.com/maps?q=Le%20Meridien%20Washington%2C%20DC&output=embed",
+      "directionsText": "Le Méridien - The Madison (<1 min.)"
     },
 
   // ===== WALKING DISTANCE =====
