@@ -63,7 +63,7 @@
 </script>
 
 <script>
-  // CONTENT LOADER
+// CONTENT LOADER
 // Fallbacks if bootstrap hasn't loaded for some reason
 const __TH_FALLBACK__ = {
   json: (p) => p,
@@ -221,7 +221,7 @@ async function loadEventContent() {
     // -------------------------------
     // Interactive Map Page
     // -------------------------------
-    if (window.location.pathname.includes("/interactive-map")) {
+    if (window.location.pathname.includes("/shuttles")) {
       const mapIframe = document.querySelector("iframe.rounded-iframe");
       if (mapIframe && showData["interactive-map"]) {
         mapIframe.src = resolve(showData["interactive-map"]);
@@ -229,26 +229,110 @@ async function loadEventContent() {
     }
 
     // -------------------------------
-    // Flight Info Page
+    // Flight Info Page (multi-airport; srcdoc loader; no accordion toggling)
     // -------------------------------
     if (window.location.pathname.includes("/flight-info")) {
-      const flightInfo = showData["flight-info"];
-      if (flightInfo) {
-        const arrivalsIframe = document.querySelector("#arrivals-accordion iframe");
-        if (arrivalsIframe && flightInfo["arrivals-widget"]) {
-          arrivalsIframe.src = resolve(flightInfo["arrivals-widget"]);
+      (function initFlightBoardsPassive() {
+        // Build a tiny HTML document for each iframe that bootstraps the vendor script.
+        function buildSrcdoc({ airport, board }) {
+          return `<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+      html,body{margin:0;padding:0;background:#fff;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+      .wrap{max-width:100%;overflow-x:auto}
+    </style>
+    </head>
+    <body>
+      <div class="wrap"></div>
+      <script>
+        (function(){
+          var s=document.createElement('script');
+          s.src="https://fids.flightradar.live/static/js/flight-status-min.js";
+          s.async=true;
+          s.setAttribute('data-iata_code', ${JSON.stringify(airport)});
+          s.setAttribute('data-flight_type', ${JSON.stringify(board)});
+          document.body.appendChild(s);
+        })();
+      <\/script>
+    </body>
+    </html>`;
         }
 
-        const departuresIframe = document.querySelector("#departures-accordion iframe");
-        if (departuresIframe && flightInfo["departures-widget"]) {
-          departuresIframe.src = resolve(flightInfo["departures-widget"]);
+        function ensureIframeLoaded(iframe) {
+          if (!iframe || iframe.dataset.loaded === '1') return;
+          const airport = (iframe.dataset.airport || '').trim().toUpperCase();
+          const board   = (iframe.dataset.board   || 'arrivals').trim().toLowerCase();
+          if (!airport || !/^[A-Z0-9]{3,4}$/.test(airport)) return;
+          if (!['arrivals','departures'].includes(board))   return;
+
+          const html = buildSrcdoc({ airport, board });
+
+          // Prefer srcdoc; fall back to Blob URL if needed.
+          try {
+            iframe.srcdoc = html;
+            iframe.dataset.loaded = '1';
+          } catch {
+            try {
+              const blob = new Blob([html], { type: 'text/html' });
+              const url  = URL.createObjectURL(blob);
+              iframe.src = url;
+              iframe.dataset.loaded = '1';
+              iframe.addEventListener('load', () => URL.revokeObjectURL(url), { once: true });
+            } catch (err) {
+              console.error('Flight widget injection failed:', err);
+            }
+          }
+          if (iframe.dataset.height) iframe.height = iframe.dataset.height;
         }
 
-        const travelIframe = document.querySelector("iframe.airport-travel-preview");
-        if (travelIframe && flightInfo["travel-time"]) {
-          travelIframe.src = resolve(flightInfo["travel-time"]);
+        // Load when the iframe is near the viewport.
+        const io = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) ensureIframeLoaded(entry.target);
+          });
+        }, { rootMargin: '200px 0px' });
+
+        // Observe any flight iframes currently in the DOM.
+        const selector = 'iframe.flight-iframe[data-airport][data-board]';
+        document.querySelectorAll(selector).forEach(f => io.observe(f));
+
+        // Also load when an accordion becomes "open" (footer script controls the class).
+        const mo = new MutationObserver(mutations => {
+          for (const m of mutations) {
+            if (m.type === 'attributes' && m.attributeName === 'class') {
+              const container = m.target;
+              if (container.classList.contains('open')) {
+                container.querySelectorAll(selector).forEach(ensureIframeLoaded);
+              }
+            } else if (m.type === 'childList') {
+              m.addedNodes.forEach(node => {
+                if (!(node instanceof Element)) return;
+                if (node.matches?.('.accordion-container.open')) {
+                  node.querySelectorAll(selector).forEach(ensureIframeLoaded);
+                } else {
+                  node.querySelectorAll?.('.accordion-container.open ' + selector)
+                    .forEach(ensureIframeLoaded);
+                }
+              });
+            }
+          }
+        });
+        mo.observe(document.body, { attributes: true, childList: true, subtree: true, attributeFilter: ['class'] });
+
+        // --- Backward compatibility (single arrivals/departures iframes via JSON) ---
+        const flightInfo = window.eventScheduleData?.["flight-info"];
+        if (flightInfo) {
+          const res = (window.__TH_ENDPOINTS__?.resolve || (p=>p));
+          const legacyArr = document.querySelector("#arrivals-accordion iframe:not(.flight-iframe)");
+          if (legacyArr && flightInfo["arrivals-widget"]) legacyArr.src = res(flightInfo["arrivals-widget"]);
+          const legacyDep = document.querySelector("#departures-accordion iframe:not(.flight-iframe)");
+          if (legacyDep && flightInfo["departures-widget"]) legacyDep.src = res(flightInfo["departures-widget"]);
+          const travelIframe = document.querySelector("iframe.airport-travel-preview");
+          if (travelIframe && flightInfo["travel-time"]) travelIframe.src = res(flightInfo["travel-time"]);
         }
-      }
+      })();
     }
 
     // -------------------------------
