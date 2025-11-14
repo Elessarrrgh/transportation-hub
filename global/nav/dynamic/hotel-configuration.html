@@ -1,0 +1,36 @@
+<script>
+// Icons specific to hotels collection only:
+window.TH_NAV_VARIANTS = {
+  shuttle: [
+    { id:"#shuttle",    label:"Shuttle Info", icon:"https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/bbff25a9-f8f6-48fd-9971-82c83a84fa63/bus-icon.png?content-type=image%2Fpng" },
+    { id:"#stop",       label:"Stop Info",    icon:"https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/4851a3bd-f70a-4025-8b61-1abf053be1dc/shuttle-stop-bus-icon.png?content-type=image%2Fpng" },
+    { id:"#schedule",   label:"Schedule",     icon:"https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/0a8ab806-7ef5-4f6f-a844-50dd9d6513e2/schedule-icon.png?content-type=image%2Fpng" },
+    { id:"#hotel",      label:"Hotel Info",   icon:"https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/48812ef1-55ab-47ab-8810-278cdb3a7b56/hotel-icon.png?content-type=image%2Fpng" },
+    { id:"#support",    label:"Support",      icon:"https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8cb25285-b9e4-4ba3-9c3e-c6fc5bac327b/help-icon.png?content-type=image%2Fpng" }
+  ],
+  walking: [
+    { id:"#directions", label:"Directions",  icon: "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/ffd9bd07-c280-4ca2-8d6e-f3a24156b181/directions-icon.png?content-type=image%2Fpng" },
+    { id:"#hotel",      label:"Hotel Info",  icon:"https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/48812ef1-55ab-47ab-8810-278cdb3a7b56/hotel-icon.png?content-type=image%2Fpng" },
+    { id:"#support",    label:"Support",     icon:"https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8cb25285-b9e4-4ba3-9c3e-c6fc5bac327b/help-icon.png?content-type=image%2Fpng" }
+  ]
+};
+
+window.TH_DETECT_VARIANT = () => {
+  const parts = location.pathname.toLowerCase().split('/').filter(Boolean);
+  const idx = parts.indexOf('hotels');
+  let routeSeg = null, stopSeg = null;
+
+  if (idx >= 0) {
+    routeSeg = parts[idx + 1] || null;  // "w" or a number string
+    stopSeg  = parts[idx + 2] || null;
+  }
+  if (routeSeg) document.body.classList.add(`route-${routeSeg}`);
+  if (stopSeg)  document.body.classList.add(`stop-${stopSeg}`);
+
+  const qs = new URLSearchParams(location.search);
+  const override = qs.get('variant');
+  if (override === 'walking' || override === 'shuttle') return override;
+
+  return routeSeg === 'w' ? 'walking' : 'shuttle';
+};
+</script>

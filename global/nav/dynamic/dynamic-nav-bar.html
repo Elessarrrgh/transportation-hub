@@ -1,0 +1,425 @@
+<!-- OPTIONAL: hide Squarespace default header/footer for this collection -->
+<style>
+  .header, #footer-sections { 
+    display:none !important;
+  }
+  .item-pagination {
+    display:none !important;
+  }
+</style>
+
+<!-- ========= GENERIC LIVE HEADER + NAV ========= -->
+<header id="th-header" role="banner" aria-label="Page navigation header"
+        data-nav-variant="auto"
+        data-nav-style="grid"
+        data-fallback-url="/transportation">
+  <div class="th-toolbar">
+    <button class="th-back-btn" type="button" aria-label="Go back">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+        <path d="M15.5 19.5L8 12l7.5-7.5" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span class="th-back-label">Back</span>
+    </button>
+    <div class="th-title" aria-live="polite" aria-atomic="true"></div>
+    <div class="th-toolbar-spacer" aria-hidden="true"></div>
+  </div>
+
+  <nav id="th-nav" aria-label="Section navigation">
+    <ul><!-- items injected by script --></ul>
+  </nav>
+</header>
+
+<style>
+/* ===== Tokens (tweak per show or move to sitewide CSS later) ===== */
+:root{
+  --toolbar-h:44px;            /* mini toolbar height */
+  --nav-h:60px;                /* scroller nav height */
+  --header-shadow:0 1px 0 rgba(0,0,0,.06),0 4px 12px rgba(0,0,0,.04);
+  --border:#e6e6e6;
+  --bg:#fff;
+  --text:#222;
+  --muted:#666;
+  --brand:#0077cc;
+  --brand-contrast:#fff;
+}
+
+/* Smooth anchors; JS will keep scroll-padding in sync with header height */
+html{ scroll-behavior:smooth; scroll-padding-top:calc(var(--toolbar-h)+var(--nav-h)+8px); }
+
+/* Body padding is set precisely by JS after header renders */
+body{
+  padding-top: 0;
+}
+
+/* ===== Fixed header ===== */
+#th-header{
+  position:fixed; top:0; left:0; right:0;
+  background:var(--bg);
+  z-index:9999;
+  box-shadow:var(--header-shadow);
+  font-family:inherit;
+}
+
+/* Toolbar row */
+#th-header .th-toolbar{
+  display:grid; grid-template-columns:auto 1fr auto;
+  align-items:center;
+  height:var(--toolbar-h);
+  padding:0 8px;
+  border-bottom:1px solid var(--border);
+}
+#th-header .th-back-btn{
+  display:inline-flex; align-items:center; gap:6px;
+  padding:6px 8px; background:transparent; border:0;
+  color:var(--text); cursor:pointer; border-radius:8px;
+}
+#th-header .th-back-btn:hover{ background:rgba(0,0,0,.04); }
+#th-header .th-back-btn:focus-visible{ outline:2px solid var(--brand); outline-offset:2px; }
+#th-header .th-back-label{ font-size:13px; color:var(--muted); }
+#th-header .th-title{
+  text-align:center; font-weight:600; font-size:15px; color:var(--text);
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; padding:0 6px;
+}
+#th-header .th-toolbar-spacer{ width:56px; }
+
+/* Nav row */
+#th-nav{ height:var(--nav-h); background:var(--bg); }
+#th-nav ul{
+  display:flex; align-items:center; gap:8px;
+  justify-content:center;             /* center when items fit */
+  overflow-x:auto; margin:0; padding:6px 8px; list-style:none;
+  scrollbar-width:none; -webkit-overflow-scrolling:touch;
+  scroll-snap-type:x proximity;       /* optional: nice feel */
+}
+#th-nav ul::-webkit-scrollbar{ display:none; }
+#th-nav li{ flex:0 0 auto; scroll-snap-align:center; }
+#th-nav a{
+  display:inline-flex; flex-direction:column; align-items:center; gap:4px;
+  text-decoration:none; color:var(--text); font-weight:500; font-size:12px;
+  padding:6px 10px; border-radius:10px;
+}
+#th-nav a:focus-visible{ outline:2px solid var(--brand); outline-offset:2px; }
+#th-nav a.active{ background:var(--brand); color:var(--brand-contrast); }
+#th-nav .nav-icon{ width:18px; height:18px; display:block; }
+#th-nav .nav-icon-wide{width:36px; height:18px; display:block; }
+
+/* Anchor targets stop below header (JS also adjusts at runtime) */
+section[id]{ scroll-margin-top:calc(var(--toolbar-h)+var(--nav-h)+8px); }
+
+/* Accessibility: honor reduced motion */
+@media (prefers-reduced-motion:reduce){
+  html{ scroll-behavior:auto; }
+}
+
+/* ========= GRID NAV STYLE (optional per page via data-nav-style="grid") ========= */
+
+#th-header[data-nav-style="grid"] #th-nav ul {
+  display: grid;
+  /* The JS will calculate the correct column count dynamically */
+  grid-template-columns: var(--th-grid-cols, repeat(4, 1fr));
+  gap: 0;
+  margin: 0;
+  padding: 6px 8px;
+  list-style: none;
+  overflow: visible;
+}
+
+#th-header[data-nav-style="grid"] #th-nav li {
+  min-width: 0;
+}
+
+#th-header[data-nav-style="grid"] #th-nav a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(2px, 0.9vw, 6px);
+  padding: clamp(6px, 1.8vw, 10px) clamp(2px, 1.2vw, 8px);
+  text-decoration: none;
+  color: var(--text, #111827);
+  font-weight: 600;
+  font-size: clamp(8px, 3.1vw, 10px);
+  line-height: 1.1;
+  border-radius: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#th-header[data-nav-style="grid"] #th-nav a.active {
+  background: var(--brand, #1e3a8a);
+  color: #fff;
+}
+
+#th-header[data-nav-style="grid"] #th-nav .nav-icon {
+  width: clamp(14px, 4vw, 18px);
+  height: clamp(14px, 4vw, 18px);
+}
+
+#th-header[data-nav-style="grid"] #th-nav .nav-icon-wide {
+  width: clamp(28px, 4vw, 36px);
+  height: clamp(14px, 4vw, 18px);
+}
+
+#th-header[data-nav-style="grid"] #th-nav img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  /* ===== CONFIG CONTRACT =====================================
+     Provide per-collection / per-page configuration via:
+     
+     window.TH_NAV_VARIANTS = {
+       "<variantName>": [
+         { id:"#sectionId", label:"Label", icon:"https://..." | null },
+         ...
+       ]
+     };
+
+     Variant resolution order:
+     1) <header id="th-header" data-nav-variant="shuttle">   (if not "auto")
+     2) window.TH_DETECT_VARIANT() -> "someKey" (if defined)
+     3) "default"
+  ============================================================ */
+
+  const NAV_VARIANTS = window.TH_NAV_VARIANTS || {};
+  const detectVariantExternal = typeof window.TH_DETECT_VARIANT === "function"
+    ? window.TH_DETECT_VARIANT
+    : null;
+
+  const headerEl = document.getElementById("th-header");
+  const navList  = document.querySelector("#th-nav ul");
+  if (!headerEl || !navList) return;
+
+  /* ===== Variant resolution ===== */
+  const resolveVariant = () => {
+    const attrVariant = (headerEl.getAttribute("data-nav-variant") || "").trim().toLowerCase();
+    if (attrVariant && attrVariant !== "auto") return attrVariant;
+
+    if (detectVariantExternal) {
+      const v = (detectVariantExternal() || "").toString().trim();
+      if (v) return v;
+    }
+
+    return "default";
+  };
+
+  /* ===== Build navbar items for chosen variant ===== */
+  const buildNavbar = (variantKey) => {
+    // Helper class on body for styling if you want
+    document.body.classList.remove(
+      ...Array.from(document.body.classList).filter(c => c.startsWith("th-variant-"))
+    );
+    document.body.classList.add(`th-variant-${variantKey}`);
+
+    const def = NAV_VARIANTS[variantKey] || [];
+    navList.innerHTML = "";
+
+    const used = [];
+    for (const item of def) {
+      const target = document.querySelector(item.id);
+      if (!target) continue; // skip if section not present
+
+      const li = document.createElement("li");
+      const a  = document.createElement("a");
+      a.href   = item.id;
+
+      if (item.icon) {
+        const img = document.createElement("img");
+        img.className = item.wide ? "nav-icon-wide" : "nav-icon";
+        img.alt = "";
+        img.setAttribute("aria-hidden","true");
+        img.src = item.icon;
+        a.appendChild(img);
+      }
+
+
+      const span = document.createElement("span");
+      span.textContent = item.label;
+      a.appendChild(span);
+
+      li.appendChild(a);
+      navList.appendChild(li);
+
+      used.push({ id: item.id, el: target, link: a });
+    }
+    return used;
+  };
+
+  /* ===== Back button ===== */
+  const backBtn = headerEl.querySelector(".th-back-btn");
+  const fallbackURL = headerEl.getAttribute("data-fallback-url") || "/";
+
+  if (backBtn) {
+    backBtn.addEventListener("click", () => {
+      if (window.history.length > 1) history.back();
+      else window.location.href = fallbackURL;
+    });
+  }
+
+  /* ===== Title auto-detect (Squarespace-friendly) ===== */
+  const titleEl = headerEl.querySelector(".th-title");
+  if (titleEl) {
+    const candidates = [
+      '[data-content-field="title"]',
+      '.BlogItem-title',
+      '.Entry-title',
+      'h1[itemprop="headline"]',
+      'h1[data-collection-title]',
+      'h1'
+    ];
+    let titleText = "";
+    for (const sel of candidates) {
+      const n = document.querySelector(sel);
+      if (n && n.textContent.trim()) { titleText = n.textContent.trim(); break; }
+    }
+    if (!titleText) {
+      const parts = (document.title || "").split(/\s[—–|•]\s/);
+      titleText = (parts[0] || "Page").trim();
+    }
+    titleEl.textContent = titleText;
+  }
+
+  /* ===== Render navbar for this page ===== */
+  let currentVariant = resolveVariant();
+  let sections = buildNavbar(currentVariant); // [{id, el, link}, ...]
+
+  // Auto-size grid columns if using grid mode
+  if (headerEl.getAttribute("data-nav-style") === "grid") {
+    const colCount = sections.length;
+    document.documentElement.style.setProperty(
+      "--th-grid-cols",
+      `repeat(${colCount}, 1fr)`
+    );
+  }
+
+  let navLinks = sections.map(s => s.link);
+  if (!navLinks.length) return;
+
+  /* ===== Header offset + padding ===== */
+  const getHeaderOffset = () => {
+    const cs = getComputedStyle(document.documentElement);
+    const toolbarH = parseFloat(cs.getPropertyValue('--toolbar-h')) || 44;
+    const navH     = parseFloat(cs.getPropertyValue('--nav-h')) || 44;
+    return Math.round(toolbarH + navH);
+  };
+
+  const setBodyPadding = () => {
+    const h = headerEl.getBoundingClientRect().height;
+    document.body.style.paddingTop = `${Math.ceil(h)}px`;
+    document.documentElement.style.scrollPaddingTop = `${Math.ceil(h) + 8}px`;
+    document.querySelectorAll("section[id]").forEach(sec => {
+      sec.style.scrollMarginTop = `${Math.ceil(h) + 8}px`;
+    });
+  };
+  setBodyPadding();
+  window.addEventListener("resize", setBodyPadding);
+
+  /* ===== Scroll-spy (midpoint range) + anti-flicker pin ===== */
+  let ids = [], tops = [], mids = [];
+
+  const measure = () => {
+    const headerOffset = getHeaderOffset();
+    const data = sections.map(({ id, el }) => ({
+      id,
+      top: Math.floor(el.getBoundingClientRect().top + window.pageYOffset - headerOffset)
+    })).sort((a,b) => a.top - b.top);
+
+    ids  = data.map(d => d.id);
+    tops = data.map(d => d.top);
+
+    mids = [];
+    for (let i = 0; i < tops.length - 1; i++) {
+      mids.push((tops[i] + tops[i+1]) / 2);
+    }
+  };
+
+  const setActive = (id) => {
+    navLinks.forEach(a => a.classList.toggle("active", a.getAttribute("href") === id));
+  };
+
+  // Pinning to prevent flicker during smooth scroll
+  let pinId = null, pinTargetTop = null, pinUntil = 0;
+  const near = (a, b, eps = 6) => Math.abs(a - b) <= eps;
+  const now  = () => performance.now();
+  const pinActive = (id, targetTop, ms = 1200) => {
+    pinId = id; pinTargetTop = targetTop; pinUntil = now() + ms; setActive(id);
+  };
+  const unpinActive = () => { pinId = pinTargetTop = null; pinUntil = 0; };
+
+  ['wheel','touchstart','keydown','mousedown'].forEach(evt =>
+    window.addEventListener(evt, unpinActive, { passive:true })
+  );
+  if ('onscrollend' in window) window.addEventListener('scrollend', unpinActive);
+
+  let ticking = false;
+  const onScroll = () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      if (pinId) {
+        const y = window.pageYOffset;
+        if ((pinTargetTop != null && near(y, pinTargetTop)) || now() > pinUntil) {
+          unpinActive();
+        } else {
+          setActive(pinId);
+          ticking = false; return;
+        }
+      }
+      if (!ids.length) { ticking = false; return; }
+
+      const y = window.pageYOffset;
+      let idx = 0;
+      while (idx < mids.length && y >= mids[idx]) idx++;
+      setActive(ids[idx]);
+      ticking = false;
+    });
+  };
+
+  // Intercept clicks: smooth scroll + pin
+  const wireNavClicks = () => {
+    navLinks.forEach(a => {
+      a.addEventListener("click", (e) => {
+        const id = a.getAttribute("href");
+        const target = document.querySelector(id);
+        if (!target) return;
+        e.preventDefault();
+
+        const headerOffset = getHeaderOffset();
+        const targetTop = Math.floor(
+          target.getBoundingClientRect().top + window.pageYOffset - headerOffset
+        );
+
+        pinActive(id, targetTop);
+        window.scrollTo({ top: targetTop, behavior:'smooth' });
+      });
+    });
+  };
+  wireNavClicks();
+
+  // Initial measure + listeners
+  measure(); onScroll();
+  window.addEventListener("scroll", onScroll, { passive:true });
+  window.addEventListener("resize", () => { measure(); onScroll(); });
+  window.addEventListener("load",  () => { setBodyPadding(); measure(); onScroll(); });
+
+  // Hook for dynamic content changes (e.g., accordions opening)
+  window.TH_remeasureNavSpy = () => { setBodyPadding(); measure(); onScroll(); };
+
+  // Hook for loaders that re-render content (e.g., your hotel loader)
+  document.addEventListener("th:content-ready", () => {
+    currentVariant = resolveVariant();
+    sections = buildNavbar(currentVariant);
+    navLinks = sections.map(s => s.link);
+    setBodyPadding(); measure(); onScroll();
+    wireNavClicks();
+  });
+});
+</script>
+<!-- ========= /GENERIC LIVE HEADER + NAV ========= -->

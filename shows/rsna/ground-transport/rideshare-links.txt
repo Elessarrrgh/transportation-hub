@@ -1,0 +1,20 @@
+<===== SOUTH BUILDING =====>
+
+Uber Hyperlink:
+https://m.uber.com/ul/?action=setPickup&pickup[latitude]=41.84978848939296&pickup[longitude]=-87.61556812161965&pickup[nickname]=McCormick%20Place%20-%20South%20Building&pickup[formatted_address]=2301%20S%20Martin%20Luther%20King%20Dr,%20Chicago,%20IL%2060616
+
+
+
+Lyft Hyperlink:
+https://lyft.com/ride?id=lyft&pickup[latitude]=41.84978848939296&pickup[longitude]=-87.61556812161965&pickup[address]=2301%20S%20Martin%20Luther%20King%20Dr%20Chicago%20IL%2060616
+
+
+
+<===== LAKESIDE CENTER =====>
+
+Uber Hyperlink:
+https://m.uber.com/ul/?action=setPickup&pickup[latitude]=41.852481693724016&pickup[longitude]=-87.61184521557428&pickup[nickname]=McCormick%20Place%20-%20Lakeside%20Center&pickup[formatted_address]=2301%20S%20DuSable%20Lake%20Shore%20Dr,%20Chicago,%20IL%2060616
+
+
+Lyft Hyperlink:
+https://lyft.com/ride?id=lyft&pickup[latitude]=41.852481693724016&pickup[longitude]=-87.61184521557428&pickup[address]=2301%20S%20DuSable%20Lake%20Shore%20Dr%20Chicago%20IL%2060616
