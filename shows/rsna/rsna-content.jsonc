@@ -1,0 +1,290 @@
+{
+    "base" : {
+        "title": "Radiology Society of North America",
+        "event-map": ""
+    },
+    "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1E9I0asA3HT3fK2vASgoe58Aj5Y6rE7U&ehbc=2E312F",
+    "flight-info": { // Not in use for RSNA with two airports
+        "arrivals-widget": "",
+        "departures-widget": "",
+        "travel-time": ""
+    },
+    "hotelsJson": "config/show-content/rsna/rsna-hotels.json",
+    "scheduleJson": "config/show-content/rsna/rsna-schedule.json",
+    "routes": {
+        "1": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=1",
+            "flyer": { // TODO Replace with Route 1 Flyer
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ea891bf-73ab-42cd-b069-6418ebbb18d2/apha-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
+            },
+            "sign" : { // TODO Update loader to account for multiple signs for destination
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1be90d7-a016-40b8-8f3e-7c1aaa0c1fc1/apha2025-signage.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
+            },
+            "stops": {
+                "1": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "2": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": { // TODO Replace with Route 2 Flyer
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ea891bf-73ab-42cd-b069-6418ebbb18d2/apha-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
+            },
+            "sign" : { // TODO Update loader to account for multiple signs for destination
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1be90d7-a016-40b8-8f3e-7c1aaa0c1fc1/apha2025-signage.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
+            },
+            "stops": {
+                "1": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "3": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": { // TODO Replace with Route 3 Flyer
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ea891bf-73ab-42cd-b069-6418ebbb18d2/apha-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
+            },
+            "sign" : { // TODO Update loader to account for multiple signs for destination
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1be90d7-a016-40b8-8f3e-7c1aaa0c1fc1/apha2025-signage.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
+            },
+            "stops": {
+                "1": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "4": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": { // TODO Replace with Route 4 Flyer
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ea891bf-73ab-42cd-b069-6418ebbb18d2/apha-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
+            },
+            "sign" : { // TODO Update loader to account for multiple signs for destination
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1be90d7-a016-40b8-8f3e-7c1aaa0c1fc1/apha2025-signage.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
+            },
+            "stops": {
+                "1": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "5": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": { // TODO Replace with Route 5 Flyer
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ea891bf-73ab-42cd-b069-6418ebbb18d2/apha-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
+            },
+            "sign" : { // TODO Update loader to account for multiple signs for destination
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1be90d7-a016-40b8-8f3e-7c1aaa0c1fc1/apha2025-signage.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
+            },
+            "stops": {
+                "1": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "6": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": { // TODO Replace with Route 6 Flyer
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ea891bf-73ab-42cd-b069-6418ebbb18d2/apha-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
+            },
+            "sign" : { // TODO Update loader to account for multiple signs for destination
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1be90d7-a016-40b8-8f3e-7c1aaa0c1fc1/apha2025-signage.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
+            },
+            "stops": {
+                "1": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": { // 
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "w": {
+          "stops": {
+            "0": {
+              "directions": {
+                "apple": "",
+                "google": ""
+              }
+            }
+          }
+        }
+    }
+}

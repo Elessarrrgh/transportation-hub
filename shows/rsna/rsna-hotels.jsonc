@@ -1,0 +1,185 @@
+{
+  // ===== ROUTE 1 HOTELS =====
+
+    // STOP #1
+    "hotel-1": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #2
+    "hotel-2": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #3
+    "hotel-3": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+  // ===== ROUTE 2 HOTELS =====
+
+    // STOP #1
+    "hotel-4": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #2
+    "hotel-5": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #3
+    "hotel-6": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+  // ===== ROUTE 3 HOTELS =====
+
+    // STOP #1
+    "hotel-7": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #2
+    "hotel-8": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #3
+    "hotel-9": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+  // ===== ROUTE 4 HOTELS =====
+
+    // STOP #1
+    "hotel-10": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #2
+    "hotel-11": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #3
+    "hotel-12": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+  // ===== ROUTE 5 HOTELS =====
+
+    // STOP #1
+    "hotel-13": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #2
+    "hotel-14": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #3
+    "hotel-15": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+  // ===== ROUTE 6 HOTELS =====
+
+    // STOP #1
+    "hotel-16": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #2
+    "hotel-17": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+    // STOP #3
+    "hotel-18": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    },
+
+  
+  // ===== WALKING DISTANCE =====
+    "hotel-w": {
+      "name": "",
+      "address": "",
+      "phone": "",
+      "map": "",
+      "directionsText": ""
+    }
+}
