@@ -24,8 +24,8 @@
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
             },
             "stops": {
-                "1": { // 
-                    "stopName": "",
+                "1": { 
+                    "stopName": "Palmer House Hilton",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
@@ -34,8 +34,8 @@
                         "google": ""
                     }
                 },
-                "2": { // 
-                    "stopName": "",
+                "2": { //
+                    "stopName": "Congress Plaza Hotel",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
@@ -45,7 +45,7 @@
                     }
                 },
                 "3": { // 
-                    "stopName": "",
+                    "stopName": "Hilton Chicago",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
@@ -69,7 +69,7 @@
             },
             "stops": {
                 "1": { // 
-                    "stopName": "",
+                    "stopName": "Renaissance Chicago",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
@@ -79,17 +79,7 @@
                     }
                 },
                 "2": { // 
-                    "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "", 
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "3": { // 
-                    "stopName": "",
+                    "stopName": "Hyatt Regency Chicago",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
@@ -113,7 +103,7 @@
             },
             "stops": {
                 "1": { // 
-                    "stopName": "",
+                    "stopName": "InterContinental Chicago",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
@@ -123,7 +113,7 @@
                     }
                 },
                 "2": { // 
-                    "stopName": "",
+                    "stopName": "Homewood Suites Downtown",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
@@ -133,7 +123,7 @@
                     }
                 },
                 "3": { // 
-                    "stopName": "",
+                    "stopName": "Courtyard Downtown River North",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
@@ -157,7 +147,7 @@
             },
             "stops": {
                 "1": { // 
-                    "stopName": "",
+                    "stopName": "Hampton Inn Downtown / Mag. Mile",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
@@ -167,17 +157,7 @@
                     }
                 },
                 "2": { // 
-                    "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "", 
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "3": { // 
-                    "stopName": "",
+                    "stopName": "Westin Michigan Ave.",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
@@ -201,7 +181,7 @@
             },
             "stops": {
                 "1": { // 
-                    "stopName": "",
+                    "stopName": "Fairfield Inn & Suites Mag. Mile",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
@@ -211,17 +191,7 @@
                     }
                 },
                 "2": { // 
-                    "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "", 
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "3": { // 
-                    "stopName": "",
+                    "stopName": "Sheraton Grand Chicago",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
@@ -245,7 +215,7 @@
             },
             "stops": {
                 "1": { // 
-                    "stopName": "",
+                    "stopName": "Westin Chicago River North",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
@@ -255,17 +225,7 @@
                     }
                 },
                 "2": { // 
-                    "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "", 
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "3": { // 
-                    "stopName": "",
+                    "stopName": "LaSalle Chicago",
                     "boardingArea": "",
                     "scheduleJson": "",
                     "panorama": "", 
