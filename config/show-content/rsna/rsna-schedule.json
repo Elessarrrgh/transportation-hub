@@ -1,0 +1,20 @@
+{
+  "days": [
+    {
+      "label": "Sunday, 11/30 - Wednesday 12/03",
+      "inboundStart": "6:45 AM",
+      "inboundEnd": "11:00 AM",
+      "outboundStart": "2:00 PM",
+      "outboundEnd": "6:15 PM",
+      "intermission": "Service Intermission"
+    },
+    {
+      "label": "Thursday, 12/04",
+      "inboundStart": "6:45 AM",
+      "inboundEnd": "11:00 AM",
+      "outboundStart": "2:00 PM",
+      "outboundEnd": "4:30 PM",
+      "intermission": "Service Intermission"
+    }
+  ]
+}
