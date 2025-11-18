@@ -18,8 +18,8 @@
   },
 
   // STOP #2 — Congress Plaza
-  "congress-plaza-hotel": {
-    "name": "Congress Plaza Hotel",
+  "congress-plaza": {
+    "name": "Congress Plaza",
     "address": "520 S Michigan Ave",
     "phone": "(312) 427-3800",
     "map": "https://www.google.com/maps?q=Congress%20Plaza%20Hotel%20Chicago&output=embed",

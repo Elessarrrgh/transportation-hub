@@ -15,223 +15,223 @@
         "1": {
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=1",
-            "flyer": { // TODO Replace with Route 1 Flyer
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ea891bf-73ab-42cd-b069-6418ebbb18d2/apha-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
+            "flyer": {
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/078aefc7-42c8-446a-99b1-6b26bdd5598e/rsna2025-route1-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7a1d19c5078ea5534a0/1753802657084/RSNA2025_Route1.pdf"
             },
-            "sign" : { // TODO Update loader to account for multiple signs for destination
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1be90d7-a016-40b8-8f3e-7c1aaa0c1fc1/apha2025-signage.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
+            "sign" : { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/1b0f6753-5091-4652-ae2a-d8959684772c/rsna2025-route1-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/691bd69a15e8f1780a46d1f8/1763432090098/RSNA2025_SideSign_1.pdf"
             },
             "stops": {
                 "1": { 
-                    "stopName": "Palmer House Hilton",
-                    "boardingArea": "",
+                    "stopName": "Palmer House",
+                    "boardingArea": "Wabash Ave. Entrance",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=17%20E.%20Monroe%20St.%2C%20Chicago%2C%20IL%2060603",
+                        "google": "https://www.google.com/maps/dir/Current+Location/17%20E.%20Monroe%20St.%2C%20Chicago%2C%20IL%2060603"
                     }
                 },
                 "2": { //
-                    "stopName": "Congress Plaza Hotel",
-                    "boardingArea": "",
+                    "stopName": "Congress Plaza",
+                    "boardingArea": "Front Entrance",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=520%20S.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060605",
+                        "google": "https://www.google.com/maps/dir/Current+Location/520%20S.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060605"
                     }
                 },
                 "3": { // 
                     "stopName": "Hilton Chicago",
-                    "boardingArea": "",
+                    "boardingArea": "8th St. Entrance",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=720%20S.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060605",
+                        "google": "https://www.google.com/maps/dir/Current+Location/720%20S.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060605"
                     }
                 }
             }
         },
         "2": {
             "scheduleJson": "",
-            "wait-time": "",
-            "flyer": { // TODO Replace with Route 2 Flyer
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ea891bf-73ab-42cd-b069-6418ebbb18d2/apha-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
+            "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=2",
+            "flyer": { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/b2a0638a-d67f-4f14-9a00-6e14842cf305/rsna2025-route2-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68b068abc9c9195c8783acf2/1756391595601/RSNA2025_Route2.pdf"
             },
-            "sign" : { // TODO Update loader to account for multiple signs for destination
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1be90d7-a016-40b8-8f3e-7c1aaa0c1fc1/apha2025-signage.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
+            "sign" : { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/d6c9d6e1-3548-48ca-a059-ebdc8d84ca93/rsna2025-route2-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/691bd6a7ee72150caf112e65/1763432103618/RSNA2025_SideSign_2.pdf"
             },
             "stops": {
                 "1": { // 
                     "stopName": "Renaissance Chicago",
-                    "boardingArea": "",
+                    "boardingArea": "Curbside on Wacker Dr.",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=1%20W.%20Wacker%20Dr.%2C%20Chicago%2C%20IL%2060601",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1%20W.%20Wacker%20Dr.%2C%20Chicago%2C%20IL%2060601"
                     }
                 },
                 "2": { // 
                     "stopName": "Hyatt Regency Chicago",
-                    "boardingArea": "",
+                    "boardingArea": "East Tower Entrance",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=151%20E.%20Wacker%20Dr.%2C%20Chicago%2C%20IL%2060601",
+                        "google": "https://www.google.com/maps/dir/Current+Location/151%20E.%20Wacker%20Dr.%2C%20Chicago%2C%20IL%2060601"
                     }
                 }
             }
         },
         "3": {
             "scheduleJson": "",
-            "wait-time": "",
-            "flyer": { // TODO Replace with Route 3 Flyer
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ea891bf-73ab-42cd-b069-6418ebbb18d2/apha-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
+            "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=3",
+            "flyer": { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/771659ac-f8e3-4ec5-a914-9a3a6696ede8/rsna2025-route3-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69164b2a48db46315551f3ad/1763068714332/RSNA2025_Route3.pdf"
             },
-            "sign" : { // TODO Update loader to account for multiple signs for destination
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1be90d7-a016-40b8-8f3e-7c1aaa0c1fc1/apha2025-signage.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
+            "sign" : {
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/945b8335-5ee3-490a-98a6-ab09a46161d1/rsna2025-route3-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/691bd6ad2ec2dd6e67aaf0f0/1763432109163/RSNA2025_SideSign_3.pdf"
             },
             "stops": {
                 "1": { // 
                     "stopName": "InterContinental Chicago",
-                    "boardingArea": "",
+                    "boardingArea": "Illinois St. Entrance",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=505%20N.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060611",
+                        "google": "https://www.google.com/maps/dir/Current+Location/505%20N.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060611"
                     }
                 },
                 "2": { // 
                     "stopName": "Homewood Suites Downtown",
-                    "boardingArea": "",
+                    "boardingArea": "Front Entrance",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=40%20E.%20Grand%20Ave.%2C%20Chicago%2C%20IL%2060611",
+                        "google": "https://www.google.com/maps/dir/Current+Location/40%20E.%20Grand%20Ave.%2C%20Chicago%2C%20IL%2060611"
                     }
                 },
                 "3": { // 
                     "stopName": "Courtyard Downtown River North",
-                    "boardingArea": "",
+                    "boardingArea": "SE Corner of Illinois & State St.",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailablehttps://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=30%20E.%20Hubbard%20St.%2C%20Chicago%2C%20IL%2060611",
+                        "google": "https://www.google.com/maps/dir/Current+Location/30%20E.%20Hubbard%20St.%2C%20Chicago%2C%20IL%2060611"
                     }
                 }
             }
         },
         "4": {
             "scheduleJson": "",
-            "wait-time": "",
-            "flyer": { // TODO Replace with Route 4 Flyer
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ea891bf-73ab-42cd-b069-6418ebbb18d2/apha-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
+            "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=4",
+            "flyer": { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/443f57e4-aa0c-4398-9684-438ed82fb842/rsna2025-route4-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7e51e37e63a2416c983/1753802725680/RSNA2025_Route4.pdf"
             },
-            "sign" : { // TODO Update loader to account for multiple signs for destination
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1be90d7-a016-40b8-8f3e-7c1aaa0c1fc1/apha2025-signage.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
+            "sign" : { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/867f344e-c998-4d41-92b0-cb962de7de4b/rsna2025-route4-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/691bd6b292a1a263c98ae6c3/1763432114578/RSNA2025_SideSign_4.pdf"
             },
             "stops": {
                 "1": { // 
-                    "stopName": "Hampton Inn Downtown / Mag. Mile",
-                    "boardingArea": "",
+                    "stopName": "Hampton Inn Mag. Mile",
+                    "boardingArea": "Front Entrance",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=160%20E.%20Huron%20St.%2C%20Chicago%2C%20IL%2060611",
+                        "google": "https://www.google.com/maps/dir/Current+Location/160%20E.%20Huron%20St.%2C%20Chicago%2C%20IL%2060611"
                     }
                 },
                 "2": { // 
                     "stopName": "Westin Michigan Ave.",
-                    "boardingArea": "",
+                    "boardingArea": "Front Entrance<br>Across Delaware Pl.",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=909%20N.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060611",
+                        "google": "https://www.google.com/maps/dir/Current+Location/909%20N.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060611"
                     }
                 }
             }
         },
         "5": {
             "scheduleJson": "",
-            "wait-time": "",
-            "flyer": { // TODO Replace with Route 5 Flyer
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ea891bf-73ab-42cd-b069-6418ebbb18d2/apha-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
+            "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=5",
+            "flyer": { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/4802646f-611d-492b-9f74-d2030abd10ca/rsna2025-route5-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7f278bcf771591e3922/1753802738249/RSNA2025_Route6.pdf"
             },
-            "sign" : { // TODO Update loader to account for multiple signs for destination
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1be90d7-a016-40b8-8f3e-7c1aaa0c1fc1/apha2025-signage.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
+            "sign" : { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/ba24e828-b457-42a6-b0e3-cafd097399ec/rsna2025-route5-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/691bd6b75e0bb7330e1152ce/1763432119696/RSNA2025_SideSign_5.pdf"
             },
             "stops": {
                 "1": { // 
                     "stopName": "Fairfield Inn & Suites Mag. Mile",
-                    "boardingArea": "",
+                    "boardingArea": "Front Entrance",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=216%20E.%20Ontario%20St.%2C%20Chicago%2C%20IL%2060611",
+                        "google": "https://www.google.com/maps/dir/Current+Location/216%20E.%20Ontario%20St.%2C%20Chicago%2C%20IL%2060611"
                     }
                 },
                 "2": { // 
                     "stopName": "Sheraton Grand Chicago",
-                    "boardingArea": "",
+                    "boardingArea": "Front Entrance<br>Across North Water St.",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=301%20E.%20North%20Water%20St.%2C%20Chicago%2C%20IL%2060611",
+                        "google": "https://www.google.com/maps/dir/Current+Location/301%20E.%20North%20Water%20St.%2C%20Chicago%2C%20IL%2060611"
                     }
                 }
             }
         },
         "6": {
             "scheduleJson": "",
-            "wait-time": "",
-            "flyer": { // TODO Replace with Route 6 Flyer
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ea891bf-73ab-42cd-b069-6418ebbb18d2/apha-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68f8f572202ab4370d800aa8/1761146226270/APHA2025_ShuttleFlyer.pdf"
+            "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=6",
+            "flyer": { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8b72414d-dc39-41b3-a0b4-f3a3e1f03008/rsna2025-route6-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7f278bcf771591e3922/1753802738249/RSNA2025_Route6.pdf"
             },
-            "sign" : { // TODO Update loader to account for multiple signs for destination
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1be90d7-a016-40b8-8f3e-7c1aaa0c1fc1/apha2025-signage.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68fb8bd4c735de467532dbd4/1761315796333/APHA_Sidesign_Route1.pdf"
+            "sign" : { 
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/be917fb4-5141-4e9e-98ff-8b79f56e088b/rsna2025-route6-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/691bd6bdb6b04e28dfa6adef/1763432125048/RSNA2025_SideSign_6.pdf"
             },
             "stops": {
                 "1": { // 
                     "stopName": "Westin Chicago River North",
-                    "boardingArea": "",
+                    "boardingArea": "Curbside on Clark St.<br>Across from Driveway",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=320%20N.%20Dearborn%20St.%2C%20Chicago%2C%20IL%2060654",
+                        "google": "https://www.google.com/maps/dir/Current+Location/320%20N.%20Dearborn%20St.%2C%20Chicago%2C%20IL%2060654"
                     }
                 },
                 "2": { // 
                     "stopName": "LaSalle Chicago",
-                    "boardingArea": "",
+                    "boardingArea": "Front Entrance",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=208%20S.%20LaSalle%20St.%2C%20Chicago%2C%20IL%2060604",
+                        "google": "https://www.google.com/maps/dir/Current+Location/208%20S.%20LaSalle%20St.%2C%20Chicago%2C%20IL%2060604"
                     }
                 }
             }
@@ -240,8 +240,8 @@
           "stops": {
             "0": {
               "directions": {
-                "apple": "",
-                "google": ""
+                "apple": "https://maps.apple.com/?daddr=2301%20S%20Martin%20Luther%20King%20Dr%2C%20Chicago%2C%20IL%2060616",
+                "google": "https://www.google.com/maps/dir/Current+Location/2301%20S%20Martin%20Luther%20King%20Dr%2C%20Chicago%2C%20IL%2060616"
               }
             }
           }
