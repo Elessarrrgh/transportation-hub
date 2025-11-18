@@ -39,14 +39,14 @@
     "address": "1100 S Michigan Ave",
     "phone": "(312) 922-2900",
     "map": "https://www.google.com/maps?q=Best%20Western%20Grant%20Park%20Hotel%20Chicago&output=embed",
-    "directionsText": "Hilton Chicago (~2 mins.)"
+    "directionsText": "Hilton Chicago (~5 mins.)"
   },
   "blackstone-hotel": {
     "name": "Blackstone Hotel",
     "address": "636 S Michigan Ave",
     "phone": "(312) 447-0955",
     "map": "https://www.google.com/maps?q=Blackstone%20Hotel%20Chicago&output=embed",
-    "directionsText": "Hilton Chicago (~3 mins.)"
+    "directionsText": "Hilton Chicago (~1 min.)"
   },
   "le-meridien-essex": {
     "name": "Le Méridien Essex",
@@ -67,50 +67,50 @@
     "map": "https://www.google.com/maps?q=Renaissance%20Chicago%20Downtown%20Hotel&output=embed",
     "directionsText": "Renaissance Chicago (<1 min.)"
   },
-  "l7-chicago-by-lotte": {
-    "name": "L7 Chicago by Lotte",
+  "l7-chicago": {
+    "name": "L7 Chicago",
     "address": "225 N Wabash Ave",
     "phone": "(312) 960-8500",
     "map": "https://www.google.com/maps?q=L7%20Chicago%20by%20Lotte&output=embed",
-    "directionsText": "Renaissance Chicago (~2 mins.)"
+    "directionsText": "Renaissance Chicago (~3 mins.)"
   },
   "the-langham": {
     "name": "The Langham",
     "address": "330 N Wabash Ave",
     "phone": "(312) 923-9988",
     "map": "https://www.google.com/maps?q=The%20Langham%20Chicago&output=embed",
-    "directionsText": "Renaissance Chicago (~2 mins.)"
+    "directionsText": "Renaissance Chicago (~5 mins.)"
   },
   "londonhouse": {
-    "name": "LondonHouse Chicago",
+    "name": "LondonHouse",
     "address": "85 E Wacker Dr",
     "phone": "(312) 357-1200",
     "map": "https://www.google.com/maps?q=LondonHouse%20Chicago&output=embed",
-    "directionsText": "Renaissance Chicago (~3 mins.)"
+    "directionsText": "Renaissance Chicago (~5 mins.)"
   },
   "pendry": {
     "name": "Pendry Chicago",
     "address": "230 N Michigan Ave",
     "phone": "(312) 777-9000",
     "map": "https://www.google.com/maps?q=Pendry%20Chicago&output=embed",
-    "directionsText": "Renaissance Chicago (~1 min.)"
+    "directionsText": "Renaissance Chicago (~4 min.)"
   },
   "thewit": {
-    "name": "theWIT Chicago",
+    "name": "theWit Chicago",
     "address": "201 N State St",
     "phone": "(312) 467-0200",
     "map": "https://www.google.com/maps?q=theWit%20Hotel%20Chicago&output=embed",
-    "directionsText": "Renaissance Chicago (~2 mins.)"
+    "directionsText": "Renaissance Chicago (~1 min.)"
   },
   "virgin-hotel": {
-    "name": "Virgin Hotel Chicago",
+    "name": "Virgin Hotel",
     "address": "203 N Wabash Ave",
     "phone": "(312) 940-4400",
     "map": "https://www.google.com/maps?q=Virgin%20Hotel%20Chicago&output=embed",
     "directionsText": "Renaissance Chicago (~3 mins.)"
   },
   
-                                  
+                            
   "hyatt-regency": {
     "name": "Hyatt Regency Chicago",
     "address": "151 E Wacker Dr",
@@ -123,7 +123,7 @@
     "address": "168 N Michigan Ave",
     "phone": "(312) 346-1200",
     "map": "https://www.google.com/maps?q=Arlo%20Chicago&output=embed",
-    "directionsText": "Hyatt Regency (<1 min.)"
+    "directionsText": "Hyatt Regency (~7 mins.)"
   },
   "fairmont-millennium-park": {
     "name": "Fairmont Millennium Park",
@@ -133,25 +133,25 @@
     "directionsText": "Hyatt Regency (~3 mins.)"
   },
   "radisson-blu-aqua": {
-    "name": "Radisson Blu Aqua Hotel",
+    "name": "Radisson Blu Aqua",
     "address": "221 N Columbus Dr",
     "phone": "(312) 565-5258",
     "map": "https://www.google.com/maps?q=Radisson%20Blu%20Aqua%20Hotel%20Chicago&output=embed",
     "directionsText": "Hyatt Regency (~4 mins.)"
   },
   "st-regis": {
-    "name": "St. Regis",
+    "name": "The St. Regis Chicago",
     "address": "401 E Wacker Dr",
     "phone": "(312) 787-3447",
     "map": "https://www.google.com/maps?q=St.%20Regis%20Chicago&output=embed",
-    "directionsText": "Hyatt Regency (~2 mins.)"
+    "directionsText": "Hyatt Regency (~8 mins.)"
   },
   "swissotel": {
-    "name": "Swissotel",
+    "name": "Swissôtel",
     "address": "323 E Wacker Dr",
     "phone": "(312) 565-0565",
     "map": "https://www.google.com/maps?q=Swissotel%20Chicago&output=embed",
-    "directionsText": "Hyatt Regency (~2 mins.)"
+    "directionsText": "Hyatt Regency (~3 mins.)"
   },
   
 
@@ -159,7 +159,7 @@
 
                                
   "intercontinental": {
-    "name": "InterContinental Chicago",
+    "name": "InterContinental",
     "address": "505 N Michigan Ave",
     "phone": "(312) 944-4100",
     "map": "https://www.google.com/maps?q=InterContinental%20Chicago&output=embed",
@@ -170,35 +170,35 @@
     "address": "55 E Ontario St",
     "phone": "(312) 660-6100",
     "map": "https://www.google.com/maps?q=21c%20Museum%20Hotel%20Chicago&output=embed",
-    "directionsText": "InterContinental (~2 mins.)"
+    "directionsText": "InterContinental (~6 mins.)"
   },
   "ac-hotel": {
     "name": "AC Hotel Downtown",
     "address": "630 N Rush St",
     "phone": "(312) 981-6600",
     "map": "https://www.google.com/maps?q=AC%20Hotel%20Chicago%20Downtown&output=embed",
-    "directionsText": "InterContinental (~2 mins.)"
+    "directionsText": "InterContinental (~6 mins.)"
   },
-  "embassy-suites-river-north": {                       
+  "embassy-suites-river-north": {
     "name": "Embassy Suites River North",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "address": "600 N State St",
+    "phone": "(312) 943-3800",
+    "map": "https://www.google.com/maps?q=Embassy%20Suites%20Chicago%20Downtown%20River%20North&output=embed",
+    "directionsText": "InterContinental (~8 mins.)"
   },
   "the-gwen": {
     "name": "The Gwen",
     "address": "521 N Rush St",
     "phone": "(312) 645-1500",
     "map": "https://www.google.com/maps?q=The%20Gwen%20Chicago&output=embed",
-    "directionsText": "InterContinental (~2 mins.)"
+    "directionsText": "InterContinental (~6 mins.)"
   },
   "hilton-garden-inn-mag-mile": {
     "name": "Hilton Garden Inn Mag. Mile",
     "address": "10 E Grand Ave",
     "phone": "(312) 595-0000",
     "map": "https://www.google.com/maps?q=Hilton%20Garden%20Inn%20Chicago%20Downtown%20Magnificent%20Mile&output=embed",
-    "directionsText": "InterContinental (~2 mins.)"
+    "directionsText": "InterContinental (~6 mins.)"
   },
 
                                        
@@ -209,19 +209,19 @@
     "map": "https://www.google.com/maps?q=Homewood%20Suites%20Downtown%20Chicago&output=embed",
     "directionsText": "NE Corner of Grand & Wabash (~1 min.)"
   },
-  "marriott-downtown-mag-mile": {                          
+  "marriott-downtown-mag-mile": {
     "name": "Marriott Downtown Mag. Mile",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "address": "540 N Michigan Ave",
+    "phone": "(312) 836-0100",
+    "map": "https://www.google.com/maps?q=Marriott%20Chicago%20Downtown%20Magnificent%20Mile&output=embed",
+    "directionsText": "NE Corner of Grand & Wabash (~2 mins.)"
   },
-  "residence-inn-mag-mile": {                               
+  "residence-inn-mag-mile": {
     "name": "Residence Inn Mag. Mile",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "address": "101 E Erie St",
+    "phone": "(312) 877-5060",
+    "map": "https://www.google.com/maps?q=Residence%20Inn%20Chicago%20Downtown%20Magnificent%20Mile&output=embed",
+    "directionsText": "NE Corner of Grand & Wabash (~4 mins.)"
   },
 
                                     
@@ -238,14 +238,14 @@
 
                                            
   "hampton-inn-mag-mile": {
-    "name": "Hampton Inn Downtown / Mag. Mile",
+    "name": "Hampton Inn Mag. Mile",
     "address": "160 E Huron St",
     "phone": "(312) 706-0888",
     "map": "https://www.google.com/maps?q=Hampton%20Inn%20Magnificent%20Mile%20Chicago&output=embed",
     "directionsText": "Hampton Inn Mag. Mile (<1 min.)"
   },
   "homewood-suites-mag-mile": {
-    "name": "Homewood Suites Downtown / Mag. Mile",
+    "name": "Homewood Suites Mag. Mile",
     "address": "152 E Huron St",
     "phone": "(312) 385-9333",
     "map": "https://www.google.com/maps?q=Homewood%20Suites%20Magnificent%20Mile%20Chicago&output=embed",
@@ -258,23 +258,23 @@
     "map": "https://www.google.com/maps?q=Omni%20Hotel%20Chicago&output=embed",
     "directionsText": "Hampton Inn Mag. Mile (~2 mins.)"
   },
-  "peninsula-hotel": {                  
-    "name": "Peninsula Hotel",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+  "peninsula-chicago": {
+    "name": "The Peninsula Chicago",
+    "address": "108 E Superior St",
+    "phone": "(312) 337-2888",
+    "map": "https://www.google.com/maps?q=The%20Peninsula%20Chicago&output=embed",
+    "directionsText": "Hampton Inn Mag. Mile (~4 mins.)"
   },
   
                                    
-  "westin-michigan-ave": {                             
+  "westin-michigan-ave": {
     "name": "Westin Michigan Ave.",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "address": "909 N Michigan Ave",
+    "phone": "(312) 943-7200",
+    "map": "https://www.google.com/maps?q=The%20Westin%20Michigan%20Avenue%20Chicago&output=embed",
+    "directionsText": "Westin Michigan Ave (<1 min.)"
   },
-  "four-seasons-hotel": {
+  "four-seasons": {
     "name": "Four Seasons Hotel",
     "address": "120 E Delaware Place",
     "phone": "(312) 280-8800",
@@ -282,11 +282,11 @@
     "directionsText": "Westin Michigan Ave (~2 mins.)"
   },
   "hilton-suites-mag-mile": {
-    "name": "Hilton Suites Mag Mile",
+    "name": "Hilton Suites Mag. Mile",
     "address": "198 E Delaware Pl",
     "phone": "(312) 644-1100",
     "map": "https://www.google.com/maps?q=Hilton%20Chicago%20Magnificent%20Mile%20Suites&output=embed",
-    "directionsText": "Westin Michigan Ave (~2 mins.)"
+    "directionsText": "Westin Michigan Ave (~3 mins.)"
   },
   
   "millennium-knickerbocker": {
@@ -294,21 +294,21 @@
     "address": "163 E Walton Pl",
     "phone": "(312) 751-8100",
     "map": "https://www.google.com/maps?q=Millennium%20Knickerbocker%20Hotel%20Chicago&output=embed",
-    "directionsText": "Westin Michigan Ave (~1 min.)"
+    "directionsText": "Westin Michigan Ave (~3 min.)"
   },
-  "ritz-carlton": {                     
+  "ritz-carlton": {
     "name": "Ritz-Carlton",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "address": "160 E Pearson St",
+    "phone": "(312) 266-1000",
+    "map": "https://www.google.com/maps?q=Ritz-Carlton%20Chicago&output=embed",
+    "directionsText": "Westin Michigan Ave (~4 mins.)"
   },
-  "sonesta-es-suites": {                
+  "sonesta-es-suites": { 
     "name": "Sonesta ES Suites",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "address": "201 E Walton Pl",
+    "phone": "(312) 943-9800",
+    "map": "https://www.google.com/maps?q=Sonesta%20ES%20Suites%20Chicago%20Magnificent%20Mile&output=embed",
+    "directionsText": "Westin Michigan Ave (~4 mins.)"
   },
   
 
@@ -327,35 +327,35 @@
     "address": "243 E Ontario St",
     "phone": "(312) 429-6600",
     "map": "https://www.google.com/maps?q=Aloft%20Chicago%20Mag%20Mile&output=embed",
-    "directionsText": "Fairfield Inn & Suites Magnificent Mile (<1 min.)"
+    "directionsText": "Fairfield Inn & Suites Magnificent Mile (~3 mins.)"
   },
   "courtyard-mag-mile": {
     "name": "Courtyard Mag. Mile",
     "address": "165 E Ontario St",
-    "phone": "",
+    "phone": "(312) 573-0800",
     "map": "https://www.google.com/maps?q=Courtyard%20Chicago%20Downtown%20Magnificent%20Mile&output=embed",
     "directionsText": "Fairfield Inn & Suites Magnificent Mile (~1 min.)"
   },
   "doubletree-mag-mile": {
     "name": "DoubleTree Mag. Mile",
     "address": "300 E Ohio St",
-    "phone": "",
+    "phone": "(312) 787-6100",
     "map": "https://www.google.com/maps?q=DoubleTree%20Magnificent%20Mile%20Chicago&output=embed",
-    "directionsText": "Fairfield Inn & Suites Magnificent Mile (~2 mins.)"
+    "directionsText": "Fairfield Inn & Suites Magnificent Mile (~4 mins.)"
   },
   "hyatt-centric-mag-mile": {
     "name": "Hyatt Centric Mag. Mile",
     "address": "633 N St Clair St",
-    "phone": "",
+    "phone": "(312) 787-1234",
     "map": "https://www.google.com/maps?q=Hyatt%20Centric%20Chicago%20Magnificent%20Mile&output=embed",
     "directionsText": "Fairfield Inn & Suites Magnificent Mile (~2 mins.)"
   },
 
                                      
-  "sheraton-grand-chicago": {
-    "name": "Sheraton Grand Chicago",
+  "sheraton-grand": {
+    "name": "Sheraton Grand",
     "address": "301 E North Water St",
-    "phone": "",
+    "phone": "(312) 464-1000",
     "map": "https://www.google.com/maps?q=Sheraton%20Grand%20Chicago&output=embed",
     "directionsText": "Front Entrance Across North Water St (<1 min.)"
   },
@@ -364,14 +364,14 @@
     "address": "511 N Columbus Dr",
     "phone": "(312) 836-5900",
     "map": "https://www.google.com/maps?q=Embassy%20Suites%20Chicago%20Downtown%20Magnificent%20Mile&output=embed",
-    "directionsText": "Sheraton Grand (~2 mins.)"
+    "directionsText": "Sheraton Grand (~4 mins.)"
   },
   "loews-chicago-hotel": {
     "name": "Loews Chicago Hotel",
     "address": "455 N Park Dr",
     "phone": "(312) 840-6600",
     "map": "https://www.google.com/maps?q=Loews%20Chicago%20Hotel&output=embed",
-    "directionsText": "Sheraton Grand (~2 mins.)"
+    "directionsText": "Sheraton Grand (~1 min.)"
   },
 
                              
@@ -380,23 +380,23 @@
   "westin-river-north": {
     "name": "Westin River North",
     "address": "320 N Dearborn St",
-    "phone": "",
+    "phone": "(312) 744-1900",
     "map": "https://www.google.com/maps?q=Westin%20Chicago%20River%20North&output=embed",
     "directionsText": "Clark St. (~1 min.)"
   },
   "hotel-chicago-downtown": {
     "name": "Hotel Chicago Downtown",
     "address": "333 N Dearborn St",
-    "phone": "",
+    "phone": "(312) 245-0333",
     "map": "https://www.google.com/maps?q=Hotel%20Chicago%20Downtown%20Autograph%20Collection&output=embed",
-    "directionsText": "Westin River North (~2 mins.)"
+    "directionsText": "Westin River North (~3 mins.)"
   },
 
                               
-  "the-lasalle-chicago": {
+  "lasalle-chicago": {
     "name": "The LaSalle Chicago",
     "address": "208 S LaSalle St",
-    "phone": "",
+    "phone": "(312) 634-0000",
     "map": "https://www.google.com/maps?q=The%20LaSalle%20Chicago%20Autograph%20Collection&output=embed",
     "directionsText": "Front Entrance (<1 min.)"
   },
@@ -405,12 +405,12 @@
     "address": "226 W Jackson Blvd",
     "phone": "(773) 809-6750",
     "map": "https://www.google.com/maps?q=Canopy%20by%20Hilton%20Chicago%20Central%20Loop&output=embed",
-    "directionsText": "LaSalle Chicago (~1 min.)"
+    "directionsText": "LaSalle Chicago (~5 mins.)"
   },
   "jw-marriott": {
-    "name": "JW Marriott Chicago",
+    "name": "JW Marriott",
     "address": "151 W Adams St",
-    "phone": "",
+    "phone": "(312) 660-8200",
     "map": "https://www.google.com/maps?q=JW%20Marriott%20Chicago&output=embed",
     "directionsText": "LaSalle Chicago (~1 min.)"
   },
@@ -419,37 +419,37 @@
   "hampton-inn-mccormick": {
     "name": "Hampton Inn McCormick Place",
     "address": "123 E Cermak Rd",
-    "phone": "",
+    "phone": "(312) 791-1121",
     "map": "https://www.google.com/maps?q=Hampton%20Inn%20McCormick%20Place%20Chicago&output=embed",
-    "directionsText": "Walking distance to McCormick Place (~5 mins.)"
+    "directionsText": "McCormick Place (~7 mins.)"
   },
   "hilton-garden-inn-mccormick": {
     "name": "Hilton Garden Inn McCormick Place",
     "address": "123 E Cermak Rd",
-    "phone": "",
+    "phone": "(312) 791-1121",
     "map": "https://www.google.com/maps?q=Hilton%20Garden%20Inn%20McCormick%20Place%20Chicago&output=embed",
-    "directionsText": "Walking distance to McCormick Place (~5 mins.)"
+    "directionsText": "McCormick Place (~7 mins.)"
   },
   "home2-suites-mccormick": {
-    "name": "Home2 Suites by Hilton McCormick Place",
+    "name": "Home2 Suites McCormick Place",
     "address": "123 E Cermak Rd",
-    "phone": "",
+    "phone": "(312) 791-1121",
     "map": "https://www.google.com/maps?q=Home2%20Suites%20McCormick%20Place%20Chicago&output=embed",
-    "directionsText": "Walking distance to McCormick Place (~5 mins.)"
+    "directionsText": "McCormick Place (~7 mins.)"
   },
   "hyatt-regency-mccormick": {
     "name": "Hyatt Regency McCormick Place",
     "address": "2233 S Martin L King Dr",
-    "phone": "",
+    "phone": "(312) 567-1234",
     "map": "https://www.google.com/maps?q=Hyatt%20Regency%20McCormick%20Place&output=embed",
-    "directionsText": "Walking distance to McCormick Place (~4 mins.)"
+    "directionsText": "McCormick Place (<1 min.)"
   },
   "marriott-marquis-chicago": {
     "name": "Marriott Marquis Chicago",
     "address": "2121 S Prairie Ave",
-    "phone": "",
+    "phone": "(312) 824-0500",
     "map": "https://www.google.com/maps?q=Marriott%20Marquis%20Chicago&output=embed",
-    "directionsText": "Walking distance to McCormick Place (~6 mins.)"
+    "directionsText": "McCormick Place (~6 mins.)"
   }
 }
 
