@@ -28,7 +28,7 @@
                     "stopName": "Palmer House",
                     "boardingArea": "Wabash Ave. Entrance",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/b66b6bac33b043018b41c44808888883?utm_campaign=embed&utm_source=other&heading=-114.3&pitch=-0.31&field-of-view=77&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=17%20E.%20Monroe%20St.%2C%20Chicago%2C%20IL%2060603",
                         "google": "https://www.google.com/maps/dir/Current+Location/17%20E.%20Monroe%20St.%2C%20Chicago%2C%20IL%2060603"
@@ -38,7 +38,7 @@
                     "stopName": "Congress Plaza",
                     "boardingArea": "Front Entrance",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/9b95944a61ce458c9521dc039013c6f1?utm_campaign=embed&utm_source=other&heading=36.5&pitch=-0.7&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=520%20S.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060605",
                         "google": "https://www.google.com/maps/dir/Current+Location/520%20S.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060605"
@@ -48,7 +48,7 @@
                     "stopName": "Hilton Chicago",
                     "boardingArea": "8th St. Entrance",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/33ae6ea28a9844ec97ddf60b98f435ed?utm_campaign=embed&utm_source=other&heading=40.3&pitch=1&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=720%20S.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060605",
                         "google": "https://www.google.com/maps/dir/Current+Location/720%20S.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060605"
@@ -72,7 +72,7 @@
                     "stopName": "Renaissance Chicago",
                     "boardingArea": "Curbside on Wacker Dr.",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/c76d4e38620f416cac50e9de757d6456?utm_campaign=embed&utm_source=other&heading=163.07&pitch=-4.88&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=1%20W.%20Wacker%20Dr.%2C%20Chicago%2C%20IL%2060601",
                         "google": "https://www.google.com/maps/dir/Current+Location/1%20W.%20Wacker%20Dr.%2C%20Chicago%2C%20IL%2060601"
@@ -82,7 +82,7 @@
                     "stopName": "Hyatt Regency Chicago",
                     "boardingArea": "East Tower Entrance",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/af172219418d4acdaa80019a8f32d61f?utm_campaign=embed&utm_source=other&heading=88.2&pitch=-4.64&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=151%20E.%20Wacker%20Dr.%2C%20Chicago%2C%20IL%2060601",
                         "google": "https://www.google.com/maps/dir/Current+Location/151%20E.%20Wacker%20Dr.%2C%20Chicago%2C%20IL%2060601"
@@ -106,7 +106,7 @@
                     "stopName": "InterContinental Chicago",
                     "boardingArea": "Illinois St. Entrance",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/0ac9c7646051495a8476e583c251ba44?utm_campaign=embed&utm_source=other&heading=86.8&pitch=-2&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=505%20N.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060611",
                         "google": "https://www.google.com/maps/dir/Current+Location/505%20N.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060611"
@@ -114,9 +114,9 @@
                 },
                 "2": {    
                     "stopName": "Homewood Suites Downtown",
-                    "boardingArea": "Front Entrance",
+                    "boardingArea": "NE Corner of Grand Ave. & Wabash Ave.",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/2958ecead6cf4a2291e543dcc6753d36?utm_campaign=embed&utm_source=other&heading=98.63&pitch=-5.31&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=40%20E.%20Grand%20Ave.%2C%20Chicago%2C%20IL%2060611",
                         "google": "https://www.google.com/maps/dir/Current+Location/40%20E.%20Grand%20Ave.%2C%20Chicago%2C%20IL%2060611"
@@ -126,7 +126,7 @@
                     "stopName": "Courtyard Downtown River North",
                     "boardingArea": "SE Corner of Illinois & State St.",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailablehttps://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/4083b2e0b306418c93224e6d26f6b177?utm_campaign=embed&utm_source=other&heading=-37&pitch=4.6&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=30%20E.%20Hubbard%20St.%2C%20Chicago%2C%20IL%2060611",
                         "google": "https://www.google.com/maps/dir/Current+Location/30%20E.%20Hubbard%20St.%2C%20Chicago%2C%20IL%2060611"
@@ -150,7 +150,7 @@
                     "stopName": "Hampton Inn Mag. Mile",
                     "boardingArea": "Front Entrance",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/0ef6d284b0ca4c14aa609efcc19eaf84?utm_campaign=embed&utm_source=other&heading=-62.6&pitch=-1.4&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=160%20E.%20Huron%20St.%2C%20Chicago%2C%20IL%2060611",
                         "google": "https://www.google.com/maps/dir/Current+Location/160%20E.%20Huron%20St.%2C%20Chicago%2C%20IL%2060611"
@@ -160,7 +160,7 @@
                     "stopName": "Westin Michigan Ave.",
                     "boardingArea": "Front Entrance<br>Across Delaware Pl.",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/cb45c8d680474c38a0b1e7738d7d1439?utm_campaign=embed&utm_source=other&heading=79.89&pitch=-9.15&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=909%20N.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060611",
                         "google": "https://www.google.com/maps/dir/Current+Location/909%20N.%20Michigan%20Ave.%2C%20Chicago%2C%20IL%2060611"
@@ -173,7 +173,7 @@
             "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=5",
             "flyer": { 
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/4802646f-611d-492b-9f74-d2030abd10ca/rsna2025-route5-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7f278bcf771591e3922/1753802738249/RSNA2025_Route6.pdf"
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7e9a1a337232343c6f3/1753802729694/RSNA2025_Route5.pdf"
             },
             "sign" : { 
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/ba24e828-b457-42a6-b0e3-cafd097399ec/rsna2025-route5-preview.png?content-type=image%2Fpng",
@@ -184,7 +184,7 @@
                     "stopName": "Fairfield Inn & Suites Mag. Mile",
                     "boardingArea": "Front Entrance",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/c29b989cc9a74bfe90ea07b3060c630e?utm_campaign=embed&utm_source=other&heading=59.54&pitch=-7.11&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=216%20E.%20Ontario%20St.%2C%20Chicago%2C%20IL%2060611",
                         "google": "https://www.google.com/maps/dir/Current+Location/216%20E.%20Ontario%20St.%2C%20Chicago%2C%20IL%2060611"
@@ -194,7 +194,7 @@
                     "stopName": "Sheraton Grand Chicago",
                     "boardingArea": "Front Entrance<br>Across North Water St.",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/fc1c576db4c7449a83ed2979b84164db?utm_campaign=embed&utm_source=other&heading=47.6&pitch=-1.5&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=301%20E.%20North%20Water%20St.%2C%20Chicago%2C%20IL%2060611",
                         "google": "https://www.google.com/maps/dir/Current+Location/301%20E.%20North%20Water%20St.%2C%20Chicago%2C%20IL%2060611"
@@ -215,10 +215,10 @@
             },
             "stops": {
                 "1": {    
-                    "stopName": "Westin Chicago River North",
+                    "stopName": "Westin River North",
                     "boardingArea": "Curbside on Clark St.<br>Across from Driveway",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/2a72637c99774e18bbc92623d6798c9f?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=320%20N.%20Dearborn%20St.%2C%20Chicago%2C%20IL%2060654",
                         "google": "https://www.google.com/maps/dir/Current+Location/320%20N.%20Dearborn%20St.%2C%20Chicago%2C%20IL%2060654"
@@ -228,7 +228,7 @@
                     "stopName": "LaSalle Chicago",
                     "boardingArea": "Front Entrance",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "panorama": "https://momento360.com/e/u/99eadad706914e0ba4a3a895cf8b9817?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=208%20S.%20LaSalle%20St.%2C%20Chicago%2C%20IL%2060604",
                         "google": "https://www.google.com/maps/dir/Current+Location/208%20S.%20LaSalle%20St.%2C%20Chicago%2C%20IL%2060604"
