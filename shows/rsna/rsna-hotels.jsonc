@@ -165,6 +165,16 @@
     "map": "https://www.google.com/maps?q=InterContinental%20Chicago&output=embed",
     "directionsText": "InterContinental (<1 mins.)"
   },
+
+
+  // STOP #2 - Homewood Suites Downtown
+  "homewood-suites-downtown": {
+    "name": "Homewood Suites Downtown",
+    "address": "40 E Grand Ave",
+    "phone": "(312) 644-2222",
+    "map": "https://www.google.com/maps?q=Homewood%20Suites%20Downtown%20Chicago&output=embed",
+    "directionsText": "NE Corner of Grand & Wabash (~1 min.)"
+  },
   "hotel-55": {
     "name": "Hotel 55",
     "address": "55 E Ontario St",
@@ -179,8 +189,8 @@
     "map": "https://www.google.com/maps?q=AC%20Hotel%20Chicago%20Downtown&output=embed",
     "directionsText": "InterContinental (~6 mins.)"
   },
-  "embassy-suites-river-north": {
-    "name": "Embassy Suites River North",
+  "embassy-suites-downtown": {
+    "name": "Embassy Suites Downtown",
     "address": "600 N State St",
     "phone": "(312) 943-3800",
     "map": "https://www.google.com/maps?q=Embassy%20Suites%20Chicago%20Downtown%20River%20North&output=embed",
@@ -199,15 +209,6 @@
     "phone": "(312) 595-0000",
     "map": "https://www.google.com/maps?q=Hilton%20Garden%20Inn%20Chicago%20Downtown%20Magnificent%20Mile&output=embed",
     "directionsText": "InterContinental (~6 mins.)"
-  },
-
-  // STOP #2 - Homewood Suites Downtown
-  "homewood-suites-downtown": {
-    "name": "Homewood Suites Downtown",
-    "address": "40 E Grand Ave",
-    "phone": "(312) 644-2222",
-    "map": "https://www.google.com/maps?q=Homewood%20Suites%20Downtown%20Chicago&output=embed",
-    "directionsText": "NE Corner of Grand & Wabash (~1 min.)"
   },
   "marriott-downtown-mag-mile": {
     "name": "Marriott Downtown Mag. Mile",
