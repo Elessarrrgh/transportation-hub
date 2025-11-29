@@ -14,7 +14,7 @@
     "routes": {
         "1": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=1",
+            "wait-time": "https://script.google.com/macros/s/AKfycbw4xRi0prdAd2GtuFoSaQDAci7PDiOVRG2zZiKKbha-_eH8LDlpQeMq9XWTXkv_FOX-/exec?route=1",
             "flyer": {
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/078aefc7-42c8-446a-99b1-6b26bdd5598e/rsna2025-route1-flyer-preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7a1d19c5078ea5534a0/1753802657084/RSNA2025_Route1.pdf"
@@ -58,7 +58,7 @@
         },
         "2": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=2",
+            "wait-time": "https://script.google.com/macros/s/AKfycbw4xRi0prdAd2GtuFoSaQDAci7PDiOVRG2zZiKKbha-_eH8LDlpQeMq9XWTXkv_FOX-/exec?route=2",
             "flyer": { 
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/b2a0638a-d67f-4f14-9a00-6e14842cf305/rsna2025-route2-flyer-preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68b068abc9c9195c8783acf2/1756391595601/RSNA2025_Route2.pdf"
@@ -92,7 +92,7 @@
         },
         "3": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=3",
+            "wait-time": "https://script.google.com/macros/s/AKfycbw4xRi0prdAd2GtuFoSaQDAci7PDiOVRG2zZiKKbha-_eH8LDlpQeMq9XWTXkv_FOX-/exec?route=3",
             "flyer": { 
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/771659ac-f8e3-4ec5-a914-9a3a6696ede8/rsna2025-route3-flyer-preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69164b2a48db46315551f3ad/1763068714332/RSNA2025_Route3.pdf"
@@ -124,7 +124,7 @@
                 },
                 "3": { // 
                     "stopName": "Courtyard Downtown River North",
-                    "boardingArea": "SE Corner of Illinois & State St.",
+                    "boardingArea": "SE Corner of Illinois St. & State St.",
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/4083b2e0b306418c93224e6d26f6b177?utm_campaign=embed&utm_source=other&heading=-37&pitch=4.6&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
@@ -136,7 +136,7 @@
         },
         "4": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=4",
+            "wait-time": "https://script.google.com/macros/s/AKfycbw4xRi0prdAd2GtuFoSaQDAci7PDiOVRG2zZiKKbha-_eH8LDlpQeMq9XWTXkv_FOX-/exec?route=4",
             "flyer": { 
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/443f57e4-aa0c-4398-9684-438ed82fb842/rsna2025-route4-flyer-preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7e51e37e63a2416c983/1753802725680/RSNA2025_Route4.pdf"
@@ -170,7 +170,7 @@
         },
         "5": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=5",
+            "wait-time": "https://script.google.com/macros/s/AKfycbw4xRi0prdAd2GtuFoSaQDAci7PDiOVRG2zZiKKbha-_eH8LDlpQeMq9XWTXkv_FOX-/exec?route=5",
             "flyer": { 
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/4802646f-611d-492b-9f74-d2030abd10ca/rsna2025-route5-flyer-preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7e9a1a337232343c6f3/1753802729694/RSNA2025_Route5.pdf"
@@ -204,7 +204,7 @@
         },
         "6": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbx8DIU5BV91caTAF5yIi_oU6NX384aap7xKwXlAQqH1B9AGjmIgh68DIRYW3IB2e9QC/exec?route=6",
+            "wait-time": "https://script.google.com/macros/s/AKfycbw4xRi0prdAd2GtuFoSaQDAci7PDiOVRG2zZiKKbha-_eH8LDlpQeMq9XWTXkv_FOX-/exec?route=6",
             "flyer": { 
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8b72414d-dc39-41b3-a0b4-f3a3e1f03008/rsna2025-route6-flyer-preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7f278bcf771591e3922/1753802738249/RSNA2025_Route6.pdf"
