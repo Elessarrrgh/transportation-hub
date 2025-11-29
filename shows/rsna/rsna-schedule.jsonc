@@ -7,8 +7,8 @@
       "inboundEnd": "11:00 AM",
       "outboundSubtitle": "McCormick Place to Hotels",
       "outboundStart": "2:00 PM",
-      "outboundEnd": "6:15 PM",
-      "intermission": "SERVICE INTERMISSION<br>Center City Express*"
+      "outboundEnd": "6:15 PM*",
+      "intermission": "SERVICE INTERMISSION<br>Center City Express**"
     },
     {
       "label": "Thursday, 12/04",
@@ -18,7 +18,7 @@
       "outboundSubtitle": "McCormick Place to Hotels",
       "outboundStart": "2:00 PM",
       "outboundEnd": "4:30 PM",
-      "intermission": "SERVICE INTERMISSION<br>Center City Express*"
+      "intermission": "SERVICE INTERMISSION<br>Center City Express**"
     }
   ]
 }
