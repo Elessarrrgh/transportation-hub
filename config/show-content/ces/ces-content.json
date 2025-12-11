@@ -30,8 +30,8 @@
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/0eff9fdb241541379f78c4856bb7999e?utm_campaign=embed&utm_source=other&heading=-6.26&pitch=4.51&field-of-view=85&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=3131%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109",
+                        "google": "https://www.google.com/maps/dir/Current+Location/3131%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109"
                     }
                 }
             }
@@ -54,8 +54,8 @@
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/aa35310e21e14e1e99dba23d53204e40?utm_campaign=embed&utm_source=other&heading=-62.67&pitch=-0.07&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=3300%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109",
+                        "google": "https://www.google.com/maps/dir/Current+Location/3300%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109"
                     }
                 }
             }
@@ -78,8 +78,8 @@
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/19987ade363e4b39acc13e97a2595161?utm_campaign=embed&utm_source=other&heading=-119.08&pitch=-0.5&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=3799%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109",
+                        "google": "https://www.google.com/maps/dir/Current+Location/3799%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109"
                     }
                 },
                 "2": {                     
@@ -88,8 +88,8 @@
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/3c1f0cd19b6f48d88d9d0e431c04e71e?utm_campaign=embed&utm_source=other&heading=-75.58&pitch=-0.2&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=3790%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109",
+                        "google": "https://www.google.com/maps/dir/Current+Location/3790%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109"
                     }
                 }
             }
@@ -112,8 +112,8 @@
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/3b4277090e8d44dda527f4496a879d60?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=3950%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089119",
+                        "google": "https://www.google.com/maps/dir/Current+Location/3950%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089119"
                     }
                 }
             }
@@ -136,8 +136,8 @@
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=129%20E%20Fremont%20St.%2C%20Las%20Vegas%2C%20NV%2089101",
+                        "google": "https://www.google.com/maps/dir/Current+Location/129%20E%20Fremont%20St.%2C%20Las%20Vegas%2C%20NV%2089101"
                     }
                 }
             }
@@ -160,8 +160,8 @@
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/a8e90ea8510d4dc898561edc3926887f?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=3600%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109",
+                        "google": "https://www.google.com/maps/dir/Current+Location/3600%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109"
                     }
                 },
                 "2": {                
@@ -170,14 +170,14 @@
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/c2c0d349c0e04d4ba73f097a733247ea?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=3708%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109",
+                        "google": "https://www.google.com/maps/dir/Current+Location/3708%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109"
                     }
                 }
             }
         },
         "7": {
-            "scheduleJson": "",                                                            
+            "scheduleJson": "config/show-content/ces/ces-route-7-schedule.json", 
             "wait-time": "",
             "flyer": {
                 "preview": "",
@@ -194,8 +194,8 @@
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/5f5a0fa2aeb746348e2d15dd15f76820?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=3730%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089158",
+                        "google": "https://www.google.com/maps/dir/Current+Location/3730%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089158"
                     }
                 }
             }
@@ -218,8 +218,8 @@
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/097e864a92a442d59573c0242d415786?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=3850%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109",
+                        "google": "https://www.google.com/maps/dir/Current+Location/3850%20Las%20Vegas%20Blvd.%2C%20Las%20Vegas%2C%20NV%2089109"
                     }
                 }
             }
