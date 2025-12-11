@@ -14,7 +14,7 @@
     "name": "Encore at Wynn",
     "address": "3121 Las Vegas Blvd.",
     "phone": "702-770-8000",
-    "map": "https://www.google.com/maps?q=36.1289345,-115.1653620&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.524365827085!2d-115.16918490560019!3d36.12944383418358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c2cc6478404b%3A0x99211dfe55920dc6!2sEncore%20Las%20Vegas!5e0!3m2!1sen!2sus!4v1765461601533!5m2!1sen!2sus",
     "directionsText": "Wynn (~3 min.)"
   },
 
@@ -26,7 +26,7 @@
     "name": "Treasure Island",
     "address": "3300 Las Vegas Blvd.",
     "phone": "702-894-7111",
-    "map": "https://www.google.com/maps?q=36.1245750,-115.1719707&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.7170531028623!2d-115.17465762282924!3d36.12475050548075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c43aaa9a0bb3%3A0x98b9469bc134713!2sTreasure%20Island%20Las%20Vegas%20-%20TI%20Hotel%20%26%20Casino%2C%20A%20Radisson%20Hotel!5e0!3m2!1sen!2sus!4v1765461638194!5m2!1sen!2sus",
     "directionsText": "Treasure Island (<1 min.)"
   },
   
@@ -38,14 +38,14 @@
     "name": "MGM Grand",
     "address": "3799 Las Vegas Blvd.",
     "phone": "702-891-1111",
-    "map": "https://www.google.com/maps?q=36.1027891,-115.1694006&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.584034956965!2d-115.17014932282974!3d36.10362670665291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c5cc93820e25%3A0x9dd94505bd76107f!2sMGM%20Grand!5e0!3m2!1sen!2sus!4v1765461690694!5m2!1sen!2sus",
     "directionsText": "MGM Grand (<1 min.)"
   },
   "signature-at-mgm": {
     "name": "Signature at MGM",
     "address": "145 E Harmon Ave.",
     "phone": "702-797-6000",
-    "map": "https://www.google.com/maps?q=36.1075485,-115.1665012&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.485332487446!2d-115.16932772282978!3d36.10603210651958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c4350d677303%3A0xd4991c46c5cb9337!2sThe%20Signature%20at%20MGM%20Grand!5e0!3m2!1sen!2sus!4v1765461948814!5m2!1sen!2sus",
     "directionsText": "MGM Grand (~3 mins.)"
   },
 
@@ -54,7 +54,7 @@
     "name": "New York New York",
     "address": "3790 Las Vegas Blvd.",
     "phone": "702-740-6969",
-    "map": "https://www.google.com/maps?q=36.1021436,-115.1744946&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.6451887373423!2d-115.17699742282981!3d36.10213630673571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c5ccc25c8967%3A0xedac8aad053f7cee!2sNew%20York-New%20York%20Hotel%20%26%20Casino!5e0!3m2!1sen!2sus!4v1765461997810!5m2!1sen!2sus",
     "directionsText": "New York New York (<1 min.)"
   },
   
@@ -66,7 +66,7 @@
     "name": "Mandalay Bay",
     "address": "3950 Las Vegas Blvd.",
     "phone": "702-632-7777",
-    "map": "https://www.google.com/maps?q=36.0924965,-115.1758522&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.0532884018676!2d-115.1774332228301!3d36.092189007287566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c5cffb824261%3A0x97f68a25c5b4ddef!2sMandalay%20Bay!5e0!3m2!1sen!2sus!4v1765462035822!5m2!1sen!2sus",
     "directionsText": "Mandalay Bay (<1 min.)"
   },
 
@@ -74,7 +74,7 @@
     "name": "W Las Vegas",
     "address": "3940 Las Vegas Blvd.",
     "phone": "702-632-7888",
-    "map": "https://www.google.com/maps?q=36.0931747,-115.1776852&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.025820325943!2d-115.18022682283012!3d36.09285860725033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c5cf643bc6d7%3A0xf6a346da9dc7b854!2sW%20Las%20Vegas!5e0!3m2!1sen!2sus!4v1765462085282!5m2!1sen!2sus",
     "directionsText": "Mandalay Bay (~2 min.)"
   },
   
@@ -86,7 +86,7 @@
     "name": "The Golden Nugget",
     "address": "129 E Fremont St.",
     "phone": "702-385-7111",
-    "map": "https://www.google.com/maps?q=36.1697984,-115.1457909&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.8595840875373!2d-115.14739842282826!3d36.16997140296941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c3a1c94f9a33%3A0x2010e5b6b996618b!2sGolden%20Nugget%20Las%20Vegas%20Hotel%20%26%20Casino!5e0!3m2!1sen!2sus!4v1765462125762!5m2!1sen!2sus",
     "directionsText": "The Golden Nugget (<1 min.)"
   },
 
@@ -94,7 +94,7 @@
     "name": "Circa",
     "address": "8 Fremont St.",
     "phone": "702-247-2258",
-    "map": "https://www.google.com/maps?q=36.1720480,-115.1453898&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6441.56546778135!2d-115.14841332282836!3d36.171841302865666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c3fc5099576b%3A0x535ccd87b2b90774!2sCirca%20Resort%20%26%20Casino!5e0!3m2!1sen!2sus!4v1765462175061!5m2!1sen!2sus",
     "directionsText": "The Golden Nugget (~2 mins.)"
   },
 
@@ -102,7 +102,7 @@
     "name": "The D Las Vegas",
     "address": "301 Fremont St.",
     "phone": "702-388-2400",
-    "map": "https://www.google.com/maps?q=36.1694974,-115.1429742&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.8849740237956!2d-115.14557482282831!3d36.169353603003806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c39fc6501ef9%3A0x93af46843e753f2e!2sThe%20D%20Casino%20%26%20Hotel!5e0!3m2!1sen!2sus!4v1765462213450!5m2!1sen!2sus",
     "directionsText": "The Golden Nugget (~3 mins.)"
   },
 
@@ -110,7 +110,7 @@
     "name": "The Plaza",
     "address": "1 N Main St.",
     "phone": "702-386-2110",
-    "map": "https://www.google.com/maps?q=36.1715877,-115.1470854&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6441.569824323151!2d-115.1494359228283!3d36.17178830286871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c3a19a0df63f%3A0x1ce78581e6a0acb6!2sPlaza%20Hotel%20%26%20Casino!5e0!3m2!1sen!2sus!4v1765462241002!5m2!1sen!2sus",
     "directionsText": "The Golden Nugget (<1 min.)"
   },
 
@@ -122,7 +122,7 @@
     "name": "Bellagio",
     "address": "3600 Las Vegas Blvd.",
     "phone": "702-693-7111",
-    "map": "https://www.google.com/maps?q=36.1131150,-115.1770065&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.2001667589698!2d-115.17909123816399!3d36.112980877378575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c430cb5147bd%3A0x82f2c7c5d9d10d84!2sBellagio%20Hotel%20%26%20Casino!5e0!3m2!1sen!2sus!4v1765462374341!5m2!1sen!2sus",
     "directionsText": "Bellagio (<1 min.)"
   },
 
@@ -131,7 +131,7 @@
     "name": "Cosmopolitan",
     "address": "3708 Las Vegas Blvd.",
     "phone": "702-698-7000",
-    "map": "https://www.google.com/maps?q=36.1101567,-115.1740915&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.3239675248765!2d-115.1779908228296!3d36.109964306301435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c43105c1ff4f%3A0x6d0f5e8df39e7c48!2sThe%20Cosmopolitan%20of%20Las%20Vegas!5e0!3m2!1sen!2sus!4v1765462429949!5m2!1sen!2sus",
     "directionsText": "Cosmopolitan (<1 min.)"
   },
 
@@ -143,7 +143,7 @@
     "name": "Aria",
     "address": "3730 Las Vegas Blvd.",
     "phone": "702-590-7111",
-    "map": "https://www.google.com/maps?q=36.1070287,-115.1779977&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.43024637428!2d-115.17932752282974!3d36.10737450644518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c42e1d156485%3A0x2ef3882f44b3056f!2sARIA%20Resort%20%26%20Casino!5e0!3m2!1sen!2sus!4v1765462457027!5m2!1sen!2sus",
     "directionsText": "ARIA (<1 min.)"
   },
 
@@ -151,7 +151,7 @@
     "name": "Park MGM",
     "address": "3770 Las Vegas Blvd.",
     "phone": "702-730-7777",
-    "map": "https://www.google.com/maps?q=36.1047548,-115.1752620&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.55193901775!2d-115.17924412282969!3d36.10440890660944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c432700e369d%3A0xe2dda86cde111bc8!2sPark%20MGM%20Las%20Vegas!5e0!3m2!1sen!2sus!4v1765462495161!5m2!1sen!2sus",
     "directionsText": "ARIA (~3 mins.)"
   },
 
@@ -159,7 +159,7 @@
     "name": "Vdara",
     "address": "2600 W Harmon Ave.",
     "phone": "866-745-7111",
-    "map": "https://www.google.com/maps?q=36.1094990,-115.1777523&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.4389144804218!2d-115.18215240863397!3d36.10716327521293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c43599d7119b%3A0x2d6c29d4fa5b4511!2sVdara%20Hotel%20%26%20Spa!5e0!3m2!1sen!2sus!4v1765462566630!5m2!1sen!2sus",
     "directionsText": "ARIA (~4 mins.)"
   },
 
@@ -171,7 +171,7 @@
     "name": "Excalibur",
     "address": "3850 Las Vegas Blvd.",
     "phone": "702-597-7777",
-    "map": "https://www.google.com/maps?q=36.0988730,-115.1756084&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.7820095485167!2d-115.17800612282988!3d36.09880160692071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c5cd84499bcd%3A0xaf47538c17e9e1e9!2sExcalibur%20Hotel%20%26%20Casino!5e0!3m2!1sen!2sus!4v1765462593603!5m2!1sen!2sus",
     "directionsText": "Excalibur (<1 min.)"
   },
 
@@ -179,7 +179,7 @@
     "name": "Luxor",
     "address": "3900 Las Vegas Blvd.",
     "phone": "702-262-4000",
-    "map": "https://www.google.com/maps?q=36.0958724,-115.1758074&z=17&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.91687487657!2d-115.17864212282979!3d36.09551430710313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c5ce3e5cb447%3A0xb5a742eafd00138!2sLuxor%20Hotel%20%26%20Casino!5e0!3m2!1sen!2sus!4v1765462649300!5m2!1sen!2sus",
     "directionsText": "Excalibur (~3 mins.)"
   }
 
