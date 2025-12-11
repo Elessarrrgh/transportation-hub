@@ -4,18 +4,18 @@
                    
   "wynn": {
     "name": "Wynn",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "address": "3131 Las Vegas Blvd.",
+    "phone": "702-770-7000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.660694259658!2d-115.16453322282938!3d36.12612330540443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c422de2a8695%3A0xb1c13b73cbbb6fed!2sWynn%20Las%20Vegas!5e0!3m2!1sen!2sus!4v1765454200977!5m2!1sen!2sus",
+    "directionsText": "Wynn (<1 min.)"
   },
   
   "encore": {
     "name": "Encore at Wynn",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "address": "3121 Las Vegas Blvd.",
+    "phone": "702-770-8000",
+    "map": "https://www.google.com/maps?q=36.1289345,-115.1653620&z=17&output=embed",
+    "directionsText": "Wynn (~3 min.)"
   },
 
 
@@ -24,10 +24,10 @@
                               
   "treasure-island": {
     "name": "Treasure Island",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "address": "3300 Las Vegas Blvd.",
+    "phone": "702-894-7111",
+    "map": "https://www.google.com/maps?q=36.1245750,-115.1719707&z=17&output=embed",
+    "directionsText": "Treasure Island (<1 min.)"
   },
   
 
@@ -36,22 +36,26 @@
                         
   "mgm-grand": {
     "name": "MGM Grand",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "address": "3799 Las Vegas Blvd.",
+    "phone": "702-891-1111",
+    "map": "https://www.google.com/maps?q=36.1027891,-115.1694006&z=17&output=embed",
+    "directionsText": "MGM Grand (<1 min.)"
   },
   "signature-at-mgm": {
-    "name": "Signature at MGM"
+    "name": "Signature at MGM",
+    "address": "145 E Harmon Ave.",
+    "phone": "702-797-6000",
+    "map": "https://www.google.com/maps?q=36.1075485,-115.1665012&z=17&output=embed",
+    "directionsText": "MGM Grand (~3 mins.)"
   },
 
                                 
   "new-york-new-york": {
     "name": "New York New York",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "address": "3790 Las Vegas Blvd.",
+    "phone": "702-740-6969",
+    "map": "https://www.google.com/maps?q=36.1021436,-115.1744946&z=17&output=embed",
+    "directionsText": "New York New York (<1 min.)"
   },
   
 
@@ -59,19 +63,19 @@
 
                            
   "mandalay-bay": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "name": "Mandalay Bay",
+    "address": "3950 Las Vegas Blvd.",
+    "phone": "702-632-7777",
+    "map": "https://www.google.com/maps?q=36.0924965,-115.1758522&z=17&output=embed",
+    "directionsText": "Mandalay Bay (<1 min.)"
   },
 
   "w-las-vegas": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "name": "W Las Vegas",
+    "address": "3940 Las Vegas Blvd.",
+    "phone": "702-632-7888",
+    "map": "https://www.google.com/maps?q=36.0931747,-115.1776852&z=17&output=embed",
+    "directionsText": "Mandalay Bay (~2 min.)"
   },
   
 
@@ -79,35 +83,35 @@
 
                                 
   "golden-nugget": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "name": "The Golden Nugget",
+    "address": "129 E Fremont St.",
+    "phone": "702-385-7111",
+    "map": "https://www.google.com/maps?q=36.1697984,-115.1457909&z=17&output=embed",
+    "directionsText": "The Golden Nugget (<1 min.)"
   },
 
   "circa": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "name": "Circa",
+    "address": "8 Fremont St.",
+    "phone": "702-247-2258",
+    "map": "https://www.google.com/maps?q=36.1720480,-115.1453898&z=17&output=embed",
+    "directionsText": "The Golden Nugget (~2 mins.)"
   },
 
   "the-d-las-vegas": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "name": "The D Las Vegas",
+    "address": "301 Fremont St.",
+    "phone": "702-388-2400",
+    "map": "https://www.google.com/maps?q=36.1694974,-115.1429742&z=17&output=embed",
+    "directionsText": "The Golden Nugget (~3 mins.)"
   },
 
   "the-plaza": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "name": "The Plaza",
+    "address": "1 N Main St.",
+    "phone": "702-386-2110",
+    "map": "https://www.google.com/maps?q=36.1715877,-115.1470854&z=17&output=embed",
+    "directionsText": "The Golden Nugget (<1 min.)"
   },
 
 
@@ -115,20 +119,20 @@
 
                        
   "bellagio": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "name": "Bellagio",
+    "address": "3600 Las Vegas Blvd.",
+    "phone": "702-693-7111",
+    "map": "https://www.google.com/maps?q=36.1131150,-115.1770065&z=17&output=embed",
+    "directionsText": "Bellagio (<1 min.)"
   },
 
                            
   "cosmopolitan": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "name": "Cosmopolitan",
+    "address": "3708 Las Vegas Blvd.",
+    "phone": "702-698-7000",
+    "map": "https://www.google.com/maps?q=36.1101567,-115.1740915&z=17&output=embed",
+    "directionsText": "Cosmopolitan (<1 min.)"
   },
 
 
@@ -136,27 +140,27 @@
 
                    
   "aria": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "name": "Aria",
+    "address": "3730 Las Vegas Blvd.",
+    "phone": "702-590-7111",
+    "map": "https://www.google.com/maps?q=36.1070287,-115.1779977&z=17&output=embed",
+    "directionsText": "ARIA (<1 min.)"
   },
 
   "park-mgm": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "name": "Park MGM",
+    "address": "3770 Las Vegas Blvd.",
+    "phone": "702-730-7777",
+    "map": "https://www.google.com/maps?q=36.1047548,-115.1752620&z=17&output=embed",
+    "directionsText": "ARIA (~3 mins.)"
   },
 
   "vdara": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "name": "Vdara",
+    "address": "2600 W Harmon Ave.",
+    "phone": "866-745-7111",
+    "map": "https://www.google.com/maps?q=36.1094990,-115.1777523&z=17&output=embed",
+    "directionsText": "ARIA (~4 mins.)"
   },
 
 
@@ -164,19 +168,19 @@
 
                         
   "excalibur": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "name": "Excalibur",
+    "address": "3850 Las Vegas Blvd.",
+    "phone": "702-597-7777",
+    "map": "https://www.google.com/maps?q=36.0988730,-115.1756084&z=17&output=embed",
+    "directionsText": "Excalibur (<1 min.)"
   },
 
   "luxor": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": ""
+    "name": "Luxor",
+    "address": "3900 Las Vegas Blvd.",
+    "phone": "702-262-4000",
+    "map": "https://www.google.com/maps?q=36.0958724,-115.1758074&z=17&output=embed",
+    "directionsText": "Excalibur (~3 mins.)"
   }
 
                                       
