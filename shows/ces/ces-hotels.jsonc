@@ -1,0 +1,184 @@
+{
+// ===== ROUTE 1 HOTELS =====
+
+  // STOP #1 — Wynn
+  "wynn": {
+    "name": "Wynn",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+  
+  "encore": {
+    "name": "Encore at Wynn",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+
+
+// ===== ROUTE 2 HOTELS =====
+
+  // STOP #1 — Treasure Island
+  "treasure-island": {
+    "name": "Treasure Island",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+  
+
+// ===== ROUTE 3 HOTELS =====
+
+  // STOP #1 — MGM Grand
+  "mgm-grand": {
+    "name": "MGM Grand",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+  "signature-at-mgm": {
+    "name": "Signature at MGM"
+  },
+
+  // STOP #2 - New York New York
+  "new-york-new-york": {
+    "name": "New York New York",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+  
+
+// ===== ROUTE 4 HOTELS =====
+
+  // STOP #1 - Mandalay Bay
+  "mandalay-bay": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+
+  "w-las-vegas": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+  
+
+// ===== ROUTE 5 HOTELS =====
+
+  // STOP #1 — The Golden Nugget
+  "golden-nugget": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+
+  "circa": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+
+  "the-d-las-vegas": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+
+  "the-plaza": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+
+
+// ===== ROUTE 6 HOTELS =====
+
+  // STOP #1 — Bellagio
+  "bellagio": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+
+  // STOP #2 — Cosmopolitan
+  "cosmopolitan": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+
+
+// ===== ROUTE 7 HOTELS =====
+
+  // STOP #1 — ARIA
+  "aria": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+
+  "park-mgm": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+
+  "vdara": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+
+
+// ===== ROUTE 8 HOTELS =====
+
+  // STOP #1 — Excalibur
+  "excalibur": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  },
+
+  "luxor": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
+  }
+
+// ===== WALKING DISTANCE HOTELS =====
+  
+}

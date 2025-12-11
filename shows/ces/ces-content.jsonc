@@ -1,0 +1,238 @@
+{
+    "base" : {
+        "title": "Consumer Electronics Show",
+        "event-map": ""
+    },
+    "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1KxhRTxO_eXlwkTO9LGnZ9QzlygWLseQ&ehbc=2E312F",
+    "flight-info": { 
+        "arrivals-widget": "shows/ces/flight-info/arrivals-widget.html",
+        "departures-widget": "shows/ces/flight-info/departures-widget.html",
+        "travel-time": "" // Not used since there are three venues to consider as origin.
+    },
+    "hotelsJson": "config/show-content/ces/ces-hotels.json",
+    "scheduleJson": "config/show-content/ces/ces-schedule.json",
+    "routes": {
+        "1": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : { 
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Wynn
+                    "stopName": "Wynn",
+                    "boardingArea": "South Gate Bus Area",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/0eff9fdb241541379f78c4856bb7999e?utm_campaign=embed&utm_source=other&heading=-6.26&pitch=4.51&field-of-view=85&size=large&display-plan=true", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "2": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : { 
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Treasure Island
+                    "stopName": "Treasure Island",
+                    "boardingArea": "Tour Bus Area",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/aa35310e21e14e1e99dba23d53204e40?utm_campaign=embed&utm_source=other&heading=-62.67&pitch=-0.07&field-of-view=75&size=large&display-plan=true", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "3": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : { 
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // MGM Grand
+                    "stopName": "MGM Grand",
+                    "boardingArea": "Grand Garden Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/19987ade363e4b39acc13e97a2595161?utm_campaign=embed&utm_source=other&heading=-119.08&pitch=-0.5&field-of-view=75&size=large&display-plan=true", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // New York New York
+                    "stopName": "New York New York",
+                    "boardingArea": "Valet Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/3c1f0cd19b6f48d88d9d0e431c04e71e?utm_campaign=embed&utm_source=other&heading=-75.58&pitch=-0.2&field-of-view=75&size=large&display-plan=true", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "4": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : { 
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Mandalay Bay
+                    "stopName": "Mandalay Bay",
+                    "boardingArea": "Shark Reef Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/3b4277090e8d44dda527f4496a879d60?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "5": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : { 
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Golden Nugget
+                    "stopName": "The Golden Nugget",
+                    "boardingArea": "Carson Tower Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "6": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : { 
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Bellagio
+                    "stopName": "Bellagio",
+                    "boardingArea": "Tour Bus Area",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/a8e90ea8510d4dc898561edc3926887f?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // Cosmopolitan
+                    "stopName": "Cosmpolitan",
+                    "boardingArea": "Tiffany Lot",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/c2c0d349c0e04d4ba73f097a733247ea?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "7": {
+            "scheduleJson": "", // TODO Unique schedule for Route 7 hotels, All-Day Service
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : { 
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // ARIA
+                    "stopName": "ARIA",
+                    "boardingArea": "Tour Bus Area",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/5f5a0fa2aeb746348e2d15dd15f76820?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "8": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : { 
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Excalibur
+                    "stopName": "Excalibur",
+                    "boardingArea": "Rotunda Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/097e864a92a442d59573c0242d415786?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "w": {
+          "stops": {
+            "0": {
+              "directions": {
+                "apple": "",
+                "google": ""
+              }
+            }
+          }
+        }
+    }
+}

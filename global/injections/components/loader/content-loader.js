@@ -292,15 +292,29 @@ function renderSchedule(data) {
       '<table class="shuttle-schedule-table">' +
       '<tbody>' +
       '<tr><td class="schedule-day" colspan="4">' + day.label + '</td></tr>' +
+
+      // --- Inbound block ---
       '<tr>' +
       '<td class="schedule-service-type">Inbound</td>' +
-      '<td class="schedule-start" rowspan="2">' + day.inboundStart + '</td>' +
+      '<td class="schedule-start" rowspan="2">' + (day.inboundStart || "") + '</td>' +
       '<td class="schedule-hyphen" rowspan="2">-</td>' +
-      '<td class="schedule-end" rowspan="2">' + day.inboundEnd + '</td>' +
+      '<td class="schedule-end" rowspan="2">' + (day.inboundEnd || "") + '</td>' +
       '</tr>' +
-      '<tr><td class="schedule-service-subtitle inbound-subtitle">' + day.inboundSubtitle + '</td></tr>';
+      '<tr><td class="schedule-service-subtitle inbound-subtitle">' + (day.inboundSubtitle || "") + '</td></tr>';
 
-    if (day.intermission) {
+    // --- Midday OR Intermission ---
+    if (day.middayStart && day.middayEnd) {
+      // Midday service block (similar to Inbound/Outbound)
+      html +=
+        '<tr>' +
+        '<td class="schedule-service-type">Midday</td>' +
+        '<td class="schedule-start" rowspan="2">' + day.middayStart + '</td>' +
+        '<td class="schedule-hyphen" rowspan="2">-</td>' +
+        '<td class="schedule-end" rowspan="2">' + day.middayEnd + '</td>' +
+        '</tr>' +
+        '<tr><td class="schedule-service-subtitle midday-subtitle">' + (day.middaySubtitle || "") + '</td></tr>';
+    } else if (day.intermission) {
+      // Legacy intermission row (only when there's no explicit midday block)
       html +=
         '<tr class="intermission-row">' +
         '<td class="schedule-intermission intermission-left"></td>' +
@@ -308,17 +322,21 @@ function renderSchedule(data) {
         '</tr>';
     }
 
+    // --- Outbound block ---
     html +=
       '<tr>' +
       '<td class="schedule-service-type">Outbound</td>' +
-      '<td class="schedule-start" rowspan="2">' + day.outboundStart + '</td>' +
+      '<td class="schedule-start" rowspan="2">' + (day.outboundStart || "") + '</td>' +
       '<td class="schedule-hyphen" rowspan="2">-</td>' +
-      '<td class="schedule-end schedule-bottom-right" rowspan="2">' + day.outboundEnd + '</td>' +
+      // keep bottom-right on the last block
+      '<td class="schedule-end schedule-bottom-right" rowspan="2">' + (day.outboundEnd || "") + '</td>' +
       '</tr>' +
-      '<tr><td class="schedule-service-subtitle outbound-subtitle schedule-bottom-left">' + day.outboundSubtitle + '</td></tr>' +
+      '<tr><td class="schedule-service-subtitle outbound-subtitle schedule-bottom-left">' + (day.outboundSubtitle || "") + '</td></tr>' +
+
       '</tbody>' +
       '</table><br>';
   });
+
   return html;
 }
 
