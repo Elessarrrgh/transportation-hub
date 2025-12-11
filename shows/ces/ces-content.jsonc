@@ -16,12 +16,12 @@
             "scheduleJson": "",
             "wait-time": "",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/c641afc1-5319-4a96-bce6-4e5ffe6bc304/ces-route-1-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b186af1268b026a9a768a/1765480554706/CES26_Shuttle22x28_Route1.pdf"
             },
             "sign" : { 
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/e0a62e39-b255-4498-949d-138b6c9f7290/ces-route-1-side-sign-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b1783a389e631f2412ea8/1765480323218/CES26_LVCC-Route1.pdf"
             },
             "stops": {
                 "1": { // Wynn
@@ -40,12 +40,12 @@
             "scheduleJson": "",
             "wait-time": "",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/357f4894-dc8b-4b4e-97fb-9e941b69319f/ces-route-2-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b187df1268b026a9a7c56/1765480573269/CES26_Shuttle22x28_Route2.pdf"
             },
             "sign" : { 
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/d7b6e9c3-8bb8-4c14-8b41-bcfce16edcbe/ces-route-2-side-sign-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b179a90c512571edec8f3/1765480346896/CES26_LVCC-Route2.pdf"
             },
             "stops": {
                 "1": { // Treasure Island
@@ -64,12 +64,12 @@
             "scheduleJson": "",
             "wait-time": "",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/d057b059-fa25-4884-b221-3a1bd5c60765/ces-route-3-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b189cf6cfaf06f490cef0/1765480604329/CES26_Shuttle22x28_Route3.pdf"
             },
             "sign" : { 
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8c9798c0-877d-4621-9393-4c91d2a0d74a/ces-route-3-side-sign-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b17bfe9e9604e9a226638/1765480383430/ces-route-3-side-sign.pdf"
             },
             "stops": {
                 "1": { // MGM Grand
@@ -98,12 +98,12 @@
             "scheduleJson": "",
             "wait-time": "",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/f269a37d-7017-477e-b584-f67c631e3f7e/ces-route-4-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b18ba7ccfb1335912dd57/1765480635002/CES26_Shuttle22x28_Route4.pdf"
             },
             "sign" : { 
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/d122cad3-2f59-4b91-948f-cb7288e89c0e/ces-route-4-side-sign-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b17d4c7e4ff485221f379/1765480404839/ces-route-4-side-sign.pdf"
             },
             "stops": {
                 "1": { // Mandalay Bay
@@ -122,12 +122,12 @@
             "scheduleJson": "",
             "wait-time": "",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/19b96845-c361-4658-8f5c-54b8358b27fd/ces-route-5-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b18d1dd9cc601f49f4eef/1765480657748/CES26_Shuttle22x28_Route5.pdf"
             },
             "sign" : { 
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/fa0415ab-4d81-4445-acaf-a99148ebb630/ces-route-5-side-sign-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b17e99f8c9a229ac66dcc/1765480425549/ces-route-5-side-sign.pdf"
             },
             "stops": {
                 "1": { // Golden Nugget
@@ -146,12 +146,12 @@
             "scheduleJson": "",
             "wait-time": "",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/38c78f11-00e8-42ae-99ee-2cc73f95a70f/ces-route-6-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b18ebac430e56bee29dee/1765480683166/CES26_Shuttle22x28_Route6.pdf"
             },
             "sign" : { 
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/d0712a6a-945d-46e0-bf14-a08c9d4edaca/ces-route-6-side-sign-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b17ffd661c870a66bc483/1765480447726/ces-route-6-side-sign.pdf"
             },
             "stops": {
                 "1": { // Bellagio
@@ -180,12 +180,12 @@
             "scheduleJson": "config/show-content/ces/ces-route-7-schedule.json", 
             "wait-time": "",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1d6a1a4-f852-4b47-83e3-c1bf6292616c/ces-route-7-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b190a8a56890bfb8de24b/1765480714753/CES26_Shuttle22x28_Route7.pdf"
             },
             "sign" : { 
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/26a63671-75f9-40bb-a66c-5412750b877c/ces-route-7-side-sign-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b182399a8f636ab7b50de/1765480483541/ces-route-7-side-sign.pdf"
             },
             "stops": {
                 "1": { // ARIA
@@ -204,12 +204,12 @@
             "scheduleJson": "",
             "wait-time": "",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/da5a5166-8049-4464-8ccf-172ef0ffbb9c/ces-route-8-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b1924f6cfaf06f490f6b3/1765480740413/CES26_Shuttle22x28_Route8.pdf"
             },
             "sign" : { 
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6abf1386-9e4f-4a4d-bba1-833c2e1b83f0/ces-route-8-side-sign-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b183eac3ca313e45d5865/1765480510858/ces-route-8-side-sign.pdf"
             },
             "stops": {
                 "1": { // Excalibur
