@@ -1,7 +1,10 @@
 {
   "abc" : "config/show-content/abc/abc-content.json",
-  "ue" : "config/show-content/ue/ue-content.json",
-  "pstm" : "config/show-content/pstm/pstm-content.json",
   "apha" : "config/show-content/apha/apha-content.json",
-  "rsna" : "config/show-content/rsna/rsna-content.json"
+  "ces" : "config/show-content/ces/ces-content.josn",
+  "nrf" : "config/show-content/nrf/nrf-content.json",
+  "pstm" : "config/show-content/pstm/pstm-content.json",
+  "rsna" : "config/show-content/rsna/rsna-content.json",
+  "ue" : "config/show-content/ue/ue-content.json",
+  "ydc" : "config/show-content/ydc/ydc-content.json"
 }
