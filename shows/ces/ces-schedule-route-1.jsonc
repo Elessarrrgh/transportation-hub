@@ -1,7 +1,7 @@
 {
   "days": [
     {
-      "label": "Monday, 01/08",
+      "label": "Monday, 1/5",
       "inboundSubtitle": "Hotels to LVCC",
       "inboundStart": "8:00 AM",
       "inboundEnd": "1:00 PM",
@@ -11,7 +11,7 @@
       "intermission": null
     },
     {
-      "label": "Tuesday, 01/09 - Thursday, 01/11",
+      "label": "Tuesday, 1/6 - Thursday, 1/8",
       "inboundSubtitle": "Hotels to LVCC",
       "inboundStart": "7:30 AM",
       "inboundEnd": "10:30 AM",
@@ -21,7 +21,7 @@
       "intermission": "SERVICE INTERMISSION"
     },
     {
-      "label": "Friday, 01/12",
+      "label": "Friday, 1/9",
       "inboundSubtitle": "Hotels to LVCC",
       "inboundStart": "7:30 AM",
       "inboundEnd": "10:30 AM",

@@ -1,0 +1,75 @@
+UBER DEEPLINK
+
+Components
+    Opening: https://m.uber.com/ul/?action=setPickup
+    Latitude: "&pickup[latitude]=[LATITUDE-VALUE]"
+    Longitude: "&pickup[longitude]=[LONGITUDE-VALUE]"
+    Nickname: "&pickup[nickname]=[CONVENTION-CENTER-NAME]"
+    Address: "&pickup[formatted_address]=[123-ADDRESS-ST],%20[CITY-NAME],%20[STATE]%20[ZIP]"
+    
+    (use %20 in place of spaces)
+
+Full Example
+    "https://m.uber.com/ul/?action=setPickup&pickup[latitude]=[LATITUDE-VALUE]&pickup[longitude]=[LONGITUDE-VALUE]&pickup[nickname]=[CONVENTION-CENTER-NAME]&pickup[formatted_address]=[123-ADDRESS-ST],%20[CITY-NAME],%20[STATE]%20[ZIP]"
+
+
+
+LYFT DEEPLINK
+
+Components
+    Opening: "https://lyft.com/ride?id=lyft " 
+    Latitude: "&pickup[latitude]=[LATITUDE-VALLUE] "
+    Longitude: "&pickup[longitude]=[LONGITUDE-VALUE] "
+    Address: &pickup[address]=[123-ADDRESS-ST]%20[CITY-NAME]%20[STATE]%20[ZIP]
+    
+    (yes, those are intentional spaces at the end)
+    (once again, use %20 in place of spaces)
+
+
+Full Example
+"https://lyft.com/ride?id=lyft &pickup[latitude]=[LATITUDE-VALUE] &pickup[longitude]=[LONGITUDE-VALUE] &pickup[address]=[123-ADDRESS-ST]%20[CITY-NAME]%20[STATE]%20[ZIP]"
+
+
+
+<===== LVCC WESST HALL =====>
+
+Uber Hyperlink:
+https://m.uber.com/ul/?action=setPickup&pickup[latitude]=41.84978848939296&pickup[longitude]=-87.61556812161965&pickup[nickname]=McCormick%20Place%20-%20South%20Building&pickup[formatted_address]=2301%20S%20Martin%20Luther%20King%20Dr,%20Chicago,%20IL%2060616
+
+
+
+Lyft Hyperlink:
+https://lyft.com/ride?id=lyft&pickup[latitude]=41.84978848939296&pickup[longitude]=-87.61556812161965&pickup[address]=2301%20S%20Martin%20Luther%20King%20Dr%20Chicago%20IL%2060616
+
+
+<===== LVCC SOUTH HALL =====>
+
+Uber Hyperlink:
+https://m.uber.com/ul/?action=setPickup&pickup[latitude]=41.84978848939296&pickup[longitude]=-87.61556812161965&pickup[nickname]=McCormick%20Place%20-%20South%20Building&pickup[formatted_address]=2301%20S%20Martin%20Luther%20King%20Dr,%20Chicago,%20IL%2060616
+
+
+
+Lyft Hyperlink:
+https://lyft.com/ride?id=lyft&pickup[latitude]=41.84978848939296&pickup[longitude]=-87.61556812161965&pickup[address]=2301%20S%20Martin%20Luther%20King%20Dr%20Chicago%20IL%2060616
+
+
+<===== LVCC NORTH HALL =====>
+
+Uber Hyperlink:
+https://m.uber.com/ul/?action=setPickup&pickup[latitude]=41.84978848939296&pickup[longitude]=-87.61556812161965&pickup[nickname]=McCormick%20Place%20-%20South%20Building&pickup[formatted_address]=2301%20S%20Martin%20Luther%20King%20Dr,%20Chicago,%20IL%2060616
+
+
+
+Lyft Hyperlink:
+https://lyft.com/ride?id=lyft&pickup[latitude]=41.84978848939296&pickup[longitude]=-87.61556812161965&pickup[address]=2301%20S%20Martin%20Luther%20King%20Dr%20Chicago%20IL%2060616
+
+
+
+<===== VENETIAN EXPO =====>
+
+Uber Hyperlink:
+https://m.uber.com/ul/?action=setPickup&pickup[latitude]=36.121193916895145&pickup[longitude]=-115.17075345232018&pickup[nickname]=Venetian%20Resort%20Las%20Vegas&pickup[formatted_address]=3355%20S%20Las%20Vegas%20Blvd,%20Las%20Vegas,%20NV%2089109
+36.121193916895145, -115.17075345232018
+
+Lyft Hyperlink:
+https://lyft.com/ride?id=lyft&pickup[latitude]=41.852481693724016&pickup[longitude]=-87.61184521557428&pickup[address]=2301%20S%20DuSable%20Lake%20Shore%20Dr%20Chicago%20IL%2060616
