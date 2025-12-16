@@ -2,35 +2,30 @@
   "days": [
     {
       "label": "Monday, 01/08",
-      "inboundSubtitle": "Hotels to Conv. Center",
+      "inboundSubtitle": "Hotels to LVCC",
       "inboundStart": "8:00 AM",
       "inboundEnd": "1:00 PM",
-      "outboundSubtitle": "Conv. Center to Hotels",
+      "outboundSubtitle": "LVCC to Hotels",
       "outboundStart": "1:00 PM",
       "outboundEnd": "6:00 PM",
       "intermission": null
     },
     {
       "label": "Tuesday, 01/09 - Thursday, 01/11",
-      "inboundSubtitle": "Hotels to Conv. Center",
+      "inboundSubtitle": "Hotels to LVCC",
       "inboundStart": "7:30 AM",
       "inboundEnd": "10:30 AM",
-      "middaySubtitle": "Reduced frequency (every 30 min)",
-      "middayStart": "10:30 AM",
-      "middayEnd": "4:00 PM",
-      "outboundSubtitle": "Conv. Center to Hotels",
+      "outboundSubtitle": "LVCC to Hotels",
       "outboundStart": "4:00 PM",
-      "outboundEnd": "6:30 PM"
+      "outboundEnd": "6:30 PM",
+      "intermission": "SERVICE INTERMISSION"
     },
     {
       "label": "Friday, 01/12",
-      "inboundSubtitle": "Hotels to Conv. Center",
+      "inboundSubtitle": "Hotels to LVCC",
       "inboundStart": "7:30 AM",
       "inboundEnd": "10:30 AM",
-      "middaySubtitle": "Reduced frequency (every 30 min)",
-      "middayStart": "10:30 AM",
-      "middayEnd": "2:00 PM",
-      "outboundSubtitle": "Conv. Center to Hotels",
+      "outboundSubtitle": "LVCC to Hotels",
       "outboundStart": "2:00 PM",
       "outboundEnd": "4:30 PM",
       "intermission": "SERVICE INTERMISSION"
