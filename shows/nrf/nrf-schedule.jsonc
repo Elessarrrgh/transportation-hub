@@ -1,0 +1,34 @@
+{
+  "days": [
+    {
+      "label": "Saturday, 1/10",
+      "inboundSubtitle": "Hotels to Javits Center",
+      "inboundStart": "7:00 AM",
+      "inboundEnd": "11:00 AM",
+      "outboundSubtitle": "Javits Center to Hotels",
+      "outboundStart": "11:00 AM",
+      "outboundEnd": "6:00 PM",
+      "intermission": null
+    },
+    {
+      "label": "Sunday, 1/11 - Monday, 1/12",
+      "inboundSubtitle": "Hotels to Javits Center",
+      "inboundStart": "7:00 AM",
+      "inboundEnd": "10:30 AM",
+      "outboundSubtitle": "Javits Center to Hotels",
+      "outboundStart": "3:00 PM",
+      "outboundEnd": "6:00 PM",
+      "intermission": "SERVICE INTERMISSION"
+    },
+    {
+      "label": "Tuesday, 1/13",
+      "inboundSubtitle": "Hotels to Javits Center",
+      "inboundStart": "7:00 AM",
+      "inboundEnd": "10:30 AM",
+      "outboundSubtitle": "Javits Center to Hotels",
+      "outboundStart": "2:30 PM",
+      "outboundEnd": "4:30 PM",
+      "intermission": "SERVICE INTERMISSION"
+    }
+  ]
+}
