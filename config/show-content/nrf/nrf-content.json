@@ -1,0 +1,166 @@
+{
+    "base" : {
+        "title": "National Retail Federation",
+        "event-map": ""
+    },
+    "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1sd61BpSVrf85ob2jMkpqo9xidx4pxjY&ehbc=2E312F",
+    "flight-info": {                                                            
+        "arrivals-widget": "",
+        "departures-widget": "",
+        "travel-time": "" 
+    },
+    "hotelsJson": "config/show-content/nrf/nrf-hotels.json",
+    "scheduleJson": "config/show-content/nrf/nrf-schedule.json",
+    "routes": {
+        "1": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : { 
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {                     
+                    "stopName": "Crowne Plaza HY36",
+                    "boardingArea": "Front Entrance on 36th St.",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "2": {
+            "scheduleJson": "config/show-content/nrf/nrf-schedule-route-2.json",
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : { 
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {                      
+                    "stopName": "Park Central Hotel",
+                    "boardingArea": "Front Entrance on 7th Ave.",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "3": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : { 
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {                  
+                    "stopName": "Hilton Midtown",
+                    "boardingArea": "53rd St. Entrance",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {                       
+                    "stopName": "7th Ave. & 52nd St.",
+                    "boardingArea": "NW Corner of Intersection",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "4": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : { 
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {                    
+                    "stopName": "New York Marriott Marquis",
+                    "boardingArea": "45th St. Entrance",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "5": {
+            "scheduleJson": "",
+            "wait-time": "",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : { 
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {                                    
+                    "stopName": "Four Points Midtown Times Square",
+                    "boardingArea": "Front Entrance",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {    
+                    "stopName": "The Westin NY at Times Square",
+                    "boardingArea": "Curbside on 8th Ave.",
+                    "scheduleJson": "",
+                    "panorama": "", 
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "w": {
+          "stops": {
+            "0": {
+              "directions": {
+                "apple": "",
+                "google": ""
+              }
+            }
+          }
+        }
+    }
+}

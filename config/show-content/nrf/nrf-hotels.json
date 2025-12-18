@@ -1,0 +1,404 @@
+{
+                             
+
+                                   
+  "crowne-plaza-hy36": {
+    "name": "Crowne Plaza<br>HY36",
+    "address": "320 W 36th St.",
+    "phone": "646-928-3800",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3698559696463!2d-73.99633318714825!3d40.753889334928836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ad9bc71769%3A0xb5ecfd1327c540bc!2sCrowne%20Plaza%20HY36%20Midtown%20Manhattan!5e0!3m2!1sen!2sus!4v1766066877559!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (<1 min.)"
+  },
+  "doubletree-tsq-south": {
+    "name": "DoubleTree<br>Times Square South",
+    "address": "525 8th Ave.",
+    "phone": "212-255-9000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.37358813466!2d-73.99530218714817!3d40.75380723493396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2592589dad0d1%3A0x621aae46fae3fb16!2sDoubleTree%20by%20Hilton%20New%20York%20Times%20Square%20South!5e0!3m2!1sen!2sus!4v1766067044564!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~2 mins.)"
+  },
+  "even-hotel-tsq-south": {
+    "name": "EVEN Hotel<br>Times Square South",
+    "address": "321 W 35th St.",
+    "phone": "212-356-0034",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.388862216724!2d-73.99647838714837!3d40.75347123495439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ad908ab2b3%3A0x9e34199b3cb44baf!2sEVEN%20Hotel%20New%20York%20-%20Times%20Square%20South%20by%20IHG!5e0!3m2!1sen!2sus!4v1766067179349!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~4 mins.)"
+  },
+  "fairfield-inn-tsq-south": {
+    "name": "Fairfield Inn & Suites Times Square South",
+    "address": "338 W 36th St.",
+    "phone": "212-216-9110",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3624143504776!2d-73.9968342871483!3d40.75405303491868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ad9cd4b195%3A0x5d03bf5f4a80e73!2sFairfield%20by%20Marriott%20Inn%20%26%20Suites%20New%20York%20Manhattan%2FTimes%20Square%20South!5e0!3m2!1sen!2sus!4v1766068234073!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~1 min.)"
+  },
+  "fairfield-inn-penn-station": {
+    "name": "Fairfield Inn & Suites Penn Station",
+    "address": "325 W 33rd St.",
+    "phone": "212-563-0900",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.444029880725!2d-73.99764148714824!3d40.75225763502886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259b206a020f3%3A0x1bc010494a484f2f!2sFairfield%20by%20Marriott%20Inn%20%26%20Suites%20New%20York%20Midtown%20Manhattan%2FPenn%20Station!5e0!3m2!1sen!2sus!4v1766072614773!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~7 mins.)"
+  },
+  "hilton-garden-inn-tsq-south": {
+    "name": "Hilton Garden Inn<br>Times Square South",
+    "address": "326 W 37th St.",
+    "phone": "212-868-6700",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.342707805443!2d-73.99617878714837!3d40.754486534892315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ad738c44e1%3A0xeb832607d63168d1!2sHilton%20Garden%20Inn%20New%20York%20Times%20Square%20South!5e0!3m2!1sen!2sus!4v1766074674857!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~4 mins.)"
+  },
+  "homewood-midtown-tsq": {
+    "name": "Homewood Suites Midtown<br>Times Square",
+    "address": "312 W 37th St.",
+    "phone": "212-244-0644",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3490084635696!2d-73.99569158714819!3d40.754347934900764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ad0ba6abff%3A0x8b302469e203f051!2sHomewood%20Suites%20by%20Hilton%20New%20York%2FMidtown%20Manhattan%20Times%20Square-South%2C%20NY!5e0!3m2!1sen!2sus!4v1766074810657!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~4 mins.)"
+  },
+  "la-quinta-tsq-south": {
+    "name": "La Quinta<br>Times Square South",
+    "address": "333 W 38th St.",
+    "phone": "718-690-3294",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2940430355834!2d-73.99561128714817!3d40.755557034826666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ad38147233%3A0xd1ae455ae3a70c9a!2sLa%20Quinta%20Inn%20%26%20Suites%20by%20Wyndham%20Times%20Square%20South!5e0!3m2!1sen!2sus!4v1766075028861!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~6 mins.)"
+  },
+  "moxy-tsq": {
+    "name": "Moxy<br>Times Square",
+    "address": "485 7th Ave.",
+    "phone": "212-967-6699",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4413569895664!2d-73.99169978714836!3d40.75231643502528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ac73419a97%3A0x320689ed96b2713!2sMoxy%20NYC%20Times%20Square!5e0!3m2!1sen!2sus!4v1766075601298!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~6 mins.)"
+  },
+  "renaissance-ny-midtown": {
+    "name": "Renaissance NY<br>Midtown",
+    "address": "218 W 35th St.",
+    "phone": "212-239-0014",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4666584133424!2d-73.99366888714836!3d40.75175983505946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ac25708a0f%3A0x1db04f051393aad2!2sRenaissance%20New%20York%20Midtown%20Hotel!5e0!3m2!1sen!2sus!4v1766075785189!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~5 mins.)"
+  },
+  "springhill-suites-tsq-south": {
+    "name": "SpringHill Suites<br>Times Square South",
+    "address": "338 W 36th St.",
+    "phone": "212-216-9244",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.360336875109!2d-73.99687638714833!3d40.75409873491594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ad9cd4b195%3A0x8f88055f9ef6d908!2sSpringHill%20Suites%20by%20Marriott%20New%20York%20Manhattan%2FTimes%20Square%20South!5e0!3m2!1sen!2sus!4v1766075918200!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~1 min.)"
+  },
+  "staypineapple-midtown": {
+    "name": "Staypineapple<br>Midtown",
+    "address": "337 W 36th St.",
+    "phone": "866-866-7977",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.354440834982!2d-73.99658758714837!3d40.754228434908114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ad770eaaab%3A0x58ac5b9c518cb960!2sStaypineapple%2C%20An%20Artful%20Hotel%2C%20Midtown%20New%20York!5e0!3m2!1sen!2sus!4v1766076013131!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~4 mins.)"
+  },
+  "the-new-yorker": {
+    "name": "The New Yorker by Lotte Hotels",
+    "address": "481 8th Ave.",
+    "phone": "212-971-0101",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12089.414157516845!2d-74.00433920233637!3d40.75424826493418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259b5a9bd152b%3A0x31453e62a3be9f76!2sThe%20New%20Yorker%20by%20Lotte%20Hotels!5e0!3m2!1sen!2sus!4v1766076251573!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~3 mins.)"
+  },
+  "tryp-tsq-midtown": {
+    "name": "TRYP Times Square/Midtown",
+    "address": "345 W 35th St.",
+    "phone": "212-600-2440",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3746836898436!2d-73.99719998714839!3d40.75378313493535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ad8844594f%3A0x1aa12867cdb592ca!2sTRYP%20by%20Wyndham%20New%20York%20City%20Times%20Square%20South!5e0!3m2!1sen!2sus!4v1766076357919!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~5 mins.)"
+  },
+  "voco-tsq-south": {
+    "name": "voco<br>Times Square South",
+    "address": "341 W 36th St.",
+    "phone": "212-542-8990",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3442034178083!2d-73.99668338714831!3d40.754453634894375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ad780bae97%3A0x3aa56e7be89edee!2svoco%20Times%20Square%20South%20New%20York%20by%20IHG!5e0!3m2!1sen!2sus!4v1766076441875!5m2!1sen!2sus",
+    "directionsText": "Crowne Plaza HY36 (~4 mins.)"
+  },
+
+
+                             
+
+                           
+  "park-central": {
+    "name": "Park Central Hotel",
+    "address": "870 7th Ave.",
+    "phone": "212-247-8000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8829166043997!2d-73.98353108714797!3d40.76459983427268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f82090418d%3A0xf1490df928fde01d!2sPark%20Central%20Hotel%20New%20York!5e0!3m2!1sen!2sus!4v1766076620375!5m2!1sen!2sus",
+    "directionsText": "Park Central Hotel (<1 min.)"
+  },
+  "jw-marriott-essex-house": {
+    "name": "JW Marriott<br>Essex House",
+    "address": "160 Central Park South",
+    "phone": "212-247-0300",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.806327874509!2d-73.9811476871481!3d40.76628423416925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f721b356b5%3A0x34d7083a9a73db81!2sJW%20Marriott%20Essex%20House%20New%20York!5e0!3m2!1sen!2sus!4v1766076728799!5m2!1sen!2sus",
+    "directionsText": "Park Central Hotel (~4 mins.)"
+  },
+  "le-meridien-central-park": {
+    "name": "Le Méridien<br>Central Park",
+    "address": "120 W 57th St.",
+    "phone": "212-830-8000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.883756586878!2d-73.98337556923198!3d40.76458136039552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25910b9b33681%3A0x9fd03c7c26a630d!2sLe%20M%C3%A9ridien%20New%20York%2C%20Central%20Park!5e0!3m2!1sen!2sus!4v1766076849783!5m2!1sen!2sus",
+    "directionsText": "Park Central Hotel (~5 mins.)"
+  },
+  "luxury-collection-hotel-manh-midtown": {
+    "name": "The Luxury Collection Hotel Midtown",
+    "address": "151 W 54th St.",
+    "phone": "917-590-5400",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8833897100412!2d-73.98338629815082!3d40.76458942918088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2598a3fc8ba47%3A0x7b07bf6ebd959ceb!2sThe%20Luxury%20Collection%20Hotel%20Manhattan%20Midtown!5e0!3m2!1sen!2sus!4v1766077502604!5m2!1sen!2sus",
+    "directionsText": "Park Central Hotel (~3 mins.)"
+  },
+  "thompson-central-park": {
+    "name": "Thompson<br>Central Park ",
+    "address": "119 W 56th St.",
+    "phone": "212-245-5000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9028909013537!2d-73.98110078714795!3d40.76416053429944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f9e15bf1c1%3A0x14ba1ab4038566b!2sThompson%20Central%20Park%20New%20York%2C%20by%20Hyatt!5e0!3m2!1sen!2sus!4v1766077589263!5m2!1sen!2sus",
+    "directionsText": "Park Central Hotel (~3 mins.)"
+  },
+  
+
+                             
+
+                             
+  "hilton-midtown": {
+    "name": "Hilton Midtown",
+    "address": "1335 Ave. of the Americas",
+    "phone": "212-586-7000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.989660858988!2d-73.98177028714814!3d40.76225213441648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c0679529%3A0x2a34371cb33f3c80!2sNew%20York%20Hilton%20Midtown!5e0!3m2!1sen!2sus!4v1766077897340!5m2!1sen!2sus",
+    "directionsText": "Hilton Midtown (<1 min.)"
+  },
+
+                                  
+  "m-social-hotel-tsq": {
+    "name": "M Social Hotel<br>Times Square",
+    "address": "226 W 52nd St.",
+    "phone": "212-315-0100",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.960475718713!2d-73.98638408714805!3d40.76289403437696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2595cb290326f%3A0xbaaf971ff1b9ef43!2sM%20Social%20Hotel%20New%20York%20Times%20Square!5e0!3m2!1sen!2sus!4v1766078055876!5m2!1sen!2sus",
+    "directionsText": "7th Ave. & 52nd St. (~2 mins.)"
+  },
+  "sheraton-tsq": {
+    "name": "Sheraton NY<br>Times Square",
+    "address": "811 7th Ave.",
+    "phone": "212-581-1000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9745204612213!2d-73.98371928714806!3d40.762585134396176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f88254f2c3%3A0xc307e150c50c51f7!2sSheraton%20New%20York%20Times%20Square%20Hotel!5e0!3m2!1sen!2sus!4v1766078169510!5m2!1sen!2sus",
+    "directionsText": "7th Ave. & 52nd St. (~2 mins.)"
+  },
+  
+
+                             
+
+                                  
+  "new-york-marriott-marquis": {
+    "name": "New York<br>Marriott Marquis",
+    "address": "1535 Broadway",
+    "phone": "212-398-1900",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1561484876056!2d-73.98840048714828!3d40.75859023464067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2585500e85589%3A0x18f39d1f8ee2a312!2sNew%20York%20Marriott%20Marquis!5e0!3m2!1sen!2sus!4v1766078280720!5m2!1sen!2sus",
+    "directionsText": "New York Marriott Marquis (<1 min.)"
+  },
+  "hard-rock-hotel": {
+    "name": "Hard Rock Hotel",
+    "address": "159 W 48th St.",
+    "phone": "212-970-1200",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1060520995793!2d-73.98592958714806!3d40.75969213457323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25941eb1c738d%3A0x4b2e65fb4e9746d5!2sHard%20Rock%20Hotel%20New%20York!5e0!3m2!1sen!2sus!4v1766078355524!5m2!1sen!2sus",
+    "directionsText": "New York Marriott Marquis (~4 mins.)"
+  },
+  "hotel-edison-tsq": {
+    "name": "Hotel Edison<br>Times Square",
+    "address": "228 W 47th St.",
+    "phone": "212-840-5000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.103897097833!2d-73.98873138714818!3d40.75973953457035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855cd257fab%3A0x2db03fd1d21b180e!2sHotel%20Edison!5e0!3m2!1sen!2sus!4v1766078417843!5m2!1sen!2sus",
+    "directionsText": "New York Marriott Marquis (~3 mins.)"
+  },
+  "hyatt-centric-tsq": {
+    "name": "Hyatt Centric<br>Times Square",
+    "address": "135 W 45th St.",
+    "phone": "646-364-1234",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2042434236196!2d-73.98664298714819!3d40.75753233470562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258557663d695%3A0xac95112c0f8afc4f!2sHyatt%20Centric%20Times%20Square%20New%20York!5e0!3m2!1sen!2sus!4v1766078615561!5m2!1sen!2sus",
+    "directionsText": "New York Marriott Marquis (~3 mins.)"
+  },
+  "hyatt-regency-tsq": {
+    "name": "Hyatt Regency<br>Times Square",
+    "address": "1605 Broadway",
+    "phone": "212-977-4000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2038765598622!2d-73.98665371606702!3d40.75754040435484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258567367bf3f%3A0x94b2c1c08294f791!2sHyatt%20Regency%20Times%20Square!5e0!3m2!1sen!2sus!4v1766078751872!5m2!1sen!2sus",
+    "directionsText": "New York Marriott Marquis (~3 mins.)"
+  },
+  "kimpton-theta-tsq": {
+    "name": "Kimpton Theta<br>Times Square",
+    "address": "790 8th Ave.",
+    "phone": "212-581-7000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0296301093!2d-73.98905968714817!3d40.76137303447024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a28181b417%3A0x726c1c58d1da39df!2sKimpton%20Theta%20New%20York%20-%20Times%20Square!5e0!3m2!1sen!2sus!4v1766078876161!5m2!1sen!2sus",
+    "directionsText": "New York Marriott Marquis (~6 mins.)"
+  },
+  "millennium-hotel-broadway-tsq": {
+    "name": "Millennium Broadway<br>Times Square",
+    "address": "145 W 44th St.",
+    "phone": "212-768-4400",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2194322804703!2d-73.98724578714828!3d40.757198234725955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258550c123567%3A0x11a781ccd53553e2!2sMillennium%20Hotel%20Broadway%20Times%20Square!5e0!3m2!1sen!2sus!4v1766078955900!5m2!1sen!2sus",
+    "directionsText": "New York Marriott Marquis (~3 mins.)"
+  },
+  "renaissance-tsq": {
+    "name": "Renaissance<br>Times Square",
+    "address": "714 7th Ave.",
+    "phone": "212-765-7676",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.099150631002!2d-73.98696788714821!3d40.75984393456388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855dd37a0ef%3A0x2fd76db4d5d8c82f!2sRenaissance%20New%20York%20Times%20Square%20Hotel!5e0!3m2!1sen!2sus!4v1766079046405!5m2!1sen!2sus",
+    "directionsText": "New York Marriott Marquis (~3 mins.)"
+  },
+  "tempo-hilton-tsq": {
+    "name": "Tempo<br>Times Square ",
+    "address": "1568 Broadway",
+    "phone": "212-262-8100",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.139990831061!2d-73.98705958714808!3d40.75894563461904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2597f1c008429%3A0x7a0edb089d8cfd72!2sTempo%20by%20Hilton%20New%20York%20Times%20Square!5e0!3m2!1sen!2sus!4v1766079112763!5m2!1sen!2sus",
+    "directionsText": "New York Marriott Marquis (~3 mins.)"
+  },
+  "the-muse": {
+    "name": "The Muse NY",
+    "address": "130 W 46th St.",
+    "phone": "212-485-2400",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1919595139207!2d-73.98634258714819!3d40.75780253468907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2585583622009%3A0x8cef2f636197ba18!2sThe%20Muse%20New%20York!5e0!3m2!1sen!2sus!4v1766079258213!5m2!1sen!2sus",
+    "directionsText": "New York Marriott Marquis (~3 mins.)"
+  },
+  "w-new-york-tsq": {
+    "name": "W New York<br>Times Square",
+    "address": "1567 Broadway",
+    "phone": "212-930-7400",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.123623924798!2d-73.98816758714801!3d40.759305634597006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855cbd95a7d%3A0x8521f490bd967c27!2sW%20New%20York%20-%20Times%20Square!5e0!3m2!1sen!2sus!4v1766079349227!5m2!1sen!2sus",
+    "directionsText": "New York Marriott Marquis (~2 mins.)"
+  },
+  
+
+                             
+
+                                                             
+  "four-points-midtown-tsq": {
+    "name": "Four Points Midtown<br>Times Square",
+    "address": "326 W 40th St.",
+    "phone": "212-967-8585",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2537875407447!2d-73.99491678714814!3d40.75644253477255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25852d32cfd53%3A0x460c906a2e7033bd!2sFour%20Points%20by%20Sheraton%20Midtown%20-%20Times%20Square!5e0!3m2!1sen!2sus!4v1766079495540!5m2!1sen!2sus",
+    "directionsText": "Four Points Midtown Times Square (<1 min.)"
+  },
+  "delta-hotels-tsq": {
+    "name": "Delta Hotels<br>Times Square",
+    "address": "340 W 40th St.",
+    "phone": "212-757-9000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2504916043576!2d-73.99527068714825!3d40.75651503476773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259cbc87ffdab%3A0xa7c7423846c805a6!2sDelta%20Hotels%20New%20York%20Times%20Square!5e0!3m2!1sen!2sus!4v1766079573797!5m2!1sen!2sus",
+    "directionsText": "Four Points Midtown Times Square (~1 min.)"
+  },
+  "doubletree-tsq-west": {
+    "name": "DoubleTree<br>Times Square West",
+    "address": "350 W 40th St.",
+    "phone": "212-607-8888",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2448043978725!2d-73.99565178714815!3d40.75664013476039!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25852c9389fb5%3A0x2fb20e726e8bf33a!2sDoubleTree%20by%20Hilton%20Hotel%20New%20York%20Times%20Square%20West!5e0!3m2!1sen!2sus!4v1766079738039!5m2!1sen!2sus",
+    "directionsText": "Four Points Midtown Times Square (~1 min.)"
+  },
+  "element-tsq-west": {
+    "name": "Element<br>Times Square West",
+    "address": "311 W 39th St.",
+    "phone": "212-643-0770",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2809504185634!2d-73.99436428714827!3d40.75584503480905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259acd8960709%3A0xffb304788e355070!2sElement%20New%20York%20Times%20Square%20West!5e0!3m2!1sen!2sus!4v1766079841925!5m2!1sen!2sus",
+    "directionsText": "Four Points Midtown Times Square (~4 mins.)"
+  },
+  "fairfield-manh-tsq": {
+    "name": "Fairfield Inn<br>Times Square",
+    "address": "330 W 40th St.",
+    "phone": "212-967-9494",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3066173312905!2d-73.99594548714819!3d40.755280434843606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25852d5560c63%3A0x2472d8f0db79b4d!2sFairfield%20by%20Marriott%20New%20York%20Manhattan%20Times%20Square!5e0!3m2!1sen!2sus!4v1766079949296!5m2!1sen!2sus",
+    "directionsText": "Four Points Midtown Times Square (~1 min.)"
+  },
+  "holiday-inn-tsq": {
+    "name": "Holiday Inn<br>Times Square",
+    "address": "585 8th Ave.",
+    "phone": "212-473-6200",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.309149456794!2d-73.99423988714821!3d40.75522473484701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259acdfa3c80f%3A0x6572582619ac5a1f!2sHoliday%20Inn%20New%20York%20City%20-%20Times%20Square%20by%20IHG!5e0!3m2!1sen!2sus!4v1766080059276!5m2!1sen!2sus",
+    "directionsText": "Four Points Midtown Times Square (~4 mins.)"
+  },
+  "hyatt-place-tsq": {
+    "name": "Hyatt Place<br>Times Square",
+    "address": "350 W 39th St.",
+    "phone": "212-904-1811",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2732311940003!2d-73.99609658714834!3d40.75601483479858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bdebb2f933%3A0x2b4f6817aad063c8!2sHyatt%20Place%20New%20York%20City%20%2F%20Times%20Square!5e0!3m2!1sen!2sus!4v1766080130696!5m2!1sen!2sus",
+    "directionsText": "Four Points Midtown Times Square (~4 mins.)"
+  },
+  "margaritaville-resort-tsq": {
+    "name": "Margaritaville Resort<br>Times Square",
+    "address": "560 7th Ave.",
+    "phone": "212-221-3007",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3171458631014!2d-73.99061108714815!3d40.75504883485786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2596a8178e831%3A0x92561ec0e2585e03!2sMargaritaville%20Resort%20Times%20Square!5e0!3m2!1sen!2sus!4v1766088678193!5m2!1sen!2sus",
+    "directionsText": "Four Points Midtown Times Square (~5 mins.)"
+  },
+  "pestana-cr7-tsq": {
+    "name": "Pestana CR7<br>Times Square",
+    "address": "338 W 39th St.",
+    "phone": "646-998-3890",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2702671501816!2d-73.99577828714823!3d40.756080034794735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25941e0fb9a9b%3A0xa23c8b0fa4240947!2sPestana%20CR7%20Times%20Square!5e0!3m2!1sen!2sus!4v1766088789059!5m2!1sen!2sus",
+    "directionsText": "Four Points Midtown Times Square (~4 mins.)"
+  },
+
+                                     
+  "westin-tsq": {
+    "name": "The Westin NY at Times Square",
+    "address": "270 W 43rd St.",
+    "phone": "212-201-2700",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1958147230225!2d-73.9916988871482!3d40.75771773469415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25853631aea85%3A0xef5da1144aeb45a6!2sThe%20Westin%20New%20York%20at%20Times%20Square!5e0!3m2!1sen!2sus!4v1766088856062!5m2!1sen!2sus",
+    "directionsText": "The Westin NY at Times Square (<1 min.)"
+  },
+  "hilton-tsq": {
+    "name": "Hilton<br>Times Square",
+    "address": "234 W 42nd St.",
+    "phone": "212-913-9488",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2442179465006!2d-73.99139558714815!3d40.7566530347597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25854a7ae21ef%3A0x6b416e49f061609c!2sHilton%20New%20York%20Times%20Square!5e0!3m2!1sen!2sus!4v1766089051045!5m2!1sen!2sus",
+    "directionsText": "The Westin NY at Times Square (~4 mins.)"
+  },
+  "intercontinental-tsq": {
+    "name": "InterContinental<br>Times Square",
+    "address": "300 W 44th St.",
+    "phone": "212-803-4500",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1527569351183!2d-73.99195638714822!3d40.75866483463629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258539d691f99%3A0xf1e14a03ed9976a8!2sInterContinental%20New%20York%20Times%20Square%20by%20IHG!5e0!3m2!1sen!2sus!4v1766089132125!5m2!1sen!2sus",
+    "directionsText": "The Westin NY at Times Square (~2 mins.)"
+  },
+  "towneplace-suites-tsq": {
+    "name": "TownePlace Suites Times Square",
+    "address": "324 W 44th St.",
+    "phone": "212-265-4000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.60742184197!2d-73.99970800233451!3d40.7586846632956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2585399156637%3A0x4ee41ecfa4247afb!2sTownePlace%20Suites%20by%20Marriott%20New%20York%20Manhattan%2FTimes%20Square!5e0!3m2!1sen!2sus!4v1766089216606!5m2!1sen!2sus",
+    "directionsText": "The Westin NY at Times Square (~3 mins.)"
+  },
+
+
+                                      
+  "courtyard-midtown-manh-west": {
+    "name": "Courtyard Midtown Manhattan West",
+    "address": "461 W 34th St.",
+    "phone": "212-553-3000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.362664374734!2d-73.99507468714843!3d40.75404753491905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259b3a70283c1%3A0x8b2786067d7b35dc!2sCourtyard%20by%20Marriott%20New%20York%20Manhattan%2FMidtown%20West!5e0!3m2!1sen!2sus!4v1766089303633!5m2!1sen!2sus",
+    "directionsText": "Javits Center (~7 mins.)"
+  },
+  "equinox-hotel": {
+    "name": "Equinox Hotel",
+    "address": "33 Hudson Yards",
+    "phone": "212-812-9200",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3350660744168!2d-74.0047930871482!3d40.75465463488204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259e8dd44e27f%3A0x10324bfc60110a5e!2sEquinox%20Hotel%20New%20York!5e0!3m2!1sen!2sus!4v1766089408031!5m2!1sen!2sus",
+    "directionsText": "Javits Center (~6 mins.)"
+  },
+  "four-points-midtown-west": {
+    "name": "Four Points Midtown West",
+    "address": "444 10th Ave.",
+    "phone": "646-952-5980",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3622975174726!2d-73.99508541606737!3d40.75405560499505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259b30eb63d43%3A0xed4e033f24b090c6!2sFour%20Points%20by%20Sheraton%20Manhattan%20Midtown%20West!5e0!3m2!1sen!2sus!4v1766089528316!5m2!1sen!2sus",
+    "directionsText": "Javits Center (~8 mins.)"
+  },
+  "ink-48-hotel": {
+    "name": "Ink 48 Hotel",
+    "address": "653 11th Ave.",
+    "phone": "212-757-0088",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.884180633011!2d-73.99857528714804!3d40.76457203427434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2584fcc98937f%3A0xa2319e2451e39c10!2sInk%2048%20Hotel!5e0!3m2!1sen!2sus!4v1766089616700!5m2!1sen!2sus",
+    "directionsText": "Javits Center (~13 mins.)"
+  },
+  "pendry-manh-west": {
+    "name": "Pendry<br>Manhattan West",
+    "address": "438 W 33rd St.",
+    "phone": "212-933-7000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.400454084628!2d-74.00100938714834!3d40.75321623496994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259d89b5665c7%3A0x3cec85f8d6905bc3!2sPendry%20Manhattan%20West!5e0!3m2!1sen!2sus!4v1766089743571!5m2!1sen!2sus",
+    "directionsText": "Javits Center (~10 mins.)"
+  },
+  "yotel-tsq": {
+    "name": "YOTEL<br>Times Square",
+    "address": "570 10th Ave.",
+    "phone": "646-449-7700",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.130025217898!2d-73.99804598714819!3d40.75916483460562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2584d83538fa5%3A0x9aaeb9042dabf0a!2sYOTEL%20New%20York%20Times%20Square!5e0!3m2!1sen!2sus!4v1766089851009!5m2!1sen!2sus",
+    "directionsText": "Javits Center (~10 mins.)"
+  }
+}
+

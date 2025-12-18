@@ -2,30 +2,30 @@
   "days": [
     {
       "label": "Monday, 1/5",
-      "inboundSubtitle": "Hotels to Conv. Center",
+      "inboundSubtitle": "Hotels to Conv. Centers",
       "inboundStart": "8:00 AM",
       "inboundEnd": "1:00 PM",
-      "outboundSubtitle": "Conv. Center to Hotels",
+      "outboundSubtitle": "Conv. Centers to Hotels",
       "outboundStart": "1:00 PM",
       "outboundEnd": "6:00 PM",
       "intermission": null
     },
     {
       "label": "Tuesday, 1/6 - Thursday, 1/8",
-      "inboundSubtitle": "Hotels to Conv. Center",
+      "inboundSubtitle": "Hotels to Conv. Centers",
       "inboundStart": "7:30 AM",
       "inboundEnd": "10:30 AM",
-      "outboundSubtitle": "Conv. Center to Hotels",
+      "outboundSubtitle": "Conv. Centers to Hotels",
       "outboundStart": "4:00 PM",
       "outboundEnd": "6:30 PM",
       "intermission": "SERVICE INTERMISSION"
     },
     {
       "label": "Friday, 1/9",
-      "inboundSubtitle": "Hotels to Conv. Center",
+      "inboundSubtitle": "Hotels to Conv. Centers",
       "inboundStart": "7:30 AM",
       "inboundEnd": "10:30 AM",
-      "outboundSubtitle": "Conv. Center to Hotels",
+      "outboundSubtitle": "Conv. Centers to Hotels",
       "outboundStart": "2:00 PM",
       "outboundEnd": "4:30 PM",
       "intermission": "SERVICE INTERMISSION"
