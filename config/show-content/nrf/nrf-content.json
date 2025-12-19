@@ -3,7 +3,7 @@
         "title": "National Retail Federation",
         "event-map": ""
     },
-    "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1sd61BpSVrf85ob2jMkpqo9xidx4pxjY&ehbc=2E312F",
+    "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1pO6lEfNw8tHJ_trEnk4BUl8nOIzbUFU&ehbc=2E312F",
     "flight-info": {                                                            
         "arrivals-widget": "",
         "departures-widget": "",
@@ -16,22 +16,22 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/272c550c-7405-4707-9f29-bf54e216cb27/NRF26_Shuttle22x28_Route1+conv+1.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459ed2f5839a6452b9ba65/1766170322820/NRF26_Shuttle22x28_Route1.pdf"
             },
             "sign" : { 
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/30fd345e-3f62-4feb-88a9-fd2e8eb0d412/NRF26_SideSign_1+conv+1.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459f335dc70a71817aae62/1766170419286/NRF26_SideSign_1.pdf"
             },
             "stops": {
                 "1": {                     
                     "stopName": "Crowne Plaza HY36",
                     "boardingArea": "Front Entrance on 36th St.",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://momento360.com/e/u/873f9dae9e474432aa40c22a19aaff6c?utm_campaign=embed&utm_source=other&heading=23.31&pitch=2.9&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=320%20W%2036th%20St.%2C%20New%20York%2C%20NY%2010018",
+                        "google": "https://www.google.com/maps/dir/Current+Location/320%20W%2036th%20St.%2C%20New%20York%2C%20NY%2010018"
                     }
                 }
             }
@@ -40,22 +40,22 @@
             "scheduleJson": "config/show-content/nrf/nrf-schedule-route-2.json",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/c06b1d20-f5b3-4c94-ac58-a83ad7844b9d/NRF26_Shuttle22x28_Route2+conv+1.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459ee02c89e56fe25dd621/1766170336096/NRF26_Shuttle22x28_Route2.pdf"
             },
             "sign" : { 
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/76d936ed-f84f-4163-8e8e-c29bd4567d47/NRF26_SideSign_2+conv+1.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459f595bcd4d7d444b1950/1766170457877/NRF26_SideSign_2.pdf"
             },
             "stops": {
                 "1": {                      
                     "stopName": "Park Central Hotel",
                     "boardingArea": "Front Entrance on 7th Ave.",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://momento360.com/e/u/108b685e3246493ba5111d69212bb201?utm_campaign=embed&utm_source=other&heading=87.52&pitch=0.82&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=870%207th%20Ave.%2C%20New%20York%2C%20NY%2010019",
+                        "google": "https://www.google.com/maps/dir/Current+Location/870%207th%20Ave.%2C%20New%20York%2C%20NY%2010019"
                     }
                 }
             }
@@ -64,56 +64,56 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/e8cf66f0-6f6c-46a0-947a-ddd24e3925d2/NRF26_Shuttle22x28_Route3+conv+1.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459eed5c82eb4d2beb2113/1766170349712/NRF26_Shuttle22x28_Route3.pdf"
             },
             "sign" : { 
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/343e20c7-2d88-4d1e-9516-8db9b538a553/NRF26_SideSign_3+conv+1.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459f68f34bf5681cd493f4/1766170472293/NRF26_SideSign_3.pdf"
             },
             "stops": {
                 "1": {                  
                     "stopName": "Hilton Midtown",
                     "boardingArea": "53rd St. Entrance",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://momento360.com/e/u/f88eca0664754164aece409a9da67503?utm_campaign=embed&utm_source=other&heading=-269.78&pitch=-0.68&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=1335%20Ave.%20of%20the%20Americas%2C%20New%20York%2C%20NY%2010019",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1335%20Ave.%20of%20the%20Americas%2C%20New%20York%2C%20NY%2010019"
                     }
                 },
                 "2": {                       
                     "stopName": "7th Ave. & 52nd St.",
                     "boardingArea": "NW Corner of Intersection",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://momento360.com/e/u/68ae88e71c1e44c191e5a903e889af67?utm_campaign=embed&utm_source=other&heading=40.84&pitch=-1.58&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=7%20Ave%2FW%2052%20St%2C%20New%20York%2C%20NY%2010019",
+                        "google": "https://www.google.com/maps/dir/Current+Location/7%20Ave%2FW%2052%20St%2C%20New%20York%2C%20NY%2010019"
                     }
                 }
             }
         },
         "4": {
-            "scheduleJson": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
-            "wait-time": "",
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/52ae4786-8c15-4755-ba27-246712590372/NRF26_Shuttle22x28_Route4+conv+1.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459efd3ca6895a68592489/1766170365836/NRF26_Shuttle22x28_Route4.pdf"
             },
             "sign" : { 
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/e219adfb-4e19-489d-ab31-eab5c9b75453/NRF26_SideSign_4+conv+1.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459f75f4a234447c14d674/1766170485285/NRF26_SideSign_4.pdf"
             },
             "stops": {
                 "1": {                    
                     "stopName": "New York Marriott Marquis",
                     "boardingArea": "45th St. Entrance",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://momento360.com/e/u/2d24082be32448279225e38737ba7c98?utm_campaign=embed&utm_source=other&heading=-238.68&pitch=-2.94&field-of-view=75&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=1535%20Broadway%2C%20New%20York%2C%20NY%2010036",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1535%20Broadway%2C%20New%20York%2C%20NY%2010036"
                     }
                 }
             }
@@ -122,32 +122,32 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/59c495c8-d1eb-41ae-bbb8-d554e003be48/NRF26_Shuttle22x28_Route5+conv+1.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459f0b9df3ac4b64c5d9c2/1766170379573/NRF26_Shuttle22x28_Route5.pdf"
             },
             "sign" : { 
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/951834f8-7835-4daa-af34-29887b36ca88/NRF26_SideSign_5+conv+1.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459f8225da6106cbea5d44/1766170498799/NRF26_SideSign_5.pdf"
             },
             "stops": {
                 "1": {                                    
                     "stopName": "Four Points Midtown Times Square",
                     "boardingArea": "Front Entrance",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://momento360.com/e/u/3365ebd9986a43aaa4b91491af940644?utm_campaign=embed&utm_source=other&heading=28.97&pitch=-0.07&field-of-view=92&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=326%20W%2040th%20St.%2C%20New%20York%2C%20NY%2010018",
+                        "google": "https://www.google.com/maps/dir/Current+Location/326%20W%2040th%20St.%2C%20New%20York%2C%20NY%2010018"
                     }
                 },
                 "2": {    
                     "stopName": "The Westin NY at Times Square",
                     "boardingArea": "Curbside on 8th Ave.",
                     "scheduleJson": "",
-                    "panorama": "", 
+                    "panorama": "https://momento360.com/e/u/36cf28a1da314ffe8ab0b709230a06ad?utm_campaign=embed&utm_source=other&heading=-280.88&pitch=1.53&field-of-view=73&size=large&display-plan=true", 
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=270%20W%2043rd%20St.%2C%20New%20York%2C%20NY%2010036",
+                        "google": "https://www.google.com/maps/dir/Current+Location/270%20W%2043rd%20St.%2C%20New%20York%2C%20NY%2010036"
                     }
                 }
             }
@@ -156,8 +156,8 @@
           "stops": {
             "0": {
               "directions": {
-                "apple": "",
-                "google": ""
+                "apple": "https://maps.apple.com/?daddr=429%2011th%20Ave.%2C%20New%20York%2C%20NY%2010001",
+                "google": "https://www.google.com/maps/dir/Current+Location/429%2011th%20Ave.%2C%20New%20York%2C%20NY%2010001"
               }
             }
           }
