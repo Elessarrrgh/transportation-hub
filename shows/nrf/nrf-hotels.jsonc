@@ -141,7 +141,7 @@
     "directionsText": "Park Central Hotel (~3 mins.)"
   },
   "thompson-central-park": {
-    "name": "Thompson<br>Central Park ",
+    "name": "Thompson<br>Central Park",
     "address": "119 W 56th St.",
     "phone": "212-245-5000",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9028909013537!2d-73.98110078714795!3d40.76416053429944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f9e15bf1c1%3A0x14ba1ab4038566b!2sThompson%20Central%20Park%20New%20York%2C%20by%20Hyatt!5e0!3m2!1sen!2sus!4v1766077589263!5m2!1sen!2sus",
@@ -236,8 +236,8 @@
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.099150631002!2d-73.98696788714821!3d40.75984393456388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855dd37a0ef%3A0x2fd76db4d5d8c82f!2sRenaissance%20New%20York%20Times%20Square%20Hotel!5e0!3m2!1sen!2sus!4v1766079046405!5m2!1sen!2sus",
     "directionsText": "New York Marriott Marquis (~3 mins.)"
   },
-  "tempo-hilton-tsq": {
-    "name": "Tempo<br>Times Square ",
+  "tempo-tsq": {
+    "name": "Tempo<br>Times Square",
     "address": "1568 Broadway",
     "phone": "212-262-8100",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.139990831061!2d-73.98705958714808!3d40.75894563461904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2597f1c008429%3A0x7a0edb089d8cfd72!2sTempo%20by%20Hilton%20New%20York%20Times%20Square!5e0!3m2!1sen!2sus!4v1766079112763!5m2!1sen!2sus",
