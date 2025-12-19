@@ -14,7 +14,7 @@
     "routes": {
         "1": {
             "scheduleJson": "",
-            "wait-time": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
             "flyer": {
                 "preview": "",
                 "pdf": ""
@@ -38,7 +38,7 @@
         },
         "2": {
             "scheduleJson": "config/show-content/nrf/nrf-schedule-route-2.json",
-            "wait-time": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
             "flyer": {
                 "preview": "",
                 "pdf": ""
@@ -62,7 +62,7 @@
         },
         "3": {
             "scheduleJson": "",
-            "wait-time": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
             "flyer": {
                 "preview": "",
                 "pdf": ""
@@ -95,7 +95,7 @@
             }
         },
         "4": {
-            "scheduleJson": "",
+            "scheduleJson": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
             "wait-time": "",
             "flyer": {
                 "preview": "",
@@ -120,7 +120,7 @@
         },
         "5": {
             "scheduleJson": "",
-            "wait-time": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5",
             "flyer": {
                 "preview": "",
                 "pdf": ""
