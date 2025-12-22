@@ -14,7 +14,7 @@
     "routes": {
         "1": {
             "scheduleJson": "config/show-content/ces/ces-schedule-route-1.json",
-            "wait-time": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbx6TGLns1CCrR7ezf0zvEI0FKbUX3HMGvWY2mh6eeSu2AI0pRhEMxO5Pvm9GLsm6dZ-/exec?route=1",
             "flyer": {
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/c641afc1-5319-4a96-bce6-4e5ffe6bc304/ces-route-1-flyer.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b186af1268b026a9a768a/1765480554706/CES26_Shuttle22x28_Route1.pdf"
@@ -38,7 +38,7 @@
         },
         "2": {
             "scheduleJson": "config/show-content/ces/ces-schedule-route-2.json",
-            "wait-time": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbx6TGLns1CCrR7ezf0zvEI0FKbUX3HMGvWY2mh6eeSu2AI0pRhEMxO5Pvm9GLsm6dZ-/exec?route=2",
             "flyer": {
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/357f4894-dc8b-4b4e-97fb-9e941b69319f/ces-route-2-flyer.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b187df1268b026a9a7c56/1765480573269/CES26_Shuttle22x28_Route2.pdf"
@@ -62,7 +62,7 @@
         },
         "3": {
             "scheduleJson": "",
-            "wait-time": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbx6TGLns1CCrR7ezf0zvEI0FKbUX3HMGvWY2mh6eeSu2AI0pRhEMxO5Pvm9GLsm6dZ-/exec?route=3",
             "flyer": {
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/d057b059-fa25-4884-b221-3a1bd5c60765/ces-route-3-flyer.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b189cf6cfaf06f490cef0/1765480604329/CES26_Shuttle22x28_Route3.pdf"
@@ -96,7 +96,7 @@
         },
         "4": {
             "scheduleJson": "",
-            "wait-time": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbx6TGLns1CCrR7ezf0zvEI0FKbUX3HMGvWY2mh6eeSu2AI0pRhEMxO5Pvm9GLsm6dZ-/exec?route=4",
             "flyer": {
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/f269a37d-7017-477e-b584-f67c631e3f7e/ces-route-4-flyer.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b18ba7ccfb1335912dd57/1765480635002/CES26_Shuttle22x28_Route4.pdf"
@@ -120,7 +120,7 @@
         },
         "5": {
             "scheduleJson": "",
-            "wait-time": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbx6TGLns1CCrR7ezf0zvEI0FKbUX3HMGvWY2mh6eeSu2AI0pRhEMxO5Pvm9GLsm6dZ-/exec?route=5",
             "flyer": {
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/19b96845-c361-4658-8f5c-54b8358b27fd/ces-route-5-flyer.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b18d1dd9cc601f49f4eef/1765480657748/CES26_Shuttle22x28_Route5.pdf"
@@ -144,7 +144,7 @@
         },
         "6": {
             "scheduleJson": "",
-            "wait-time": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbx6TGLns1CCrR7ezf0zvEI0FKbUX3HMGvWY2mh6eeSu2AI0pRhEMxO5Pvm9GLsm6dZ-/exec?route=6",
             "flyer": {
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/38c78f11-00e8-42ae-99ee-2cc73f95a70f/ces-route-6-flyer.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b18ebac430e56bee29dee/1765480683166/CES26_Shuttle22x28_Route6.pdf"
@@ -178,7 +178,7 @@
         },
         "7": {
             "scheduleJson": "config/show-content/ces/ces-schedule-route-7.json", 
-            "wait-time": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbx6TGLns1CCrR7ezf0zvEI0FKbUX3HMGvWY2mh6eeSu2AI0pRhEMxO5Pvm9GLsm6dZ-/exec?route=7",
             "flyer": {
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a1d6a1a4-f852-4b47-83e3-c1bf6292616c/ces-route-7-flyer.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b190a8a56890bfb8de24b/1765480714753/CES26_Shuttle22x28_Route7.pdf"
@@ -202,7 +202,7 @@
         },
         "8": {
             "scheduleJson": "",
-            "wait-time": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbx6TGLns1CCrR7ezf0zvEI0FKbUX3HMGvWY2mh6eeSu2AI0pRhEMxO5Pvm9GLsm6dZ-/exec?route=8",
             "flyer": {
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/da5a5166-8049-4464-8ccf-172ef0ffbb9c/ces-route-8-flyer.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/693b1924f6cfaf06f490f6b3/1765480740413/CES26_Shuttle22x28_Route8.pdf"
