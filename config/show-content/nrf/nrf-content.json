@@ -16,11 +16,11 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
             "flyer": {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/272c550c-7405-4707-9f29-bf54e216cb27/NRF26_Shuttle22x28_Route1+conv+1.png?content-type=image%2Fpng",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/99121dd8-9907-46ca-9707-b59162d9e8ae/NRF26-flyer-route-1.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459ed2f5839a6452b9ba65/1766170322820/NRF26_Shuttle22x28_Route1.pdf"
             },
             "sign" : { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/30fd345e-3f62-4feb-88a9-fd2e8eb0d412/NRF26_SideSign_1+conv+1.png?content-type=image%2Fpng",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/d5df0060-b27b-48ba-bfa4-fbc12814771c/NRF26-signage-route-1.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459f335dc70a71817aae62/1766170419286/NRF26_SideSign_1.pdf"
             },
             "stops": {
@@ -37,14 +37,14 @@
             }
         },
         "2": {
-            "scheduleJson": "config/show-content/nrf/nrf-schedule-route-2.json",
+            "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
             "flyer": {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/c06b1d20-f5b3-4c94-ac58-a83ad7844b9d/NRF26_Shuttle22x28_Route2+conv+1.png?content-type=image%2Fpng",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/fdfd84fa-dfbb-46b7-a913-a87a03f8f578/NRF26-flyer-route-2.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459ee02c89e56fe25dd621/1766170336096/NRF26_Shuttle22x28_Route2.pdf"
             },
             "sign" : { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/76d936ed-f84f-4163-8e8e-c29bd4567d47/NRF26_SideSign_2+conv+1.png?content-type=image%2Fpng",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/1b8b521e-694a-4e9a-93ff-d412b2f92f6d/NRF26-signage-route-2.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459f595bcd4d7d444b1950/1766170457877/NRF26_SideSign_2.pdf"
             },
             "stops": {
@@ -64,11 +64,11 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
             "flyer": {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/e8cf66f0-6f6c-46a0-947a-ddd24e3925d2/NRF26_Shuttle22x28_Route3+conv+1.png?content-type=image%2Fpng",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/0a7ed875-2632-4821-b32f-d7b983b05a55/NRF26-flyer-route-3.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459eed5c82eb4d2beb2113/1766170349712/NRF26_Shuttle22x28_Route3.pdf"
             },
             "sign" : { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/343e20c7-2d88-4d1e-9516-8db9b538a553/NRF26_SideSign_3+conv+1.png?content-type=image%2Fpng",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/09dab0e3-f8d8-47d8-b4a1-30afb4939a13/NRF26-signage-route-3.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459f68f34bf5681cd493f4/1766170472293/NRF26_SideSign_3.pdf"
             },
             "stops": {
@@ -98,11 +98,11 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
             "flyer": {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/52ae4786-8c15-4755-ba27-246712590372/NRF26_Shuttle22x28_Route4+conv+1.png?content-type=image%2Fpng",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/109d9eff-281a-4c33-a28c-1bc2ef4c14fd/NRF26-flyer-route-4.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459efd3ca6895a68592489/1766170365836/NRF26_Shuttle22x28_Route4.pdf"
             },
             "sign" : { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/e219adfb-4e19-489d-ab31-eab5c9b75453/NRF26_SideSign_4+conv+1.png?content-type=image%2Fpng",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/38845383-97c6-40ea-a1f2-e505e15c0ac7/NRF26-signage-route-4.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459f75f4a234447c14d674/1766170485285/NRF26_SideSign_4.pdf"
             },
             "stops": {
@@ -122,11 +122,11 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5",
             "flyer": {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/59c495c8-d1eb-41ae-bbb8-d554e003be48/NRF26_Shuttle22x28_Route5+conv+1.png?content-type=image%2Fpng",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/4960fefe-5a42-4b16-ac7a-883eb25fed5b/NRF26-flyer-route-5.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459f0b9df3ac4b64c5d9c2/1766170379573/NRF26_Shuttle22x28_Route5.pdf"
             },
             "sign" : { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/951834f8-7835-4daa-af34-29887b36ca88/NRF26_SideSign_5+conv+1.png?content-type=image%2Fpng",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/796c73e7-f447-42d8-9daa-3ea4d80bac8d/NRF26-signage-route-5.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459f8225da6106cbea5d44/1766170498799/NRF26_SideSign_5.pdf"
             },
             "stops": {
