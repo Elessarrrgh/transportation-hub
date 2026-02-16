@@ -1,0 +1,84 @@
+{
+    "base" : {
+        "title": "",
+        "event-map": ""
+    },
+    "interactive-map": "",
+    "flight-info": {
+        "arrivals-widget": "",
+        "departures-widget": "",
+        "travel-time": ""
+    },
+    "hotelsJson": "config/show-content/sena/sena-hotels.json",
+    "scheduleJson": "config/show-content/sena/sena-schedule.json",
+    "routes": {
+        "1": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "scheduleJson": "",
+                    "panorama": ""
+                }
+            }
+        },
+        "2": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2"
+        },
+        "3": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3"
+        },
+        "4": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4"
+        },
+        "5": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5"
+        },
+        "6": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=6"
+        },
+        "w": { // Necessary for walking distance hotels to have proper directions.
+            "stops": {
+                "0": {
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "x": { // placeholder for non-service hotels so that any relevant content can be loaded.
+            "stops": {
+                "0": {
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        }
+    }
+}
