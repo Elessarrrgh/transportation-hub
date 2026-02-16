@@ -1,10 +1,15 @@
 {
+  "aan" : "config/show-content/aan/aan-content.json",
   "abc" : "config/show-content/abc/abc-content.json",
   "apha" : "config/show-content/apha/apha-content.json",
+  "ats" : "config/show-content/ats/ats-content.json",
+  "bio" : "config/show-content/bio/bio-content.json",
   "ces" : "config/show-content/ces/ces-content.json",
   "nrf" : "config/show-content/nrf/nrf-content.json",
   "pstm" : "config/show-content/pstm/pstm-content.json",
   "rsna" : "config/show-content/rsna/rsna-content.json",
+  "sena" : "config/show-content/sena/sena-contetn.json",
   "ue" : "config/show-content/ue/ue-content.json",
+  "vive": "config/show-content/vive/vive-content.json",
   "ydc" : "config/show-content/ydc/ydc-content.json"
 }
