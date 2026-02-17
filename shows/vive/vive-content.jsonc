@@ -30,8 +30,8 @@
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=900%20Wilshire%20Blvd%2C%20Los%20Angeles%2C%20CA%2090017",
+                        "google": "https://www.google.com/maps/dir/Current+Location/900%20Wilshire%20Blvd%2C%20Los%20Angeles%2C%20CA%2090017"
                     }
                 },
                 "2": { // Westin Bonaventure
@@ -40,8 +40,8 @@
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=404%20S%20Figueroa%20St%2C%20Los%20Angeles%2C%20CA%2090071",
+                        "google": "https://www.google.com/maps/dir/Current+Location/404%20S%20Figueroa%20St%2C%20Los%20Angeles%2C%20CA%2090071"
                     }
                 }
             }
@@ -64,8 +64,8 @@
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=251%20S%20Olive%20St%2C%20Los%20Angeles%2C%20CA%2090012",
+                        "google": "https://www.google.com/maps/dir/Current+Location/251%20S%20Olive%20St%2C%20Los%20Angeles%2C%20CA%2090012"
                     }
                 },
                 "2": { // Biltmore
@@ -74,8 +74,8 @@
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=506%20S%20Grand%20Ave%2C%20Los%20Angeles%2C%20CA%2090071",
+                        "google": "https://www.google.com/maps/dir/Current+Location/506%20S%20Grand%20Ave%2C%20Los%20Angeles%2C%20CA%2090071"
                     }
                 },
                 "3": { // Sheraton
@@ -84,8 +84,8 @@
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=711%20S%20Hope%20St%2C%20Los%20Angeles%2C%20CA%2090017",
+                        "google": "https://www.google.com/maps/dir/Current+Location/711%20S%20Hope%20St%2C%20Los%20Angeles%2C%20CA%2090017"
                     }
                 }
             }
@@ -94,8 +94,8 @@
             "stops": {
                 "0": {
                     "directions": {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=1201%20S%20Figueroa%20St%2C%20Los%20Angeles%2C%20CA%2090015",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1201%20S%20Figueroa%20St%2C%20Los%20Angeles%2C%20CA%2090015"
                     }
                 }
             }
