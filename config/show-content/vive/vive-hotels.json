@@ -1,28 +1,116 @@
 {
                              
 
-                                   
-  "shuttle-hotel-template": {
-    "name": "Shuttle Hotel Template",
-    "address": "123 Address St.",
-    "phone": "123-456-7890",
-    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.8670372404026!2d-71.4858745!3d41.5721222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5b6ae294bb267%3A0xe7c7b04ff26cd6c2!2sRhode%20Planning%20Management%20Solutions!5e0!3m2!1sen!2sus!4v1757472204393!5m2!1sen!2sus",
+                       
+  "intercontinental" : {
+    "name": "InterContinental Los Angeles",
+    "address": "",
+    "phone": "",
+    "map": "",
     "scheduleJson": "",
-    "directionsText": "test repo text - IT WORKED"
+    "directionsText": "InterContinental Los Angeles (<1 min.)"
   },
 
-                    
-  "walking-hotel-template": {
-    "name": "Walking Hotel Template",
-    "address": "123 Address St.",
-    "phone": "123-456-7890",
-    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.8670372404026!2d-71.4858745!3d41.5721222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5b6ae294bb267%3A0xe7c7b04ff26cd6c2!2sRhode%20Planning%20Management%20Solutions!5e0!3m2!1sen!2sus!4v1757472204393!5m2!1sen!2sus",
-    "directionsText": "repo placeholder"
-  }
+                     
+  "westin-bonaventure" : {
+    "name": "Westin Bonaventure",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsText": "Westin Bonaventure (<1 min.)"
+  },
 
 
                              
 
-                    
+                   
+  "omni" : {
+    "name": "Omni Los Angeles",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsText": "Omni Los Angeles (<1 min.)"
+  },
 
+                       
+  "biltmore" : {
+    "name": "Biltmore Los Angeles",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsText": "Biltmore Los Angeles (<1 min.)"
+  },
+
+                       
+  "sheraton-grand" : {
+    "name": "Sheraton Grand Los Angeles",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "scheduleJson": "",
+    "directionsText": "Sheraton Grand Los Angeles (<1 min.)"
+  },
+
+
+
+                                      
+  "ac-hotel-downtown" : {
+    "name": "AC Hotel Downtown Los Angeles",
+    "address": "",
+    "phone": "",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.130025217898!2d-73.99804598714819!3d40.75916483460562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2584d83538fa5%3A0x9aaeb9042dabf0a!2sYOTEL%20New%20York%20Times%20Square!5e0!3m2!1sen!2sus!4v1766089851009!5m2!1sen!2sus",
+    "directionsText": "L.A. Convention Center (~10 mins.)"
+  },
+  "courtyard-la-live" : {
+    "name": "Courtyard Los Angeles L.A. LIVE",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": "L.A. Convention Center (~ mins.)"
+  },
+  "hotel-figueroa" : {
+    "name": "Hotel Figueroa",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": "L.A. Convention Center (~ mins.)"
+  },
+  "hotel-indigo" : {
+    "name": "Hotel Indigo Los Angeles Downtown",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": "L.A. Convention Center (~ mins.)"
+  },
+  "jw-marriott" : {
+    "name": "JW Marriott Los Angeles L.A. LIVE",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": "L.A. Convention Center (~ mins.)"
+  },
+  "moxy" : {
+    "name": "Moxy Downtown Los Angeles",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": "L.A. Convention Center (~ mins.)"
+  },
+  "residence-inn" : {
+    "name": "Residence Inn Los Angeles L.A. LIVE",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": "L.A. Convention Center (~ mins.)"
+  },
+  "ritz-carlton" : {
+    "name": "Ritz-Carlton Los Angeles",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": "L.A. Convention Center (~ mins.)"
+  }
 }
