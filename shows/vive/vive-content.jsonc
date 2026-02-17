@@ -36,7 +36,7 @@
                 },
                 "2": { // Westin Bonaventure
                     "stopName": "Westin Bonaventure",
-                    "boardingArea": "Figueroa St. Entrance.",
+                    "boardingArea": "Figueroa St. Entrance",
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
@@ -79,7 +79,7 @@
                     }
                 },
                 "3": { // Sheraton
-                    "stopName": "sheraton Grand Los Angeles",
+                    "stopName": "Sheraton Grand Los Angeles",
                     "boardingArea": "Front Entrance Curbside",
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
