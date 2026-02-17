@@ -16,29 +16,29 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
             "flyer": {
-                "preview": "",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6672aade-c858-442a-a4f6-18d9610d5198/shuttle-flyer-vive-2026.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69934a2390bf8270947d829a/1771260451821/ViVE2026_ShuttleFlyer-v3.pdf"
             },
             "sign" : {
-                "preview": "",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/c00e25ad-7df9-4bc2-ad09-550b9cb1789c/route-1-signage-vive-2026.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69934a2b75828a380477fc93/1771260459446/ViVE2-26_Sidesign_Route1.pdf"
             },
             "stops": {
                 "1": { // InterCon
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "InterContinental Los Angeles",
+                    "boardingArea": "Curbside on 7th St.",
                     "scheduleJson": "",
-                    "panorama": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
                         "apple": "",
                         "google": ""
                     }
                 },
                 "2": { // Westin Bonaventure
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "Westin Bonaventure",
+                    "boardingArea": "Figueroa St. Entrance.",
                     "scheduleJson": "",
-                    "panorama": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
                         "apple": "",
                         "google": ""
@@ -50,39 +50,39 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
             "flyer": {
-                "preview": "",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6672aade-c858-442a-a4f6-18d9610d5198/shuttle-flyer-vive-2026.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69934a2390bf8270947d829a/1771260451821/ViVE2026_ShuttleFlyer-v3.pdf"
             },
             "sign" : {
-                "preview": "",
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7a57fe29-b431-4f90-b533-03186774bc17/route-2-signage-vive-2026.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69934a3b36c5102dc6a61dec/1771260475284/ViVE2-26_Sidesign_Route2.pdf"
             },
             "stops": {
                 "1": { // Omni
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "Omni Los Angeles",
+                    "boardingArea": "Front Entrance Curbside",
                     "scheduleJson": "",
-                    "panorama": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
                         "apple": "",
                         "google": ""
                     }
                 },
                 "2": { // Biltmore
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "Biltmore Los Angeles",
+                    "boardingArea": "Curbside on Grand Ave.",
                     "scheduleJson": "",
-                    "panorama": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
                         "apple": "",
                         "google": ""
                     }
                 },
                 "3": { // Sheraton
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "sheraton Grand Los Angeles",
+                    "boardingArea": "Front Entrance Curbside",
                     "scheduleJson": "",
-                    "panorama": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
                         "apple": "",
                         "google": ""

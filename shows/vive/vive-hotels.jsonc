@@ -3,7 +3,7 @@
 
   // STOP #1 — InterCon
   "intercontinental" : {
-    "name": "InterContinental Los Angeles",
+    "name": "InterContinental<br>Los Angeles",
     "address": "",
     "phone": "",
     "map": "",
@@ -26,7 +26,7 @@
 
   // STOP #1 — Omni
   "omni" : {
-    "name": "Omni Los Angeles",
+    "name": "Omni<br>Los Angeles",
     "address": "",
     "phone": "",
     "map": "",
@@ -36,7 +36,7 @@
 
   // STOP #2 — Biltmore
   "biltmore" : {
-    "name": "Biltmore Los Angeles",
+    "name": "Biltmore<br>Los Angeles",
     "address": "",
     "phone": "",
     "map": "",
@@ -46,7 +46,7 @@
 
   // STOP #3 — Sheraton
   "sheraton-grand" : {
-    "name": "Sheraton Grand Los Angeles",
+    "name": "Sheraton Grand<br>Los Angeles",
     "address": "",
     "phone": "",
     "map": "",
@@ -58,14 +58,14 @@
 
 // ===== Walking Distance HOTELS =====
   "ac-hotel-downtown" : {
-    "name": "AC Hotel Downtown Los Angeles",
+    "name": "AC Hotel Downtown",
     "address": "",
     "phone": "",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.130025217898!2d-73.99804598714819!3d40.75916483460562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2584d83538fa5%3A0x9aaeb9042dabf0a!2sYOTEL%20New%20York%20Times%20Square!5e0!3m2!1sen!2sus!4v1766089851009!5m2!1sen!2sus",
     "directionsText": "L.A. Convention Center (~10 mins.)"
   },
   "courtyard-la-live" : {
-    "name": "Courtyard Los Angeles L.A. LIVE",
+    "name": "Courtyard<br>L.A. LIVE",
     "address": "",
     "phone": "",
     "map": "",
@@ -79,35 +79,35 @@
     "directionsText": "L.A. Convention Center (~ mins.)"
   },
   "hotel-indigo" : {
-    "name": "Hotel Indigo Los Angeles Downtown",
+    "name": "Hotel Indigo",
     "address": "",
     "phone": "",
     "map": "",
     "directionsText": "L.A. Convention Center (~ mins.)"
   },
   "jw-marriott" : {
-    "name": "JW Marriott Los Angeles L.A. LIVE",
+    "name": "JW Marriott<br>L.A. LIVE",
     "address": "",
     "phone": "",
     "map": "",
     "directionsText": "L.A. Convention Center (~ mins.)"
   },
   "moxy" : {
-    "name": "Moxy Downtown Los Angeles",
+    "name": "Moxy Downtown",
     "address": "",
     "phone": "",
     "map": "",
     "directionsText": "L.A. Convention Center (~ mins.)"
   },
   "residence-inn" : {
-    "name": "Residence Inn Los Angeles L.A. LIVE",
+    "name": "Residence Inn<br>L.A. LIVE",
     "address": "",
     "phone": "",
     "map": "",
     "directionsText": "L.A. Convention Center (~ mins.)"
   },
   "ritz-carlton" : {
-    "name": "Ritz-Carlton Los Angeles",
+    "name": "Ritz-Carlton<br>Los Angeles",
     "address": "",
     "phone": "",
     "map": "",
