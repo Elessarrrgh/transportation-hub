@@ -4,9 +4,9 @@
                        
   "intercontinental" : {
     "name": "InterContinental<br>Los Angeles",
-    "address": "",
-    "phone": "",
-    "map": "",
+    "address": "900 Wilshire Blvd.",
+    "phone": "213-688-7777",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.771681020879!2d-118.26313538730602!3d34.049727417748635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b113c83bf1%3A0xa46bf36caf536fed!2sInterContinental%20Los%20Angeles%20Downtown%20by%20IHG!5e0!3m2!1sen!2sus!4v1771342884903!5m2!1sen!2sus",
     "scheduleJson": "",
     "directionsText": "InterContinental Los Angeles (<1 min.)"
   },
@@ -14,9 +14,9 @@
                      
   "westin-bonaventure" : {
     "name": "Westin Bonaventure",
-    "address": "",
-    "phone": "",
-    "map": "",
+    "address": "404 S Figueroa St.",
+    "phone": "213-624-1000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.6525899412936!2d-118.258176287306!3d34.05278171758743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b244c27dfd%3A0x51855c5950383d45!2sThe%20Westin%20Bonaventure%20Hotel%20%26%20Suites%2C%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1771342859645!5m2!1sen!2sus",
     "scheduleJson": "",
     "directionsText": "Westin Bonaventure (<1 min.)"
   },
@@ -27,9 +27,9 @@
                    
   "omni" : {
     "name": "Omni<br>Los Angeles",
-    "address": "",
-    "phone": "",
-    "map": "",
+    "address": "251 S Olive St.",
+    "phone": "213-617-3300",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.6604469744984!2d-118.2531716873059!3d34.0525802175981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c64c92c93821%3A0xa0c491418b549bdf!2sOmni%20Los%20Angeles%20Hotel%20at%20California%20Plaza!5e0!3m2!1sen!2sus!4v1771342823734!5m2!1sen!2sus",
     "scheduleJson": "",
     "directionsText": "Omni Los Angeles (<1 min.)"
   },
@@ -37,9 +37,9 @@
                        
   "biltmore" : {
     "name": "Biltmore<br>Los Angeles",
-    "address": "",
-    "phone": "",
-    "map": "",
+    "address": "506 S Grand Ave.",
+    "phone": "213-624-1011",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.7716213392837!2d-118.25902637040774!3d34.04972894844829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b4a08146a5%3A0x1f204b38fe4de173!2sThe%20Biltmore%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1771342795002!5m2!1sen!2sus",
     "scheduleJson": "",
     "directionsText": "Biltmore Los Angeles (<1 min.)"
   },
@@ -47,9 +47,9 @@
                        
   "sheraton-grand" : {
     "name": "Sheraton Grand<br>Los Angeles",
-    "address": "",
-    "phone": "",
-    "map": "",
+    "address": "711 S Hope St.",
+    "phone": "213-488-3500",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.844208004964!2d-118.26095588730604!3d34.04786721784701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b41eff1a99%3A0x3a83d8d3962f288e!2sSheraton%20Grand%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1771342761412!5m2!1sen!2sus",
     "scheduleJson": "",
     "directionsText": "Sheraton Grand Los Angeles (<1 min.)"
   },
@@ -59,58 +59,58 @@
                                       
   "ac-hotel-downtown" : {
     "name": "AC Hotel Downtown",
-    "address": "",
-    "phone": "",
+    "address": "1260 S Figueroa St.",
+    "phone": "213-385-2225",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.130025217898!2d-73.99804598714819!3d40.75916483460562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2584d83538fa5%3A0x9aaeb9042dabf0a!2sYOTEL%20New%20York%20Times%20Square!5e0!3m2!1sen!2sus!4v1766089851009!5m2!1sen!2sus",
-    "directionsText": "L.A. Convention Center (~10 mins.)"
+    "directionsText": "L.A. Convention Center (~4 mins.)"
   },
   "courtyard-la-live" : {
     "name": "Courtyard<br>L.A. LIVE",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": "L.A. Convention Center (~ mins.)"
+    "address": "901 W Olympic Blvd.",
+    "phone": "213-443-9200",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.916918637214!2d-118.26838828730605!3d34.046002217945514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b9c074beaf%3A0x671a667cfa6dc648!2sCourtyard%20by%20Marriott%20Los%20Angeles%20L.A.%20LIVE!5e0!3m2!1sen!2sus!4v1771342677165!5m2!1sen!2sus",
+    "directionsText": "L.A. Convention Center (~9 mins.)"
   },
   "hotel-figueroa" : {
     "name": "Hotel Figueroa",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": "L.A. Convention Center (~ mins.)"
+    "address": "939 S Figueroa St.",
+    "phone": "213-627-8971",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.9329885788534!2d-118.26661988730622!3d34.04559001796724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b77d10c4cd%3A0xc589f3f3e0b29612!2sHotel%20Figueroa%20-%20The%20Unbound%20Collection%20by%20Hyatt!5e0!3m2!1sen!2sus!4v1771342640465!5m2!1sen!2sus",
+    "directionsText": "L.A. Convention Center (~8 mins.)"
   },
   "hotel-indigo" : {
     "name": "Hotel Indigo",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": "L.A. Convention Center (~ mins.)"
+    "address": "899 Francisco St.",
+    "phone": "213-232-8800",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14419.671309830139!2d-118.27392740355415!3d34.05094108304677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b9fd88aec9%3A0x861b2dbd73a24ecb!2sHotel%20Indigo%20Los%20Angeles%20Downtown%20by%20IHG!5e0!3m2!1sen!2sus!4v1771342267029!5m2!1sen!2sus",
+    "directionsText": "L.A. Convention Center (~13 mins.)"
   },
   "jw-marriott" : {
     "name": "JW Marriott<br>L.A. LIVE",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": "L.A. Convention Center (~ mins.)"
+    "address": "900 W Olympic Blvd.",
+    "phone": "213-765-8600",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.9464307469843!2d-118.26905158730622!3d34.045245217985396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b97afee08f%3A0x6eb7594db5ec0692!2sJW%20Marriott%20Los%20Angeles%20L.A.%20LIVE!5e0!3m2!1sen!2sus!4v1771342598666!5m2!1sen!2sus",
+    "directionsText": "L.A. Convention Center (~9 mins.)"
   },
   "moxy" : {
     "name": "Moxy Downtown",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": "L.A. Convention Center (~ mins.)"
+    "address": "1260 S Figueroa St.",
+    "phone": "310-669-9252",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6612.261015577591!2d-118.26987128730616!3d34.04052321823478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c78d3560313b%3A0xf3d548514d57d1c1!2sMoxy%20Downtown%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1771342546138!5m2!1sen!2sus",
+    "directionsText": "L.A. Convention Center (~5 mins.)"
   },
   "residence-inn" : {
     "name": "Residence Inn<br>L.A. LIVE",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": "L.A. Convention Center (~ mins.)"
+    "address": "901 W Olympic Blvd.",
+    "phone": "213-443-9200",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.9185170621654!2d-118.26843918730619!3d34.04596121794774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b9c074beaf%3A0x1110964f26649051!2sResidence%20Inn%20by%20Marriott%20Los%20Angeles%20L.A.%20LIVE!5e0!3m2!1sen!2sus!4v1771342384020!5m2!1sen!2sus",
+    "directionsText": "L.A. Convention Center (~10 mins.)"
   },
   "ritz-carlton" : {
     "name": "Ritz-Carlton<br>Los Angeles",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "directionsText": "L.A. Convention Center (~ mins.)"
+    "address": "900 W Olympic Blvd.",
+    "phone": "213-743-8800",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.945560179041!2d-118.27149677040846!3d34.04526754868818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c7b97afee08f%3A0x313803c2b58cc9ff!2sThe%20Ritz-Carlton%2C%20Los%20Angeles!5e0!3m2!1sen!2sus!4v1771342326925!5m2!1sen!2sus",
+    "directionsText": "L.A. Convention Center (~8 mins.)"
   }
 }
