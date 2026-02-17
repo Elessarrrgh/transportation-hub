@@ -3,7 +3,7 @@
         "title": "",
         "event-map": ""
     },
-    "interactive-map": "",
+    "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1Swk01uAAYLpi7y5aLyoDJ39J63bXh_4&ehbc=2E312F",
     "flight-info": {
         "arrivals-widget": "",
         "departures-widget": "",
@@ -17,14 +17,14 @@
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
             "flyer": {
                 "preview": "",
-                "pdf": ""
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69934a2390bf8270947d829a/1771260451821/ViVE2026_ShuttleFlyer-v3.pdf"
             },
             "sign" : {
                 "preview": "",
-                "pdf": ""
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69934a2b75828a380477fc93/1771260459446/ViVE2-26_Sidesign_Route1.pdf"
             },
             "stops": {
-                "1": {
+                "1": {            
                     "stopName": "",
                     "boardingArea": "",
                     "scheduleJson": "",
@@ -34,31 +34,61 @@
                         "google": ""
                     }
                 },
-                "2": {
+                "2": {                      
+                    "stopName": "",
+                    "boardingArea": "",
                     "scheduleJson": "",
-                    "panorama": ""
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
                 }
             }
         },
         "2": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2"
-        },
-        "3": {
-            "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3"
-        },
-        "4": {
-            "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4"
-        },
-        "5": {
-            "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5"
-        },
-        "6": {
-            "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=6"
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
+            "flyer": {
+                "preview": "",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69934a2390bf8270947d829a/1771260451821/ViVE2026_ShuttleFlyer-v3.pdf"
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69934a3b36c5102dc6a61dec/1771260475284/ViVE2-26_Sidesign_Route2.pdf"
+            },
+            "stops": {
+                "1": {        
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {            
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {            
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
         },
         "w": {                                                                    
             "stops": {
