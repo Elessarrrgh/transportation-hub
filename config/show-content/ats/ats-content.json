@@ -14,34 +14,24 @@
         "departures-widget": "",
         "travel-time": ""
     },
-    "hotelsJson": "config/show-content/abc/abc-hotels.json",                                                                                    
-    "scheduleJson": "config/show-content/abc/abc-schedule.json",                                                                      
+    "hotelsJson": "config/show-content/ats/ats-hotels.json",
+    "scheduleJson": "config/show-content/ats/ats-schedule.json",
     "routes": {
         "1": {
-            "scheduleJson": "",                                                                    
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",                                                                                                
-            "flyer": {                                                                                                            
-                "preview": "",                                                               
-                "pdf": ""                                                      
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
             },
-            "sign" : {                                                            
-                "preview": "",                                                               
-                "pdf": ""                                                      
+            "sign" : {
+                "preview": "",
+                "pdf": ""
             },
             "stops": {
                 "1": {           
-                    "stopName": "",                                                     
-                    "boardingArea": "",                                                 
-                    "scheduleJson": "",                                                                                       
-                    "panorama": "",                                         
-                    "directions" : {                                                                                     
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "2": {           
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Front Entrance",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -49,9 +39,19 @@
                         "google": ""
                     }
                 },
-                "3": {           
+                "2": {         
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Front Entrance",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {             
+                    "stopName": "",
+                    "boardingArea": "Curbside by Water Fountain",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -73,9 +73,9 @@
                 "pdf": ""
             },
             "stops": {
-                "1": {
+                "1": {                          
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Front Entrance",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -83,9 +83,9 @@
                         "google": ""
                     }
                 },
-                "2": {
+                "2": {                               
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Curbside on Sea Harbor Dr.",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -93,9 +93,9 @@
                         "google": ""
                     }
                 },
-                "3": {
+                "3": {                              
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Curbside on Westwood Blvd.",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -117,9 +117,9 @@
                 "pdf": ""
             },
             "stops": {
-                "1": {
+                "1": {                            
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Curbside on Westwood Blvd.",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -127,9 +127,9 @@
                         "google": ""
                     }
                 },
-                "2": {
+                "2": {                        
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "North Entrance",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -137,9 +137,9 @@
                         "google": ""
                     }
                 },
-                "3": {
+                "3": {                       
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Lobby Entrance",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -161,9 +161,9 @@
                 "pdf": ""
             },
             "stops": {
-                "1": {
+                "1": {                       
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Transportation Lobby",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -171,19 +171,9 @@
                         "google": ""
                     }
                 },
-                "2": {
+                "2": {                        
                     "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "",
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "3": {
-                    "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "",       
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -205,9 +195,9 @@
                 "pdf": ""
             },
             "stops": {
-                "1": {
+                "1": {                
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Curbside on Universal Blvd.",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -215,19 +205,9 @@
                         "google": ""
                     }
                 },
-                "2": {
+                "2": {                            
                     "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "",
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "3": {
-                    "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Curbside on Univesal Blvd.",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -249,9 +229,9 @@
                 "pdf": ""
             },
             "stops": {
-                "1": {
+                "1": {                       
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Curbside on Jamaican Ct.",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -259,9 +239,9 @@
                         "google": ""
                     }
                 },
-                "2": {
+                "2": {             
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Curbside on Austrian Ct.",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -269,9 +249,9 @@
                         "google": ""
                     }
                 },
-                "3": {
+                "3": {                             
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Curbside on International Dr.",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -279,9 +259,9 @@
                         "google": ""
                     }
                 },
-                "4": {
+                "4": {                              
                     "stopName": "",
-                    "boardingArea": "",
+                    "boardingArea": "Curbside on International Dr.",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
@@ -293,7 +273,7 @@
         },
         "w": {                                                                    
             "stops": {
-                "0": {                                                                                                                                              
+                "0": {
                     "directions": {
                         "apple": "",
                         "google": ""
