@@ -1,17 +1,63 @@
 {
-  "shuttle-hotel-template": {
-    "name": "Shuttle Hotel Template",
-    "address": "123 Address St.",
-    "phone": "123-456-7890",
-    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.8670372404026!2d-71.4858745!3d41.5721222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5b6ae294bb267%3A0xe7c7b04ff26cd6c2!2sRhode%20Planning%20Management%20Solutions!5e0!3m2!1sen!2sus!4v1757472204393!5m2!1sen!2sus",
-    "scheduleJson": "",
-    "directionsText": "test repo text - IT WORKED"
+// ===== ROUTE 1 HOTELS =====
+
+  // STOP #1 — Residence Inn SeaWorld
+  "shuttle-hotel-template": { // This is the URL slug that will be used to identify the hotel page and replace content with information listed below. It must match EXACTLY or content will not populate.
+    "name": "", // This is the full hotel name that will appear on the title of page. Use '<br>' to control line breaks and be sure to manage vertical space accordingly.
+    "address": "", // Just the street address only (no city, state, zip) that will appear under the 'Hotel Info' section.
+    "phone": "", // The formatted phone number that will appear under the 'Hotel Info' section.
+    "map": "", // A Google Maps embed URL that will be inserted into an interactive iframe under the 'Hotel Info' section.
+    "scheduleJson": "", // Allows event-wide, route-specific, and stop-specific schedules to be overridden with hotel-specific data as needed.
+    "directionsText": "" // The (manually) estimated walking time to the nearest shuttle stop that appears under the 'Stop Info' section.
   },
+
+  // STOP #2 — Hotel B
+
+  // STOP #3 — Hotel C
+
+
+// ===== ROUTE 3 HOTELS =====
+
+  // STOP #1 — Hotel A
+
+  // STOP #2 — Hotel B
+
+  // STOP #3 — Hotel C
+
+
+// ===== ROUTE 4 HOTELS =====
+
+  // STOP #1 — Hotel A
+
+  // STOP #2 — Hotel B
+
+  // STOP #3 — Hotel C
+
+
+// ===== ROUTE 5 HOTELS =====
+
+  // STOP #1 — Hotel A
+
+  // STOP #2 — Hotel B
+
+  // STOP #3 — Hotel C
+
+
+// ===== ROUTE 6 HOTELS =====
+
+  // STOP #1 — Hotel A
+
+  // STOP #2 — Hotel B
+
+  // STOP #3 — Hotel C
+
+
+// ===== WALKING DISTANCE =====
   "walking-hotel-template": {
-    "name": "Walking Hotel Template",
-    "address": "123 Address St.",
-    "phone": "123-456-7890",
-    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.8670372404026!2d-71.4858745!3d41.5721222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5b6ae294bb267%3A0xe7c7b04ff26cd6c2!2sRhode%20Planning%20Management%20Solutions!5e0!3m2!1sen!2sus!4v1757472204393!5m2!1sen!2sus",
-    "directionsText": "repo placeholder"
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "",
+    "directionsText": ""
   }
 }

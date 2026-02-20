@@ -1,73 +1,302 @@
+/*
+This file is written in JSONC which allows for inline and multiline comments for reference.
+When a commit is pushed, the repository automatically creates a JSON copy of this file with all comments removed so it can be used for the content loader.
+*/
+
 {
     "base" : {
-        "title": "Template Event",
-        "event-map": "<iframe src='https://www.rhodeplanning.com/content-unavailable' width='600' height='400'></iframe>"
+        "title": "",
+        "event-map": ""
     },
-    "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1MTjn56tYSQ_NK-4MGMDNiPWBbuHtvVs&ehbc=2E312F",
+    "interactive-map": "",
     "flight-info": {
-        "arrivals-widget": "shows/abc/flight-info/arrivals-widget.html",
-        "departures-widget": "shows/abc/flight-info/departures-widget.html",
-        "travel-time": "https://www.google.com/maps/embed/v1/directions?key=AIzaSyD-Zq8VSdnzvEUH_8llwLRE-R9i-FIdPFY&origin=Rhode+Planning+Management+Solutions&destination=Rhode+Island+T.F.+Green+International+Airport"
+        "arrivals-widget": "",
+        "departures-widget": "",
+        "travel-time": ""
     },
-    "hotelsJson": "config/show-content/abc/abc-hotels.json",
-    "scheduleJson": "config/show-content/abc/abc-schedule.json",
+    "hotelsJson": "config/show-content/abc/abc-hotels.json", // Data source for all specific hotel information, replace 'abc' with show acronym.
+    "scheduleJson": "config/show-content/abc/abc-schedule.json", // Redirects to event-wide schedule, replace 'abc' with show acronym.
     "routes": {
         "1": {
-            "label": "Route 1",
-            "color": "#f58420",
-            "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
-            "flyer": {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7f880897-bb7c-4aca-9c7e-bf6f76632763/placeholder-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc338a2c7c089f79ffff/1756232755657/Placeholder+Flyer.pdf"
+            "scheduleJson": "", // Allows override of event-wide schedule with route-specific data.
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1", // Default URL for RouteSync. Can be updated to alternate or show specific interface as needed.
+            "flyer": { // The route-specific flyer (or hotel lobby sign instead) that is displayed on each hotel within the route.
+                "preview": "", // URL for preview image that will display with document link.
+                "pdf": "" // URL for document that can be opened for full view.
             },
-            "sign" : {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+            "sign" : { // The signage displayed on the shuttles for a given route.
+                "preview": "", // URL for preview image that will display with document link.
+                "pdf": "" // URL for document that can be opened for full view.
             },
             "stops": {
-                "1": {
-                    "stopName": "Hotel A - TEST REPO",
-                    "boardingArea": "Front Entrance",
-                    "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
-                    "directions" : {
-                        "apple": "https://maps.apple.com/?daddr=640%20Ten%20Rod%20Rd.%2C%20North%20Kingstown%2C%20RI%2002852",
-                        "google": "https://www.google.com/maps/dir/Current+Location/640%20Ten%20Rod%20Rd.%2C%20North%20Kingstown%2C%20RI%2002852"
+                "1": { // Hotel A
+                    "stopName": "", // The Hotel title that will appear on the web page.
+                    "boardingArea": "", // Where the shuttle will pick up at this hotel.
+                    "scheduleJson": "", // Allows override of event-wide and route-specific schedules with stop-specific data.
+                    "panorama": "", // URL for 360 panoram of boarding area.
+                    "directions" : { // Direction deep links that allow users to open native map applications pre-loaded.
+                        "apple": "",
+                        "google": ""
                     }
                 },
-                "2": {
+                "2": { // Hotel B
+                    "stopName": "",
+                    "boardingArea": "",
                     "scheduleJson": "",
-                    "panorama": "https://momento360.com/e/u/7e3f3a4f0b1c4f8c8e2f0e3c5e4b5a6d?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium&display-plan=true"
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": { // Hotel C
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
                 }
             }
         },
         "2": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2"
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
         },
         "3": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3"
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
         },
         "4": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4"
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
         },
         "5": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5"
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
         },
         "6": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=6"
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=6",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "4": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
         },
         "w": { // Necessary for walking distance hotels to have proper directions.
             "stops": {
-                "0": {
+                "0": { // While there are no stops for walking hotels, this section is still required for accurate URL parsing to ensure direction links are loaded.
                     "directions": {
-                        "apple": "https://maps.apple.com/?daddr=640%20Ten%20Rod%20Rd.%2C%20North%20Kingstown%2C%20RI%2002852",
-                        "google": "https://www.google.com/maps/dir/Current+Location/640%20Ten%20Rod%20Rd.%2C%20North%20Kingstown%2C%20RI%2002852"
+                        "apple": "",
+                        "google": ""
                     }
                 }
             }
