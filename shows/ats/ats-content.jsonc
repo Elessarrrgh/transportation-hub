@@ -1,0 +1,295 @@
+/*
+This file is written in JSONC which allows for inline and multiline comments for reference.
+When a commit is pushed, the repository automatically creates a JSON copy of this file with all comments removed so it can be used for the content loader.
+*/
+
+{
+    "base" : {
+        "title": "",
+        "event-map": ""
+    },
+    "interactive-map": "",
+    "flight-info": {
+        "arrivals-widget": "",
+        "departures-widget": "",
+        "travel-time": ""
+    },
+    "hotelsJson": "config/show-content/ats/ats-hotels.json",
+    "scheduleJson": "config/show-content/ats/ats-schedule.json",
+    "routes": {
+        "1": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Element
+                    "stopName": "",
+                    "boardingArea": "Front Entrance",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // Aloft
+                    "stopName": "",
+                    "boardingArea": "Front Entrance",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": { // Fairfield
+                    "stopName": "",
+                    "boardingArea": "Curbside by Water Fountain",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "2": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Residence Inn SeaWorld
+                    "stopName": "",
+                    "boardingArea": "Front Entrance",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // Hilton Grand Vacations Club
+                    "stopName": "",
+                    "boardingArea": "Curbside on Sea Harbor Dr.",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": { // Hilton Garden Inn SeaWorld
+                    "stopName": "",
+                    "boardingArea": "Curbside on Westwood Blvd.",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "3": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Tru by Hilton Convention
+                    "stopName": "",
+                    "boardingArea": "Curbside on Westwood Blvd.",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // Renaissance SeaWorld
+                    "stopName": "",
+                    "boardingArea": "North Entrance",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": { // DoubleTree SeaWorld
+                    "stopName": "",
+                    "boardingArea": "Lobby Entrance",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "4": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Rosen Shingle Creek
+                    "stopName": "",
+                    "boardingArea": "Transportation Lobby",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // Universal Terra Luna
+                    "stopName": "",
+                    "boardingArea": "", // TBD
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "5": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Castle Hotel
+                    "stopName": "",
+                    "boardingArea": "Curbside on Universal Blvd.",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // Residence Inn Convention
+                    "stopName": "",
+                    "boardingArea": "Curbside on Univesal Blvd.",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "6": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=6",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Embassy Suites ICON
+                    "stopName": "",
+                    "boardingArea": "Curbside on Jamaican Ct.",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": { // Courtyard
+                    "stopName": "",
+                    "boardingArea": "Curbside on Austrian Ct.",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": { // Embassy Suites COnvention
+                    "stopName": "",
+                    "boardingArea": "Curbside on International Dr.",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "4": { // Rosen Inn @ Pointe Orlando
+                    "stopName": "",
+                    "boardingArea": "Curbside on International Dr.",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "w": { // Necessary for walking distance hotels to have proper directions.
+            "stops": {
+                "0": {
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "x": { // placeholder for non-service hotels so that any relevant content can be loaded.
+            "stops": {
+                "0": {
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        }
+    }
+}
