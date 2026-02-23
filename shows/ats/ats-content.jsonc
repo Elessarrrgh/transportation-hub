@@ -19,24 +19,24 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
     "routes": {
         "1": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
+            "wait-time": "https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec?route=1",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/99121dd8-9907-46ca-9707-b59162d9e8ae/NRF26-flyer-route-1.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459ed2f5839a6452b9ba65/1766170322820/NRF26_Shuttle22x28_Route1.pdf"
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/d5df0060-b27b-48ba-bfa4-fbc12814771c/NRF26-signage-route-1.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69459f335dc70a71817aae62/1766170419286/NRF26_SideSign_1.pdf"
             },
             "stops": {
                 "1": { // Element
-                    "stopName": "",
+                    "stopName": "Element Orlando",
                     "boardingArea": "Front Entrance",
                     "scheduleJson": "",
-                    "panorama": "",
+                    "panorama": "https://momento360.com/e/u/208c29eeaebb4858bcb5f73fe009292a?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=5750%20Central%20Florida%20Pkwy%2C%20Orlando%2C%20FL%2032821",
+                        "google": "https://www.google.com/maps/dir/Current+Location/5750%20Central%20Florida%20Pkwy%2C%20Orlando%2C%20FL%2032821"
                     }
                 },
                 "2": { // Aloft
@@ -275,8 +275,8 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
             "stops": {
                 "0": {
                     "directions": {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=9800%20International%20Dr%2C%20Orlando%2C%20FL%2032819",
+                        "google": "https://www.google.com/maps/dir/Current+Location/9800%20International%20Dr%2C%20Orlando%2C%20FL%2032819"
                     }
                 }
             }
