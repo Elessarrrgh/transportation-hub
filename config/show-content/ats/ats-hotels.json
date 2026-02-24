@@ -2,13 +2,13 @@
                              
 
                               
-  "element-orlando-international-drive": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
+  "element-orlando": {
+    "name": "Element Orlando",
+    "address": "5750 Central Pkwy.",
+    "phone": "407-584-0441",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28070.389837829898!2d-81.48143828062948!3d28.425329435011324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77f8dbf86b117%3A0xe2b4320f4143d3b0!2sElement%20Orlando%20International%20Drive!5e0!3m2!1sen!2sus!4v1771877402999!5m2!1sen!2sus",
     "scheduleJson": "",
-    "directionsText": ""
+    "directionsText": "Element Orlando (<1 min.)"
   },
 
                             
@@ -68,11 +68,11 @@
 
 
                                
-  "walking-hotel-template": {
-    "name": "Walking Hotel Template",
-    "address": "123 Address St.",
-    "phone": "123-456-7890",
-    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.8670372404026!2d-71.4858745!3d41.5721222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5b6ae294bb267%3A0xe7c7b04ff26cd6c2!2sRhode%20Planning%20Management%20Solutions!5e0!3m2!1sen!2sus!4v1757472204393!5m2!1sen!2sus",
-    "directionsText": "repo placeholder"
+  "rosen-plaza": {
+    "name": "Rosen Plaza Hotel",
+    "address": "9700 International Dr.",
+    "phone": "407-996-9700",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7017.279916383598!2d-81.47633337124009!3d28.430118930600628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77e4abfacb97f%3A0xf0eb63175779a824!2sRosen%20Plaza%20Hotel!5e0!3m2!1sen!2sus!4v1771877533481!5m2!1sen!2sus",
+    "directionsText": "Orlando Conv. Center (~12 mins.)"
   }
 }
