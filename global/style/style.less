@@ -8,7 +8,7 @@
   /* Hotel Information Text */
   .hotel-title {
     font-size: 2.5em;
-    padding-left: 5%;
+    padding: 1% 3%;
     text-align: center;
   }
   .info-label {
@@ -23,8 +23,8 @@
   }
 
   .hotel-section-heading {
-    font-size: 1.8em;
-    font-weight: bold; 
+    font-size: 1.5em;
+    font-weight: bold;
     margin-top: 0.1em;
     margin-bottom: 0em;
   }
@@ -368,7 +368,7 @@
       text-decoration: none;
     }
 
-    .no-service .service-note {
+    .service-note {
       font-style: italic;
       font-size: 0.5em;
       margin-top: -0.5em;
@@ -471,3 +471,28 @@
     border: solid white 5px;
     border-radius: 10px;
   }
+
+/* Responsive ad banner */
+a.hub-ad {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  line-height: 0; /* removes tiny gaps */
+}
+
+/* shared image styling */
+.hub-ad__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px; /* optional */
+}
+
+/* default: show mobile */
+.hub-ad__img--desktop { display: none; }
+
+/* show desktop at >= 768px */
+@media (min-width: 768px) {
+  .hub-ad__img--mobile { display: none; }
+  .hub-ad__img--desktop { display: block; }
+}
