@@ -8,7 +8,7 @@
   "nrf" : "config/show-content/nrf/nrf-content.json",
   "pstm" : "config/show-content/pstm/pstm-content.json",
   "rsna" : "config/show-content/rsna/rsna-content.json",
-  "sena" : "config/show-content/sena/sena-contetn.json",
+  "sena" : "config/show-content/sena/sena-content.json",
   "ue" : "config/show-content/ue/ue-content.json",
   "vive": "config/show-content/vive/vive-content.json",
   "ydc" : "config/show-content/ydc/ydc-content.json"
