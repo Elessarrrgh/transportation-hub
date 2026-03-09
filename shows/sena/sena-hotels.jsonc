@@ -17,7 +17,8 @@
     "phone": "617-424-7000",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.852132841819!2d-71.08361848710659!3d42.34567583588826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37ebf0fb55f01%3A0x9291a93282d6427c!2sThe%20Colonnade%20Hotel!5e0!3m2!1sen!2sus!4v1772816130080!5m2!1sen!2sus",
     "scheduleJson": "",
-    "directionsText": "Marriott Copley Place (~3 min.)"
+    "directionsText": "Marriott Copley Place (~3 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/v1/602b1e3b9f10401f2e609ddb/14a8eede-395c-4dbc-8bcd-735da0603b9c/colonnade-boston.jpg?format=1500w"
   },
   "fairmont-copley": {
     "name": "Fairmont Copley Plaza",
@@ -99,7 +100,7 @@
   
   // STOP #2 — Courtyard Downtown
   "courtyard-downtown": {
-    "name": "Courtyard Downtown",
+    "name": "Courtyard Boston Downtown",
     "address": "275 Tremont St.",
     "phone": "617-426-1400",
     "map": "https://www.google.com/maps?q=Courtyard+Boston+Downtown+275+Tremont+St.+Boston+MA&output=embed",
@@ -152,7 +153,7 @@
     "directionsText": "Marriott Long Wharf (<1 min.)"
   },
   "canopy": {
-    "name": "Canopy by Hilton",
+    "name": "Canopy Boston Downtown",
     "address": "99 Blackstone St.",
     "phone": "857-758-4410",
     "map": "https://www.google.com/maps?q=Canopy+by+Hilton+Boston+Downtown+99+Blackstone+St.+Boston+MA&output=embed",
@@ -219,7 +220,7 @@
   
   // STOP #2 — Dagny
   "dagny-hotel": {
-    "name": "Dagny Boston",
+    "name": "The Dagny Boston",
     "address": "89 Broad St.",
     "phone": "617-556-0006",
     "map": "https://www.google.com/maps?q=The+Dagny+Boston+89+Broad+St.+Boston+MA&output=embed",
