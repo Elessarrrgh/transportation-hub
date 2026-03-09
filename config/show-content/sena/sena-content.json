@@ -16,12 +16,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8afb4965-52bd-4110-9df8-fd1c22c77222/lobby-R1-sena26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69af08534a6dd21c17c897cc/1773078611505/SENA_HL_RT1.pdf"
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/295f0091-53ba-4217-bfc1-1cfb91f83914/signage-R1-sena26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69af0b8e81f8f73ebf174e37/1773079438994/SENA26_SideSign_1.pdf"
             },
             "stops": {
                 "1": {                   
@@ -40,12 +40,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/21efeb37-ceea-4d33-ade9-c688b1be675a/lobby-R2-sena26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69af0937e075db3c03fe8e4c/1773078839893/SENA_HL_RT2.pdf"
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7c9e2ab5-612a-45e0-859d-12b8f3da2b51/signage-R2-sena26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69af0bb12acf615001aa239c/1773079473285/SENA26_SideSign_2.pdf"
             },
             "stops": {
                 "1": {              
@@ -74,12 +74,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/65a12136-9d04-44e6-93d3-ad496dbf62c5/lobby-R3-sena26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69af096520c89c0c6bfaa12a/1773078885093/SENA_HL_RT3.pdf"
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/f12482ab-d807-4aff-8826-1c6fdf59cf3b/signage-R3-sena26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69af0bca117c105da3570917/1773079498919/SENA26_SideSign_3.pdf"
             },
             "stops": {
                 "1": {                       
@@ -118,12 +118,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/b30a6654-3950-4214-948b-9e1c512c66b6/lobby-R4-sena26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69af099a19d58c6b4e0a0fc1/1773078938392/SENA_HL_RT4.pdf"
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a79ca163-9a73-4016-b284-6cf327187b46/signage-R4-sena26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69af0bf5113997176d00d63e/1773079541056/SENA26_SideSign_4.pdf"
             },
             "stops": {
                 "1": {                 
@@ -172,12 +172,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/3d15eb55-9cbf-4c36-957e-f7a6db4a7518/lobby-R5-sena26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69af09e892059778ee8b22e3/1773079016318/SENA_HL_RT5.pdf"
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/fff0cff9-a8c3-49f5-838c-bd14d14e8475/signage-R5-sena26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69af0c158ff728179f8e9269/1773079573908/SENA26_SideSign_5.pdf"
             },
             "stops": {
                 "1": {                        
