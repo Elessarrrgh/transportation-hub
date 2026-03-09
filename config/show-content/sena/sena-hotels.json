@@ -1,28 +1,343 @@
 {
                              
 
-                                   
-  "shuttle-hotel-template": {
-    "name": "Shuttle Hotel Template",
-    "address": "123 Address St.",
-    "phone": "123-456-7890",
-    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.8670372404026!2d-71.4858745!3d41.5721222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5b6ae294bb267%3A0xe7c7b04ff26cd6c2!2sRhode%20Planning%20Management%20Solutions!5e0!3m2!1sen!2sus!4v1757472204393!5m2!1sen!2sus",
+                              
+  "marriott-copley": {
+    "name": "Marriott Copley Place",
+    "address": "110 Huntington Ave.",
+    "phone": "617-236-5800",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.8017065456725!2d-71.08382826892789!3d42.34675086144722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a0de7e77a4b%3A0x1a77f7939c6472fb!2sBoston%20Marriott%20Copley%20Place!5e0!3m2!1sen!2sus!4v1772816022638!5m2!1sen!2sus",
     "scheduleJson": "",
-    "directionsText": "test repo text - IT WORKED"
+    "directionsText": "Marriott Copley Place (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/16ab73b4-c74b-4cf1-be37-d1a678ed69c3/marriott-copley-place.jpg?content-type=image%2Fjpeg"
   },
+  "colonnade": {
+    "name": "Colonnade Boston",
+    "address": "120 Huntington Ave.",
+    "phone": "617-424-7000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.852132841819!2d-71.08361848710659!3d42.34567583588826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37ebf0fb55f01%3A0x9291a93282d6427c!2sThe%20Colonnade%20Hotel!5e0!3m2!1sen!2sus!4v1772816130080!5m2!1sen!2sus",
+    "scheduleJson": "",
+    "directionsText": "Marriott Copley Place (~3 min.)"
+  },
+  "fairmont-copley": {
+    "name": "Fairmont Copley Plaza",
+    "address": "138 St. James Ave.",
+    "phone": "617-267-5300",
+    "map": "https://www.google.com/maps?q=Fairmont+Copley+Plaza+138+St.+James+Ave.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Marriott Copley Place (~6 min.)"
+  },
+  "four-seasons": {
+    "name": "Four Seasons<br>One Dalton St.",
+    "address": "1 Dalton St.",
+    "phone": "617-377-4888",
+    "map": "https://www.google.com/maps?q=Four+Seasons+One+Dalton+St+1+Dalton+St+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Marriott Copley Place (~5 min.)"
+  },
+  "hilton-back-bay": {
+    "name": "Hilton Back Bay",
+    "address": "40 Dalton St.",
+    "phone": "617-236-1100",
+    "map": "https://www.google.com/maps?q=Hilton+Back+Bay+40+Dalton+St+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Marriott Copley Place (~4 min.)"
+  },
+  "midtown-hotel": {
+    "name": "Midtown Hotel",
+    "address": "220 Huntington Ave.",
+    "phone": "617-262-8739",
+    "map": "https://www.google.com/maps?q=Midtown+Hotel+220+Huntington+Ave.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Marriott Copley Place (~3 min.)"
+  },
+  "raffles-boston": {
+    "name": "Raffles Boston",
+    "address": "40 Trinity Place",
+    "phone": "617-351-8888",
+    "map": "https://www.google.com/maps?q=Raffles+Boston+40+Trinity+Place+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Marriott Copley Place (~8 min.)"
+  },
+  "sheraton-boston": {
+    "name": "Sheraton Boston",
+    "address": "39 Dalton St.",
+    "phone": "617-236-2000",
+    "map": "https://www.google.com/maps?q=Sheraton+Boston+39+Dalton+St+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Marriott Copley Place (~4 min.)"
+  },
+  "westin-copley": {
+    "name": "Westin<br>Copley Place",
+    "address": "10 Huntington Ave.",
+    "phone": "617-262-9600",
+    "map": "https://www.google.com/maps?q=The+Westin+Copley+Place+10+Huntington+Ave.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Marriott Copley Place (~2 min.)"
+  },
+  
 
-                    
-  "walking-hotel-template": {
-    "name": "Walking Hotel Template",
-    "address": "123 Address St.",
-    "phone": "123-456-7890",
-    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.8670372404026!2d-71.4858745!3d41.5721222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5b6ae294bb267%3A0xe7c7b04ff26cd6c2!2sRhode%20Planning%20Management%20Solutions!5e0!3m2!1sen!2sus!4v1757472204393!5m2!1sen!2sus",
-    "directionsText": "repo placeholder"
-  }
+                             
+
+                         
+  "park-plaza": {
+    "name": "Hilton Boston<br>Park Plaza",
+    "address": "50 Park Plaza",
+    "phone": "617-426-2000",
+    "map": "https://www.google.com/maps?q=Hilton+Boston+Park+Plaza+50+Park+Plaza+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Hilton Boston Park Plaza (<1 min.)"
+  },
+  "hotel-aka-back-bay": {
+    "name": "Hotel AKA<br>Back Bay",
+    "address": "154 Berkeley St.",
+    "phone": "617-266-7200",
+    "map": "https://www.google.com/maps?q=Hotel+AKA+Back+Bay+154+Berkeley+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Hilton Boston Park Plaza (~3 min.)"
+  },
+  
+                                 
+  "courtyard-downtown": {
+    "name": "Courtyard Downtown",
+    "address": "275 Tremont St.",
+    "phone": "617-426-1400",
+    "map": "https://www.google.com/maps?q=Courtyard+Boston+Downtown+275+Tremont+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Courtyard Boston Downtown (<1 min.)"
+  },
+  "doubletree-downtown": {
+    "name": "DoubleTree Downtown",
+    "address": "821 Washington St.",
+    "phone": "617-956-7900",
+    "map": "https://www.google.com/maps?q=DoubleTree+Downtown+821+Washington+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Courtyard Boston Downtown (~5 min.)"
+  },
+  "moxy": {
+    "name": "Moxy Boston Downtown",
+    "address": "240 Tremont St.",
+    "phone": "617-793-4200",
+    "map": "https://www.google.com/maps?q=Moxy+Boston+Downtown+240+Tremont+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Courtyard Boston Downtown (~1 min.)"
+  },
+  "revere-boston-common": {
+    "name": "Revere Boston Common",
+    "address": "200 Stuart St.",
+    "phone": "617-482-1800",
+    "map": "https://www.google.com/maps?q=Revere+Boston+Common+200+Stuart+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Courtyard Boston Downtown (~3 min.)"
+  },
+  "w-boston": {
+    "name": "W Boston",
+    "address": "100 Stuart St.",
+    "phone": "617-261-8700",
+    "map": "https://www.google.com/maps?q=W+Boston+100+Stuart+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Courtyard Boston Downtown (~2 min.)"
+  },
 
 
                              
 
-                    
+                                  
+  "marriott-long-wharf": {
+    "name": "Marriott Long Wharf",
+    "address": "296 State St.",
+    "phone": "617-227-0800",
+    "map": "https://www.google.com/maps?q=Boston+Marriott+Long+Wharf+296+State+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Marriott Long Wharf (<1 min.)"
+  },
+  "canopy": {
+    "name": "Canopy by Hilton",
+    "address": "99 Blackstone St.",
+    "phone": "857-758-4410",
+    "map": "https://www.google.com/maps?q=Canopy+by+Hilton+Boston+Downtown+99+Blackstone+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Marriott Long Wharf (~2 min.)"
+  },
+  
+                                
+  "omni-parker-house": {
+    "name": "Omni Parker House",
+    "address": "60 School St.",
+    "phone": "617-227-8600",
+    "map": "https://www.google.com/maps?q=Omni+Parker+House+60+School+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Omni Parker House (<1 min.)"
+  },
+  "hotel-aka-boston-common": {
+    "name": "Hotel AKA<br>Boston Common",
+    "address": "90 Tremont St.",
+    "phone": "617-772-5800",
+    "map": "https://www.google.com/maps?q=Hotel+AKA+Boston+Common+90+Tremont+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Omni Parker House (~2 min.)"
+  },
+  
+                            
+  "hyatt-regency": {
+    "name": "Hyatt Regency",
+    "address": "1 Ave. de Lafayette",
+    "phone": "617-568-1234",
+    "map": "https://www.google.com/maps?q=Hyatt+Regency+Boston+1+Ave.+de+Lafayette+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Hyatt Regency (<1 min.)"
+  },
+  "godfrey": {
+    "name": "Godfrey Hotel",
+    "address": "505 Washington St.",
+    "phone": "617-804-2000",
+    "map": "https://www.google.com/maps?q=The+Godfrey+Hotel+Boston+505+Washington+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Hyatt Regency (~3 min.)"
+  },
+  "ritz-carlton": {
+    "name": "Ritz-Carlton",
+    "address": "10 Avery St.",
+    "phone": "617-574-7100",
+    "map": "https://www.google.com/maps?q=The+Ritz-Carlton+Boston+10+Avery+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Hyatt Regency (~4 min.)"
+  },
 
+
+                             
+
+                            
+  "boston-harbor-hotel": {
+    "name": "Boston Harbor Hotel",
+    "address": "70 Rowes Wharf",
+    "phone": "617-439-7000",
+    "map": "https://www.google.com/maps?q=Boston+Harbor+Hotel+70+Rowes+Wharf+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Boston Harbor Hotel (<1 min.)"
+  },
+  
+                    
+  "dagny-hotel": {
+    "name": "Dagny Boston",
+    "address": "89 Broad St.",
+    "phone": "617-556-0006",
+    "map": "https://www.google.com/maps?q=The+Dagny+Boston+89+Broad+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Dagny Boston (<1 min.)"
+  },
+  
+                      
+  "langham-hotel": {
+    "name": "Langham Hotel",
+    "address": "250 Franklin St.",
+    "phone": "617-451-1900",
+    "map": "https://www.google.com/maps?q=The+Langham+Boston+250+Franklin+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Langham Hotel (<1 min.)"
+  },
+  
+                               
+  "intercontinental": {
+    "name": "InterContinental Boston",
+    "address": "510 Atlantic Ave.",
+    "phone": "617-747-1000",
+    "map": "https://www.google.com/maps?q=InterContinental+Boston+510+Atlantic+Ave.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "InterContinental Boston (<1 min.)"
+  },
+  
+
+                             
+
+                                     
+  "embassy-suites": {
+    "name": "Embassy Suites<br>Logan Airport",
+    "address": "207 Porter St.",
+    "phone": "617-567-5000",
+    "map": "https://www.google.com/maps?q=Embassy+Suites+by+Hilton+Boston+at+Logan+Airport+207+Porter+St.+Boston+MA&output=embed",
+    "scheduleJson": "",
+    "directionsText": "Embassy Suites Logan Airport (<1 min.)"
+  },
+  
+
+                                      
+
+  "aloft-seaport": {
+    "name": "Aloft Seaport",
+    "address": "401-403 D St.",
+    "phone": "617-530-1600",
+    "map": "https://www.google.com/maps?q=Aloft+Boston+Seaport+District+401-403+D+St.+Boston+MA&output=embed",
+    "directionsText": "MCEC (~9 min.)"
+  },
+  "element-seaport": {
+    "name": "Element Seaport",
+    "address": "391-395 D St.",
+    "phone": "617-530-1700",
+    "map": "https://www.google.com/maps?q=Element+Boston+Seaport+District+391-395+D+St.+Boston+MA&output=embed",
+    "directionsText": "MCEC (~10 min.)"
+  },
+  "envoy-hotel": {
+    "name": "Envoy Hotel",
+    "address": "70 Sleeper St.",
+    "phone": "617-338-3030",
+    "map": "https://www.google.com/maps?q=The+Envoy+Hotel+Boston+70+Sleeper+St.+Boston+MA&output=embed",
+    "directionsText": "MCEC (~8 min.)"
+  },
+  "hampton-inn-seaport": {
+    "name": "Hampton Inn Seaport",
+    "address": "670 Summer St.",
+    "phone": "857-356-3033",
+    "map": "https://www.google.com/maps?q=Hampton+Inn+by+Hilton+Boston+Seaport+District+670+Summer+St.+Boston+MA&output=embed",
+    "directionsText": "MCEC (~12 min.)"
+  },
+  "homewood-suites": {
+    "name": "Homewood Suites Seaport",
+    "address": "670 Summer St.",
+    "phone": "857-356-3033",
+    "map": "https://www.google.com/maps?q=Homewood+Suites+by+Hilton+Boston+Seaport+District+670+Summer+St.+Boston+MA&output=embed",
+    "directionsText": "MCEC (~12 min.)"
+  },
+  "hyatt-place-seaport": {
+    "name": "Hyatt Place Seaport",
+    "address": "295 Northern Ave.",
+    "phone": "857-328-1234",
+    "map": "https://www.google.com/maps?q=Hyatt+Place+Boston+Seaport+District+295+Northern+Ave.+Boston+MA&output=embed",
+    "directionsText": "MCEC (~11 min.)"
+  },
+  "omni-seaport": {
+    "name": "Omni Seaport",
+    "address": "450 Summer St.",
+    "phone": "617-476-6664",
+    "map": "https://www.google.com/maps?q=Omni+Boston+Hotel+at+the+Seaport+450+Summer+St.+Boston+MA&output=embed",
+    "directionsText": "MCEC (~10 min.)"
+  },
+  "renaissance-waterfront": {
+    "name": "Renaissance Waterfront",
+    "address": "606 Congress St.",
+    "phone": "617-338-4111",
+    "map": "https://www.google.com/maps?q=Renaissance+Boston+Seaport+Hotel+606+Congress+St.+Boston+MA&output=embed",
+    "directionsText": "MCEC (~7 min.)"
+  },
+  "seaport-hotel": {
+    "name": "Seaport Hotel",
+    "address": "1 Seaport Ln.",
+    "phone": "617-385-4000",
+    "map": "https://www.google.com/maps?q=Seaport+Hotel+Boston+1+Seaport+Ln.+Boston+MA&output=embed",
+    "directionsText": "MCEC (~6 min.)"
+  },
+  "westin-waterfront": {
+    "name": "Westin Waterfront",
+    "address": "425 Summer St.",
+    "phone": "617-532-4600",
+    "map": "https://www.google.com/maps?q=The+Westin+Boston+Seaport+District+425+Summer+St.+Boston+MA&output=embed",
+    "directionsText": "MCEC (~8 min.)"
+  },
+  "yotel": {
+    "name": "YOTEL Boston",
+    "address": "65 Seaport Blvd.",
+    "phone": "617-377-4747",
+    "map": "https://www.google.com/maps?q=YOTEL+Boston+65+Seaport+Blvd.+Boston+MA&output=embed",
+    "directionsText": "MCEC (~9 min.)"
+  }
 }
