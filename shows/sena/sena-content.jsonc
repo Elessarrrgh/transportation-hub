@@ -1,14 +1,14 @@
 {
     "base" : {
-        "title": "",
+        "title": "Seafood Expo of North America",
         "event-map": ""
     },
-    "interactive-map": "",
-    "flight-info": {
-        "arrivals-widget": "",
-        "departures-widget": "",
-        "travel-time": ""
-    },
+    "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1Ti7zChfyfz-H9mU6sSxg89Iqr-OmxLE&ehbc=2E312F",
+    ////"flight-info": {
+        ////"arrivals-widget": "",
+        ////"departures-widget": "",
+        ////"travel-time": ""
+    ////},
     "hotelsJson": "config/show-content/sena/sena-hotels.json",
     "scheduleJson": "config/show-content/sena/sena-schedule.json",
     "routes": {
@@ -24,39 +24,175 @@
                 "pdf": ""
             },
             "stops": {
-                "1": {
-                    "stopName": "",
-                    "boardingArea": "",
+                "1": { // Marriott Copley
+                    "stopName": "Marriott Copley Place",
+                    "boardingArea": "Curbside on Huntington Ave.",
                     "scheduleJson": "",
-                    "panorama": "",
+                    "panorama": "https://momento360.com/e/u/7ff125656bb74c4883df6a2b3143ecbf?utm_campaign=embed&utm_source=other&heading=286.8&pitch=0.3&field-of-view=87&size=large&display-plan=true",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=110%20Huntington%20Ave%2C%20Boston%2C%20MA%2002116%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/110%20Huntington%20Ave%2C%20Boston%2C%20MA%2002116%2C%20United%20States"
                     }
-                },
-                "2": {
-                    "scheduleJson": "",
-                    "panorama": ""
                 }
             }
         },
         "2": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2"
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Park Plaza
+                    "stopName": "Hilton Boston Park Plaza",
+                    "boardingArea": "Columbus Ave. Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/b24b6309dc8a49abbf1930ea5cc6c1d0?utm_campaign=embed&utm_source=other&heading=123.05&pitch=0.35&field-of-view=100&size=large&display-plan=true",
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=50%20Park%20Plaza%2C%20Boston%2C%20MA%2002116%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/50%20Park%20Plaza%2C%20Boston%2C%20MA%2002116%2C%20United%20States"
+                    }
+                },
+                "2": { // Courtyard Downtown
+                    "stopName": "Courtyard Boston Downtown",
+                    "boardingArea": "Tremont St. Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/7d8527b0b93449a0a6d16cbeca6a3b36?utm_campaign=embed&utm_source=other&heading=126.62&pitch=3.15&field-of-view=75&size=large&display-plan=true",
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=275%20Tremont%20St%2C%20Boston%2C%20MA%2002116%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/275%20Tremont%20St%2C%20Boston%2C%20MA%2002116%2C%20United%20States"
+                    }
+                }
+            }
         },
         "3": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3"
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Marriott Long Wharf
+                    "stopName": "Marriott Long Wharf",
+                    "boardingArea": "Front Entrance, Outer Driveway",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/43585b45b25f4c3aa76ac43eaf40f976?utm_campaign=embed&utm_source=other&heading=152.12&pitch=-0.43&field-of-view=100&size=large&display-plan=true",
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=296%20State%20St%2C%20Boston%2C%20MA%2002109%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/296%20State%20St%2C%20Boston%2C%20MA%2002109%2C%20United%20States"
+                    }
+                },
+                "2": { // Omni Parker House
+                    "stopName": "Omni Parker House",
+                    "boardingArea": "Tremont St. Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/289617f561fc47469a3dd0a87fe85f83?utm_campaign=embed&utm_source=other&heading=241.25&pitch=4.34&field-of-view=77&size=large&display-plan=true",
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=60%20School%20St%2C%20Boston%2C%20MA%2002108%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/60%20School%20St%2C%20Boston%2C%20MA%2002108%2C%20United%20States"
+                    }
+                },
+                "3": { // Hyatt Regency
+                    "stopName": "Hyatt Regency",
+                    "boardingArea": "Corner of Ave. De Layfayette and Harrison Ave.",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/7682b12b522a4e08ba30a07c1b4aa76b?utm_campaign=embed&utm_source=other&heading=235.32&pitch=3.86&field-of-view=95&size=large&display-plan=true",
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=One%20Ave%20de%20Lafayette%2C%20Boston%2C%20MA%2002111%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/One%20Ave%20de%20Lafayette%2C%20Boston%2C%20MA%2002111%2C%20United%20States"
+                    }
+                }
+            }
         },
         "4": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4"
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Boston Harbor
+                    "stopName": "Boston Harbor Hotel",
+                    "boardingArea": "Atlantic Ave. Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", // TODO Boston Harbor panorama
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=70%20Rowes%20Wharf%2C%20Boston%2C%20MA%2002110%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/70%20Rowes%20Wharf%2C%20Boston%2C%20MA%2002110%2C%20United%20States"
+                    }
+                },
+                "2": { // Dagny
+                    "stopName": "Dagney Boston",
+                    "boardingArea": "Broad St. Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", // TODO Dagny panorama
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=89%20Broad%20St%2C%20Boston%2C%20MA%2002110%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/89%20Broad%20St%2C%20Boston%2C%20MA%2002110%2C%20United%20States"
+                    }
+                },
+                "3": { // Langham
+                    "stopName": "Langham Hotel",
+                    "boardingArea": "Franklin St. Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/3ee4ccdff0174a5687925cf8ce5005ff?utm_campaign=embed&utm_source=other&heading=15.35&pitch=1.35&field-of-view=100&size=large&display-plan=true",
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=250%20Franklin%20St%2C%20Boston%2C%20MA%2002110%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/250%20Franklin%20St%2C%20Boston%2C%20MA%2002110%2C%20United%20States"
+                    }
+                },
+                "4": { // InterContinental
+                    "stopName": "InterContinental Boston",
+                    "boardingArea": "Atlantic Ave. Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/51ee3ce0455b4bd7a451b7c6fa3f610a?utm_campaign=embed&utm_source=other&heading=351.9&pitch=5.83&field-of-view=81&size=large&display-plan=true",
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=510%20Atlantic%20Ave%2C%20Boston%2C%20MA%2002210%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/510%20Atlantic%20Ave%2C%20Boston%2C%20MA%2002210%2C%20United%20States"
+                    }
+                }
+            }
         },
         "5": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5"
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": { // Embassy Suites Logan
+                    "stopName": "Embassy Suites Logan",
+                    "boardingArea": "Front Entrance Curbside",
+                    "scheduleJson": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable", // TODO Embassy Suites panorama
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=207%20Porter%20St%2C%20Boston%2C%20MA%2002128%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/207%20Porter%20St%2C%20Boston%2C%20MA%2002128%2C%20United%20States"
+                    }
+                }
+            }
         },
-        "6": {
+        "6": { // Not in use for SENA 2026
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=6"
         },
@@ -64,8 +200,8 @@
             "stops": {
                 "0": {
                     "directions": {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=415%20Summer%20St%2C%20Boston%2C%20MA%2002210%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/415%20Summer%20St%2C%20Boston%2C%20MA%2002210%2C%20United%20States"
                     }
                 }
             }
