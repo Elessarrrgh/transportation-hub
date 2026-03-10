@@ -104,7 +104,7 @@
                 },
                 "3": {                 
                     "stopName": "Hyatt Regency",
-                    "boardingArea": "Corner of Ave. De Layfayette and Harrison Ave.",
+                    "boardingArea": "Corner of Ave. de Lafayette and Harrison Ave.",
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/7682b12b522a4e08ba30a07c1b4aa76b?utm_campaign=embed&utm_source=other&heading=235.32&pitch=3.86&field-of-view=95&size=large&display-plan=true",
                     "directions" : {
@@ -137,7 +137,7 @@
                     }
                 },
                 "2": {         
-                    "stopName": "Dagney Boston",
+                    "stopName": "Dagny Boston",
                     "boardingArea": "Broad St. Entrance",
                     "scheduleJson": "",
                     "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                       
@@ -184,7 +184,7 @@
                     "stopName": "Embassy Suites Logan",
                     "boardingArea": "Front Entrance Curbside",
                     "scheduleJson": "",
-                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                                
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=207%20Porter%20St%2C%20Boston%2C%20MA%2002128%2C%20United%20States",
                         "google": "https://www.google.com/maps/dir/Current+Location/207%20Porter%20St%2C%20Boston%2C%20MA%2002128%2C%20United%20States"
@@ -218,3 +218,4 @@
         }
     }
 }
+
