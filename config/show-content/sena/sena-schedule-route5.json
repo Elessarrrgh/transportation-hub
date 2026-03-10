@@ -1,0 +1,24 @@
+{
+  "days": [
+    {
+      "label": "Sunday (3/15) & Monday (3/16)",
+      "inboundSubtitle": "Hotels to MCEC",
+      "inboundStart": "7:00 AM; 8:30 AM; 10:00 AM",
+      "inboundEnd": "",
+      "outboundSubtitle": "MCEC to Hotels",
+      "outboundStart": "4:00 PM; 5:15 PM; 6:00 PM",
+      "outboundEnd": "",
+      "intermission": null
+    },
+    {
+      "label": "Tuesday (3/17)",
+      "inboundSubtitle": "Hotels to MCEC",
+      "inboundStart": "7:00 AM; 8:30 AM; 10:00 AM",
+      "inboundEnd": "",
+      "outboundSubtitle": "MCEC to Hotels",
+      "outboundStart": "2:00 PM; 3:15 PM; 4:00 PM",
+      "outboundEnd": "",
+      "intermission": null
+    }
+  ]
+}
