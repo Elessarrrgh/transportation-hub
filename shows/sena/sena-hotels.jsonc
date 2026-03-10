@@ -35,7 +35,7 @@
     "phone": "617-377-4888",
     "map": "https://www.google.com/maps?q=Four+Seasons+One+Dalton+St+1+Dalton+St+Boston+MA&output=embed",
     "scheduleJson": "",
-    "directionsText": "Marriott Copley Place (~5 min.)",
+    "directionsText": "Marriott Copley Place (~8 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/v1/602b1e3b9f10401f2e609ddb/a7bd7f4d-be23-4422-985c-21bf025a3a75/four-seasons-one-dalton.jpg?format=1500w"
   },
   "hilton-back-bay": {
@@ -44,7 +44,7 @@
     "phone": "617-236-1100",
     "map": "https://www.google.com/maps?q=Hilton+Back+Bay+40+Dalton+St+Boston+MA&output=embed",
     "scheduleJson": "",
-    "directionsText": "Marriott Copley Place (~4 min.)",
+    "directionsText": "Marriott Copley Place (~9 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/v1/602b1e3b9f10401f2e609ddb/1b8c0012-6767-4f56-8e39-5a95e3f323ed/hilton-back-bay.jpg?format=1500w"
   },
   "midtown-hotel": {
@@ -71,7 +71,7 @@
     "phone": "617-236-2000",
     "map": "https://www.google.com/maps?q=Sheraton+Boston+39+Dalton+St+Boston+MA&output=embed",
     "scheduleJson": "",
-    "directionsText": "Marriott Copley Place (~4 min.)",
+    "directionsText": "Marriott Copley Place (~8 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/v1/602b1e3b9f10401f2e609ddb/f8219d02-536a-4399-b68d-2282b333a078/sheraton-boston.jpg?format=1500w"
   },
   "westin-copley": {
@@ -173,7 +173,7 @@
     "phone": "857-758-4410",
     "map": "https://www.google.com/maps?q=Canopy+by+Hilton+Boston+Downtown+99+Blackstone+St.+Boston+MA&output=embed",
     "scheduleJson": "",
-    "directionsText": "Marriott Long Wharf (~2 min.)",
+    "directionsText": "Marriott Long Wharf (~8 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/v1/602b1e3b9f10401f2e609ddb/dbc0c430-3c64-4396-b369-4884607bab46/canopy-hotel-boston.jpg?format=1500w"
   },
   
@@ -311,7 +311,7 @@
     "address": "70 Sleeper St.",
     "phone": "617-338-3030",
     "map": "https://www.google.com/maps?q=The+Envoy+Hotel+Boston+70+Sleeper+St.+Boston+MA&output=embed",
-    "directionsText": "MCEC (~8 min.)",
+    "directionsText": "MCEC (~15 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/v1/602b1e3b9f10401f2e609ddb/e950fc25-c663-4e4d-90ff-c024317be2d7/envoy-boston-seaport.jpg?format=1500w"
   },
   "hampton-inn-seaport": {
@@ -343,7 +343,7 @@
     "address": "450 Summer St.",
     "phone": "617-476-6664",
     "map": "https://www.google.com/maps?q=Omni+Boston+Hotel+at+the+Seaport+450+Summer+St.+Boston+MA&output=embed",
-    "directionsText": "MCEC (~10 min.)",
+    "directionsText": "MCEC (~2 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/v1/602b1e3b9f10401f2e609ddb/17a91ae1-eac0-4002-bcce-89f4a288891e/omni-boston-seaport.jpg?format=1500w"
   },
   "renaissance-waterfront": {
@@ -367,7 +367,7 @@
     "address": "425 Summer St.",
     "phone": "617-532-4600",
     "map": "https://www.google.com/maps?q=The+Westin+Boston+Seaport+District+425+Summer+St.+Boston+MA&output=embed",
-    "directionsText": "MCEC (~8 min.)",
+    "directionsText": "MCEC (~2 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/v1/602b1e3b9f10401f2e609ddb/20489deb-f608-439f-9afb-101336a91986/westin-seaport.jpg?format=1500w"
   },
   "yotel": {
@@ -375,7 +375,7 @@
     "address": "65 Seaport Blvd.",
     "phone": "617-377-4747",
     "map": "https://www.google.com/maps?q=YOTEL+Boston+65+Seaport+Blvd.+Boston+MA&output=embed",
-    "directionsText": "MCEC (~9 min.)",
+    "directionsText": "MCEC (~13 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/v1/602b1e3b9f10401f2e609ddb/17a00b61-b9a8-4377-8595-fef51e5afefa/yotel-boston-seaport.JPEG?format=1500w"
   }
 }
