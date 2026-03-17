@@ -1,0 +1,44 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Alpha",
+        "type": "hotel",
+        "has_stop": true,
+        "route": "Route A",
+        "hub_url": "/test/hotels/alpha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-115.163, 36.122]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Beta",
+        "type": "hotel",
+        "has_stop": false,
+        "nearby_stop": "Main Shuttle Stop",
+        "hub_url": "/test/hotels/beta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-115.160, 36.121]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Main Shuttle Stop",
+        "type": "stop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-115.161, 36.123]
+      }
+    }
+  ]
+}
