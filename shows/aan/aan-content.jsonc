@@ -1,0 +1,187 @@
+/*
+This file is written in JSONC which allows for inline and multiline comments for reference.
+When a commit is pushed, the repository automatically creates a JSON copy of this file with all comments removed so it can be used for the content loader.
+*/
+
+{
+    "base" : {
+        "title": "",
+        "event-map": ""
+    },
+    "interactive-map": "https://www.google.com/maps/d/u/0/embed?mid=1qwDILcI01WmU8nO8YgA2UroEjYA4tqs&ehbc=2E312F&noprof=1",
+    //// "flight-info": {
+        //// "arrivals-widget": "",
+        //// "departures-widget": "",
+        //// "travel-time": ""
+    //// },
+    "hotelsJson": "config/show-content/aan/aan-hotels.json", // Data source for all specific hotel information, replace 'abc' with show acronym.
+    "scheduleJson": "config/show-content/aan/aan-schedule.json", // Redirects to event-wide schedule, replace 'abc' with show acronym.
+    "routes": {
+        "1": {
+            "scheduleJson": "", // Allows override of event-wide schedule with route-specific data.
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1", // Default URL for RouteSync. Can be updated to alternate or show specific interface as needed.
+            //// "flyer": { // The route-specific flyer (or hotel lobby sign instead) that is displayed on each hotel within the route.
+                //// "preview": "", // URL for preview image that will display with document link.
+                //// "pdf": "" // URL for document that can be opened for full view.
+            //// },
+            "sign" : { // The signage displayed on the shuttles for a given route.
+                "preview": "", // URL for preview image that will display with document link.
+                "pdf": "" // URL for document that can be opened for full view.
+            },
+            "stops": {
+                "1": { // Hotel A
+                    "stopName": "Palmer House Hilton", // The Hotel title that will appear on the web page.
+                    "boardingArea": "Wabash Ave. Entrance", // Where the shuttle will pick up at this hotel.
+                    "scheduleJson": "", // Allows override of event-wide and route-specific schedules with stop-specific data.
+                    "panorama": "", // URL for 360 panoram of boarding area.
+                    "directions" : { // Direction deep links that allow users to open native map applications pre-loaded.
+                        "apple": "https://maps.apple.com/?daddr=17%20E%20Monroe%20St%2C%20Chicago%2C%20IL%2060603%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/17%20E%20Monroe%20St%2C%20Chicago%2C%20IL%2060603%2C%20United%20States"
+                    }
+                },
+                "2": { // Hotel B
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": { // Hotel C
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "2": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
+            //// "flyer": {
+                //// "preview": "",
+                //// "pdf": ""
+            //// },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "3": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
+            //// "flyer": {
+                //// "preview": "",
+                //// "pdf": ""
+            //// },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "4": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
+            //// "flyer": {
+                //// "preview": "",
+                //// "pdf": ""
+            //// },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "w": { // Necessary for walking distance hotels to have proper directions.
+            "stops": {
+                "0": { // While there are no stops for walking hotels, this section is still required for accurate URL parsing to ensure direction links are loaded.
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "x": { // placeholder for non-service hotels so that any relevant content can be loaded.
+            "stops": {
+                "0": {
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "days": [
+    {
+      "label": "Saturday (4-18)", // This will be the date(s) used as the table title. No required format but should be consistent across following tables.
+      "middaySubtitle": "To/From McCormick",
+      "middayStart": "6:00 AM",
+      "middayEnd": "7:00 PM",
+      "intermission": null // Text to display in the intermission row. Can be set to 'null' if intermission row is not required.
+    },
+    {
+      "label": "Sunday (4-19) - Wednesday (4-22)", // This will be the date(s) used as the table title. No required format but should be consistent across following tables.
+      "inboundSubtitle": "Hotels to McCormick",
+      "inboundStart": "6:00 AM", // Beginning of inbound service. HH:MM XM format.
+      "inboundEnd": "10:00 AM", // End of inbound service. HH:MM XM format.
+      "middaySubtitle": "To/From McCormick",
+      "middayStart": "10:00 AM",
+      "middayEnd": "3:00 PM",
+      "outboundSubtitle": "McCormick to Hotels",
+      "outboundStart": "3:00 PM", // Beginning of outbound service. HH:MM XM format.
+      "outboundEnd": "7:00 PM", // End of outbound service. HH:MM XM format.
+      "intermission": null // Text to display in the intermission row. Can be set to 'null' if intermission row is not required.
+    }
+    // Additional tables can be added as needed in case of differences across show days.
+  ]
+}
