@@ -212,7 +212,7 @@
     "directionsText": "Hyatt Regency (~7 mins.)",
     "heroImage": ""
   },
-  "fairmont-millenium-park": { 
+  "fairmont-millennium-park": { 
     "name": "Fairmont Chicago Millennium Park",
     "address": "200 N Columbus Dr.",
     "phone": "(312) 565-8000",
@@ -244,7 +244,7 @@
 // ===== ROUTE 3 HOTELS =====
 
   // STOP #1 — Marriott Mag. Mile
-  "marriott-mag-mile": { 
+  "marriott-downtown-mag-mile": { 
     "name": "Marriott Downtown Mag. Mile",
     "address": "540 N Michigan Ave.",
     "phone": "(312) 836-0100",
@@ -339,7 +339,7 @@
     "directionsText": "McCormick Place (<1 min.)",
     "heroImage": ""
   },
-  "marriott-marquis": {
+  "marriott-marquis-chicago": {
     "name": "Marriott Marquis Chicago",
     "address": "2121 S Prairie Ave.",
     "phone": "(312) 824-0500",
