@@ -25,8 +25,8 @@
                                                                                     
                    
             "sign" : {                                                            
-                "preview": "",                                                               
-                "pdf": ""                                                      
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/399172ab-5512-4aff-93fb-a9512f322975/RouteA-SideSign-AAN2026.png?content-type=image%2Fpng",                                                               
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69d93e6192b5a73fab6898cb/1775844961411/AAN26_SideSign_A.pdf"                                                      
             },
             "stops": {
                 "1": {           
@@ -69,8 +69,8 @@
                               
                    
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/4e170548-7612-4829-ac7d-695333fe825a/RouteB-SideSign-AAN2026.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69d93e8831ee486f77f056ce/1775845000517/AAN26_SideSign_B.pdf"
             },
             "stops": {
                 "1": {
@@ -113,8 +113,8 @@
                               
                    
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/e3be9d10-0b2b-4e51-b45a-34abf51ade4e/RouteC-SideSign-AAN2026.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69d93e99f1481744de83f79c/1775845017210/AAN26_SideSign_C.pdf"
             },
             "stops": {
                 "1": {
@@ -137,8 +137,8 @@
                               
                    
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/44dc2ae1-f3a7-401d-a767-4cb356579202/RouteD-SideSign-AAN2026.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69d93ebf20399f357b88ee41/1775845055844/AAN26_SideSign_D.pdf"
             },
             "stops": {
                 "1": {
