@@ -1,0 +1,187 @@
+  
+                                                                                           
+                                                                                                                                                          
+  
+
+{
+    "base" : {
+        "title": "",
+        "event-map": ""
+    },
+    "interactive-map": "https://www.google.com/maps/d/u/0/embed?mid=1qwDILcI01WmU8nO8YgA2UroEjYA4tqs&ehbc=2E312F&noprof=1",
+                         
+                                   
+                                     
+                              
+           
+    "hotelsJson": "config/show-content/aan/aan-hotels.json",                                                                                    
+    "scheduleJson": "config/show-content/aan/aan-schedule.json",                                                                      
+    "routes": {
+        "1": {
+            "scheduleJson": "",                                                                    
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",                                                                                                
+                                                                                                                                       
+                                                                                                  
+                                                                                    
+                   
+            "sign" : {                                                            
+                "preview": "",                                                               
+                "pdf": ""                                                      
+            },
+            "stops": {
+                "1": {           
+                    "stopName": "Palmer House Hilton",                                                     
+                    "boardingArea": "Wabash Ave. Entrance",                                                 
+                    "scheduleJson": "",                                                                                       
+                    "panorama": "",                                         
+                    "directions" : {                                                                                     
+                        "apple": "https://maps.apple.com/?daddr=17%20E%20Monroe%20St%2C%20Chicago%2C%20IL%2060603%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/17%20E%20Monroe%20St%2C%20Chicago%2C%20IL%2060603%2C%20United%20States"
+                    }
+                },
+                "2": {           
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {           
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "2": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
+                           
+                                   
+                              
+                   
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "3": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
+                           
+                                   
+                              
+                   
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "4": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
+                           
+                                   
+                              
+                   
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "w": {                                                                    
+            "stops": {
+                "0": {                                                                                                                                              
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "x": {                                                                                  
+            "stops": {
+                "0": {
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        }
+    }
+}

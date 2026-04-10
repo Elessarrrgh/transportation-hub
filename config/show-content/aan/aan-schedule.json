@@ -1,0 +1,25 @@
+{
+  "days": [
+    {
+      "label": "Saturday (4-18)",                                                                                                                          
+      "middaySubtitle": "To/From McCormick",
+      "middayStart": "6:00 AM",
+      "middayEnd": "7:00 PM",
+      "intermission": null                                                                                                      
+    },
+    {
+      "label": "Sunday (4-19) - Wednesday (4-22)",                                                                                                                          
+      "inboundSubtitle": "Hotels to McCormick",
+      "inboundStart": "6:00 AM",                                                  
+      "inboundEnd": "10:00 AM",                                            
+      "middaySubtitle": "To/From McCormick",
+      "middayStart": "10:00 AM",
+      "middayEnd": "3:00 PM",
+      "outboundSubtitle": "McCormick to Hotels",
+      "outboundStart": "3:00 PM",                                                   
+      "outboundEnd": "7:00 PM",                                             
+      "intermission": null                                                                                                      
+    }
+                                                                                        
+  ]
+}
