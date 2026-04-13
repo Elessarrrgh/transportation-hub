@@ -19,7 +19,7 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
     "routes": {
         "1": {
             "scheduleJson": "", // Allows override of event-wide schedule with route-specific data.
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1", // Default URL for RouteSync. Can be updated to alternate or show specific interface as needed.
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=A", // Default URL for RouteSync. Can be updated to alternate or show specific interface as needed.
             //// "flyer": { // The route-specific flyer (or hotel lobby sign instead) that is displayed on each hotel within the route.
                 //// "preview": "", // URL for preview image that will display with document link.
                 //// "pdf": "" // URL for document that can be opened for full view.
@@ -63,7 +63,7 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
         },
         "2": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=B",
             //// "flyer": {
                 //// "preview": "",
                 //// "pdf": ""
@@ -107,7 +107,7 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
         },
         "3": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=C",
             //// "flyer": {
                 //// "preview": "",
                 //// "pdf": ""
@@ -131,7 +131,7 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
         },
         "4": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=D",
             //// "flyer": {
                 //// "preview": "",
                 //// "pdf": ""
