@@ -64,7 +64,7 @@
     "name": "Hilton Chicago",
     "address": "720 S Michigan Ave.",
     "phone": "(312) 922-4400",
-    "map": "https://www.google.com/maps?q=Hilton%20Chicago&output=embed",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11883.830306950087!2d-87.63758952666622!3d41.87225919055682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c99242c7a2f%3A0x4de3d4bb09dba1!2sHilton%20Chicago!5e0!3m2!1sen!2sus!4v1776081993214!5m2!1sen!2sus",
     "scheduleJson": "",
     "directionsText": "Hilton Chicago (<1 min.)",
     "heroImage": ""
@@ -300,11 +300,11 @@
 
                                
   "springhill-suites-chinatown": {
-    "name": "SpringHill Suites Chicago Chinatown",
+    "name": "SpringHill Suites Chinatown",
     "address": "2357 S Wentworth Ave.",
     "phone": "(312) 726-9668",
     "map": "https://www.google.com/maps?q=SpringHill%20Suites%20Chicago%20Chinatown&output=embed",
-    "directionsText": "McCormick Place (~7 mins.)",
+    "directionsText": "McCormick Place (~20 mins.)",
     "heroImage": ""
   },
   "hampton-inn-mccormick": {
@@ -324,7 +324,7 @@
     "heroImage": ""
   },
   "home2-suites-mccormick": {
-    "name": "Home2 Suites by Hilton Chicago McCormick Place",
+    "name": "Home2 Suites McCormick Place",
     "address": "123 E Cermak Rd.",
     "phone": "(312) 528-0210",
     "map": "https://www.google.com/maps?q=Home2%20Suites%20by%20Hilton%20Chicago%20McCormick%20Place&output=embed",
@@ -332,7 +332,7 @@
     "heroImage": ""
   },
   "hyatt-regency-mccormick": {
-    "name": "Hyatt Regency McCormick Place Chicago (HQ)",
+    "name": "Hyatt Regency McCormick Place",
     "address": "2233 S King Dr.",
     "phone": "(312) 567-1234",
     "map": "https://www.google.com/maps?q=Hyatt%20Regency%20McCormick%20Place%20Chicago&output=embed",
