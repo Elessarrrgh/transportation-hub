@@ -33,7 +33,7 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                     "stopName": "Palmer House Hilton", // The Hotel title that will appear on the web page.
                     "boardingArea": "Wabash Ave. Entrance", // Where the shuttle will pick up at this hotel.
                     "scheduleJson": "", // Allows override of event-wide and route-specific schedules with stop-specific data.
-                    "panorama": "https://momento360.com/e/u/e712a07b14b04b92a4b24b112b58ed59?utm_campaign=embed&utm_source=other&heading=10.14&pitch=2.9&field-of-view=75&size=large&display-plan=true", // URL for 360 panoram of boarding area.
+                    "panorama": "https://momento360.com/e/u/ac0edda2d7c94d5c8705fd3e9c38155e?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true", // URL for 360 panoram of boarding area.
                     "directions" : { // Direction deep links that allow users to open native map applications pre-loaded.
                         "apple": "https://maps.apple.com/?daddr=17%20E%20Monroe%20St%2C%20Chicago%2C%20IL%2060603%2C%20United%20States",
                         "google": "https://www.google.com/maps/dir/Current+Location/17%20E%20Monroe%20St%2C%20Chicago%2C%20IL%2060603%2C%20United%20States"
