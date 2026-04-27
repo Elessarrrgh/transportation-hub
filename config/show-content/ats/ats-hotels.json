@@ -275,7 +275,7 @@
     "address": "9801 International Dr.",
     "phone": "(407) 284-1234",
     "map": "https://www.google.com/maps?q=Hyatt+Regency+Orlando+9801+International+Dr+Orlando+FL&output=embed",
-    "directionsText": "Orange County Conv. Center West (~5 min.)",
+    "directionsText": "OCCC West (~5 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/159a02fd-526b-4fcf-9c55-ea0c6556703c/hyatt-regency-orlando.jpg?content-type=image%2Fjpeg"
   },
   "rosen-centre-hotel": {
@@ -283,7 +283,7 @@
     "address": "9840 International Dr.",
     "phone": "(407) 996-9840",
     "map": "https://www.google.com/maps?q=Rosen+Centre+Hotel+9840+International+Dr+Orlando+FL&output=embed",
-    "directionsText": "Orange County Conv. Center West (~9 min.)",
+    "directionsText": "OCCC West (~9 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/aae47354-7b07-4743-a206-86357af3e7a2/rosen-centre-orlando.jpg?content-type=image%2Fjpeg"
   },
   "rosen-plaza-hotel": {
@@ -291,7 +291,7 @@
     "address": "9700 International Dr.",
     "phone": "(407) 996-9700",
     "map": "https://www.google.com/maps?q=Rosen+Plaza+Hotel+9700+International+Dr+Orlando+FL&output=embed",
-    "directionsText": "Orange County Conv. Center West (~8 min.)",
+    "directionsText": "OCCC West (~8 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/446393e8-4f4f-4bdc-a3b6-0871034b472a/rosen-plaza-orlando.jpg?content-type=image%2Fjpeg"
   }
 }
