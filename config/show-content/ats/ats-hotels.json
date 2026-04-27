@@ -64,16 +64,16 @@
     "phone": "(407) 239-0100", 
     "map": "https://www.google.com/maps?q=Hilton+Grand+Vacations+Club+SeaWorld+6924+Grand+Vacations+Way+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "Hilton Grand Vacations Club SeaWorld (<1 min.)",
+    "directionsText": "Hilton Grand Vacations Club<br>SeaWorld (<1 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/e77d0660-c000-4e2a-aa6f-d9ae4c321c9e/hilton-grand-vacation-seaworld-orlando.webp?content-type=image%2Fwebp" 
   },
   "homewood-suites-orlando-theme-parks": { 
-    "name": "Homewood Suites<br>Orlando Theme Parks", 
+    "name": "Homewood Suites<br>Theme Parks", 
     "address": "6940 Westwood Blvd.",
     "phone": "(407) 778-5888", 
     "map": "https://www.google.com/maps?q=Homewood+Suites+Orlando+Theme+Parks+6940+Westwood+Blvd+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "Hilton Grand Vacations Club SeaWorld (~4 min.)",
+    "directionsText": "Hilton Grand Vacations Club<br>SeaWorld (~4 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/2a63c99c-583d-4056-9984-6a5369be264e/homewood-suites-theme-parks-orlando.jpg?content-type=image%2Fjpeg" 
   },
 
@@ -93,12 +93,12 @@
 
                                               
   "tru-convention-center": { 
-    "name": "Tru Orlando<br>Convention Center",
+    "name": "Tru Orlando<br>Conv. Center",
     "address": "6461 Westwood Blvd.",
     "phone": "(407) 351-4091", 
     "map": "https://www.google.com/maps?q=Tru+by+Hilton+Convention+Center+6461+Westwood+Blvd+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "Tru by Hilton Convention Center (<1 min.)",
+    "directionsText": "Tru by Hilton Conv. Center (<1 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/d481a297-364f-4350-a0e6-67424420d1e4/tru-convention-center-orlando.webp?content-type=image%2Fwebp" 
   },
 
@@ -176,30 +176,30 @@
 
                                               
   "residence-inn-convention-center": { 
-    "name": "Residence Inn<br>Convention Center", 
+    "name": "Residence Inn<br>Conv. Center", 
     "address": "8800 Universal Blvd.",
     "phone": "(407) 226-0288", 
     "map": "https://www.google.com/maps?q=Residence+Inn+Convention+Center+8800+Universal+Blvd+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "Residence Inn Convention Center (<1 min.)",
+    "directionsText": "Residence Inn Conv. Center (<1 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/773719a3-9fa1-4f07-904a-038530fa36d4/residence-inn-convention-center-orlando.jpeg?content-type=image%2Fjpeg"
   },
   "hampton-inn-convention-center": { 
-    "name": "Hampton Inn<br>Convention Center", 
+    "name": "Hampton Inn<br>Conv. Center", 
     "address": "8900 Universal Blvd.",
     "phone": "(407) 354-4447", 
     "map": "https://www.google.com/maps?q=Hampton+Inn+Convention+Center+8900+Universal+Blvd+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "Residence Inn Convention Center (~2 min.)",
+    "directionsText": "Residence Inn Conv. Center (~2 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/de144841-9dc6-496c-a97e-859200ec9583/hampton-inn-convention-center-orlando.webp?content-type=image%2Fwebp"
   },
   "homewood-suites-convention-center": { 
-    "name": "Homewood Suites<br>Convention Center", 
+    "name": "Homewood Suites<br>Conv. Center", 
     "address": "8745 International Dr.",
     "phone": "(407) 248-2232", 
     "map": "https://www.google.com/maps?q=Homewood+Suites+Convention+Center+8745+International+Dr+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "Residence Inn Convention Center (~3 min.)",
+    "directionsText": "Residence Inn Conv. Center (~3 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/fdd572af-6cea-4ee3-a5e6-4819616596c0/homewood-suites-convention-center-orlando.webp?content-type=image%2Fwebp"
   },
   "hyatt-place-orlando": { 
@@ -248,12 +248,12 @@
 
                                                
   "embassy-suites-convention-center": { 
-    "name": "Embassy Suites<br>Convention Center", 
+    "name": "Embassy Suites<br>Conv. Center", 
     "address": "8978 International Dr.",
     "phone": "(407) 352-1400", 
     "map": "https://www.google.com/maps?q=Embassy+Suites+Convention+Center+8978+International+Dr+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "Embassy Suites Convention Center (<1 min.)",
+    "directionsText": "Embassy Suites Conv. Center (<1 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/51570b32-9295-438b-89fb-0482840e9461/embassy-suites-convention-center-orlando.webp?content-type=image%2Fwebp"
   },
 
