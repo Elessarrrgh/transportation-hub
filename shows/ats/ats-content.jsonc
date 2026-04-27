@@ -118,7 +118,7 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
             },
             "stops": {
                 "1": { // Tru Orlando Convention Center
-                    "stopName": "Tru Orlando Convention Center",
+                    "stopName": "Tru Orlando Conv. Center",
                     "boardingArea": "Curbside on Westwood Blvd.",
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/7a8a0eb833424d28bbdfdcadf8f21e65?utm_campaign=embed&utm_source=other&heading=-114.19&pitch=-3.8&field-of-view=75&size=large&display-plan=true",
@@ -216,7 +216,7 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                     }
                 },
                 "2": { // Residence Inn Convention Center
-                    "stopName": "Residence Inn Convention Center",
+                    "stopName": "Residence Inn Conv. Center",
                     "boardingArea": "Curbside on Universal Blvd.",
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/990bc84b7e474f76bcbbb466c52cb2ea?utm_campaign=embed&utm_source=other&heading=-16.2&pitch=0.2&field-of-view=75&size=large&display-plan=true",
@@ -260,7 +260,7 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                     }
                 },
                 "3": { // Embassy Suites Convention Center
-                    "stopName": "Embassy Suites Convention Center",
+                    "stopName": "Embassy Suites Conv. Center",
                     "boardingArea": "Curbside on International Dr.",
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/a343ba1de2144e0db6c7a31e9f7efa59?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true",
