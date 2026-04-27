@@ -1,12 +1,67 @@
 {
   "days": [
     {
-      "label": "WEEKDAY, MM-DD",                                                                                                                          
-      "inboundStart": "HH:MM XM",                                                  
-      "inboundEnd": "HH:MM XM",                                            
-      "outboundStart": "HH:MM XM",                                                   
-      "outboundEnd": "HH:MM XM",                                             
+      "label": "Friday, 05/15",                                                                                                                          
+      "inboundSubtitle": "Hotels to OCCC",
+      "inboundStart": "6:30 AM",                                                  
+      "inboundEnd": "9:30 AM",                                            
+      "outboundSubtitle": "OCCC to Hotels",
+      "outboundStart": "3:30 PM",                                                   
+      "outboundEnd": "6:00 PM",                                             
       "intermission": "SERVICE INTERMISSION"                                                                                                      
+    },
+    {
+      "label": "Saturday, 05/16", 
+      "inboundSubtitle": "Hotels to OCCC",
+      "inboundStart": "6:00 AM", 
+      "inboundEnd": "9:30 AM",
+      "middaySubtitle": "To/From OCCC",
+      "middayStart": "9:30 AM",
+      "middayEnd": "3:30 PM",
+      "outboundSubtitle": "OCCC to Hotels",
+      "outboundStart": "3:30 PM", 
+      "outboundEnd": "7:00 PM",
+      "intermission": null 
+    },
+    {
+      "label": "Sunday, 05/17", 
+      "inboundSubtitle": "Hotels to OCCC",
+      "inboundStart": "6:30 AM", 
+      "inboundEnd": "9:30 AM",
+      "outboundSubtitle": "OCCC to Hotels",
+      "outboundStart": "3:30 PM", 
+      "outboundEnd": "7:30 PM",
+      "intermission": "SERVICE INTERMISSION" 
+    },
+    {
+      "label": "Monday, 05/18", 
+      "inboundSubtitle": "Hotels to OCCC",
+      "inboundStart": "6:30 AM", 
+      "inboundEnd": "9:30 AM",
+      "outboundSubtitle": "OCCC to Hotels",
+      "outboundStart": "3:30 PM", 
+      "outboundEnd": "7:30 PM",
+      "intermission": "SERVICE INTERMISSION" 
+    },
+    {
+      "label": "Tuesday, 05/19", 
+      "inboundSubtitle": "Hotels to OCCC",
+      "inboundStart": "6:30 AM", 
+      "inboundEnd": "9:30 AM",
+      "outboundSubtitle": "OCCC to Hotels",
+      "outboundStart": "3:30 PM", 
+      "outboundEnd": "6:00 PM",
+      "intermission": "SERVICE INTERMISSION" 
+    },
+    {
+      "label": "Wednesday, 05/20", 
+      "inboundSubtitle": "Hotels to OCCC",
+      "inboundStart": "6:30 AM", 
+      "inboundEnd": "9:30 AM",
+      "outboundSubtitle": "OCCC to Hotels",
+      "outboundStart": "9:30 AM", 
+      "outboundEnd": "2:00 PM",
+      "intermission": null 
     }
                                                                                         
   ]
