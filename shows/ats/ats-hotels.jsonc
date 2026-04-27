@@ -1,78 +1,297 @@
 {
 // ===== ROUTE 1 HOTELS =====
 
-  // STOP #1 — Element Orlando
-  "element-orlando": {
-    "name": "Element Orlando",
+  // STOP #1 — Element 
+  "element": { 
+    "name": "Element Orlando", 
+    "address": "5730 Central Florida Pk", 
+    "phone": "(407) 584-0341", 
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.4463236962333!2d-81.45677562279572!3d28.405786475789448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77f8dbf86b117%3A0xe2b4320f4143d3b0!2sElement%20by%20Marriott%20Orlando%20at%20SeaWorld!5e0!3m2!1sen!2sus!4v1777315965272!5m2!1sen!2sus", 
+    "scheduleJson": "", 
+    "directionsText": "Element Orlando (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/fd6a145e-333d-4f74-8efe-b890b44e2f2f/element-orlando.webp?content-type=image%2Fwebp"
+  },
+
+  // STOP #2 — Aloft International Drive
+  "aloft-seaworld": { 
+    "name": "Aloft SeaWorld", 
     "address": "5750 Central Pkwy.",
-    "phone": "407-584-0441",
-    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28070.389837829898!2d-81.48143828062948!3d28.425329435011324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77f8dbf86b117%3A0xe2b4320f4143d3b0!2sElement%20Orlando%20International%20Drive!5e0!3m2!1sen!2sus!4v1771877402999!5m2!1sen!2sus",
-    "scheduleJson": "",
-    "directionsText": "Element Orlando (<1 min.)"
+    "phone": "(407) 584-0441", 
+    "map": "https://www.google.com/maps?q=Aloft+SeaWorld+5750+Central+Pkwy+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Aloft SeaWorld (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/131cd529-c9f2-40a1-a105-4806dfda824f/aloft-orlando.webp?content-type=image%2Fwebp"
   },
 
-  // STOP #2 — Aloft Orlando
-  "aloft-orlando-international-drive": {
-    "name": "",
-    "address": "",
-    "phone": "",
-    "map": "",
-    "scheduleJson": "",
-    "directionsText": ""
+  // STOP #3 — Fairfield Inn & Suites SeaWorld
+  "fairfield-inn-suites-seaworld": { 
+    "name": "Fairfield Inn & Suites<br>SeaWorld", 
+    "address": "10815 International Dr.",
+    "phone": "(407) 354-1139", 
+    "map": "https://www.google.com/maps?q=Fairfield+Inn+%26+Suites+SeaWorld+10815+International+Dr+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "SpringHill Suites SeaWorld (~1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/2129a903-0231-49fb-8c87-5a0498cf72b5/fairfield-seaworld-orlando.jpg?content-type=image%2Fjpeg"
   },
-
-  // STOP #3 — Fairfield Inn SeaWorld
+  "springhill-suites-seaworld": { 
+    "name": "SpringHill Suites<br>SeaWorld", 
+    "address": "10801 International Dr.",
+    "phone": "(407) 354-1176", 
+    "map": "https://www.google.com/maps?q=SpringHill+Suites+SeaWorld+10801+International+Dr+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "SpringHill Suites SeaWorld (~1 min.)" ,
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/acb91c60-02d4-4a74-9390-49a919c9d333/springhill-seaworld-orlando.jpg?content-type=image%2Fjpeg"
+  },
 
 
 // ===== ROUTE 2 HOTELS =====
 
   // STOP #1 — Residence Inn SeaWorld
+  "residence-inn-seaworld": { 
+    "name": "Residence Inn<br>SeaWorld", 
+    "address": "11000 Westwood Blvd.",
+    "phone": "(407) 313-3600", 
+    "map": "https://www.google.com/maps?q=Residence+Inn+SeaWorld+11000+Westwood+Blvd+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Residence Inn SeaWorld (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/3090d8f2-b399-4843-b11c-c0645d3e7822/residence-inn-seaworld-orlando.jpg?content-type=image%2Fjpeg" 
+  },
 
   // STOP #2 — Hilton Grand Vacations Club
+  "hilton-grand-vacations-club": { 
+    "name": "Hilton Grand Vacations Club SeaWorld", 
+    "address": "6924 Grand Vacations Wy.",
+    "phone": "(407) 239-0100", 
+    "map": "https://www.google.com/maps?q=Hilton+Grand+Vacations+Club+SeaWorld+6924+Grand+Vacations+Way+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Hilton Grand Vacations Club SeaWorld (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/e77d0660-c000-4e2a-aa6f-d9ae4c321c9e/hilton-grand-vacation-seaworld-orlando.webp?content-type=image%2Fwebp" 
+  },
+  "homewood-suites-orlando-theme-parks": { 
+    "name": "Homewood Suites<br>Orlando Theme Parks", 
+    "address": "6940 Westwood Blvd.",
+    "phone": "(407) 778-5888", 
+    "map": "https://www.google.com/maps?q=Homewood+Suites+Orlando+Theme+Parks+6940+Westwood+Blvd+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Hilton Grand Vacations Club SeaWorld (~4 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/2a63c99c-583d-4056-9984-6a5369be264e/homewood-suites-theme-parks-orlando.jpg?content-type=image%2Fjpeg" 
+  },
 
   // STOP #3 — Hilton Garden Inn SeaWorld
+  "hilton-garden-inn-seaworld": { 
+    "name": "Hilton Garden Inn<br>SeaWorld", 
+    "address": "6850 Westwood Blvd.",
+    "phone": "(407) 354-1500", 
+    "map": "https://www.google.com/maps?q=Hilton+Garden+Inn+SeaWorld+6850+Westwood+Blvd+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Hilton Garden Inn SeaWorld (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7700e26b-8f80-4fd5-9dcb-40da0a399e2f/hilton-garden-inn-seaworld-orlando.webp?content-type=image%2Fwebp" 
+  },
 
 
 // ===== ROUTE 3 HOTELS =====
 
-  // STOP #1 — Tru by Hilton Convention
+  // STOP #1 — Tru by Hilton Convention Center
+  "tru-convention-center": { 
+    "name": "Tru Orlando<br>Convention Center",
+    "address": "6461 Westwood Blvd.",
+    "phone": "(407) 351-4091", 
+    "map": "https://www.google.com/maps?q=Tru+by+Hilton+Convention+Center+6461+Westwood+Blvd+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Tru by Hilton Convention Center (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/d481a297-364f-4350-a0e6-67424420d1e4/tru-convention-center-orlando.webp?content-type=image%2Fwebp" 
+  },
 
   // STOP #2 — Renaissance SeaWorld
+  "renaissance-seaworld": { 
+    "name": "Renaissance SeaWorld", 
+    "address": "6677 Sea Harbor Dr.",
+    "phone": "(407) 351-5555", 
+    "map": "https://www.google.com/maps?q=Renaissance+SeaWorld+6677+Sea+Harbor+Dr+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Renaissance SeaWorld (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/3f59e252-abd7-46af-919e-63d1f97f2b18/renaissance-seaworld-orlando.webp?content-type=image%2Fwebp" 
+  },
 
   // STOP #3 — DoubleTree SeaWorld
+  "doubletree-seaworld": { 
+    "name": "DoubleTree SeaWorld", 
+    "address": "10100 International Dr.",
+    "phone": "(407) 352-1100", 
+    "map": "https://www.google.com/maps?q=DoubleTree+SeaWorld+10100+International+Dr+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "DoubleTree SeaWorld (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8bfcd07f-1268-4576-812a-dd9e41d707c0/doubletree-seaworld-orlando.webp?content-type=image%2Fwebp"
+  },
 
 
 // ===== ROUTE 4 HOTELS =====
 
   // STOP #1 — Rosen Shingle Creek
+  "rosen-shingle-creek": { 
+    "name": "Rosen Shingle Creek", 
+    "address": "9939 Universal Blvd.",
+    "phone": "(866) 996-9939", 
+    "map": "https://www.google.com/maps?q=Rosen+Shingle+Creek+9939+Universal+Blvd+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Rosen Shingle Creek (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6820e5d2-2935-4834-9a17-b68b2bcab87b/rosen-shingle-creek-orlando.jpg?content-type=image%2Fjpeg"
+  },
 
   // STOP #2 — Universal Terra Luna
+  "universal-terra-luna": { 
+    "name": "Universal Terra Luna", 
+    "address": "5500 Epic Blvd.",
+    "phone": "(689) 218-3000", 
+    "map": "https://www.google.com/maps?q=Universal+Terra+Luna+5500+Epic+Blvd+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Universal Terra Luna (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/c817e697-60c3-4bd6-a493-4c000a0a5a2f/universal-terra-luna-orlando.jpg?content-type=image%2Fjpeg"
+  },
+
+  // STOP #3 — Hilton Orlando
+  "hilton-orlando": { 
+    "name": "Hilton Orlando", 
+    "address": "6001 Destination Pkwy.",
+    "phone": "(407) 313-4300", 
+    "map": "https://www.google.com/maps?q=Hilton+Orlando+6001+Destination+Pkwy+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Hilton Orlando (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/497cc357-53a4-4b7e-82bb-e2f9e21fb4ce/hilton-orlando.jpg?content-type=image%2Fjpeg"
+  },
 
 
 // ===== ROUTE 5 HOTELS =====
 
   // STOP #1 — Castle Hotel
+  "castle-hotel": { 
+    "name": "Castle Hotel", 
+    "address": "8602 Universal Blvd.",
+    "phone": "(407) 345-1511", 
+    "map": "https://www.google.com/maps?q=Castle+Hotel+8602+Universal+Blvd+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Castle Hotel (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/bac72425-0e71-457d-bc1b-a5da71cce7fa/castle-hotel-orlando.webp?content-type=image%2Fwebp"
+  },
 
-  // STOP #2 — Residence Inn Convention
+  // STOP #2 — Residence Inn Convention Center
+  "residence-inn-convention-center": { 
+    "name": "Residence Inn<br>Convention Center", 
+    "address": "8800 Universal Blvd.",
+    "phone": "(407) 226-0288", 
+    "map": "https://www.google.com/maps?q=Residence+Inn+Convention+Center+8800+Universal+Blvd+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Residence Inn Convention Center (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/773719a3-9fa1-4f07-904a-038530fa36d4/residence-inn-convention-center-orlando.jpeg?content-type=image%2Fjpeg"
+  },
+  "hampton-inn-convention-center": { 
+    "name": "Hampton Inn<br>Convention Center", 
+    "address": "8900 Universal Blvd.",
+    "phone": "(407) 354-4447", 
+    "map": "https://www.google.com/maps?q=Hampton+Inn+Convention+Center+8900+Universal+Blvd+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Residence Inn Convention Center (~2 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/de144841-9dc6-496c-a97e-859200ec9583/hampton-inn-convention-center-orlando.webp?content-type=image%2Fwebp"
+  },
+  "homewood-suites-convention-center": { 
+    "name": "Homewood Suites<br>Convention Center", 
+    "address": "8745 International Dr.",
+    "phone": "(407) 248-2232", 
+    "map": "https://www.google.com/maps?q=Homewood+Suites+Convention+Center+8745+International+Dr+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Residence Inn Convention Center (~3 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/fdd572af-6cea-4ee3-a5e6-4819616596c0/homewood-suites-convention-center-orlando.webp?content-type=image%2Fwebp"
+  },
+  "hyatt-place-orlando": { 
+    "name": "Hyatt Place<br>Orlando", 
+    "address": "8741 International Dr.",
+    "phone": "(407) 370-4720", 
+    "map": "https://www.google.com/maps?q=Hyatt+Place+Orlando+8741+International+Dr+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Residence Inn Convention Center (~3 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/2e87cb8d-a5f2-440a-b21e-65045f302637/hyatt-place-orlando.webp?content-type=image%2Fwebp"
+  },
 
 
 // ===== ROUTE 6 HOTELS =====
 
   // STOP #1 — Embassy Suites ICON
+  "embassy-suites-icon": { 
+    "name": "Embassy Suites<br>ICON Park", 
+    "address": "8250 Jamaican Ct.",
+    "phone": "(407) 345-8250", 
+    "map": "https://www.google.com/maps?q=Embassy+Suites+ICON+Park+8250+Jamaican+Ct+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Embassy Suites ICON Park (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/493686a8-d13c-4dbb-aa99-35f4a55e2547/embassy-suites-icon-orlando.webp?content-type=image%2Fwebp" 
+  },
 
-  // STOP #2 — Courtyard
+  // STOP #2 — Courtyard International Dr.
+  "courtyard-international-drive": { 
+    "name": "Courtyard<br>International Dr.", 
+    "address": "8600 Austrian Ct.",
+    "phone": "(407) 351-2244", 
+    "map": "https://www.google.com/maps?q=Courtyard+International+Drive+8600+Austrian+Ct+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Courtyard International Dr. (~1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/68976fe8-d6c2-48bc-9548-cddf9ee9fb31/courtyard-orlando.webp?content-type=image%2Fwebp" 
+  },
+  "sonesta-es-suites": { 
+    "name": "Sonesta ES Suites", 
+    "address": "8480 International Dr.",
+    "phone": "(407) 352-2400", 
+    "map": "https://www.google.com/maps?q=Sonesta+ES+Suites+8480+International+Dr+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Courtyard International Dr. (~3 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/e9baf418-c292-456f-b67a-f25806c008f4/sonesta-es-suites-orlando.webp?content-type=image%2Fwebp"
+  },
 
-  // STOP #3 — Embassy Suites Convention
+  // STOP #3 — Embassy Suites Convention Center
+  "embassy-suites-convention-center": { 
+    "name": "Embassy Suites<br>Convention Center", 
+    "address": "8978 International Dr.",
+    "phone": "(407) 352-1400", 
+    "map": "https://www.google.com/maps?q=Embassy+Suites+Convention+Center+8978+International+Dr+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Embassy Suites Convention Center (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/51570b32-9295-438b-89fb-0482840e9461/embassy-suites-convention-center-orlando.webp?content-type=image%2Fwebp"
+  },
 
-  // STOP #4 — Rosen Inn @ Pointe Orlando
+  // STOP #4 — Rosen Inn Pointe Orlando
+  "rosen-inn-pointe-orlando": { 
+    "name": "Rosen Inn @<br>Pointe Orlando", 
+    "address": "9000 International Dr.",
+    "phone": "(407) 996-8585", 
+    "map": "https://www.google.com/maps?q=Rosen+Inn+Pointe+Orlando+9000+International+Dr+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Rosen Inn @ Pointe Orlando (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/5006bc08-a757-4780-97fb-36ee69432cda/rosen-inn-pointe-orlando.jpg?content-type=image%2Fjpeg"
+  },
 
 
 // ===== WALKING DISTANCE =====
-  "rosen-plaza": {
+  "hyatt-regency-orlando": {
+    "name": "Hyatt Regency<br>Orlando",
+    "address": "9801 International Dr.",
+    "phone": "(407) 284-1234",
+    "map": "https://www.google.com/maps?q=Hyatt+Regency+Orlando+9801+International+Dr+Orlando+FL&output=embed",
+    "directionsText": "Orange County Conv. Center West (~5 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/159a02fd-526b-4fcf-9c55-ea0c6556703c/hyatt-regency-orlando.jpg?content-type=image%2Fjpeg"
+  },
+  "rosen-centre-hotel": {
+    "name": "Rosen Centre Hotel",
+    "address": "9840 International Dr.",
+    "phone": "(407) 996-9840",
+    "map": "https://www.google.com/maps?q=Rosen+Centre+Hotel+9840+International+Dr+Orlando+FL&output=embed",
+    "directionsText": "Orange County Conv. Center West (~9 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/aae47354-7b07-4743-a206-86357af3e7a2/rosen-centre-orlando.jpg?content-type=image%2Fjpeg"
+  },
+  "rosen-plaza-hotel": {
     "name": "Rosen Plaza Hotel",
     "address": "9700 International Dr.",
-    "phone": "407-996-9700",
-    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7017.279916383598!2d-81.47633337124009!3d28.430118930600628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77e4abfacb97f%3A0xf0eb63175779a824!2sRosen%20Plaza%20Hotel!5e0!3m2!1sen!2sus!4v1771877533481!5m2!1sen!2sus",
-    "directionsText": "Orlando Conv. Center (~12 mins.)"
+    "phone": "(407) 996-9700",
+    "map": "https://www.google.com/maps?q=Rosen+Plaza+Hotel+9700+International+Dr+Orlando+FL&output=embed",
+    "directionsText": "Orange County Conv. Center West (~8 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/446393e8-4f4f-4bdc-a3b6-0871034b472a/rosen-plaza-orlando.jpg?content-type=image%2Fjpeg"
   }
 }
