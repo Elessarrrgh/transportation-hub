@@ -21,12 +21,12 @@
             "scheduleJson": "",                                                                    
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",                                                                                                
             "flyer": {                                                                                                            
-                "preview": "",                                                               
-                "pdf": ""                                                      
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6a8308ae-5d94-4277-a50b-8fb7a0e57284/hotel-lobby-rte1-ats26.png?content-type=image%2Fpng",                                                               
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f0ccb3d7161535520e0d69/1777388723380/ATS-HotelSign-Route1.pdf"                                                      
             },
             "sign" : {                                                            
-                "preview": "",                                                               
-                "pdf": ""                                                      
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",                                                               
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"                                                      
             },
             "stops": {
                 "1": {                   
@@ -65,12 +65,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/4f1d1323-90ae-4f99-8ab3-d2584fb4952d/hotel-lobby-rte2-ats26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f0cd5d0d10712fd6feb392/1777388893622/ATS-HotelSign-Route2.pdf"
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
             },
             "stops": {
                 "1": {                          
@@ -109,12 +109,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/b6f72367-577d-4e53-8e99-a41d03fc6170/hotel-lobby-rte3-ats26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f0cd70d6824b1428b0e6bd/1777388912834/ATS-HotelSign-Route3.pdf"
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
             },
             "stops": {
                 "1": {                                 
@@ -153,12 +153,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/464a8e35-f760-43fe-8199-21053a154757/hotel-lobby-rte4-ats26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f0cd81ad618c426dd7ea4a/1777388929126/ATS-HotelSign-Route4.pdf"
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
             },
             "stops": {
                 "1": {                       
@@ -197,12 +197,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/3df0e60c-a2be-460c-9950-07aa14492ae9/hotel-lobby-rte5-ats26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f0cd92c8fb223b5c5e0667/1777388946974/ATS-HotelSign-Route5.pdf"
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
             },
             "stops": {
                 "1": {                
@@ -231,12 +231,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=6",
             "flyer": {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/388722aa-03ce-497b-bfc4-d3cf825ab2fc/hotel-lobby-rte6-ats26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f0cda30de18336eeb32ef1/1777388963738/ATS-HotelSign-Route6.pdf"
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
             },
             "stops": {
                 "1": {                       
