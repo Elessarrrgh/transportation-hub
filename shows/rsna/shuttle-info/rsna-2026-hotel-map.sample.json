@@ -1,0 +1,73 @@
+{
+  "event": "RSNA",
+  "year": "2026",
+  "defaultCenter": [-87.6298, 41.8781],
+  "defaultZoom": 11,
+  "routeColors": {
+    "Route 1": "#0d6e6e",
+    "Route 2": "#2563eb",
+    "Walking": "#bf5d00"
+  },
+  "hotels": [
+    {
+      "id": "hilton-chicago",
+      "name": "Hilton Chicago",
+      "address": "720 S Michigan Ave, Chicago, IL",
+      "lat": 41.8727,
+      "lng": -87.6244,
+      "route": "Route 1",
+      "stop": "Stop 1",
+      "serviceType": "Shuttle",
+      "pageUrl": "/rsna/2026/hotels/1/1/hilton-chicago",
+      "notes": "Board at main entrance"
+    },
+    {
+      "id": "palmer-house-hilton",
+      "name": "Palmer House Hilton",
+      "address": "17 E Monroe St, Chicago, IL",
+      "lat": 41.8807,
+      "lng": -87.6268,
+      "route": "Route 1",
+      "stop": "Stop 2",
+      "serviceType": "Shuttle",
+      "pageUrl": "/rsna/2026/hotels/1/2/palmer-house-hilton",
+      "notes": "Board on Wabash Ave entrance"
+    },
+    {
+      "id": "hyatt-regency-chicago",
+      "name": "Hyatt Regency Chicago",
+      "address": "151 E Wacker Dr, Chicago, IL",
+      "lat": 41.8876,
+      "lng": -87.6226,
+      "route": "Route 2",
+      "stop": "Stop 1",
+      "serviceType": "Shuttle",
+      "pageUrl": "/rsna/2026/hotels/2/1/hyatt-regency-chicago",
+      "notes": "Use east tower lobby doors"
+    },
+    {
+      "id": "blackstone-hotel",
+      "name": "The Blackstone Hotel",
+      "address": "636 S Michigan Ave, Chicago, IL",
+      "lat": 41.8749,
+      "lng": -87.6247,
+      "route": "Walking",
+      "stop": "Walk to McCormick Place",
+      "serviceType": "Walking",
+      "pageUrl": "/rsna/2026/hotels/walking/blackstone-hotel",
+      "notes": "Roughly 18 minutes on foot"
+    },
+    {
+      "id": "swissotel-chicago",
+      "name": "Swissotel Chicago",
+      "address": "323 E Wacker Dr, Chicago, IL",
+      "lat": 41.8878,
+      "lng": -87.6198,
+      "route": "Route 2",
+      "stop": "Stop 3",
+      "serviceType": "Shuttle",
+      "pageUrl": "/rsna/2026/hotels/2/3/swissotel-chicago",
+      "notes": "Board curbside on Lower Wacker level"
+    }
+  ]
+}

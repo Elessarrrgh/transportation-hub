@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Transportation Hub Hotel Map Local Test</title>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css" />
+    <link rel="stylesheet" href="../../../global/injections/components/hotel-map/hotel-transport-map.css" />
+    <style>
+      body {
+        margin: 0;
+        background: #e7eef3;
+        color: #102033;
+        font-family: "Inter", "Segoe UI", sans-serif;
+      }
+
+      .page-shell {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 32px 20px 64px;
+      }
+
+      .page-head {
+        margin-bottom: 20px;
+      }
+
+      .page-head h1 {
+        margin: 0;
+        font-size: clamp(2rem, 4vw, 3.5rem);
+        letter-spacing: -0.04em;
+      }
+
+      .page-head p {
+        max-width: 780px;
+        margin: 12px 0 0;
+        color: #5f7185;
+        font-size: 16px;
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="page-head">
+        <h1>Transportation Hub Hotel Map</h1>
+        <p>
+          Local test page for the embeddable RSNA hotel transportation map. Update the token and JSON URL below,
+          then serve this file over a local web server for full testing.
+        </p>
+      </header>
+
+      <div id="th-hotel-map"></div>
+    </main>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js"></script>
+    <script>
+      /*
+        Change these values for local testing:
+        - mapboxToken: replace with your Mapbox public access token
+        - dataUrl: point to your hosted JSON feed or keep the sample file while testing locally
+      */
+      window.__TH_HOTEL_MAP_CONFIG__ = {
+        mapboxToken: "REPLACE_WITH_MAPBOX_PUBLIC_TOKEN",
+        dataUrl: "./rsna-2026-hotel-map.sample.json",
+        containerId: "th-hotel-map",
+        mapStyle: "mapbox://styles/mapbox/light-v11",
+        fallbackCenter: [-87.6298, 41.8781],
+        fallbackZoom: 11
+      };
+    </script>
+    <script src="../../../global/injections/components/hotel-map/hotel-transport-map.js"></script>
+  </body>
+</html>
