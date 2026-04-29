@@ -25,8 +25,8 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f0ccb3d7161535520e0d69/1777388723380/ATS-HotelSign-Route1.pdf" // URL for document that can be opened for full view.
             },
             "sign" : { // The signage displayed on the shuttles for a given route.
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng", // URL for preview image that will display with document link.
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf" // URL for document that can be opened for full view.
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/1ffb6a9f-f4eb-4880-996a-99dd9e3da427/sidesign-preview-rte1-ats26.png?content-type=image%2Fpng", // URL for preview image that will display with document link.
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f23f666762505a62897a18/1777483622846/ATS2026_ShuttleSign_Route1.pdf" // URL for document that can be opened for full view.
             },
             "stops": {
                 "1": { // Element Orlando
@@ -69,8 +69,8 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f0cd5d0d10712fd6feb392/1777388893622/ATS-HotelSign-Route2.pdf"
             },
             "sign" : {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/dac854d3-22a2-42a4-a848-c51146c0e8f7/sidesign-preview-rte2-ats26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f2407efe3f9f7edd1242f0/1777483903003/ATS2026_ShuttleSign_Route2.pdf"
             },
             "stops": {
                 "1": { // Residence Inn SeaWorld
@@ -113,8 +113,8 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f0cd70d6824b1428b0e6bd/1777388912834/ATS-HotelSign-Route3.pdf"
             },
             "sign" : {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8412c6e6-2f17-467b-814e-6e63d0fc0fb3/sidesign-preview-rte3-ats26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f2408c4c89092ef5102095/1777483916385/ATS2026_ShuttleSign_Route3.pdf"
             },
             "stops": {
                 "1": { // Tru Orlando Convention Center
@@ -157,8 +157,8 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f0cd81ad618c426dd7ea4a/1777388929126/ATS-HotelSign-Route4.pdf"
             },
             "sign" : {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a0dc86c3-6fbb-49b6-be8d-3885f256e16b/sidesign-preview-rte4-ats26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f240a268b0551d5c34f2c9/1777483938582/ATS2026_ShuttleSign_Route4.pdf"
             },
             "stops": {
                 "1": { // Rosen Shingle Creek
@@ -201,8 +201,8 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f0cd92c8fb223b5c5e0667/1777388946974/ATS-HotelSign-Route5.pdf"
             },
             "sign" : {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/ca0b1eb2-18c4-4cb1-967e-abdb1ecf7e43/sidesign-preview-rte5-ats26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f240b771f39d594b9645a8/1777483959903/ATS2026_ShuttleSign_Route5.pdf"
             },
             "stops": {
                 "1": { // Castle Hotel
@@ -235,8 +235,8 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f0cda30de18336eeb32ef1/1777388963738/ATS-HotelSign-Route6.pdf"
             },
             "sign" : {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/06456a24-1fe9-4a9a-8a36-6991d6dca641/placeholder-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68adfc3f3c5dc65d32d26beb/1756232767622/Placeholder+Signage.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/cd42f0d0-ee51-4a86-bd7a-84f0102bdd68/sidesign-preview-rte6-ats26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69f240c62c20b61e516aabe3/1777483974229/ATS2026_ShuttleSign_Route6.pdf"
             },
             "stops": {
                 "1": { // Embassy Suites ICON
