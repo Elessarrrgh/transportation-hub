@@ -4,8 +4,8 @@
                        
   "element": { 
     "name": "Element Orlando", 
-    "address": "5730 Central Florida Pk", 
-    "phone": "(407) 584-0341", 
+    "address": "5750 Central Pkwy.", 
+    "phone": "(407) 584-0441", 
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.4463236962333!2d-81.45677562279572!3d28.405786475789448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77f8dbf86b117%3A0xe2b4320f4143d3b0!2sElement%20by%20Marriott%20Orlando%20at%20SeaWorld!5e0!3m2!1sen!2sus!4v1777315965272!5m2!1sen!2sus", 
     "scheduleJson": "", 
     "directionsText": "Element Orlando (<1 min.)",
@@ -15,8 +15,8 @@
                                         
   "aloft-seaworld": { 
     "name": "Aloft SeaWorld", 
-    "address": "5750 Central Pkwy.",
-    "phone": "(407) 584-0441", 
+    "address": "5730 Central Florida Pkwy.",
+    "phone": "(407) 584-0341", 
     "map": "https://www.google.com/maps?q=Aloft+SeaWorld+5750+Central+Pkwy+Orlando+FL&output=embed", 
     "scheduleJson": "", 
     "directionsText": "Aloft SeaWorld (<1 min.)",
@@ -64,16 +64,16 @@
     "phone": "(407) 239-0100", 
     "map": "https://www.google.com/maps?q=Hilton+Grand+Vacations+Club+SeaWorld+6924+Grand+Vacations+Way+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "Hilton Grand Vacations Club<br>SeaWorld (<1 min.)",
+    "directionsText": "Hilton Grand Vacations Club SeaWorld (<1 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/e77d0660-c000-4e2a-aa6f-d9ae4c321c9e/hilton-grand-vacation-seaworld-orlando.webp?content-type=image%2Fwebp" 
   },
-  "homewood-suites-orlando-theme-parks": { 
+  "homewood-suites-theme-parks": { 
     "name": "Homewood Suites<br>Theme Parks", 
     "address": "6940 Westwood Blvd.",
     "phone": "(407) 778-5888", 
     "map": "https://www.google.com/maps?q=Homewood+Suites+Orlando+Theme+Parks+6940+Westwood+Blvd+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "Hilton Grand Vacations Club<br>SeaWorld (~4 min.)",
+    "directionsText": "Hilton Grand Vacations Club SeaWorld (~4 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/2a63c99c-583d-4056-9984-6a5369be264e/homewood-suites-theme-parks-orlando.jpg?content-type=image%2Fjpeg" 
   },
 
@@ -114,13 +114,13 @@
   },
 
                                   
-  "doubletree-seaworld": { 
-    "name": "DoubleTree SeaWorld", 
+  "doubletree-theme-parks": { 
+    "name": "DoubleTree Theme Parks", 
     "address": "10100 International Dr.",
     "phone": "(407) 352-1100", 
     "map": "https://www.google.com/maps?q=DoubleTree+SeaWorld+10100+International+Dr+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "DoubleTree SeaWorld (<1 min.)",
+    "directionsText": "DoubleTree Theme Parks (<1 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8bfcd07f-1268-4576-812a-dd9e41d707c0/doubletree-seaworld-orlando.webp?content-type=image%2Fwebp"
   },
 
@@ -140,12 +140,12 @@
 
                                    
   "universal-terra-luna": { 
-    "name": "Universal Terra Luna", 
+    "name": "Universal Terra Luna Resort", 
     "address": "5500 Epic Blvd.",
     "phone": "(689) 218-3000", 
     "map": "https://www.google.com/maps?q=Universal+Terra+Luna+5500+Epic+Blvd+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "Universal Terra Luna (<1 min.)",
+    "directionsText": "Universal Terra Luna Resort (<1 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/c817e697-60c3-4bd6-a493-4c000a0a5a2f/universal-terra-luna-orlando.jpg?content-type=image%2Fjpeg"
   },
 
