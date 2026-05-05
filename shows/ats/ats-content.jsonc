@@ -163,7 +163,7 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
             "stops": {
                 "1": { // Rosen Shingle Creek
                     "stopName": "Rosen Shingle Creek",
-                    "boardingArea": "Panzacola Ballroom Entrance",
+                    "boardingArea": "Transportation Lobby",
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/0c5a93b218514e34b187454cdba74ef3?utm_campaign=embed&utm_source=other&heading=2.7&pitch=-1.6&field-of-view=75&size=large&display-plan=true",
                     "directions" : {
@@ -172,7 +172,7 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                     }
                 },
                 "2": { // Universal Terra Luna
-                    "stopName": "Universal Terra Luna",
+                    "stopName": "Universal Terra Luna Resort",
                     "boardingArea": "Front Entrance, Outside Canopy",
                     "scheduleJson": "",
                     "panorama": "https://momento360.com/e/u/0c5a93b218514e34b187454cdba74ef3?utm_campaign=embed&utm_source=other&heading=2.7&pitch=-1.6&field-of-view=75&size=large&display-plan=true",
