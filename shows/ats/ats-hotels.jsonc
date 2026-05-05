@@ -1,29 +1,27 @@
 {
 // ===== ROUTE 1 HOTELS =====
 
-  // STOP #1 — Element 
+  // STOP #1 — Aloft International Drive
+  "aloft-seaworld": { 
+    "name": "Aloft I-Drive South", 
+    "address": "5730 Central Florida Pkwy.",
+    "phone": "(407) 584-0341", 
+    "map": "https://www.google.com/maps?q=Aloft+SeaWorld+5750+Central+Pkwy+Orlando+FL&output=embed", 
+    "scheduleJson": "", 
+    "directionsText": "Aloft I-Drive South (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/131cd529-c9f2-40a1-a105-4806dfda824f/aloft-orlando.webp?content-type=image%2Fwebp"
+  },
   "element": { 
     "name": "Element Orlando", 
     "address": "5750 Central Pkwy.", 
     "phone": "(407) 584-0441", 
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.4463236962333!2d-81.45677562279572!3d28.405786475789448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77f8dbf86b117%3A0xe2b4320f4143d3b0!2sElement%20by%20Marriott%20Orlando%20at%20SeaWorld!5e0!3m2!1sen!2sus!4v1777315965272!5m2!1sen!2sus", 
     "scheduleJson": "", 
-    "directionsText": "Element Orlando (<1 min.)",
+    "directionsText": "Aloft I-Drive South (~1 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/fd6a145e-333d-4f74-8efe-b890b44e2f2f/element-orlando.webp?content-type=image%2Fwebp"
   },
 
-  // STOP #2 — Aloft International Drive
-  "aloft-seaworld": { 
-    "name": "Aloft SeaWorld", 
-    "address": "5730 Central Florida Pkwy.",
-    "phone": "(407) 584-0341", 
-    "map": "https://www.google.com/maps?q=Aloft+SeaWorld+5750+Central+Pkwy+Orlando+FL&output=embed", 
-    "scheduleJson": "", 
-    "directionsText": "Aloft SeaWorld (<1 min.)",
-    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/131cd529-c9f2-40a1-a105-4806dfda824f/aloft-orlando.webp?content-type=image%2Fwebp"
-  },
-
-  // STOP #3 — Fairfield Inn & Suites SeaWorld
+  // STOP #2 — Fairfield Inn & Suites SeaWorld
   "fairfield-inn-suites-seaworld": { 
     "name": "Fairfield Inn & Suites<br>SeaWorld", 
     "address": "10815 International Dr.",
@@ -79,12 +77,12 @@
 
   // STOP #3 — Hilton Garden Inn SeaWorld
   "hilton-garden-inn-seaworld": { 
-    "name": "Hilton Garden Inn<br>SeaWorld", 
+    "name": "Hilton Garden Inn<br>@ SeaWorld", 
     "address": "6850 Westwood Blvd.",
     "phone": "(407) 354-1500", 
     "map": "https://www.google.com/maps?q=Hilton+Garden+Inn+SeaWorld+6850+Westwood+Blvd+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "Hilton Garden Inn SeaWorld (<1 min.)",
+    "directionsText": "Hilton Garden Inn @ SeaWorld (<1 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7700e26b-8f80-4fd5-9dcb-40da0a399e2f/hilton-garden-inn-seaworld-orlando.webp?content-type=image%2Fwebp" 
   },
 
