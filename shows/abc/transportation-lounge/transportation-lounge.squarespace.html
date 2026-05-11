@@ -1,0 +1,40 @@
+<!--
+  Transportation Lounge TV Display
+
+  Replace these three values before publishing:
+  - dataUrl: your deployed TransportationLoungeWaitDisplay.gs web app URL
+  - title: the display title for this event
+  - subtitle: the display subtitle for this event
+
+  The Apps Script endpoint should read your Google Sheet and return JSONP.
+  Keep requestMode: "jsonp" for Squarespace.
+-->
+
+<div id="th-transportation-lounge"></div>
+
+<link rel="stylesheet" href="https://YOUR_PUBLIC_ASSET_HOST/global/injections/components/transportation-lounge/transportation-lounge.css">
+
+<script>
+  window.__TH_LOUNGE_CONFIG__ = {
+    containerId: "th-transportation-lounge",
+    title: "Event Shuttle Wait Times",
+    subtitle: "Live status across all routes",
+    note: "This display refreshes each route automatically.",
+    dataUrl: "https://script.google.com/macros/s/REPLACE_WITH_DEPLOYMENT_ID/exec",
+    requestMode: "jsonp",
+    refreshIntervalMs: 30000,
+    inactiveTitle: "Shuttle service is not currently active",
+    inactiveCopy: "Please check the event transportation schedule for the next service period.",
+    inactiveMeta: "This screen will return to live wait times automatically when service resumes.",
+    routes: [
+      { id: "1", label: "Route 1", color: "#0f766e" },
+      { id: "2", label: "Route 2", color: "#2563eb" },
+      { id: "3", label: "Route 3", color: "#b45309" },
+      { id: "4", label: "Route 4", color: "#7c3aed" },
+      { id: "5", label: "Route 5", color: "#c2410c" },
+      { id: "6", label: "Route 6", color: "#047857" }
+    ]
+  };
+</script>
+
+<script src="https://YOUR_PUBLIC_ASSET_HOST/global/injections/components/transportation-lounge/transportation-lounge.js"></script>

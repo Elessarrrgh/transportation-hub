@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-05-08T12:00:00.000Z",
+  "isServiceActive": true,
+  "routes": [
+    {
+      "id": "1",
+      "label": "Route 1",
+      "color": "#0f766e",
+      "serviceStatus": "Active",
+      "isActive": true,
+      "waitMode": "text",
+      "waitText": "8 min",
+      "lastUpdated": "12:00 PM"
+    },
+    {
+      "id": "2",
+      "label": "Route 2",
+      "color": "#2563eb",
+      "serviceStatus": "Active",
+      "isActive": true,
+      "waitMode": "countdown",
+      "waitText": "Next shuttle",
+      "countdownTarget": "11:59 PM",
+      "lastUpdated": "12:00 PM"
+    },
+    {
+      "id": "3",
+      "label": "Route 3",
+      "color": "#b45309",
+      "serviceStatus": "Active",
+      "isActive": true,
+      "waitMode": "text",
+      "waitText": "12 min",
+      "lastUpdated": "12:00 PM"
+    },
+    {
+      "id": "4",
+      "label": "Route 4",
+      "color": "#7c3aed",
+      "serviceStatus": "Active",
+      "isActive": true,
+      "waitMode": "text",
+      "waitText": "5 min",
+      "lastUpdated": "12:00 PM"
+    },
+    {
+      "id": "5",
+      "label": "Route 5",
+      "color": "#c2410c",
+      "serviceStatus": "Active",
+      "isActive": true,
+      "waitMode": "countdown",
+      "waitText": "Next shuttle",
+      "countdownTarget": "11:45 PM",
+      "lastUpdated": "12:00 PM"
+    },
+    {
+      "id": "6",
+      "label": "Route 6",
+      "color": "#047857",
+      "serviceStatus": "No Service",
+      "isActive": false,
+      "waitMode": "text",
+      "waitText": "Returns later today",
+      "lastUpdated": "12:00 PM"
+    }
+  ]
+}

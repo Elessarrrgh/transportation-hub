@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transportation Lounge Display</title>
+    <link rel="stylesheet" href="../../../global/injections/components/transportation-lounge/transportation-lounge.css">
+    <style>
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="th-transportation-lounge"></div>
+
+    <script>
+      const sampleState = new URLSearchParams(window.location.search).get("state");
+      window.__TH_LOUNGE_CONFIG__ = {
+        containerId: "th-transportation-lounge",
+        title: "Event Shuttle Wait Times",
+        subtitle: "Live status across all routes",
+        note: "This display refreshes each route automatically.",
+        dataUrl: sampleState === "inactive" ? "sample-lounge-inactive.json" : "sample-lounge-wait-times.json",
+        requestMode: "fetch",
+        refreshIntervalMs: 30000,
+        routes: [
+          { id: "1", label: "Route 1", color: "#0f766e" },
+          { id: "2", label: "Route 2", color: "#2563eb" },
+          { id: "3", label: "Route 3", color: "#b45309" },
+          { id: "4", label: "Route 4", color: "#7c3aed" },
+          { id: "5", label: "Route 5", color: "#c2410c" },
+          { id: "6", label: "Route 6", color: "#047857" }
+        ]
+      };
+    </script>
+    <script src="../../../global/injections/components/transportation-lounge/transportation-lounge.js"></script>
+  </body>
+</html>

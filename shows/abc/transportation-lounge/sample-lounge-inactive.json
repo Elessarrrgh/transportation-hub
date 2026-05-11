@@ -1,0 +1,12 @@
+{
+  "generatedAt": "2026-05-08T12:00:00.000Z",
+  "isServiceActive": false,
+  "routes": [
+    { "id": "1", "label": "Route 1", "serviceStatus": "No Service", "isActive": false, "waitText": "Service resumes later", "lastUpdated": "12:00 PM" },
+    { "id": "2", "label": "Route 2", "serviceStatus": "No Service", "isActive": false, "waitText": "Service resumes later", "lastUpdated": "12:00 PM" },
+    { "id": "3", "label": "Route 3", "serviceStatus": "No Service", "isActive": false, "waitText": "Service resumes later", "lastUpdated": "12:00 PM" },
+    { "id": "4", "label": "Route 4", "serviceStatus": "No Service", "isActive": false, "waitText": "Service resumes later", "lastUpdated": "12:00 PM" },
+    { "id": "5", "label": "Route 5", "serviceStatus": "No Service", "isActive": false, "waitText": "Service resumes later", "lastUpdated": "12:00 PM" },
+    { "id": "6", "label": "Route 6", "serviceStatus": "No Service", "isActive": false, "waitText": "Service resumes later", "lastUpdated": "12:00 PM" }
+  ]
+}
