@@ -13,7 +13,7 @@
   },
   "element": { 
     "name": "Element Orlando", 
-    "address": "5750 Central Pkwy.", 
+    "address": "5750 Central Florida Pkwy.", 
     "phone": "(407) 584-0441", 
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.4463236962333!2d-81.45677562279572!3d28.405786475789448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77f8dbf86b117%3A0xe2b4320f4143d3b0!2sElement%20by%20Marriott%20Orlando%20at%20SeaWorld!5e0!3m2!1sen!2sus!4v1777315965272!5m2!1sen!2sus", 
     "scheduleJson": "", 
@@ -28,7 +28,7 @@
     "phone": "(407) 354-1139", 
     "map": "https://www.google.com/maps?q=Fairfield+Inn+%26+Suites+SeaWorld+10815+International+Dr+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "SpringHill Suites SeaWorld (~1 min.)",
+    "directionsText": "Fairfield Inn & Suites SeaWorld (~1 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/2129a903-0231-49fb-8c87-5a0498cf72b5/fairfield-seaworld-orlando.jpg?content-type=image%2Fjpeg"
   },
   "springhill-suites-seaworld": { 
@@ -102,23 +102,23 @@
 
                                    
   "renaissance-seaworld": { 
-    "name": "Renaissance SeaWorld", 
+    "name": "Renaissance at SeaWorld", 
     "address": "6677 Sea Harbor Dr.",
     "phone": "(407) 351-5555", 
     "map": "https://www.google.com/maps?q=Renaissance+SeaWorld+6677+Sea+Harbor+Dr+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "Renaissance SeaWorld (<1 min.)",
+    "directionsText": "Renaissance at SeaWorld (<1 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/3f59e252-abd7-46af-919e-63d1f97f2b18/renaissance-seaworld-orlando.webp?content-type=image%2Fwebp" 
   },
 
                                   
   "doubletree-theme-parks": { 
-    "name": "DoubleTree Theme Parks", 
+    "name": "DoubleTree Theme Park Resort", 
     "address": "10100 International Dr.",
     "phone": "(407) 352-1100", 
     "map": "https://www.google.com/maps?q=DoubleTree+SeaWorld+10100+International+Dr+Orlando+FL&output=embed", 
     "scheduleJson": "", 
-    "directionsText": "DoubleTree Theme Parks (<1 min.)",
+    "directionsText": "DoubleTree Theme Park Resort (<1 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8bfcd07f-1268-4576-812a-dd9e41d707c0/doubletree-seaworld-orlando.webp?content-type=image%2Fwebp"
   },
 
