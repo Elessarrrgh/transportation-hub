@@ -131,7 +131,7 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                     "stopName": "Renaissance at SeaWorld",
                     "boardingArea": "North Entrance",
                     "scheduleJson": "",
-                    "panorama": "https://momento360.com/e/u/87997622fd5842dcbae8af6a18bda168?utm_campaign=embed&utm_source=other&heading=-504.43&pitch=-0.53&field-of-view=75&size=large&display-plan=true",
+                    "panorama": "https://momento360.com/e/u/5036e939c8d04963ad1be84b9af71572?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true",
                     "directions" : {
                         "apple": "https://maps.apple.com/?daddr=6677%20Sea%20Harbor%20Dr%2C%20Orlando%2C%20FL%2032821%2C%20United%20States",
                         "google": "https://www.google.com/maps/dir/Current+Location/6677%20Sea%20Harbor%20Dr%2C%20Orlando%2C%20FL%2032821%2C%20United%20States"
