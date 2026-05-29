@@ -1,0 +1,315 @@
+  
+                                                                                           
+                                                                                                                                                          
+  
+
+{
+    "base" : {
+        "title": "Biotechnology Innovation Organization International Convention",
+        "event-map": ""
+    },
+    "interactive-map": "",
+    "flight-info": {
+        "arrivals-widget": "",
+        "departures-widget": "",
+        "travel-time": ""
+    },
+    "hotelsJson": "config/show-content/bio/bio-hotels.json",                                                                                    
+    "scheduleJson": "config/show-content/bio/bio-schedule.json",                                                                      
+    "routes": {
+        "1": {
+            "scheduleJson": "",                                                                    
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",                                                                                                
+            "flyer": {                                                                                                            
+                "preview": "",                                                               
+                "pdf": ""                                                      
+            },
+            "sign" : {                                                            
+                "preview": "",                                                               
+                "pdf": ""                                                      
+            },
+            "stops": {
+                "1": {           
+                    "stopName": "",                                                     
+                    "boardingArea": "",                                                 
+                    "scheduleJson": "",                                                                                       
+                    "panorama": "",                                         
+                    "directions" : {                                                                                     
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {           
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {           
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "2": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "3": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=3",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "4": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=4",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "5": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "6": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=6",
+            "flyer": {
+                "preview": "",
+                "pdf": ""
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "2": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "3": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                },
+                "4": {
+                    "stopName": "",
+                    "boardingArea": "",
+                    "scheduleJson": "",
+                    "panorama": "",
+                    "directions" : {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "w": {                                                                    
+            "stops": {
+                "0": {                                                                                                                                              
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        },
+        "x": {                                                                                  
+            "stops": {
+                "0": {
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        }
+    }
+}

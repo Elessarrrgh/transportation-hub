@@ -1,0 +1,13 @@
+{
+  "days": [
+    {
+      "label": "WEEKDAY, MM-DD",                                                                                                                          
+      "inboundStart": "HH:MM XM",                                                  
+      "inboundEnd": "HH:MM XM",                                            
+      "outboundStart": "HH:MM XM",                                                   
+      "outboundEnd": "HH:MM XM",                                             
+      "intermission": "SERVICE INTERMISSION"                                                                                                      
+    }
+                                                                                        
+  ]
+}
