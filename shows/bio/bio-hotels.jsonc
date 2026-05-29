@@ -1,0 +1,259 @@
+{
+// ===== ROUTE 1 HOTELS =====
+
+  // STOP #1 — Embassy Suites
+  "embassy-suites": { // This is the URL slug that will be used to identify the hotel page and replace content with information listed below. It must match EXACTLY or content will not populate.
+    "name": "Embassy Suites", // This is the full hotel name that will appear on the title of page. Use '<br>' to control line breaks and be sure to manage vertical space accordingly.
+    "address": "601 Pacific Hwy.", // Just the street address only (no city, state, zip) that will appear under the 'Hotel Info' section.
+    "phone": "619-239-2400", // The formatted phone number that will appear under the 'Hotel Info' section.
+    "map": "", // A Google Maps embed URL that will be inserted into an interactive iframe under the 'Hotel Info' section.
+    "scheduleJson": "", // Allows event-wide, route-specific, and stop-specific schedules to be overridden with hotel-specific data as needed.
+    "directionsText": "", // The (manually) estimated walking time to the nearest shuttle stop that appears under the 'Stop Info' section.
+    "heroImage": "" // A URL linking to the hero image that appears at the top of the page. Be sure to optimize for web and manage vertical space accordingly.
+  },
+
+  // STOP #2 — Intercontinental
+  "intercontinental": { 
+    "name": "InterContinental San Diego",
+    "address": "901 Bayfront Ct.", 
+    "phone": "619-501-9400", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+  "springhill-suites-bayfront": { 
+    "name": "SpringHill Suites Bayfront",
+    "address": "900 Bayfront Ct.", 
+    "phone": "619-831-0224", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+
+  // STOP #3 — Manchester Grand Hyatt
+  "manchester-grand-hyatt": { 
+    "name": "Manchester Grand Hyatt",
+    "address": "1 Market Pl.", 
+    "phone": "619-358-6642", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+
+
+// ===== ROUTE 2 HOTELS =====
+
+  // STOP #1 — Westin Gaslamp
+  "westin-gaslamp": { 
+    "name": "Westin Gaslamp Quarter",
+    "address": "910 Broadway Cir.", 
+    "phone": "619-713-7221", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+
+  // STOP #2 — Westin Bayview
+  "westin-bayview": { 
+    "name": "Westin San Diego Bayview",
+    "address": "400 W Broadway", 
+    "phone": "619-338-3604", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+  "hotel-republic": { 
+    "name": "Hotel Republic",
+    "address": "421 W B St.", 
+    "phone": "619-398-3012", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+
+
+// ===== ROUTE 3 HOTELS =====
+
+  // STOP #1 — Hotel A
+  "hotel-indigo-gaslamp": { 
+    "name": "Hotel Indigo Gaslamp",
+    "address": "509 9th Ave.", 
+    "phone": "619-727-4000", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+  "hotel-z": { 
+    "name": "Hotel Z",
+    "address": "521 6th Ave.", 
+    "phone": "619-330-6401", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+
+  // STOP #2 — Hotel B
+  "andaz": { 
+    "name": "Andaz Hotel",
+    "address": "600 F St.", 
+    "phone": "619-849-1234", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+  "moxy": { 
+    "name": "Moxy Gaslamp Quarter",
+    "address": "831 6th Ave.", 
+    "phone": "619-239-6699", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+  "palihotel": { 
+    "name": "Palihotel San Diego",
+    "address": "830 6th Ave.", 
+    "phone": "619-870-8986", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+
+  // STOP #3 — Hotel C
+  "us-grant": { 
+    "name": "The US Grant",
+    "address": "326 Broadway", 
+    "phone": "619-807-4732", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+  "westgate": { 
+    "name": "The Westgate Hotel",
+    "address": "1055 2nd Ave.", 
+    "phone": "619-557-3755", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+
+
+// ===== ROUTE 4 HOTELS =====
+
+  // STOP #1 — Hotel A
+  "dextro": { 
+    "name": "Dextro Little Italy",
+    "address": "1617 1st Ave.", 
+    "phone": "619-239-9600", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+
+  // STOP #2 — Hotel B
+  "courtyard-downtown": { 
+    "name": "Courtyard Downtown Little Italy",
+    "address": "1646 Front St.", 
+    "phone": "619-239-6800", 
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "", 
+    "heroImage": "" 
+  },
+
+
+// ===== WALKING DISTANCE =====
+  "courtyard-gaslamp": {
+    "name": "Courtyard Gaslamp Conv. Center",
+    "address": "453 6th Ave.",
+    "phone": "619-544-1004",
+    "map": "",
+    "directionsText": "",
+    "heroImage": ""
+  },
+  "hard-rock": {
+    "name": "Hard Rock Hotel",
+    "address": "207 5th Ave.",
+    "phone": "619-702-3000",
+    "map": "",
+    "directionsText": "",
+    "heroImage": ""
+  },
+  "hilton-bayfront": {
+    "name": "Hilton San Diego Bayfront",
+    "address": "1 Park Blvd.",
+    "phone": "619-759-4484",
+    "map": "",
+    "directionsText": "",
+    "heroImage": ""
+  },
+  "hilton-gaslamp": {
+    "name": "Hilton Gaslamp Quarter",
+    "address": "401 K St.",
+    "phone": "619-702-8264",
+    "map": "",
+    "directionsText": "",
+    "heroImage": ""
+  },
+  "margaritaville": {
+    "name": "Margaritaville Hotel",
+    "address": "435 6th Ave.",
+    "phone": "619-819-9500",
+    "map": "",
+    "directionsText": "",
+    "heroImage": ""
+  },
+  "marriott-marquis": {
+    "name": "Marriott Marquis San Diego Marina",
+    "address": "333 W Harbor Dr.",
+    "phone": "619-234-1500",
+    "map": "",
+    "directionsText": "",
+    "heroImage": ""
+  },
+  "omni": {
+    "name": "Omni San Diego Hotel",
+    "address": "675 L St.",
+    "phone": "619-231-6664",
+    "map": "",
+    "directionsText": "",
+    "heroImage": ""
+  },
+  "pendry": {
+    "name": "Pendry Hotel",
+    "address": "550 J St.",
+    "phone": "619-738-7077",
+    "map": "",
+    "directionsText": "",
+    "heroImage": ""
+  },
+  "residence-inn-gaslamp": {
+    "name": "Residence Inn Gaslamp Quarter",
+    "address": "356 6th Ave.",
+    "phone": "619-487-1200",
+    "map": "",
+    "directionsText": "",
+    "heroImage": ""
+  },
+  "marriott-gaslamp": {
+    "name": "Marriott Gaslamp Quarter",
+    "address": "660 K St.",
+    "phone": "619-446-6027 ",
+    "map": "",
+    "directionsText": "",
+    "heroImage": ""
+  }
+}
