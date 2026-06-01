@@ -25,38 +25,38 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                 "pdf": "" // URL for document that can be opened for full view.
             },
             "sign" : { // The signage displayed on the shuttles for a given route.
-                "preview": "", // URL for preview image that will display with document link.
-                "pdf": "" // URL for document that can be opened for full view.
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8e0734b7-5e8e-4246-8966-7953a808b72c/sidesign-rte1-bio26.png?content-type=image%2Fpng", // URL for preview image that will display with document link.
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6a1d93f5c687382aa5fb198b/1780323317886/BIO2026_SideSign_1.pdf" // URL for document that can be opened for full view.
             },
             "stops": {
                 "1": { // Hotel A
-                    "stopName": "", // The Hotel title that will appear on the web page.
-                    "boardingArea": "", // Where the shuttle will pick up at this hotel.
+                    "stopName": "Embassy Suites", // The Hotel title that will appear on the web page.
+                    "boardingArea": "Curbside on Pacific Hwy.", // Where the shuttle will pick up at this hotel.
                     "scheduleJson": "", // Allows override of event-wide and route-specific schedules with stop-specific data.
                     "panorama": "", // URL for 360 panoram of boarding area.
                     "directions" : { // Direction deep links that allow users to open native map applications pre-loaded.
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=601%20Pacific%20Hwy%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/601%20Pacific%20Hwy%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States"
                     }
                 },
                 "2": { // Hotel B
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "InterContinental San Diego",
+                    "boardingArea": "Curbside on Pacific Hwy.",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=901%20Bayfront%20Ct%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/901%20Bayfront%20Ct%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States"
                     }
                 },
                 "3": { // Hotel C
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "Manchester Grand Hyatt",
+                    "boardingArea": "Curbside on Harbor Dr.",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=1%20Market%20Pl%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1%20Market%20Pl%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States"
                     }
                 }
             }
@@ -69,38 +69,28 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                 "pdf": ""
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/b1db891d-7ae8-4d36-8580-a6f52e423267/sidesign-rte2-bio26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6a1d9417c606641e6f383ce7/1780323351859/BIO2026_SideSign_2.pdf"
             },
             "stops": {
                 "1": {
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "Westin Gaslamp Quarter",
+                    "boardingArea": "Curbside on First Ave.",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=910%20Broadway%20Cir%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/910%20Broadway%20Cir%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States"
                     }
                 },
                 "2": {
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "Westin San Diego Bayview",
+                    "boardingArea": "Broadway Entrance",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "3": {
-                    "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "",
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=1051%20Columbia%20St%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1051%20Columbia%20St%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States"
                     }
                 }
             }
@@ -113,38 +103,38 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                 "pdf": ""
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/0b1535ed-44a2-4fd4-b9a4-f4aa3b7ac809/sidesign-rte3-bio26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6a1d9433b3a8d8286cca8875/1780323379306/BIO2026_SideSign_3.pdf"
             },
             "stops": {
                 "1": {
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "Hotel Indigo Gaslamp",
+                    "boardingArea": "Front Entrance",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=509%20Ninth%20Ave%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/509%20Ninth%20Ave%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States"
                     }
                 },
                 "2": {
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "Andaz Hotel",
+                    "boardingArea": "Front Entrance",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=600%20F%20St%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/600%20F%20St%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States"
                     }
                 },
                 "3": {
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "The US Grant",
+                    "boardingArea": "Fourth Ave. Entrance",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=326%20Broadway%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/326%20Broadway%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States"
                     }
                 }
             }
@@ -157,136 +147,28 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
                 "pdf": ""
             },
             "sign" : {
-                "preview": "",
-                "pdf": ""
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/0d3cc028-bbc1-4858-85c7-3809173b9138/sidesign-rte4-bio26.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6a1d944a39722178e6838e48/1780323402536/BIO2026_SideSign_4.pdf"
             },
             "stops": {
                 "1": {
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "Dextro Little Italy",
+                    "boardingArea": "Curbside on First Ave.",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=1617%20First%20Ave.%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1617%20First%20Ave.%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States"
                     }
                 },
                 "2": {
-                    "stopName": "",
-                    "boardingArea": "",
+                    "stopName": "Courtyard Downtown Little Italy",
+                    "boardingArea": "Front Entrance",
                     "scheduleJson": "",
                     "panorama": "",
                     "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "3": {
-                    "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "",
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                }
-            }
-        },
-        "5": {
-            "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=5",
-            "flyer": {
-                "preview": "",
-                "pdf": ""
-            },
-            "sign" : {
-                "preview": "",
-                "pdf": ""
-            },
-            "stops": {
-                "1": {
-                    "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "",
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "2": {
-                    "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "",
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "3": {
-                    "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "",
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                }
-            }
-        },
-        "6": {
-            "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=6",
-            "flyer": {
-                "preview": "",
-                "pdf": ""
-            },
-            "sign" : {
-                "preview": "",
-                "pdf": ""
-            },
-            "stops": {
-                "1": {
-                    "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "",
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "2": {
-                    "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "",
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "3": {
-                    "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "",
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
-                    }
-                },
-                "4": {
-                    "stopName": "",
-                    "boardingArea": "",
-                    "scheduleJson": "",
-                    "panorama": "",
-                    "directions" : {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=1646%20Front%20St%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1646%20Front%20St%2C%20San%20Diego%2C%20CA%2092101%2C%20United%20States"
                     }
                 }
             }
@@ -295,8 +177,8 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
             "stops": {
                 "0": { // While there are no stops for walking hotels, this section is still required for accurate URL parsing to ensure direction links are loaded.
                     "directions": {
-                        "apple": "",
-                        "google": ""
+                        "apple": "https://maps.apple.com/?daddr=111%20Harbor%20Dr%2C%20San%20Diego%2C%20CA%2092101",
+                        "google": "https://www.google.com/maps/dir/Current+Location/111%20Harbor%20Dr%2C%20San%20Diego%2C%20CA%2092101"
                     }
                 }
             }
