@@ -14,7 +14,7 @@
 
   // STOP #2 — Intercontinental
   "intercontinental": { 
-    "name": "InterContinental San Diego",
+    "name": "InterContinental<br>San Diego",
     "address": "901 Bayfront Ct.", 
     "phone": "619-501-9400", 
     "map": "https://www.google.com/maps?q=InterContinental%20San%20Diego%20901%20Bayfront%20Ct.%20San%20Diego%2C%20CA%20619-501-9400&output=embed", 
@@ -197,7 +197,7 @@
     "address": "1 Park Blvd.",
     "phone": "619-759-4484",
     "map": "https://www.google.com/maps?q=Hilton%20San%20Diego%20Bayfront%201%20Park%20Blvd.%20San%20Diego%2C%20CA%20619-759-4484&output=embed",
-    "directionsText": "San Diego Conv. Center (~8 min.)",
+    "directionsText": "San Diego Conv. Center (~5 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/9f747615-b308-42f7-aa07-0f7a0191d471/hilton-bayfront-san-diego.jpg?content-type=image%2Fjpeg"
   },
   "hilton-gaslamp": {
@@ -213,11 +213,11 @@
     "address": "435 6th Ave.",
     "phone": "619-819-9500",
     "map": "https://www.google.com/maps?q=Margaritaville%20Hotel%20435%206th%20Ave.%20San%20Diego%2C%20CA%20619-819-9500&output=embed",
-    "directionsText": "San Diego Conv. Center (~12 min.)",
+    "directionsText": "San Diego Conv. Center (~8 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/770e486f-99f1-4d0e-bb8d-02fda0de61be/margaritaville-san-diego.webp?content-type=image%2Fwebp"
   },
   "marriott-marquis": {
-    "name": "Marriott Marquis San Diego Marina",
+    "name": "Marriott Marquis<br>San Diego Marina",
     "address": "333 W Harbor Dr.",
     "phone": "619-234-1500",
     "map": "https://www.google.com/maps?q=Marriott%20Marquis%20San%20Diego%20Marina%20333%20W%20Harbor%20Dr.%20San%20Diego%2C%20CA%20619-234-1500&output=embed",
