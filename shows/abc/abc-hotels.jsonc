@@ -8,8 +8,18 @@
     "phone": "", // The formatted phone number that will appear under the 'Hotel Info' section.
     "map": "", // A Google Maps embed URL that will be inserted into an interactive iframe under the 'Hotel Info' section.
     "scheduleJson": "", // Allows event-wide, route-specific, and stop-specific schedules to be overridden with hotel-specific data as needed.
-    "directionsText": "" // The (manually) estimated walking time to the nearest shuttle stop that appears under the 'Stop Info' section.
+    "directionsText": "", // The (manually) estimated walking time to the nearest shuttle stop that appears under the 'Stop Info' section.
+    "heroImage": "" // The URL of the hero image that will appear at the top of the hotel page. This should be a high-resolution image.
   },
+
+  // STOP #2 — Hotel B
+
+  // STOP #3 — Hotel C
+
+
+// ===== ROUTE 2 HOTELS =====
+
+  // STOP #1 — Hotel A
 
   // STOP #2 — Hotel B
 
@@ -58,6 +68,7 @@
     "address": "",
     "phone": "",
     "map": "",
-    "directionsText": ""
+    "directionsText": "",
+    "heroImage": ""
   }
 }

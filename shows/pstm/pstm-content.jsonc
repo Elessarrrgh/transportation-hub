@@ -1,83 +1,72 @@
+/*
+This file is written in JSONC which allows for inline and multiline comments for reference.
+When a commit is pushed, the repository automatically creates a JSON copy of this file with all comments removed so it can be used for the content loader.
+*/
+
 {
     "base" : {
-        "title": "Plastic Surgery The Meeting",
+        "title": "Plastic Surgery, The Meeting",
         "event-map": ""
     },
-    "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1MTjn56tYSQ_NK-4MGMDNiPWBbuHtvVs&ehbc=2E312F",
+    "interactive-map": "<https://www.google.com/maps/d/u/1/embed?mid=1_v5ozDtE_aUa023D6_oKMl3P3ejt1lI&ehbc=2E312F",
     "flight-info": {
-        "arrivals-widget": "shows/pstm/flight-info/arrivals-widget.html",
-        "departures-widget": "shows/pstm/flight-info/departures-widget.html",
-        "travel-time": "https://www.google.com/maps/embed/v1/directions?key=AIzaSyD-Zq8VSdnzvEUH_8llwLRE-R9i-FIdPFY&origin=Morial+Convention+Center+New+Orleans&destination=New+Orleans+International+Airport"
+        "arrivals-widget": "",
+        "departures-widget": "",
+        "travel-time": ""
     },
-    "hotelsJson": "config/show-content/pstm/pstm-hotels.json",
-    "scheduleJson": "config/show-content/pstm/pstm-schedule.json",
+    "hotelsJson": "config/show-content/pstm/pstm-hotels.json", // Data source for all specific hotel information, replace 'pstm' with show acronym.
+    "scheduleJson": "", // Screenshot used for schedule on this show.
     "routes": {
         "1": {
-            "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec?route=1",
-            "flyer": {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7d7db5bc-0784-49b9-8047-996a4c985cb3/pstm2025-route1-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb1c07f31bcf6412c0310b/1758141621996/PSTM25_Route1_Flyer.pdf"
+            "scheduleJson": "", // Allows override of event-wide schedule with route-specific data.
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1", // Default URL for RouteSync. Can be updated to alternate or show specific interface as needed.
+            "flyer": { // The route-specific flyer (or hotel lobby sign instead) that is displayed on each hotel within the route.
+                "preview": "", // URL for preview image that will display with document link.
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6abeb4515531957548ac4f38/1790882897426/PSTM26_HL_Route1.pdf" // URL for document that can be opened for full view.
             },
-            "sign" : {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/53c393de-c2b0-462b-ab4c-5b066cfc1e0b/pstm2025-route1-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb1c4ff42d224b93e32fc1/1758141640266/PSTM25_Route1_Signage.pdf"
+            "sign" : { // The signage displayed on the shuttles for a given route.
+                "preview": "", // URL for preview image that will display with document link.
+                "pdf": "" // URL for document that can be opened for full view.
             },
             "stops": {
-                "1": { // Westin New Orleans
-                    "scheduleJson": "",
-                    "panorama": "https://momento360.com/e/u/7fcc7e0d668d42a58700f62abf4e4af8?utm_campaign=embed&utm_source=other&heading=271.84&pitch=0.85&field-of-view=100&size=large&display-plan=true",
-                    "directions": {
-                        "apple": "https://maps.apple.com/?daddr=100%20Iberville%20St.%2C%20New%20Orleans%2C%20LA%2070147",
-                        "google": "https://www.google.com/maps/dir/Current+Location/100%20Iberville%20St.%2C%20New%20Orleans%2C%20LA%2070147us"
+                "1": { // Le Méridien Houston Downtown
+                    "stopName": "Le Méridien Downtown", // The Hotel title that will appear on the web page.
+                    "boardingArea": "Walker St. Entrance", // Where the shuttle will pick up at this hotel.
+                    "scheduleJson": "", // Allows override of event-wide and route-specific schedules with stop-specific data.
+                    "panorama": "https://momento360.com/e/u/2b5d17cf34424145876ee9b1ad73e3f9?utm_campaign=embed&utm_source=other&utm_medium=embed&heading=65&pitch=0.5&field-of-view=75&size=large&display-plan=true", // URL for 360 panoram of boarding area.
+                    "directions" : { // Direction deep links that allow users to open native map applications pre-loaded.
+                        "apple": "https://maps.apple.com/?daddr=1121%20Walker%20St%2C%20Houston%2C%20TX%2077002%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1121%20Walker%20St%2C%20Houston%2C%20TX%2077002%2C%20United%20States"
                     }
                 },
-                "2": { // Hilton New Orleans Riverside
-                    "scheduleJson": "config/show-content/pstm/hilton-new-orleans-riverside-schedule.json",
-                    "panorama": "https://momento360.com/e/u/50f5d819b8024caebdda621f6e7b4af6?utm_campaign=embed&utm_source=other&heading=0.3&pitch=4.7&field-of-view=75&size=large&display-plan=true",
-                    "directions": {
-                        "apple": "https://maps.apple.com/?daddr=2%20Poydras%20St.%2C%20New%20Orleans%2C%20LA%2070137",
-                        "google": "https://www.google.com/maps/dir/Current+Location/2%20Poydras%20St.%2C%20New%20Orleans%2C%20LA%2070137"
+                "2": { // Courtyard Houston Downtown
+                    "stopName": "Courtyard Downtown / Conv. Ctr.",
+                    "boardingArea": "Curbside on Dallas St. at Parking Lot Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://momento360.com/e/u/fb17f28e1e0c46f8bd26c5513e0a037d?utm_campaign=embed&utm_source=other&utm_medium=embed&heading=190.43&pitch=-1.6&field-of-view=75&size=large&display-plan=true",
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=916%20Dallas%20St%2C%20Houston%2C%20TX%2077002%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/916%20Dallas%20St%2C%20Houston%2C%20TX%2077002%2C%20United%20States"
                     }
                 }
             }
         },
-        "2": {
-            "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec?route=2",
-            "flyer": {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/5d09346b-704a-4a03-b059-ec095d6606f2/pstm2025-route2-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb1c3b39535e6380a95c41/1758141629485/PSTM25_Route2_Flyer.pdf"
-            },
-            "sign" : {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/77a85f47-ce24-410e-a044-39578b737095/pstm2025-route2-signage-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68cb1c8995621d639b15d0ae/1758141659174/PSTM25_Route2_Signage.pdf"
-            },
+        "w": { // Necessary for walking distance hotels to have proper directions.
             "stops": {
-                "1": { // Caesars New Orleans
-                    "scheduleJson": "",
-                    "panorama": "https://momento360.com/e/u/32203833bf504b658403903757f4f975?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true",
+                "0": { // While there are no stops for walking hotels, this section is still required for accurate URL parsing to ensure direction links are loaded.
                     "directions": {
-                        "apple": "https://maps.apple.com/?daddr=8%20Canal%20St.%2C%20New%20Orleans%2C%20LA%2070130$0",
-                        "google": "https://www.google.com/maps/dir/Current+Location/8%20Canal%20St.%2C%20New%20Orleans%2C%20LA%2070130$0"
-                    }
-                },
-                "2": { // JW Marriott
-                    "scheduleJson": "",
-                    "panorama": "https://momento360.com/e/u/f568b7e6a7fe42abb0e07ae7461f3ba5?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=large&display-plan=true",
-                    "directions": {
-                        "apple": "https://maps.apple.com/?daddr=614%20Canal%20St.%2C%20New%20Orleans%2C%20LA%2070139",
-                        "google": "https://www.google.com/maps/dir/Current+Location/614%20Canal%20St.%2C%20New%20Orleans%2C%20LA%2070139"
+                        "apple": "https://maps.apple.com/?daddr=1001%20Avenida%20De%20Las%20Americas%2C%20Houston%2C%20TX%2077010%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/1001%20Avenida%20De%20Las%20Americas%2C%20Houston%2C%20TX%2077010%2C%20United%20States"
                     }
                 }
             }
         },
-        "w": {
+        "x": { // placeholder for non-service hotels so that any relevant content can be loaded.
             "stops": {
                 "0": {
                     "directions": {
-                        "apple": "https://maps.apple.com/?daddr=900%20Convention%20Center%20Blvd.%2C%20New%20Orleans%2C%20LA%2070145",
-                        "google": "https://www.google.com/maps/dir/Current+Location/900%20Convention%20Center%20Blvd.%2C%20New%20Orleans%2C%20LA%2070145"
+                        "apple": "",
+                        "google": ""
                     }
                 }
             }
