@@ -9,25 +9,25 @@
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6927.5316661713005!2d-95.36933322409762!3d29.75548953220296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3b4ba83415%3A0x43dc3bfbff086a7f!2sLe%20M%C3%A9ridien%20Houston%20Downtown!5e0!3m2!1sen!2sus!4v1790799780624!5m2!1sen!2sus",
     "scheduleJson": "",
     "directionsText": "Le Méridien Downtown (<1 min.)",
-    "heroImage": "" 
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/60971d7a-8243-47c2-82fa-72328e31bebc/le-meridien-houston.webp?content-type=image%2Fwebp" 
   },
   "cambria": { 
     "name": "Cambria Hotel Downtown / Conv. Ctr.", 
     "address": "1314 Texas Ave.",
-    "phone": "",
-    "map": "",
+    "phone": "713-222-2100",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7373.382706264067!2d-95.36463773610447!3d29.756513082783638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bfcbb18f4e9d%3A0xc87c86831db727a!2sCambria%20Hotel%20Houston%20Downtown%20Convention%20Center!5e0!3m2!1sen!2sus!4v1790884781051!5m2!1sen!2sus",
     "scheduleJson": "",
-    "directionsText": "",
-    "heroImage": "" 
+    "directionsText": "Le Méridien Downtown (~7 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/61afe1e2-b100-4690-a2eb-37cb2eb1a8f7/cambria-houston.jpg?content-type=image%2Fjpeg" 
   },
   "jw-marriott": { 
     "name": "JW Marriott Downtown", 
     "address": "806 Main St.",
-    "phone": "",
-    "map": "",
+    "phone": "713-237-1111",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55431.83199360365!2d-95.45128893046872!3d29.734543446034408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3b1e7f18d1%3A0xdf1d13a17a319a68!2sJW%20Marriott%20Houston%20Downtown!5e0!3m2!1sen!2sus!4v1790885142134!5m2!1sen!2sus",
     "scheduleJson": "",
-    "directionsText": "",
-    "heroImage": "" 
+    "directionsText": "Le Méridien Downtown (~3 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/e242a5b4-d396-4015-ae57-09d1e7fc54fd/jw-marriott-houston.jpg?content-type=image%2Fjpeg" 
   },
 
 
@@ -35,29 +35,29 @@
   "courtyard": { 
     "name": "Courtyard Downtown / Conv. Ctr.", 
     "address": "916 Dallas St.",
-    "phone": "",
-    "map": "",
+    "phone": "832-366-1600",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55431.83199360365!2d-95.45128893046872!3d29.734543446034408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3c097ab7fd%3A0x7b9f257b0b51fe4a!2sCourtyard%20by%20Marriott%20Houston%20Downtown%2FConvention%20Center!5e0!3m2!1sen!2sus!4v1790884963542!5m2!1sen!2sus",
     "scheduleJson": "",
-    "directionsText": "",
-    "heroImage": "" 
+    "directionsText": "Courtyard Downtown / Conv. Ctr. (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7d58e4ad-acd2-44d5-8d82-2f83531642be/courtyard-houston.jpg?content-type=image%2Fjpeg" 
   },
   "residence-inn": { 
     "name": "Residence Inn Downtown / Conv. Ctr.", 
     "address": "904 Dallas St.",
-    "phone": "",
-    "map": "",
+    "phone": "832-366-1000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55431.83199360365!2d-95.45128893046872!3d29.734543446034408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3c097ab7fd%3A0xfd75210b87d24b3d!2sResidence%20Inn%20by%20Marriott%20Houston%20Downtown%2FConvention%20Center!5e0!3m2!1sen!2sus!4v1790885187936!5m2!1sen!2sus",
     "scheduleJson": "",
-    "directionsText": "",
-    "heroImage": "" 
+    "directionsText": "Courtyard Downtown / Conv. Ctr. (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/73f1ea55-ce5d-4845-81fc-ace052ee1c01/residence-inn-houston.jpg?content-type=image%2Fjpeg" 
   },
   "springhill-suites": { 
     "name": "SpringHill Suites Downtown / Conv. Ctr.", 
     "address": "914 Dallas St.",
-    "phone": "",
-    "map": "",
+    "phone": "713-655-0002",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55431.83199360365!2d-95.45128893046872!3d29.734543446034408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3c0a7cce8d%3A0x1656d6a9fe29dbb5!2sSpringHill%20Suites%20by%20Marriott%20Houston%20Downtown%2FConvention%20Center!5e0!3m2!1sen!2sus!4v1790885099466!5m2!1sen!2sus",
     "scheduleJson": "",
-    "directionsText": "",
-    "heroImage": "" 
+    "directionsText": "Courtyard Downtown / Conv. Ctr. (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/4a303e9b-12c8-484a-bf57-6f155346ee44/springhill-suites-houston.jpg?content-type=image%2Fjpeg" 
   },
 
 
@@ -65,49 +65,49 @@
   "embassy-suites": {
     "name": "Embassy Suites Downtown",
     "address": "1515 Dallas St.",
-    "phone": "",
-    "map": "",
-    "directionsText": "",
-    "heroImage": ""
+    "phone": "713-739-9100",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55431.83199360365!2d-95.45128893046872!3d29.734543446034408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf23209ad439%3A0x65d5225daba5667d!2sEmbassy%20Suites%20by%20Hilton%20Houston%20Downtown%20Convention%20Center!5e0!3m2!1sen!2sus!4v1790885467578!5m2!1sen!2sus",
+    "directionsText": "George R. Brown Convention Center (~4 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/4a101aba-f8ad-416c-8ef8-9f651e4f3bfe/embassy-suites-houston.webp?content-type=image%2Fwebp"
   },
   "four-seasons": {
     "name": "Four Seasons",
     "address": "300 Lamar St.",
-    "phone": "",
-    "map": "",
-    "directionsText": "",
-    "heroImage": ""
+    "phone": "713-650-1300",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55431.83199360365!2d-95.45128893046872!3d29.734543446034408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3ccb93f8df%3A0x39513e6e7aa51dc7!2sFour%20Seasons%20Hotel%20Houston!5e0!3m2!1sen!2sus!4v1790885276078!5m2!1sen!2sus",
+    "directionsText": "George R. Brown Convention Center (~6 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/9c2510a6-0539-49b5-9b9b-b1a472ec091b/four-seasons-houston.webp?content-type=image%2Fwebp"
   },
   "hampton-inn": {
     "name": "Hampton Inn Downtown",
     "address": "10 Crawford St.",
-    "phone": "",
-    "map": "",
-    "directionsText": "",
-    "heroImage": ""
+    "phone": "713-224-0011",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55431.83199360365!2d-95.45128893046872!3d29.734543446034408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf23f5429d3f%3A0x52ec6cf1e68c87ee!2sHampton%20Inn%20Houston%20Downtown%20Convention%20Center!5e0!3m2!1sen!2sus!4v1790885427594!5m2!1sen!2sus",
+    "directionsText": "George R. Brown Convention Center (~8 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/7143ab8e-a758-4744-91f1-51991d2703ff/hampton-inn-houston.webp?content-type=image%2Fwebp"
   },
   "hilton-americas": {
     "name": "Hilton Americas",
     "address": "1600 Lamar St.",
-    "phone": "",
-    "map": "",
-    "directionsText": "",
-    "heroImage": ""
+    "phone": "713-739-8000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55431.83199360365!2d-95.45128893046872!3d29.734543446034408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf22f426454b%3A0x318d5dfa18289231!2sHilton%20Americas-Houston!5e0!3m2!1sen!2sus!4v1790885234417!5m2!1sen!2sus",
+    "directionsText": "George R. Brown Convention Center (~2 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/004d23a1-33d9-4fef-9171-44cb1c4a9bcc/hilton-americas-houston.jpg?content-type=image%2Fjpeg"
   },
   "homewood-suites": {
     "name": "Homewood Suites Downtown",
     "address": "710 Crawford St.",
-    "phone": "",
-    "map": "",
-    "directionsText": "",
-    "heroImage": ""
+    "phone": "713-224-0710",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55431.83199360365!2d-95.45128893046872!3d29.734543446034408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf23f5429d3f%3A0x2ae3fc7a66e4e94e!2sHomewood%20Suites%20by%20Hilton%20Houston%20Downtown%20Convention%20Center!5e0!3m2!1sen!2sus!4v1790885314113!5m2!1sen!2sus",
+    "directionsText": "George R. Brown Convention Center (~8 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/2b4cb574-5d08-4182-890d-c6b649762e79/homewood-suites-houston.webp?content-type=image%2Fwebp"
   },
   "marriott-marquis": {
     "name": "Marriott Marquis",
     "address": "1777 Walker St.",
-    "phone": "",
-    "map": "",
-    "directionsText": "",
-    "heroImage": ""
+    "phone": "713-654-1777",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55431.83199360365!2d-95.45128893046872!3d29.734543446034408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf23daf96abd%3A0xf5e981232fe0153f!2sMarriott%20Marquis%20Houston!5e0!3m2!1sen!2sus!4v1790885392647!5m2!1sen!2sus",
+    "directionsText": "George R. Brown Convention Center (~5 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/51c4e102-4c93-4acf-bd6e-4f602f63cfcc/marriott-marquis-houston.webp?content-type=image%2Fwebp"
   }
 }
