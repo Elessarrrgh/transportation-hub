@@ -8,8 +8,18 @@
     "phone": "",                                                                               
     "map": "",                                                                                                            
     "scheduleJson": "",                                                                                                                       
-    "directionsText": ""                                                                                                                 
+    "directionsText": "",                                                                                                                 
+    "heroImage": ""                                                                                                                    
   },
+
+                      
+
+                      
+
+
+                             
+
+                      
 
                       
 
@@ -58,6 +68,7 @@
     "address": "",
     "phone": "",
     "map": "",
-    "directionsText": ""
+    "directionsText": "",
+    "heroImage": ""
   }
 }
