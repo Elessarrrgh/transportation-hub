@@ -21,12 +21,12 @@ When a commit is pushed, the repository automatically creates a JSON copy of thi
             "scheduleJson": "", // Allows override of event-wide schedule with route-specific data.
             "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1", // Default URL for RouteSync. Can be updated to alternate or show specific interface as needed.
             "flyer": { // The route-specific flyer (or hotel lobby sign instead) that is displayed on each hotel within the route.
-                "preview": "", // URL for preview image that will display with document link.
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6e9b8a50-8974-499a-a2fd-e2ec3f550d6b/PSTM2026-flyer.png?content-type=image%2Fpng", // URL for preview image that will display with document link.
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6abeb4515531957548ac4f38/1790882897426/PSTM26_HL_Route1.pdf" // URL for document that can be opened for full view.
             },
             "sign" : { // The signage displayed on the shuttles for a given route.
-                "preview": "", // URL for preview image that will display with document link.
-                "pdf": "" // URL for document that can be opened for full view.
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/0b51231d-e36f-4630-8756-233e756ecbed/side-sign-route-1-pstm2026.png?content-type=image%2Fpng", // URL for preview image that will display with document link.
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6ac3cd849b8e500ae795afde/1791217029015/PSTM26_SideSign_Route1.pdf" // URL for document that can be opened for full view.
             },
             "stops": {
                 "1": { // Le Méridien Houston Downtown
