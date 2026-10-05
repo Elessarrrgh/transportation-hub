@@ -12,7 +12,7 @@
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/60971d7a-8243-47c2-82fa-72328e31bebc/le-meridien-houston.webp?content-type=image%2Fwebp" 
   },
   "cambria": { 
-    "name": "Cambria Hotel Downtown / Conv. Ctr.", 
+    "name": "Cambria Hotel Downtown Conv. Ctr.", 
     "address": "1314 Texas Ave.",
     "phone": "713-222-2100",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7373.382706264067!2d-95.36463773610447!3d29.756513082783638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bfcbb18f4e9d%3A0xc87c86831db727a!2sCambria%20Hotel%20Houston%20Downtown%20Convention%20Center!5e0!3m2!1sen!2sus!4v1790884781051!5m2!1sen!2sus",
@@ -72,7 +72,7 @@
   },
   "four-seasons": {
     "name": "Four Seasons",
-    "address": "300 Lamar St.",
+    "address": "1300 Lamar St.",
     "phone": "713-650-1300",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55431.83199360365!2d-95.45128893046872!3d29.734543446034408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf3ccb93f8df%3A0x39513e6e7aa51dc7!2sFour%20Seasons%20Hotel%20Houston!5e0!3m2!1sen!2sus!4v1790885276078!5m2!1sen!2sus",
     "directionsText": "George R. Brown Convention Center (~6 mins.)",
