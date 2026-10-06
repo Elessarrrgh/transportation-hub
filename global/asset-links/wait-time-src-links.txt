@@ -5,8 +5,11 @@ All script URLs require route query attached at the end in order to function.
 Standard:
 https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec
 
-Alternate:
+Lounge:
 https://script.google.com/macros/s/AKfycbxqU-KCoZ3ECawcN0-94plECO7-m0aQOVMzaLI4K_QoD3wcbQV05iehMStqZlKWtOZtkA/exec
+
+Alternate:
+https://script.google.com/macros/s/AKfycbwUXlVS_gYsN2_zhCnR-rwUbYjAYxP5uSnsYOlSoKeaAy_ifqC7Uxvzqrb8AO7pP5l5/exec
 
 RSNA:
 
