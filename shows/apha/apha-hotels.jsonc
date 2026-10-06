@@ -1,165 +1,154 @@
 {
-  // ===== ROUTE 1 HOTELS =====
+// ===== ROUTE 1 HOTELS =====
 
-    // STOP #1
-    "capital-hilton": {
-      "name": "Capital Hilton",
-      "address": "1001 16th St NW<br>Washington, DC 20036",
-      "phone": "(202) 393-1000",
-      "map": "https://www.google.com/maps?q=Capital%20Hilton%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Capital Hilton (<1 min.)"
-    },
+  // STOP #1 — Courtyard Riverwalk
+  "courtyard-riverwalk": { 
+    "name": "Courtyard Riverwalk",
+    "address": "207 N St Mary's St.",
+    "phone": "210-223-8888",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.1109782780477!2d-98.4942285878019!3d29.42555267513779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c5f532df40a75%3A0x63921a0c2d8d7062!2sCourtyard%20by%20Marriott%20San%20Antonio%20Riverwalk!5e0!3m2!1sen!2sus!4v1791311914626!5m2!1sen!2sus", 
+    "scheduleJson": "",
+    "directionsText": "Holiday Inn Riverwalk (~1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/0aa52dcd-8d1c-49ec-a8b7-fe14d2b1a583/courtyard-riverwalk-san-antonio.jpg?content-type=image%2Fjpeg" 
+  },
+  "holiday-inn-riverwalk": { 
+    "name": "Holiday Inn Riverwalk",
+    "address": "217 N St Mary's St.",
+    "phone": "210-224-2500",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6950.209291472608!2d-98.49439618780194!3d29.425737775137883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c5f533704c9d1%3A0x5684f0cd474d54f8!2sHoliday%20Inn%20San%20Antonio-Riverwalk%20by%20IHG!5e0!3m2!1sen!2sus!4v1791311949642!5m2!1sen!2sus", 
+    "scheduleJson": "",
+    "directionsText": "Holiday Inn Riverwalk (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/ddad4e8b-f45f-4fd2-9021-a1024cee3e12/holiday-inn-riverwalk-san-antonio.jpeg?content-type=image%2Fjpeg" 
+  },
+  "omni-la-mansión-del-rio": { 
+    "name": "Omni La Mansión del Rio",
+    "address": "112 College St.",
+    "phone": "210-518-1000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.1124562080104!2d-98.49298498780195!3d29.42550947513793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c5f53362cc52b%3A0x2cc3ba7d9893a722!2sOmni%20La%20Mansi%C3%B3n%20del%20Rio!5e0!3m2!1sen!2sus!4v1791311983297!5m2!1sen!2sus", 
+    "scheduleJson": "",
+    "directionsText": "Holiday Inn Riverwalk (~2 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ba8ddf5-c577-4a74-acd5-1eb9a8cd6387/omni-la-mansion-del-rio-san-antonio.jpg?content-type=image%2Fjpeg" 
+  },
 
-    // STOP #2
-    "mayflower-hotel": { 
-      "name": "The Mayflower Hotel",
-      "address": "1127 Connecticut Ave NW<br>Washington, DC 20036",
-      "phone": "(202) 347-3000",
-      "map": "https://www.google.com/maps?q=The%20Mayflower%20Hotel%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "The Mayflower Hotel (<1 min.)"
-    },
+  // STOP #2 — Westin Riverwalk
+  "westin-riverwalk": { 
+    "name": "Westin Riverwalk",
+    "address": "420 W Market St.",
+    "phone": "210-224-6500",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.1845644745476!2d-98.49335168780196!3d29.423401675138823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58ac99e0e031%3A0x87a2b97438cb6f70!2sThe%20Westin%20Riverwalk%2C%20San%20Antonio!5e0!3m2!1sen!2sus!4v1791312236210!5m2!1sen!2sus", 
+    "scheduleJson": "",
+    "directionsText": "Westin Riverwalk (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/41ac46fc-80da-4c8b-b8ec-bc3e5126e974/westin-riverwalk-san-antonio.webp?content-type=image%2Fwebp" 
+  },
 
-    // STOP #3
-    "le-meridien-madison": { 
-      "name": "Le Méridien<br>The Madison",
-      "address": "1120 19th St NW<br>Washington, DC 20036",
-      "phone": "(202) 429-1700",
-      "map": "https://www.google.com/maps?q=Le%20Meridien%20Washington%2C%20DC&output=embed",
-      "directionsText": "Le Méridien - The Madison (<1 min.)"
-    },
 
-  // ===== WALKING DISTANCE =====
-    "ac-hotel-convention-center": {
-      "name": "AC Hotel Conv. Center",
-      "address": "801 2nd St NW<br>Washington, DC 20001",
-      "phone": "(202) 639-4300",
-      "map": "https://www.google.com/maps?q=AC%20Hotel%20Washington%20DC%20Convention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~8 mins.)"
-    },
-    "courtyard-marriott-convention-center": {
-      "name": "Courtyard by Marriott Conv. Center",
-      "address": "901 6th St NW, Washington<br>DC 20001",
-      "phone": "(202) 639-1300",
-      "map": "https://www.google.com/maps?q=Courtyard%20by%20Marriott%20Washington%20Downtown%2FConvention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~5 mins.)"
-    },
-    "embassy-suites-convention-center": {
-      "name": "Embassy Suites Conv. Center",
-      "address": "900 10th St NW<br>Washington, DC 20001",
-      "phone": "(202) 739-2001",
-      "map": "https://www.google.com/maps?q=Embassy%20Suites%20by%20Hilton%20Washington%20DC%20Convention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~14 mins.)"
-    },
-    "fairfield-inn-downtown": {
-      "name": "Fairfield Inn & Suites Downtown",
-      "address": "810 7th St NW<br>Washington, DC 20001",
-      "phone": "(202) 289-1700",
-      "map": "https://www.google.com/maps?q=Fairfield%20Inn%20%26%20Suites%20by%20Marriott%20Washington%2C%20DC%2FDowntown%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~12 mins.)"
-    },
-    "grand-hyatt-washington": {
-      "name": "Grand Hyatt Washington",
-      "address": "1000 H St NW<br>Washington, DC 20001",
-      "phone": "(202) 582-1234",
-      "map": "https://www.google.com/maps?q=Grand%20Hyatt%20Washington%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~13 mins.)"
-    },
-    "hamilton-hotel": {
-      "name": "Hamilton Hotel",
-      "address": "1001 14th St NW<br>Washington, DC 20005",
-      "phone": "(202) 628-2100",
-      "map": "https://www.google.com/maps?q=Hamilton%20Hotel%20Washington%20DC%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~15 mins.)"
-    },
-    "hampton-inn-convention-center": {
-      "name": "Hampton Inn Conv. Center",
-      "address": "901 6th St NW<br>Washington, DC 20001",
-      "phone": "(202) 639-1600",
-      "map": "https://www.google.com/maps?q=Hampton%20Inn%20Washington%2DDowntown%2DConvention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~12 mins.)"
-    },
-    "henley-park-hotel": {
-      "name": "The Henley Park Hotel",
-      "address": "926 Massachusetts Ave NW<br>Washington, DC 20001",
-      "phone": "(202) 638-4400",
-      "map": "https://www.google.com/maps?q=The%20Henley%20Park%20Hotel%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~5 mins.)"
-    },
-    "holiday-inn-express-downtown": {
-      "name": "Holiday Inn Express Downtown",
-      "address": "1001 K St NW<br>Washington, DC 20001",
-      "phone": "(202) 589-1300",
-      "map": "https://www.google.com/maps?q=Holiday%20Inn%20Express%20Washington%20DC%20Downtown%2C%20an%20IHG%20Hotel%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~14 mins.)"
-    },
-    "homewood-suites-convention-center": {
-      "name": "Homewood Suites Conv. Center",
-      "address": "921 6th St NW<br>Washington, DC 20001",
-      "phone": "(202) 639-2400",
-      "map": "https://www.google.com/maps?q=Homewood%20Suites%20by%20Hilton%20Washington%20DC%20Convention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~12 mins.)"
-    },
-    "hyatt-house-convention-center": {
-      "name": "Hyatt House Conv. Center",
-      "address": "909 6th St NW<br>Washington, DC 20001",
-      "phone": "(202) 639-1234",
-      "map": "https://www.google.com/maps?q=Hyatt%20Place%20Washington%20DC%2FConvention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~15 mins.)"
-    },
-    "marriott-marquis": {
-      "name": "Marriott Marquis",
-      "address": "901 Massachusetts Ave NW<br>Washington, DC 20001",
-      "phone": "(202) 824-9200",
-      "map": "https://www.google.com/maps?q=Marriott%20Marquis%20Washington%2C%20DC%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~2 mins.)"
-    },
-    "morrison-clark-historic-inn": {
-      "name": "Morrison-Clark Historic Inn",
-      "address": "1015 L St NW<br>Washington, DC 20001",
-      "phone": "(202) 347-4800",
-      "map": "https://www.google.com/maps?q=Morrison%2DClark%20Historic%20Inn%20%26%20Restaurant%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~5 mins.)"
-    },
-    "motto-city-center": {
-      "name": "Motto City Center",
-      "address": "627 H St NW<br>Washington, DC 20001",
-      "phone": "(202) 621-6200",
-      "map": "https://www.google.com/maps?q=Motto%20by%20Hilton%20Washington%20DC%20City%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~12 mins.)"
-    },
-    "moxy-downtown": {
-      "name": "Moxy Downtown",
-      "address": "733 10th St NW<br>Washington, DC 20001",
-      "phone": "(202) 639-7000",
-      "map": "https://www.google.com/maps?q=Moxy%20Washington%2C%20DC%20Downtown%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~8 mins.)"
-    },
-    "residence-inn-convention-center": {
-      "name": "Residence Inn Conv. Center",
-      "address": "901 6th St NW<br>Washington, DC 20001",
-      "phone": "(202) 639-1300",
-      "map": "https://www.google.com/maps?q=Residence%20Inn%20Washington%20Downtown%2FConvention%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~4 mins.)"
-    },
-    "marriott-metro-center": {
-      "name": "Marriott<br>Metro Center",
-      "address": "775 12th St NW<br>Washington, DC 20005",
-      "phone": "(202) 737-2200",
-      "map": "https://www.google.com/maps?q=Washington%20Marriott%20at%20Metro%20Center%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~14 mins.)"
-    },
-    "washington-plaza": {
-      "name": "Washington Plaza",
-      "address": "10 Thomas Circle NW<br>Washington, DC 20005",
-      "phone": "(202) 842-1300",
-      "map": "https://www.google.com/maps?q=Washington%20Plaza%20Hotel%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~15 mins.)"
-    },
-    "westin-downtown": {
-      "name": "Westin Downtown",
-      "address": "1400 M St NW<br>Washington, DC 20005",
-      "phone": "(202) 429-1700",
-      "map": "https://www.google.com/maps?q=The%20Westin%20Washington%2C%20DC%20Downtown%2C%20Washington%2C%20DC&output=embed",
-      "directionsText": "Washington Conv. Ctr. (~4 mins.)"
-    }
+// ===== ROUTE 2 HOTELS =====
+
+  // STOP #1 — Hampton Inn & Suites Riverwalk
+  "hampton-inn-riverwalk": { 
+    "name": "Hampton Inn & Suites Riverwalk",
+    "address": "118 Soledad St.",
+    "phone": "210-226-7777",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.1096064014696!2d-98.49550578780189!3d29.42559277513787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c5fab3b5a3aaf%3A0x85f2e0709a7fa76d!2sHampton%20Inn%20%26%20Suites%20San%20Antonio%20Riverwalk!5e0!3m2!1sen!2sus!4v1791312325752!5m2!1sen!2sus", 
+    "scheduleJson": "",
+    "directionsText": "Hampton Inn & Suites Riverwalk (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6ac994f5-276b-421e-84e6-c2c59e210234/hampton-inn-riverwalk-san-antonio.jpg?content-type=image%2Fjpeg" 
+  },
+
+  // STOP #2 — Embassy Suites Riverwalk
+  "embassy-suites-riverwalk": { 
+    "name": "Embassy Suites Riverwalk",
+    "address": "125 E Houston St.",
+    "phone": "210-226-9000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6950.145944439662!2d-98.49549768780189!3d29.42666357513712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c5f52e6b98829%3A0x5747377cff15d697!2sEmbassy%20Suites%20by%20Hilton%20San%20Antonio%20Riverwalk%20Downtown!5e0!3m2!1sen!2sus!4v1791312399034!5m2!1sen!2sus", 
+    "scheduleJson": "",
+    "directionsText": "Embassy Suites Riverwalk (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/ca6849ee-aab1-4c8d-aad0-3f868d80e0d3/embassy-suites-riverwalk-san-antonio.webp?content-type=image%2Fwebp" 
+  },
+
+  // STOP #3 — InterContinental Riverwalak
+  "intercontinental-riverwalk": { 
+    "name": "InterContinental Riverwalk",
+    "address": "111 E Pecan St.",
+    "phone": "726-238-4660",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6949.988321640958!2d-98.49535192296517!3d29.428967075239445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c5f524e88feaf%3A0x9b3c16ad5e9e366b!2sInterContinental%20San%20Antonio%20Riverwalk%20by%20IHG!5e0!3m2!1sen!2sus!4v1791312855171!5m2!1sen!2sus", 
+    "scheduleJson": "",
+    "directionsText": "InterContinental Riverwalk (<1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/026bf5cd-3f7e-4b39-ac68-8bea23644418/intercontinental-riverwalk-san-antonio.jpg?content-type=image%2Fjpeg" 
+  },
+
+
+// ===== WALKING DISTANCE =====
+  "fairfield-inn-alamo-plaza": {
+    "name": "Fairfield Inn & Suites Alamo Plaza",
+    "address": "422 Bonham",
+    "phone": "210-212-6262",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6950.14981728879!2d-98.48614592296522!3d29.426606975240677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cf5fff77027e9%3A0xb3edad4020c9b4c0!2sFairfield%20by%20Marriott%20Inn%20%26%20Suites%20San%20Antonio%20Alamo%20Plaza%2FConvention%20Center!5e0!3m2!1sen!2sus!4v1791312893656!5m2!1sen!2sus",
+    "directionsText": "Henry B. Gonzalez Convention Center (~9 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/256e62e9-9d13-4d31-ac1f-01829caf9158/fairfield-alamo-plaza-san-antonio.jpeg?content-type=image%2Fjpeg"
+  },
+  "grand-hyatt-riverwalk": {
+    "name": "Grand Hyatt Riverwalk",
+    "address": "600 E Market St",
+    "phone": "210-224-1234",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.2350183029876!2d-98.48694372296534!3d29.421926775242834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58aa5e22a7cb%3A0xf9402f23be895a3!2sGrand%20Hyatt%20San%20Antonio%20River%20Walk!5e0!3m2!1sen!2sus!4v1791312936383!5m2!1sen!2sus",
+    "directionsText": "Henry B. Gonzalez Convention Center (~1 min.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/da6360b7-f260-41a5-aeef-a3ae54a0493b/grand-hyatt-riverwalk-san-antonio.webp?content-type=image%2Fwebp"
+  },
+  "hilton-palacio-del-rio": {
+    "name": "Hilton Palacio Del Rio",
+    "address": "200 S Alamo St.",
+    "phone": "210-222-1400",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.2207570932646!2d-98.49048672296531!3d29.422343675242832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58ab087f8dfd%3A0xa85284cffee532b4!2sHilton%20Palacio%20del%20Rio!5e0!3m2!1sen!2sus!4v1791312977543!5m2!1sen!2sus",
+    "directionsText": "Henry B. Gonzalez Convention Center (~7 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/51655c68-2caa-4af5-8b75-b48470c1f04f/hilton-palacio-del-rio-san-antonio.jpg?content-type=image%2Fjpeg"
+  },
+  "hyatt-regency-riverwalk": {
+    "name": "Hyatt Regency Riverwalk",
+    "address": "123 Losoya St.",
+    "phone": "210-222-1234",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.1095482385517!2d-98.49077552296515!3d29.42559447524088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58ab335e4621%3A0x342aa7b57e9bbbf5!2sHyatt%20Regency%20San%20Antonio%20Riverwalk!5e0!3m2!1sen!2sus!4v1791313014254!5m2!1sen!2sus",
+    "directionsText": "Henry B. Gonzalez Convention Center (~10 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8d806e69-e2e2-4f8a-be6e-4940afce2e8e/hyatt-regency-riverwalk-san-antonio.webp?content-type=image%2Fwebp"
+  },
+  "la-quinta-riverwalk": {
+    "name": "La Quinta Riverwalk",
+    "address": "303 Blum St.",
+    "phone": "210-222-9181",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.155746359956!2d-98.48524552296529!3d29.42424407524189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cf600380c46f7%3A0x991182fde71ea376!2sLa%20Quinta%20Inn%20%26%20Suites%20by%20Wyndham%20San%20Antonio%20Riverwalk!5e0!3m2!1sen!2sus!4v1791313042082!5m2!1sen!2sus",
+    "directionsText": "Henry B. Gonzalez Convention Center (~4 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/1f6bf1dd-c9a3-4a8a-820b-b2be16ac5be4/la-quinta-riverwalk-san-antonio.jpg?content-type=image%2Fjpeg"
+  },
+  "san-antonio-marriott-rivercenter": {
+    "name": "San Antonio Marriott Rivercenter",
+    "address": "101 Bowie St.",
+    "phone": "210-223-1000",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.1934622188987!2d-98.4862076229654!3d29.42314157524243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58aa7befb2d7%3A0xd50ddcaac8dc6db7!2sSan%20Antonio%20Marriott%20Rivercenter%20on%20the%20River%20Walk!5e0!3m2!1sen!2sus!4v1791313099891!5m2!1sen!2sus",
+    "directionsText": "Henry B. Gonzalez Convention Center (~2 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/33d65faf-67ed-4d56-b9c2-42944a7b33ba/marriott-rivercenter-san-antonio.jpeg?content-type=image%2Fjpeg"
+  },
+  "san-antonio-marriott-riverwalk": {
+    "name": "San Antonio Marriott Riverwalk",
+    "address": "889 E Market St.",
+    "phone": "210-224-4555",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.220674147246!2d-98.48901031114504!3d29.422346100000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58aa7befb2d7%3A0x7c18736614273b2b!2sSan%20Antonio%20Marriott%20Riverwalk!5e0!3m2!1sen!2sus!4v1791313133586!5m2!1sen!2sus",
+    "directionsText": "Henry B. Gonzalez Convention Center (~2 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/3339c678-97e9-4988-ae28-67b21eb14960/marriott-riverwalk-san-antonio.jpg?content-type=image%2Fjpeg"
+  },
+  "springhill-suites-alamo-plaza": {
+    "name": "SpringHill Suites Alamo Plaza",
+    "address": "411 Bowie St.",
+    "phone": "210-222-2121",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13900.350795205351!2d-98.5018474107493!3d29.42623312831013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cf6000a7cc6d3%3A0x6bdc9af68dfc2940!2sSpringHill%20Suites%20by%20Marriott%20San%20Antonio%20Alamo%20Plaza%2FConvention%20Center!5e0!3m2!1sen!2sus!4v1791313167042!5m2!1sen!2sus",
+    "directionsText": "Henry B. Gonzalez Convention Center (~7 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/21e0d821-bc29-43e3-bf4f-e863fcb4e9a8/springhill-suites-alamao-plaza-san-antonio.jpg?content-type=image%2Fjpeg"
+  },
+  "tru-downtown-riverwalk": {
+    "name": "Tru Downtown Riverwalk",
+    "address": "901 E Houston St.",
+    "phone": "210-348-2924",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.104498623055!2d-98.48525922296518!3d29.42574207524102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cf600759e865b%3A0xbcf0b20cea030e96!2sTru%20by%20Hilton%20San%20Antonio%20Downtown%20Riverwalk!5e0!3m2!1sen!2sus!4v1791313192219!5m2!1sen!2sus",
+    "directionsText": "Henry B. Gonzalez Convention Center (~7 mins.)",
+    "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/08347a92-a2f3-45c2-89ec-8644ba99dd38/tru-riverwalk-san-antonio.jpg?content-type=image%2Fjpeg"
+  }
 }

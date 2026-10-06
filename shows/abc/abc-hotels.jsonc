@@ -1,7 +1,7 @@
 {
 // ===== ROUTE 1 HOTELS =====
 
-  // STOP #1 — Residence Inn SeaWorld
+  // STOP #1 — Hotel A
   "shuttle-hotel-template": { // This is the URL slug that will be used to identify the hotel page and replace content with information listed below. It must match EXACTLY or content will not populate.
     "name": "", // This is the full hotel name that will appear on the title of page. Use '<br>' to control line breaks and be sure to manage vertical space accordingly.
     "address": "", // Just the street address only (no city, state, zip) that will appear under the 'Hotel Info' section.
@@ -11,10 +11,21 @@
     "directionsText": "", // The (manually) estimated walking time to the nearest shuttle stop that appears under the 'Stop Info' section.
     "heroImage": "" // The URL of the hero image that will appear at the top of the hotel page. This should be a high-resolution image.
   },
+  // Nearby stops are placed immediately after without any header.
+  // Use key structure below as copy/paste template for each hotel.
+  "hotel": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "",
+    "heroImage": "" 
+  },
 
-  // STOP #2 — Hotel B
+  // STOP #2 — Hotel D
 
-  // STOP #3 — Hotel C
+  // STOP #3 — Hotel E
 
 
 // ===== ROUTE 2 HOTELS =====
