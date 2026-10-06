@@ -19,7 +19,7 @@
     "routes": {
         "1": {
             "scheduleJson": "",                                                                    
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",                                                                                                
+            "wait-time": "https://script.google.com/macros/s/AKfycbwUXlVS_gYsN2_zhCnR-rwUbYjAYxP5uSnsYOlSoKeaAy_ifqC7Uxvzqrb8AO7pP5l5/exec?route=1",                                                                                                
             "flyer": {                                                                                                            
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/608cc717-71a1-4e06-bf81-1cc551f657ae/apha2026-flyer-preview.png?content-type=image%2Fpng",                                                               
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6aaacc4966b661208c13ed19/1789578313527/APHA2026_ShuttleFlyer.pdf"                                                      
@@ -53,7 +53,7 @@
         },
         "2": {
             "scheduleJson": "",
-            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
+            "wait-time": "https://script.google.com/macros/s/AKfycbwUXlVS_gYsN2_zhCnR-rwUbYjAYxP5uSnsYOlSoKeaAy_ifqC7Uxvzqrb8AO7pP5l5/exec?route=2",
             "flyer": {
                 "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/608cc717-71a1-4e06-bf81-1cc551f657ae/apha2026-flyer-preview.png?content-type=image%2Fpng",
                 "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6aaacc4966b661208c13ed19/1789578313527/APHA2026_ShuttleFlyer.pdf"
