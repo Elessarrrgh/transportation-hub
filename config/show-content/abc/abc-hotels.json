@@ -1,7 +1,7 @@
 {
                              
 
-                                     
+                      
   "shuttle-hotel-template": {                                                                                                                                                                            
     "name": "",                                                                                                                                                          
     "address": "",                                                                                                       
@@ -10,6 +10,17 @@
     "scheduleJson": "",                                                                                                                       
     "directionsText": "",                                                                                                                 
     "heroImage": ""                                                                                                                    
+  },
+                                                                  
+                                                                   
+  "hotel": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "map": "", 
+    "scheduleJson": "",
+    "directionsText": "",
+    "heroImage": "" 
   },
 
                       

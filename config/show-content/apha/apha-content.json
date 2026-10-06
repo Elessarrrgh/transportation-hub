@@ -1,0 +1,119 @@
+  
+                                                                                           
+                                                                                                                                                          
+  
+
+{
+    "base" : {
+        "title": "American Public Health Association",
+        "event-map": ""
+    },
+    "interactive-map": "https://www.google.com/maps/d/u/1/embed?mid=1_c9Zed7z_mcJltYvTzWBCfgB6qSMgOM&ehbc=2E312F",
+    "flight-info": {
+        "arrivals-widget": "",
+        "departures-widget": "",
+        "travel-time": ""
+    },
+    "hotelsJson": "config/show-content/apha/apha-hotels.json",                                                                                    
+    "scheduleJson": "config/show-content/apha/apha-schedule.json",                                                                      
+    "routes": {
+        "1": {
+            "scheduleJson": "",                                                                    
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=1",                                                                                                
+            "flyer": {                                                                                                            
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/608cc717-71a1-4e06-bf81-1cc551f657ae/apha2026-flyer-preview.png?content-type=image%2Fpng",                                                               
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6aaacc4966b661208c13ed19/1789578313527/APHA2026_ShuttleFlyer.pdf"                                                      
+            },
+            "sign" : {                                                            
+                "preview": "",                                                               
+                "pdf": ""                                                      
+            },
+            "stops": {
+                "1": {                         
+                    "stopName": "Holiday Inn Riverwalk",                                                     
+                    "boardingArea": "Curbside on N. St. Mary's St.",                                                 
+                    "scheduleJson": "",                                                                                       
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",                                         
+                    "directions" : {                                                                                     
+                        "apple": "https://maps.apple.com/?daddr=217%20N%20St%20Mary%27s%20St%2C%20San%20Antonio%2C%20TX%2078205%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/217%20N%20St%20Mary%27s%20St%2C%20San%20Antonio%2C%20TX%2078205%2C%20United%20States"
+                    }
+                },
+                "2": {                    
+                    "stopName": "Westin Riverwalk",
+                    "boardingArea": "Front Entrance Curbside",
+                    "scheduleJson": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=420%20W%20Market%20St%2C%20San%20Antonio%2C%20TX%2078205%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/420%20W%20Market%20St%2C%20San%20Antonio%2C%20TX%2078205%2C%20United%20States"
+                    }
+                }
+            }
+        },
+        "2": {
+            "scheduleJson": "",
+            "wait-time": "https://script.google.com/macros/s/AKfycbycsEhmM2jj6I6QhQq1HxOBVriAyigwRy5NOJG9mN5gf6JlrqgHJGHKbSJvjFftCJPP/exec?route=2",
+            "flyer": {
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/608cc717-71a1-4e06-bf81-1cc551f657ae/apha2026-flyer-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6aaacc4966b661208c13ed19/1789578313527/APHA2026_ShuttleFlyer.pdf"
+            },
+            "sign" : {
+                "preview": "",
+                "pdf": ""
+            },
+            "stops": {
+                "1": {                                  
+                    "stopName": "Hampton Inn & Suites Riverwalk",
+                    "boardingArea": "Front Entrance",
+                    "scheduleJson": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=118%20Soledad%20St%2C%20San%20Antonio%2C%20TX%2078205%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/118%20Soledad%20St%2C%20San%20Antonio%2C%20TX%2078205%2C%20United%20States"
+                    }
+                },
+                "2": {                            
+                    "stopName": "Embassy Suites Riverwalk",
+                    "boardingArea": "Curbside on Soledad St.",
+                    "scheduleJson": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=125%20E%20Houston%20St%2C%20San%20Antonio%2C%20TX%2078205%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/125%20E%20Houston%20St%2C%20San%20Antonio%2C%20TX%2078205%2C%20United%20States"
+                    }
+                },
+                "3": {                              
+                    "stopName": "InterContinental Riverwalk",
+                    "boardingArea": "Curbside on Pecan St.",
+                    "scheduleJson": "",
+                    "panorama": "https://www.rhodeplanning.com/panorama-unavailable",
+                    "directions" : {
+                        "apple": "https://maps.apple.com/?daddr=111%20E%20Pecan%20St%2C%20San%20Antonio%2C%20TX%2078205%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/111%20E%20Pecan%20St%2C%20San%20Antonio%2C%20TX%2078205%2C%20United%20States"
+                    }
+                }
+            }
+        },
+        "w": {                                                                    
+            "stops": {
+                "0": {                                                                                                                                              
+                    "directions": {
+                        "apple": "https://maps.apple.com/?daddr=900%20E%20Market%20St%2C%20San%20Antonio%2C%20TX%2078205%2C%20United%20States",
+                        "google": "https://www.google.com/maps/dir/Current+Location/900%20E%20Market%20St%2C%20San%20Antonio%2C%20TX%2078205%2C%20United%20States"
+                    }
+                }
+            }
+        },
+        "x": {                                                                                  
+            "stops": {
+                "0": {
+                    "directions": {
+                        "apple": "",
+                        "google": ""
+                    }
+                }
+            }
+        }
+    }
+}
