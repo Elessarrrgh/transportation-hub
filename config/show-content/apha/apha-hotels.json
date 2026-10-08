@@ -84,7 +84,7 @@
     "address": "422 Bonham",
     "phone": "210-212-6262",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6950.14981728879!2d-98.48614592296522!3d29.426606975240677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cf5fff77027e9%3A0xb3edad4020c9b4c0!2sFairfield%20by%20Marriott%20Inn%20%26%20Suites%20San%20Antonio%20Alamo%20Plaza%2FConvention%20Center!5e0!3m2!1sen!2sus!4v1791312893656!5m2!1sen!2sus",
-    "directionsText": "Henry B. Gonzalez Convention Center (~9 mins.)",
+    "directionsText": "Henry B. González Convention Center (~9 mins.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/256e62e9-9d13-4d31-ac1f-01829caf9158/fairfield-alamo-plaza-san-antonio.jpeg?content-type=image%2Fjpeg"
   },
   "grand-hyatt-riverwalk": {
@@ -92,7 +92,7 @@
     "address": "600 E Market St",
     "phone": "210-224-1234",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.2350183029876!2d-98.48694372296534!3d29.421926775242834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58aa5e22a7cb%3A0xf9402f23be895a3!2sGrand%20Hyatt%20San%20Antonio%20River%20Walk!5e0!3m2!1sen!2sus!4v1791312936383!5m2!1sen!2sus",
-    "directionsText": "Henry B. Gonzalez Convention Center (~1 min.)",
+    "directionsText": "Henry B. González Convention Center (~1 min.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/da6360b7-f260-41a5-aeef-a3ae54a0493b/grand-hyatt-riverwalk-san-antonio.webp?content-type=image%2Fwebp"
   },
   "hilton-palacio-del-rio": {
@@ -100,7 +100,7 @@
     "address": "200 S Alamo St.",
     "phone": "210-222-1400",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.2207570932646!2d-98.49048672296531!3d29.422343675242832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58ab087f8dfd%3A0xa85284cffee532b4!2sHilton%20Palacio%20del%20Rio!5e0!3m2!1sen!2sus!4v1791312977543!5m2!1sen!2sus",
-    "directionsText": "Henry B. Gonzalez Convention Center (~7 mins.)",
+    "directionsText": "Henry B. González Convention Center (~7 mins.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/51655c68-2caa-4af5-8b75-b48470c1f04f/hilton-palacio-del-rio-san-antonio.jpg?content-type=image%2Fjpeg"
   },
   "hyatt-regency-riverwalk": {
@@ -108,7 +108,7 @@
     "address": "123 Losoya St.",
     "phone": "210-222-1234",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.1095482385517!2d-98.49077552296515!3d29.42559447524088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58ab335e4621%3A0x342aa7b57e9bbbf5!2sHyatt%20Regency%20San%20Antonio%20Riverwalk!5e0!3m2!1sen!2sus!4v1791313014254!5m2!1sen!2sus",
-    "directionsText": "Henry B. Gonzalez Convention Center (~10 mins.)",
+    "directionsText": "Henry B. González Convention Center (~10 mins.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8d806e69-e2e2-4f8a-be6e-4940afce2e8e/hyatt-regency-riverwalk-san-antonio.webp?content-type=image%2Fwebp"
   },
   "la-quinta-riverwalk": {
@@ -116,7 +116,7 @@
     "address": "303 Blum St.",
     "phone": "210-222-9181",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.155746359956!2d-98.48524552296529!3d29.42424407524189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cf600380c46f7%3A0x991182fde71ea376!2sLa%20Quinta%20Inn%20%26%20Suites%20by%20Wyndham%20San%20Antonio%20Riverwalk!5e0!3m2!1sen!2sus!4v1791313042082!5m2!1sen!2sus",
-    "directionsText": "Henry B. Gonzalez Convention Center (~4 mins.)",
+    "directionsText": "Henry B. González Convention Center (~4 mins.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/1f6bf1dd-c9a3-4a8a-820b-b2be16ac5be4/la-quinta-riverwalk-san-antonio.jpg?content-type=image%2Fjpeg"
   },
   "san-antonio-marriott-rivercenter": {
@@ -124,7 +124,7 @@
     "address": "101 Bowie St.",
     "phone": "210-223-1000",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.1934622188987!2d-98.4862076229654!3d29.42314157524243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58aa7befb2d7%3A0xd50ddcaac8dc6db7!2sSan%20Antonio%20Marriott%20Rivercenter%20on%20the%20River%20Walk!5e0!3m2!1sen!2sus!4v1791313099891!5m2!1sen!2sus",
-    "directionsText": "Henry B. Gonzalez Convention Center (~2 mins.)",
+    "directionsText": "Henry B. González Convention Center (~2 mins.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/33d65faf-67ed-4d56-b9c2-42944a7b33ba/marriott-rivercenter-san-antonio.jpeg?content-type=image%2Fjpeg"
   },
   "san-antonio-marriott-riverwalk": {
@@ -132,7 +132,7 @@
     "address": "889 E Market St.",
     "phone": "210-224-4555",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.220674147246!2d-98.48901031114504!3d29.422346100000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865c58aa7befb2d7%3A0x7c18736614273b2b!2sSan%20Antonio%20Marriott%20Riverwalk!5e0!3m2!1sen!2sus!4v1791313133586!5m2!1sen!2sus",
-    "directionsText": "Henry B. Gonzalez Convention Center (~2 mins.)",
+    "directionsText": "Henry B. González Convention Center (~2 mins.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/3339c678-97e9-4988-ae28-67b21eb14960/marriott-riverwalk-san-antonio.jpg?content-type=image%2Fjpeg"
   },
   "springhill-suites-alamo-plaza": {
@@ -140,7 +140,7 @@
     "address": "411 Bowie St.",
     "phone": "210-222-2121",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13900.350795205351!2d-98.5018474107493!3d29.42623312831013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cf6000a7cc6d3%3A0x6bdc9af68dfc2940!2sSpringHill%20Suites%20by%20Marriott%20San%20Antonio%20Alamo%20Plaza%2FConvention%20Center!5e0!3m2!1sen!2sus!4v1791313167042!5m2!1sen!2sus",
-    "directionsText": "Henry B. Gonzalez Convention Center (~7 mins.)",
+    "directionsText": "Henry B. González Convention Center (~7 mins.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/21e0d821-bc29-43e3-bf4f-e863fcb4e9a8/springhill-suites-alamao-plaza-san-antonio.jpg?content-type=image%2Fjpeg"
   },
   "tru-downtown-riverwalk": {
@@ -148,7 +148,7 @@
     "address": "901 E Houston St.",
     "phone": "210-348-2924",
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3475.104498623055!2d-98.48525922296518!3d29.42574207524102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865cf600759e865b%3A0xbcf0b20cea030e96!2sTru%20by%20Hilton%20San%20Antonio%20Downtown%20Riverwalk!5e0!3m2!1sen!2sus!4v1791313192219!5m2!1sen!2sus",
-    "directionsText": "Henry B. Gonzalez Convention Center (~7 mins.)",
+    "directionsText": "Henry B. González Convention Center (~7 mins.)",
     "heroImage": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/08347a92-a2f3-45c2-89ec-8644ba99dd38/tru-riverwalk-san-antonio.jpg?content-type=image%2Fjpeg"
   }
 }
