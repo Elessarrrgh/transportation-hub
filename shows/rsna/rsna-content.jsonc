@@ -16,12 +16,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbw4xRi0prdAd2GtuFoSaQDAci7PDiOVRG2zZiKKbha-_eH8LDlpQeMq9XWTXkv_FOX-/exec?route=1",
             "flyer": {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/078aefc7-42c8-446a-99b1-6b26bdd5598e/rsna2025-route1-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7a1d19c5078ea5534a0/1753802657084/RSNA2025_Route1.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/0697adf0-ec79-4159-90f6-0e6caf8bc1cc/rsna-2026-route-1-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6ad90bfb8131994b3f258e9a/1792609275695/RSNA2026_Route1.pdf"
             },
             "sign" : { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/1b0f6753-5091-4652-ae2a-d8959684772c/rsna2025-route1-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/691bd69a15e8f1780a46d1f8/1763432090098/RSNA2025_SideSign_1.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/293505b5-ffaa-489c-b595-f0e08e67d49f/rsna2026-route1-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6ae9085290a23c201ae1918f/1793656914124/RSNA2026_SideSign_1.pdf"
             },
             "stops": {
                 "1": { 
@@ -60,12 +60,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbw4xRi0prdAd2GtuFoSaQDAci7PDiOVRG2zZiKKbha-_eH8LDlpQeMq9XWTXkv_FOX-/exec?route=2",
             "flyer": { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/b2a0638a-d67f-4f14-9a00-6e14842cf305/rsna2025-route2-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/68b068abc9c9195c8783acf2/1756391595601/RSNA2025_Route2.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/0df912ff-e5b5-446f-a1fb-47b4cde56463/rsna-2026-route-2-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6ad90c19a3774e7cae827420/1792609305417/RSNA2026_Route2.pdf"
             },
             "sign" : { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/d6c9d6e1-3548-48ca-a059-ebdc8d84ca93/rsna2025-route2-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/691bd6a7ee72150caf112e65/1763432103618/RSNA2025_SideSign_2.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/f4fe6801-e382-4707-9712-dbd4dc9c58bd/rsna2026-route2-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6ae912ad00520779c2925baa/1793659565918/RSNA2026_SideSign_2.pdf"
             },
             "stops": {
                 "1": { // 
@@ -91,15 +91,15 @@
             }
         },
         "3": {
-            "scheduleJson": "",
+            "scheduleJson": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/3adb5bf7-ac88-4b8a-a3c7-03414965e7b4/rsna-2026-route-3-flyer.png?content-type=image%2Fpng",
             "wait-time": "https://script.google.com/macros/s/AKfycbw4xRi0prdAd2GtuFoSaQDAci7PDiOVRG2zZiKKbha-_eH8LDlpQeMq9XWTXkv_FOX-/exec?route=3",
             "flyer": { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/771659ac-f8e3-4ec5-a914-9a3a6696ede8/rsna2025-route3-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/69164b2a48db46315551f3ad/1763068714332/RSNA2025_Route3.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/3adb5bf7-ac88-4b8a-a3c7-03414965e7b4/rsna-2026-route-3-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6ad90c2a66dfe13f338e3709/1792609322901/RSNA2026_Route3.pdf"
             },
             "sign" : {
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/945b8335-5ee3-490a-98a6-ab09a46161d1/rsna2025-route3-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/691bd6ad2ec2dd6e67aaf0f0/1763432109163/RSNA2025_SideSign_3.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/a58ffe9c-c6bd-4b22-9a18-13728da9f649/rsna2026-route3-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6ae912c9a4dbdf24a82379bd/1793659593432/RSNA2026_SideSign_3.pdf"
             },
             "stops": {
                 "1": { // 
@@ -138,12 +138,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbw4xRi0prdAd2GtuFoSaQDAci7PDiOVRG2zZiKKbha-_eH8LDlpQeMq9XWTXkv_FOX-/exec?route=4",
             "flyer": { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/443f57e4-aa0c-4398-9684-438ed82fb842/rsna2025-route4-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7e51e37e63a2416c983/1753802725680/RSNA2025_Route4.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/2977de5b-68a4-4545-9082-d7e428f30b66/rsna-2026-route-4-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6ad90c3a3267b577fbd30868/1792609338965/RSNA2026_Route4.pdf"
             },
             "sign" : { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/867f344e-c998-4d41-92b0-cb962de7de4b/rsna2025-route4-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/691bd6b292a1a263c98ae6c3/1763432114578/RSNA2025_SideSign_4.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/497b2a60-6c8c-4ccf-abdd-a00d5cfb505b/rsna2026-route4-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6ae912f4391a62792b225e0f/1793659636747/RSNA2026_SideSign_4.pdf"
             },
             "stops": {
                 "1": { // 
@@ -169,15 +169,15 @@
             }
         },
         "5": {
-            "scheduleJson": "",
+            "scheduleJson": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/e22a08c0-04bf-440a-9639-98c4fb120676/rsna-2026-route-5-flyer.png?content-type=image%2Fpng",
             "wait-time": "https://script.google.com/macros/s/AKfycbw4xRi0prdAd2GtuFoSaQDAci7PDiOVRG2zZiKKbha-_eH8LDlpQeMq9XWTXkv_FOX-/exec?route=5",
             "flyer": { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/4802646f-611d-492b-9f74-d2030abd10ca/rsna2025-route5-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7e9a1a337232343c6f3/1753802729694/RSNA2025_Route5.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/e22a08c0-04bf-440a-9639-98c4fb120676/rsna-2026-route-5-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6ad90c480575344471a96dbf/1792609352971/RSNA2026_Route5.pdf"
             },
             "sign" : { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/ba24e828-b457-42a6-b0e3-cafd097399ec/rsna2025-route5-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/691bd6b75e0bb7330e1152ce/1763432119696/RSNA2025_SideSign_5.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/d8bb7969-1476-4c8c-9058-61eb19df4207/rsna2026-route5-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6ae913284e18dc098e68cdb1/1793659688309/RSNA2026_SideSign_5.pdf"
             },
             "stops": {
                 "1": { // 
@@ -206,12 +206,12 @@
             "scheduleJson": "",
             "wait-time": "https://script.google.com/macros/s/AKfycbw4xRi0prdAd2GtuFoSaQDAci7PDiOVRG2zZiKKbha-_eH8LDlpQeMq9XWTXkv_FOX-/exec?route=6",
             "flyer": { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/8b72414d-dc39-41b3-a0b4-f3a3e1f03008/rsna2025-route6-flyer-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6888e7f278bcf771591e3922/1753802738249/RSNA2025_Route6.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/3eab89d1-3c5f-423f-822c-950e8a6cad21/rsna-2026-route-6-flyer.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6ad90c57569c9777266b256c/1792609367939/RSNA2026_Route6.pdf"
             },
             "sign" : { 
-                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/be917fb4-5141-4e9e-98ff-8b79f56e088b/rsna2025-route6-preview.png?content-type=image%2Fpng",
-                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/691bd6bdb6b04e28dfa6adef/1763432125048/RSNA2025_SideSign_6.pdf"
+                "preview": "https://images.squarespace-cdn.com/content/602b1e3b9f10401f2e609ddb/6445a286-a602-45db-bba9-852f5038ae01/rsna2026-route6-preview.png?content-type=image%2Fpng",
+                "pdf": "https://static1.squarespace.com/static/602b1e3b9f10401f2e609ddb/t/6ae913411d40c3439a5dd792/1793659713059/RSNA2026_SideSign_6.pdf"
             },
             "stops": {
                 "1": { // 
