@@ -1,0 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Transportation Hub
+  structure:
+    - type: space
+      key: space-transportation-hub
+      title: Transportation Hub
+      path: transportation-hub
+      default: true
+      content:
+        directory: ./
