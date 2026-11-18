@@ -48,6 +48,20 @@
     "map": "https://www.google.com/maps?q=Blackstone%20Hotel%20Chicago&output=embed",
     "directionsText": "Hilton Chicago (~1 min.)"
   },
+  "hilton-garden-inn-south-loop": { 
+    "name": "Hilton Garden Inn South Loop",
+    "address": "55 E 11th St.",
+    "phone": "(312) 753-5100",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1485.552296133509!2d-87.62695014312015!3d41.86909609014662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2d4fd078a447%3A0xf4ce29df7aca69d3!2sHilton%20Garden%20Inn%20Chicago%20Downtown%20South%20Loop!5e0!3m2!1sen!2sus!4v1795032274158!5m2!1sen!2sus",
+    "directionsText": "Hilton Chicago (~6 mins.)"
+  },
+  "homewood-suites-south-loop": {
+    "name": "Homewood Suites South Loop",
+    "address": "59 E 11th St.",
+    "phone": "(312) 753-3100",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1485.5509018266737!2d-87.6269030431201!3d41.869156090145076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2da9ffc0cf6b%3A0x979927d2db144c97!2sHomewood%20Suites%20by%20Hilton%20Chicago%20Downtown%20South%20Loop!5e0!3m2!1sen!2sus!4v1795032377976!5m2!1sen!2sus",
+    "directionsText": "Hilton Chicago (~6 mins.)"
+  },
   "le-meridien-essex": {
     "name": "Le Méridien Essex",
     "address": "800 S Michigan Ave.",
@@ -94,20 +108,6 @@
     "phone": "(312) 777-9000",
     "map": "https://www.google.com/maps?q=Pendry%20Chicago&output=embed",
     "directionsText": "Renaissance Chicago (~4 min.)"
-  },
-  "thewit": {
-    "name": "theWit Chicago",
-    "address": "201 N State St.",
-    "phone": "(312) 467-0200",
-    "map": "https://www.google.com/maps?q=theWit%20Hotel%20Chicago&output=embed",
-    "directionsText": "Renaissance Chicago (~1 min.)"
-  },
-  "virgin-hotel": {
-    "name": "Virgin Hotel",
-    "address": "203 N Wabash Ave.",
-    "phone": "(312) 940-4400",
-    "map": "https://www.google.com/maps?q=Virgin%20Hotel%20Chicago&output=embed",
-    "directionsText": "Renaissance Chicago (~3 mins.)"
   },
   
                             
@@ -175,11 +175,11 @@
     "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11880.188184260605!2d-87.64546441284178!3d41.89184530000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cadb14ae6d1%3A0x730cf1f40fc0ff3!2sHomewood%20Suites%20by%20Hilton%20Chicago-Downtown!5e0!3m2!1sen!2sus!4v1764375629120!5m2!1sen!2sus",
     "directionsText": "NE Corner of Grand & Wabash (~1 min.)"
   },
-  "hotel-55": {
-    "name": "Hotel 55",
+  "the-rivvy": {
+    "name": "The RIVVY",
     "address": "55 E Ontario St.",
     "phone": "(312) 660-6100",
-    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.984470309468!2d-87.62859562302779!3d41.89319107124013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2d675a446d95%3A0x6b7b056b5dd1871e!2sHotel%2055%20Chicago%20Downtown!5e0!3m2!1sen!2sus!4v1764375711301!5m2!1sen!2sus",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5939.968937944345!2d-87.62602070000001!3d41.893191099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2d675a446d95%3A0x6b7b056b5dd1871e!2sThe%20RIVVY%2C%20Chicago%20Downtown%2C%20a%20Tribute%20Portfolio%20Hotel!5e0!3m2!1sen!2sus!4v1795030393693!5m2!1sen!2sus",
     "directionsText": "NE Corner of Grand & Wabash (~3 mins.)"
   },
   "ac-hotel": {
@@ -289,7 +289,6 @@
     "map": "https://www.google.com/maps?q=Hilton%20Chicago%20Magnificent%20Mile%20Suites&output=embed",
     "directionsText": "Westin Michigan Ave. (~3 mins.)"
   },
-  
   "millennium-knickerbocker": {
     "name": "Millennium Knickerbocker",
     "address": "163 E Walton Pl",
@@ -302,13 +301,6 @@
     "address": "160 E Pearson St.",
     "phone": "(312) 266-1000",
     "map": "https://www.google.com/maps?q=Ritz-Carlton%20Chicago&output=embed",
-    "directionsText": "Westin Michigan Ave. (~4 mins.)"
-  },
-  "sonesta-es-suites": { 
-    "name": "Sonesta ES Suites",
-    "address": "201 E Walton Pl",
-    "phone": "(312) 943-9800",
-    "map": "https://www.google.com/maps?q=Sonesta%20ES%20Suites%20Chicago%20Magnificent%20Mile&output=embed",
     "directionsText": "Westin Michigan Ave. (~4 mins.)"
   },
   
@@ -324,7 +316,7 @@
     "directionsText": "Front Entrance (<1 min.)"
   },
   "aloft-mag-mile": {
-    "name": "Aloft Chicago Mag Mile",
+    "name": "ALOFT Chicago Mag Mile",
     "address": "243 E Ontario St.",
     "phone": "(312) 429-6600",
     "map": "https://www.google.com/maps?q=Aloft%20Chicago%20Mag%20Mile&output=embed",
@@ -414,6 +406,13 @@
     "phone": "(312) 660-8200",
     "map": "https://www.google.com/maps?q=JW%20Marriott%20Chicago&output=embed",
     "directionsText": "LaSalle Chicago (~1 min.)"
+  },
+  "kimpton-gray": {
+    "name": "Kimpton Gray",
+    "address": "122 W Monroe St.",
+    "phone": "(312) 750-9012",
+    "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5941.123800731383!2d-87.63439328725622!3d41.88077136512594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cbb8efe16b7%3A0x64c9695ff9d2b0b9!2sKimpton%20Gray%20Hotel!5e0!3m2!1sen!2sus!4v1795031808986!5m2!1sen!2sus",
+    "directionsText": "LaSalle Chicago (~3 mins.)"
   },
 
                                       
